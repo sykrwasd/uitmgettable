@@ -287,7 +287,7 @@ export default function Home() {
                 <p className="text-gray-700 mb-4">Loading campuses...</p>
               ) : (
                 <select
-                  className="w-full p-3 rounded-lg bg-black/40 text-white border border-black/20"
+                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
                   onChange={(e) => getSubject(e.target.value)}
                 >
                   <option value="">Select Campus</option>
@@ -304,7 +304,7 @@ export default function Home() {
                 <p className="text-gray-700">Loading subjects...</p>
               ) : fetchSubjects.length > 0 ? (
                 <select
-                  className="w-full p-3 rounded-lg bg-black/40 text-white border border-black/20"
+                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
                   onChange={(e) => getGroup(e.target.value)}
                   >
                     <option value="">
@@ -354,7 +354,7 @@ export default function Home() {
             )}
 
             {/* Debug Info */}
-            {selectedClasses.length > 0 && (
+            {/* {selectedClasses.length > 0 && (
               <div className="bg-yellow-100/20 backdrop-blur-sm rounded-lg p-4">
                 <h4 className="text-sm font-semibold text-yellow-200 mb-2">Debug: Selected Classes ({selectedClasses.length})</h4>
                 <div className="text-xs text-yellow-300 space-y-1">
@@ -365,7 +365,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-            )}
+            )} */}
           </div>
 
           {/* Right column - Timetable */}
