@@ -377,9 +377,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="fixed bottom-0 left-0 w-full bg-gray-200/50 text-white text-center py-4">
-        UMAR SYAKIR
-      </footer>
+
+  
+<footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4">
+      <a
+        href="https://github.com/your-username/your-repo"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:underline"
+      >
+        Fork us on GitHub
+      </a>
+    </footer>
     </div>
   );
 }
