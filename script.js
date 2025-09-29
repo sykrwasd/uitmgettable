@@ -1,18 +1,38 @@
 import axios from "axios";
+import * as cheerio from "cheerio";
 
-//const url = "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_result.cfm";
-const url = "https://uitmtimetable.skrin.xyz/api.php?getfaculty"
-const payload = new URLSearchParams({
-  field1: "value1",
-  field2: "value2",
-  field3: "value3"
-});
+async function scrape() {
+  const url =
+    "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_tt.cfm?id1=68ADD52AD4B55CBEC3EEE4F4BEAE98EB469C&id2=7A23D56FC483B5AFADCE48D750BEA2969296";
 
-const res = await axios.post(url, payload.toString(), {
-  headers: {
-    "User-Agent": "Mozilla/5.0",
-    "Content-Type": "application/x-www-form-urlencoded"
-  }
-});
+  const res = await axios.get(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0",
+      "Referer": "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
+    },
+  });
 
-console.log(res.data); // parse it as HTML/JSON depending on response
+  const $ = cheerio.load(res.data);
+
+  const rows = [];
+
+  $("table tr").each((_, tr) => {
+    const cells = $(tr).find("td");
+    if (cells.length > 0) {
+      rows.push({
+        no: $(cells[0]).text().trim(),
+        day_time: $(cells[1]).text().trim(),
+        class_code: $(cells[2]).text().trim(),
+        mode: $(cells[3]).text().trim(),
+        attempt: $(cells[4]).text().trim(),
+        venue: $(cells[5]).text().trim(),
+        subject_code: $(cells[6]).text().trim(),
+        faculty: $(cells[7]).text().trim(),
+      });
+    }
+  });
+
+  console.log(JSON.stringify(rows, null, 2));
+}
+
+scrape().catch(console.error);
