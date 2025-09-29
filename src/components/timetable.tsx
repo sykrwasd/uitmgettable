@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas-pro";
+import { SwatchesPicker } from "react-color";
 
 type Group = {
   no: string;
@@ -41,50 +42,70 @@ const Timetable: React.FC<TimetableProps> = ({
   const timetableRef = useRef<HTMLDivElement>(null);
 
   const saveAsImage = async () => {
-  if (!timetableRef.current) return;
+    if (!timetableRef.current) return;
 
-  // Clone the timetable to render off-screen
-  const clone = timetableRef.current.cloneNode(true) as HTMLElement;
-  clone.style.position = "absolute";
-  clone.style.left = "-9999px"; // move off-screen
-  clone.style.width = "max-content"; // expand to full width
-  document.body.appendChild(clone);
+    // Clone the timetable to render off-screen
+    const clone = timetableRef.current.cloneNode(true) as HTMLElement;
+    clone.style.position = "absolute";
+    clone.style.left = "-9999px"; // move off-screen
+    clone.style.width = "max-content"; // expand to full width
+    document.body.appendChild(clone);
 
-  // Capture screenshot
-  const canvas = await html2canvas(clone, { scale: 3 });
-  const imgData = canvas.toDataURL("image/png");
+    // Capture screenshot
+    const canvas = await html2canvas(clone, { scale: 3 });
+    const imgData = canvas.toDataURL("image/png");
 
-  // Download
-  const link = document.createElement("a");
-  link.href = imgData;
-  link.download = "timetable.png";
-  link.click();
+    // Download
+    const link = document.createElement("a");
+    link.href = imgData;
+    link.download = "timetable.png";
+    link.click();
 
-  // Cleanup
-  document.body.removeChild(clone);
-};
+    // Cleanup
+    document.body.removeChild(clone);
+  };
 
-
+  const [color, setColor] = useState("#ff0000");
 
   const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-      <h2 className="text-2xl font-bold text-gray-700 text-center">
-        Your Timetable
-      </h2>
-      <button
-        onClick={saveAsImage}
-        className="mb-4 px-4 py-2 bg-blue-500 mt-3 text-white rounded hover:bg-blue-400 transition"
-      >
-        Save as image
-      </button>
+      <div className="flex flex-col items-center gap-4 mb-6">
+        <h2 className="text-3xl font-extrabold text-gray-800 text-center">
+          Your Timetable
+        </h2>
+
+        <div className="flex flex-wrap justify-center gap-3">
+          <button
+            onClick={saveAsImage}
+            className="px-5 py-2 bg-blue-600/50 text-white font-semibold rounded-lg shadow hover:bg-blue-500 transition"
+          >
+            Save as Image
+          </button>
+
+          <button
+            onClick={() =>
+              (
+                document.getElementById("colorModal") as HTMLDialogElement
+              )?.show()
+            }
+            className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-xl shadow-sm hover:shadow-md transition-all"
+            style={{ backgroundColor: `${color}50`, borderColor: `${color}` }}
+          >
+            
+            Change Color
+          </button>
+        </div>
+      </div>
 
       <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
         <div ref={timetableRef} className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
-              <tr className="bg-blue-600 text-white">
+              <tr className=" text-white"
+              style={{ backgroundColor: color }}
+              >
                 <th className="border border-gray-300 p-3 text-left font-semibold">
                   Time
                 </th>
@@ -145,7 +166,8 @@ const Timetable: React.FC<TimetableProps> = ({
                       >
                         {displayClass && (
                           <div
-                            className="bg-blue-500 text-white p-2 rounded text-xs h-full cursor-pointer hover:bg-blue-600 transition-colors"
+                            className=" text-white p-2 rounded text-xs h-full cursor-pointer hover:bg-blue-600 transition-colors"
+                            style={{ backgroundColor: color }}
                             onClick={() =>
                               onRemoveClass(
                                 displayClass.class_code,
@@ -216,6 +238,31 @@ const Timetable: React.FC<TimetableProps> = ({
           </p>
         </div>
       )}
+
+      <dialog id="colorModal" className="modal backdrop-blur-sm">
+        <div className="modal-box bg-white">
+          <h3 className="text-center font-bold text-lg text-gray-400">
+            Select Color
+          </h3>
+
+          {/* Form Content */}
+          <div className="mt-4">
+            <SwatchesPicker
+              width={450}
+              className="rounded-xl"
+              color={color}
+              onChange={(colorResult: any) => {
+                setColor(colorResult.hex);
+                (
+                  document.getElementById("colorModal") as HTMLDialogElement
+                )?.close();
+              }}
+            />
+
+            <div className="modal-action flex gap-3"></div>
+          </div>
+        </div>
+      </dialog>
     </div>
   );
 };
