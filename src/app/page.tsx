@@ -10,7 +10,7 @@ type Campus = {
 type Group = {
   day_time: string;
   venue: string;
-  class_code : string;
+  class_code: string;
 };
 
 type Subject = {
@@ -26,7 +26,13 @@ export default function Home() {
   const [loadingGroup, setLoadingGroup] = useState(false);
   const [campus, setCampus] = useState(" ");
   const [fetchSubjects, setFetchSubjects] = useState<Subject[]>([]);
-   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
+  const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
+  const [group, setGroup] = useState("");
+  const [selectedGroup, setSelectedGroup] = useState("");
+
+  const filteredGroup = fetchGroup.filter(
+    (row) => row.class_code === selectedGroup
+  );
 
   useEffect(() => {
     getCampus();
@@ -71,9 +77,9 @@ export default function Home() {
 
   async function getGroup(url: string) {
     //alert(url)
-    console.log(url)
+    console.log(url);
     try {
-     //setLoadingSubjects(true)
+      //setLoadingSubjects(true)
       const res = await fetch("/api/getGroup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -81,14 +87,13 @@ export default function Home() {
       });
 
       const data = await res.json();
-      console.log(data)
-       if (Array.isArray(data)) {
+      console.log(data);
+      if (Array.isArray(data)) {
         setFetchGroup(data);
       } else {
         console.error("Expected array but got:", data);
         setFetchSubjects([]);
       }
-
     } catch (e) {
       console.error(e);
     } finally {
@@ -125,9 +130,7 @@ export default function Home() {
                   className="w-full p-3 mb-4 rounded-lg bg-black/40 text-white border border-black/20"
                   onChange={(e) => getSubject(e.target.value)}
                 >
-                  <option value="" >
-                    Select Campus
-                  </option>
+                  <option value="">Select Campus</option>
                   {fetchCampus.map((row, idx) => (
                     <option key={idx} value={row.text} className="text-black">
                       {row.text}
@@ -140,32 +143,128 @@ export default function Home() {
               {loadingSubjects ? (
                 <p className="text-gray-700">Loading subjects...</p>
               ) : fetchSubjects.length > 0 ? (
-                  <select 
+                <select
                   className="w-full p-3 rounded-lg bg-black/40 text-white border border-black/20"
                   onChange={(e) => getGroup(e.target.value)}
-                  >
-                    <option value="">
-                      Select Subject
+                >
+                  <option value="">Select Subject</option>
+                  {fetchSubjects.map((row, idx) => (
+                    <option
+                      key={row.path}
+                      value={row.path}
+                      className="text-black"
+                    >
+                      {row.subject}
                     </option>
-                    {fetchSubjects.map((row, idx) => (
-                      <option
-                        key={row.path}
-                        value={row.path}
-                        className="text-black"
-                      >
-                        {row.subject}
-                      </option>
-                    ))}
-                  </select>
+                  ))}
+                </select>
               ) : null}
             </>
           )}
+          <select
+            className="w-full p-3 rounded-lg bg-black/40 text-white border border-black/20"
+            onChange={(e) => setSelectedGroup(e.target.value)}
+          >
+            <option value="">Select Group</option>
+            {[...new Set(fetchGroup.map((row) => row.class_code))].map(
+              (code, idx) => (
+                <option key={idx} value={code} className="text-black">
+                  {code}
+                </option>
+              )
+            )}
+          </select>
 
-           {fetchGroup.map((row, idx) => (
-                      <p>{row.day_time} {row.class_code} {row.venue}</p>
-                    ))}
+          {selectedGroup && (
+            <div className="mt-4 space-y-2">
+              {fetchGroup
+                .filter((row) => row.class_code === selectedGroup)
+                .map((row, idx) => (
+                  <div
+                    key={idx}
+                    className="p-3 rounded-lg bg-white/70 text-gray-800 shadow"
+                  >
+                    <p>
+                      <b>Class Code:</b> {row.class_code}
+                    </p>
+                    <p>
+                      <b>Day & Time:</b> {row.day_time}
+                    </p>
+                    <p>
+                      <b>Venue:</b> {row.venue}
+                    </p>
+                  </div>
+                ))}
+            </div>
+          )}
+
+          {selectedGroup && (
+  <div className="mt-6">
+    <h2 className="text-xl font-bold text-gray-700 mb-4">
+      Timetable for {selectedGroup}
+    </h2>
+
+    <table className="w-full border-collapse border border-gray-400 text-sm text-center">
+      <thead>
+        <tr className="bg-gray-200 text-gray-700">
+          <th className="border border-gray-400 p-2">Time</th>
+          {["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"].map(
+            (day) => (
+              <th key={day} className="border border-gray-400 p-2">
+                {day}
+              </th>
+            )
+          )}
+        </tr>
+      </thead>
+      <tbody>
+        {["08:00 AM-10:00 AM", "10:00 AM-12:00 PM", "14:00 PM-16:00 PM"].map(
+          (time) => (
+            <tr key={time}>
+              <td className="border border-gray-400 p-2 font-medium">{time}</td>
+              {["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"].map(
+                (day) => {
+                  const row = fetchGroup.find((item) => {
+                    const match = item.day_time.match(/(.*)\((.*)\)/);
+                    const itemDay = match ? match[1].trim() : "";
+                    const itemTime = match ? match[2].trim() : "";
+                    return (
+                      item.class_code === selectedGroup &&
+                      itemDay === day &&
+                      itemTime === time
+                    );
+                  });
+
+                  return (
+                    <td
+                      key={day + time}
+                      className="border border-gray-400 p-2 text-gray-800"
+                    >
+                      {row ? (
+                        <div>
+                          <div className="font-bold">{row.class_code}</div>
+                          <div className="text-xs">{row.venue}</div>
+                        </div>
+                      ) : (
+                        "-"
+                      )}
+                    </td>
+                  );
+                }
+              )}
+            </tr>
+          )
+        )}
+      </tbody>
+    </table>
+  </div>
+)}
+
         </div>
       </div>
+      <footer className="fixed bottom-0 left-0 w-full bg-gray-200/50 text-white text-center py-4">
+        UMAR SYAKIR
+      </footer>
     </div>
   );
 }
