@@ -3,12 +3,12 @@ import * as cheerio from "cheerio";
 
 export async function POST(req: Request) {
   try {
-    const path = await req.json(); // coming from frontend
-    console.log("Received path:", path);
+    const data = await req.json(); // coming from frontend
+    console.log("Received path:", data.path);
 
     // TODO: replace with dynamic url using 'path' if needed
     const url =
-      `https://simsweb4.uitm.edu.my/estudent/class_timetable/${path}`;
+      `https://simsweb4.uitm.edu.my/estudent/class_timetable/${data.path}`;
 
     const res = await axios.get(url, {
       headers: {
@@ -19,7 +19,7 @@ export async function POST(req: Request) {
 
     const $ = cheerio.load(res.data);
 
-    const rows: any[] = [];
+    const rows: any[] = []; 
 
     $("table tr").each((_, tr) => {
       const cells = $(tr).find("td");
@@ -33,6 +33,7 @@ export async function POST(req: Request) {
           venue: $(cells[5]).text().trim(),
           subject_code: $(cells[6]).text().trim(),
           faculty: $(cells[7]).text().trim(),
+          subject: data.subject,
         });
       }
     });

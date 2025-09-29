@@ -18,6 +18,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
+  subject: string,
 };
 
 type SelectedClass = Group & {
@@ -273,31 +274,31 @@ export default function Home() {
     }
   }
 
-  async function getGroup(url: string) {
-    //alert(url)
-    console.log(url);
-    try {
-      //setLoadingSubjects(true)
-      const res = await fetch("/api/getGroup", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(url),
-      });
+ async function getGroup(selected: { subject: string; path: string }) {
+  console.log(selected.path, selected.subject);
 
-      const data = await res.json();
-      console.log(data);
-      if (Array.isArray(data)) {
-        setFetchGroup(data);
-      } else {
-        console.error("Expected array but got:", data);
-        setFetchSubjects([]);
-      }
-    } catch (e) {
-      console.error(e);
-    } finally {
-      //setLoadingSubjects(false);
+  try {
+    const res = await fetch("/api/getGroup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(selected), // send both subject & path
+    });
+
+    const result = await res.json();
+
+    console.log(result);
+
+    if (Array.isArray(result)) {
+      setFetchGroup(result);
+    } else {
+      console.error("Expected array but got:", result);
+      setFetchGroup([]);
     }
+  } catch (e) {
+    console.error(e);
   }
+}
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
@@ -341,20 +342,24 @@ export default function Home() {
                 <p className="text-gray-700">Loading subjects...</p>
               ) : fetchSubjects.length > 0 ? (
                 <select
-                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  onChange={(e) => getGroup(e.target.value)}
-                >
-                  <option value="">Select Subject</option>
-                  {fetchSubjects.map((row) => (
-                    <option
-                      key={row.path}
-                      value={row.path}
-                      className="text-black"
-                    >
-                      {row.subject}
-                    </option>
-                  ))}
-                </select>
+  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+  onChange={(e) => {
+    const selected = JSON.parse(e.target.value);
+    getGroup(selected); // selected is { subject, path }
+  }}
+>
+  <option value="">Select Subject</option>
+  {fetchSubjects.map((row) => (
+    <option
+      key={row.path}
+      value={JSON.stringify({ subject: row.subject, path: row.path })}
+      className="text-black"
+    >
+      {row.subject}
+    </option>
+  ))}
+</select>
+
               ) : null}
             </div>
 
@@ -379,13 +384,13 @@ export default function Home() {
                         className={`p-3 rounded-lg cursor-pointer transition-all ${
                           isSelected
                             ? "bg-green-500/20 border border-green-500/50"
-                            : "bg-black/20 hover:bg-black/30 border border-black/20"
+                            : "bg-white/20 hover:bg-green-500/30 border border-black/20"
                         }`}
                       >
-                        <div className="text-white font-medium">
+                        <div className="text-white  font-medium">
                           {row.class_code}
                         </div>
-                        <div className="text-gray-300 text-sm">
+                        <div className="text-gray-400 text-sm">
                           {row.day_time} • {row.venue}
                         </div>
                         <div className="text-gray-400 text-xs">

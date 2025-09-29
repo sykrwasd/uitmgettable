@@ -14,6 +14,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
+  subject: string,
 };
 
 type SelectedClass = Group & {
@@ -65,7 +66,7 @@ const Timetable: React.FC<TimetableProps> = ({
     document.body.removeChild(clone);
   };
 
-  const [color, setColor] = useState("#ff0000");
+  const [color, setColor] = useState("#155dfc");
 
   const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
@@ -179,6 +180,9 @@ const Timetable: React.FC<TimetableProps> = ({
                             <div className="font-semibold">
                               {displayClass.class_code}
                             </div>
+                            <div className="font-semibold">
+                              {displayClass.subject}
+                            </div>
                             <div className="text-xs opacity-90">
                               {displayClass.venue}
                             </div>
@@ -217,6 +221,7 @@ const Timetable: React.FC<TimetableProps> = ({
                 </div>
                 <div className="text-sm text-blue-700">{cls.day_time}</div>
                 <div className="text-sm text-blue-600">{cls.venue}</div>
+                <div className="text-sm text-blue-600">{cls.subject}</div>
                 <button
                   onClick={() => onRemoveClass(cls.class_code, cls.day_time)}
                   className="mt-2 text-xs bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600 transition-colors"
@@ -239,7 +244,7 @@ const Timetable: React.FC<TimetableProps> = ({
         </div>
       )}
 
-      <dialog id="colorModal" className="modal backdrop-blur-sm">
+      <dialog id="colorModal" className="modal">
         <div className="modal-box bg-white">
           <h3 className="text-center font-bold text-lg text-gray-400">
             Select Color
