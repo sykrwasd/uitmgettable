@@ -77,7 +77,7 @@ export default function Home() {
       const minute = match[2];
       const ampm = match[3].toUpperCase();
       
-      if (ampm === 'PM' && hour !== 12) hour += 12;
+      //if (ampm === 'PM' && hour !== 12) hour += 12;
       if (ampm === 'AM' && hour === 12) hour = 0;
       
       return `${hour.toString().padStart(2, '0')}:${minute}`;
