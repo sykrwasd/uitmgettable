@@ -11,8 +11,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "UitmGetTable",
   description: "UiTM Timetable Generator",
- icons: "/img/logo.png", 
+  icons: {
+    icon: "/img/logo.png",
+  },
 };
+
 
 export default function RootLayout({
   children,

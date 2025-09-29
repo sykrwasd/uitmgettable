@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Timetable from "@/components/timetable";
+import { FaGithub } from "react-icons/fa";
 
 type Campus = {
   id: string;
@@ -40,155 +41,194 @@ export default function Home() {
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
     "08:00-10:00",
-    "10:00-12:00", 
+    "10:00-12:00",
     "12:00-14:00",
     "14:00-16:00",
-    "16:00-18:00"
+    "16:00-18:00",
   ];
 
   // Parse day_time string to extract day and time
-  const parseDayTime = (dayTime: string): { day: string; timeSlot: string } | null => {
-    console.log('Parsing day_time:', dayTime); // Debug log
-    
-    if (!dayTime || dayTime.trim() === '') {
-      console.log('Empty dayTime'); 
+  const parseDayTime = (
+    dayTime: string
+  ): { day: string; timeSlot: string } | null => {
+    console.log("Parsing day_time:", dayTime); // Debug log
+
+    if (!dayTime || dayTime.trim() === "") {
+      console.log("Empty dayTime");
       return null;
     }
-    
+
     const cleanDayTime = dayTime.trim();
-    
+
     // Convert day abbreviations to full names
     const dayMap: { [key: string]: string } = {
-      'MON': 'Monday', 'MONDAY': 'Monday',
-      'TUE': 'Tuesday', 'TUESDAY': 'Tuesday', 
-      'WED': 'Wednesday', 'WEDNESDAY': 'Wednesday',
-      'THU': 'Thursday', 'THURSDAY': 'Thursday',
-      'FRI': 'Friday', 'FRIDAY': 'Friday',
-      'SAT': 'Saturday', 'SATURDAY': 'Saturday',
-      'SUN': 'Sunday', 'SUNDAY': 'Sunday'
+      MON: "Monday",
+      MONDAY: "Monday",
+      TUE: "Tuesday",
+      TUESDAY: "Tuesday",
+      WED: "Wednesday",
+      WEDNESDAY: "Wednesday",
+      THU: "Thursday",
+      THURSDAY: "Thursday",
+      FRI: "Friday",
+      FRIDAY: "Friday",
+      SAT: "Saturday",
+      SATURDAY: "Saturday",
+      SUN: "Sunday",
+      SUNDAY: "Sunday",
     };
-    
+
     // Helper function to convert 12-hour to 24-hour format
     const convertTo24Hour = (timeStr: string): string => {
       const match = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
       if (!match) return timeStr;
-      
+
       let hour = parseInt(match[1]);
       const minute = match[2];
       const ampm = match[3].toUpperCase();
-      
+
       //if (ampm === 'PM' && hour !== 12) hour += 12;
-      if (ampm === 'AM' && hour === 12) hour = 0;
-      
-      return `${hour.toString().padStart(2, '0')}:${minute}`;
+      if (ampm === "AM" && hour === 12) hour = 0;
+
+      return `${hour.toString().padStart(2, "0")}:${minute}`;
     };
-    
+
     // Strategy 1: UiTM format "FRIDAY( 08:00 AM-10:00 AM )"
-    let match = cleanDayTime.match(/^(\w+)\(\s*(\d{1,2}:\d{2}\s*[AP]M)\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)\s*\)$/i);
+    let match = cleanDayTime.match(
+      /^(\w+)\(\s*(\d{1,2}:\d{2}\s*[AP]M)\s*-\s*(\d{1,2}:\d{2}\s*[AP]M)\s*\)$/i
+    );
     if (match) {
       const dayName = match[1];
       const startTime24 = convertTo24Hour(match[2]);
       const endTime24 = convertTo24Hour(match[3]);
-      const day = dayMap[dayName.toUpperCase()] || dayName.charAt(0).toUpperCase() + dayName.slice(1).toLowerCase();
+      const day =
+        dayMap[dayName.toUpperCase()] ||
+        dayName.charAt(0).toUpperCase() + dayName.slice(1).toLowerCase();
       const formatted = `${startTime24}-${endTime24}`;
-      
+
       // Find matching slot
-      const matchingSlot = timeSlots.find(slot => {
-        const [slotStart, slotEnd] = slot.split('-');
+      const matchingSlot = timeSlots.find((slot) => {
+        const [slotStart, slotEnd] = slot.split("-");
         return startTime24 >= slotStart && startTime24 < slotEnd;
       });
-      
-      console.log('UiTM format parsed:', { day, timeSlot: matchingSlot || formatted, startTime24, endTime24 });
+
+      console.log("UiTM format parsed:", {
+        day,
+        timeSlot: matchingSlot || formatted,
+        startTime24,
+        endTime24,
+      });
       return { day, timeSlot: matchingSlot || formatted };
     }
-    
+
     // Strategy 2: Standard format "MON 0800-1000"
-    match = cleanDayTime.match(/^(MON|TUE|WED|THU|FRI|SAT|SUN)\s+(\d{3,4})-(\d{3,4})$/i);
+    match = cleanDayTime.match(
+      /^(MON|TUE|WED|THU|FRI|SAT|SUN)\s+(\d{3,4})-(\d{3,4})$/i
+    );
     if (match) {
       const day = dayMap[match[1].toUpperCase()];
-      const startTime = match[2].padStart(4, '0');
-      const endTime = match[3].padStart(4, '0');
-      const formatted = `${startTime.slice(0,2)}:${startTime.slice(2)}-${endTime.slice(0,2)}:${endTime.slice(2)}`;
-      
-      const matchingSlot = timeSlots.find(slot => {
-        const slotStart = slot.split('-')[0];
-        const classStart = `${startTime.slice(0,2)}:${startTime.slice(2)}`;
-        return classStart >= slotStart && classStart < slot.split('-')[1];
+      const startTime = match[2].padStart(4, "0");
+      const endTime = match[3].padStart(4, "0");
+      const formatted = `${startTime.slice(0, 2)}:${startTime.slice(
+        2
+      )}-${endTime.slice(0, 2)}:${endTime.slice(2)}`;
+
+      const matchingSlot = timeSlots.find((slot) => {
+        const slotStart = slot.split("-")[0];
+        const classStart = `${startTime.slice(0, 2)}:${startTime.slice(2)}`;
+        return classStart >= slotStart && classStart < slot.split("-")[1];
       });
-      
-      console.log('Standard format parsed:', { day, timeSlot: matchingSlot || formatted });
+
+      console.log("Standard format parsed:", {
+        day,
+        timeSlot: matchingSlot || formatted,
+      });
       return { day, timeSlot: matchingSlot || formatted };
     }
-    
-    // Strategy 3: "Monday 08:00-10:00" format  
-    match = cleanDayTime.match(/^(\w+)\s+(\d{1,2}):(\d{2})-(\d{1,2}):(\d{2})$/i);
+
+    // Strategy 3: "Monday 08:00-10:00" format
+    match = cleanDayTime.match(
+      /^(\w+)\s+(\d{1,2}):(\d{2})-(\d{1,2}):(\d{2})$/i
+    );
     if (match) {
       const day = dayMap[match[1].toUpperCase()] || match[1];
-      const startHour = match[2].padStart(2, '0');
+      const startHour = match[2].padStart(2, "0");
       const startMin = match[3];
-      const endHour = match[4].padStart(2, '0');
+      const endHour = match[4].padStart(2, "0");
       const endMin = match[5];
       const formatted = `${startHour}:${startMin}-${endHour}:${endMin}`;
-      
-      const matchingSlot = timeSlots.find(slot => {
-        const slotStart = slot.split('-')[0];
+
+      const matchingSlot = timeSlots.find((slot) => {
+        const slotStart = slot.split("-")[0];
         const classStart = `${startHour}:${startMin}`;
-        return classStart >= slotStart && classStart < slot.split('-')[1];
+        return classStart >= slotStart && classStart < slot.split("-")[1];
       });
-      
-      console.log('24-hour format parsed:', { day, timeSlot: matchingSlot || formatted });
+
+      console.log("24-hour format parsed:", {
+        day,
+        timeSlot: matchingSlot || formatted,
+      });
       return { day, timeSlot: matchingSlot || formatted };
     }
-    
+
     // Strategy 4: Fallback - just extract day name
     for (const [abbrev, fullDay] of Object.entries(dayMap)) {
       if (cleanDayTime.toUpperCase().includes(abbrev)) {
-        console.log('Fallback day extraction:', { day: fullDay, timeSlot: timeSlots[0] });
+        console.log("Fallback day extraction:", {
+          day: fullDay,
+          timeSlot: timeSlots[0],
+        });
         return { day: fullDay, timeSlot: timeSlots[0] };
       }
     }
-    
-    console.log('Could not parse:', dayTime); 
+
+    console.log("Could not parse:", dayTime);
     return null;
   };
 
   // Add class to timetable
   const addClass = (classItem: Group) => {
-    console.log('Adding class:', classItem); // Debug log
-    const parsed = parseDayTime(classItem.day_time);
-    console.log('Parsed result:', parsed); // Debug log
-    
-    if (parsed) {
-      const selectedClass: SelectedClass = {
-        ...classItem,
-        day: parsed.day,
-        timeSlot: parsed.timeSlot
-      };
-      
-      // Check if class already exists
-      const exists = selectedClasses.some(
-        cls => cls.class_code === classItem.class_code && cls.day_time === classItem.day_time
-      );
-      
-      if (!exists) {
-        console.log('Adding to timetable:', selectedClass); // Debug log
-        setSelectedClasses(prev => {
-          const newList = [...prev, selectedClass];
-          console.log('New selected classes list:', newList); // Debug log
-          return newList;
-        });
-      } else {
-        console.log('Class already exists'); // Debug log
-      }
-    } else {
-      console.log('Failed to parse day_time:', classItem.day_time); // Debug log
-    }
-  };
+  console.log("Adding all sections of subject:", classItem.subject_code);
+
+  // Get all classes of the same subject
+  const subjectClasses = fetchGroup.filter(
+    (cls) => cls.class_code === classItem.class_code
+  );
+
+  // Parse and add each section
+  const newClasses: SelectedClass[] = [];
+
+  subjectClasses.forEach((cls) => {
+    const parsed = parseDayTime(cls.day_time);
+    if (!parsed) return;
+
+    const selectedClass: SelectedClass = {
+      ...cls,
+      day: parsed.day,
+      timeSlot: parsed.timeSlot,
+    };
+
+    // Avoid duplicates
+    const exists = selectedClasses.some(
+      (c) =>
+        c.class_code === cls.class_code && c.day_time === cls.day_time
+    );
+
+    if (!exists) newClasses.push(selectedClass);
+  });
+
+  if (newClasses.length > 0) {
+    setSelectedClasses((prev) => [...prev, ...newClasses]);
+  }
+};
+
 
   // Remove class from timetable
   const removeClass = (classCode: string, dayTime: string) => {
-    setSelectedClasses(prev => 
-      prev.filter(cls => !(cls.class_code === classCode && cls.day_time === dayTime))
+    setSelectedClasses((prev) =>
+      prev.filter(
+        (cls) => !(cls.class_code === classCode && cls.day_time === dayTime)
+      )
     );
   };
 
@@ -262,11 +302,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
       {/* Animated background elements */}{" "}
-      <div className="absolute top-20 left-20 w-72 h-72 bg-blue-400/20 rounded-full blur-3xl animate-pulse"></div>{" "}
-      <div className="absolute bottom-20 right-20 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"></div>
-      {/* Grid pattern overlay */}
-      <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:60px_60px]"></div>
-      <div className="relative z-10 min-h-screen p-4">
+      
+      <div className="relative  min-h-screen p-4">
         {/* Header section */}
         <div className="text-center mb-8 space-y-4">
           <h1 className="text-4xl font-bold text-gray-600 bg-clip-text">
@@ -306,46 +343,54 @@ export default function Home() {
                 <select
                   className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
                   onChange={(e) => getGroup(e.target.value)}
-                  >
-                    <option value="">
-                      Select Subject
+                >
+                  <option value="">Select Subject</option>
+                  {fetchSubjects.map((row) => (
+                    <option
+                      key={row.path}
+                      value={row.path}
+                      className="text-black"
+                    >
+                      {row.subject}
                     </option>
-                    {fetchSubjects.map((row) => (
-                      <option
-                        key={row.path}
-                        value={row.path}
-                        className="text-black"
-                      >
-                        {row.subject}
-                      </option>
-                    ))}
-                  </select>
+                  ))}
+                </select>
               ) : null}
             </div>
 
             {/* Available Classes */}
             {fetchGroup.length > 0 && (
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-4">Available Classes</h3>
+                <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                  Available Classes
+                </h3>
                 <div className="space-y-2 max-h-96 overflow-y-auto">
                   {fetchGroup.map((row) => {
                     const isSelected = selectedClasses.some(
-                      cls => cls.class_code === row.class_code && cls.day_time === row.day_time
+                      (cls) =>
+                        cls.class_code === row.class_code &&
+                        cls.day_time === row.day_time
                     );
-                    
+
                     return (
                       <div
                         key={`${row.class_code}-${row.day_time}`}
                         onClick={() => addClass(row)}
                         className={`p-3 rounded-lg cursor-pointer transition-all ${
-                          isSelected 
-                            ? 'bg-green-500/20 border border-green-500/50' 
-                            : 'bg-black/20 hover:bg-black/30 border border-black/20'
+                          isSelected
+                            ? "bg-green-500/20 border border-green-500/50"
+                            : "bg-black/20 hover:bg-black/30 border border-black/20"
                         }`}
                       >
-                        <div className="text-white font-medium">{row.class_code}</div>
-                        <div className="text-gray-300 text-sm">{row.day_time} • {row.venue}</div>
-                        <div className="text-gray-400 text-xs">{row.subject_code} • {row.mode}</div>
+                        <div className="text-white font-medium">
+                          {row.class_code}
+                        </div>
+                        <div className="text-gray-300 text-sm">
+                          {row.day_time} • {row.venue}
+                        </div>
+                        <div className="text-gray-400 text-xs">
+                          {row.subject_code} • {row.mode}
+                        </div>
                       </div>
                     );
                   })}
@@ -370,22 +415,22 @@ export default function Home() {
 
           {/* Right column - Timetable */}
           <div className="lg:col-span-2">
-            <Timetable 
+            <Timetable
               selectedClasses={selectedClasses}
               onRemoveClass={removeClass}
             />
           </div>
         </div>
       </div>
-
-  
-<footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4">
+        
+    <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex justify-center items-center gap-2">
       <a
-        href="https://github.com/your-username/your-repo"
+        href="https://github.com/sykrwasd/uitmgettable"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-500 hover:underline"
+        className="text-blue-500 hover:underline flex items-center gap-1"
       >
+        <FaGithub className="w-5 h-5" />
         Fork us on GitHub
       </a>
     </footer>
