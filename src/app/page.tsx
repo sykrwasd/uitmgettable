@@ -430,17 +430,21 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex justify-center items-center gap-2">
-        <a
-          href="https://github.com/sykrwasd/uitmgettable"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline flex items-center gap-1"
-        >
-          <FaGithub className="w-5 h-5" />
-          Fork us on GitHub
-        </a>
-      </footer>
+     <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-center items-center gap-2">
+  <a
+    href="https://github.com/sykrwasd/uitmgettable"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:underline flex items-center gap-1"
+  >
+    <FaGithub className="w-5 h-5" />
+    Fork us on GitHub
+  </a>
+  <span className="text-sm text-gray-600">
+     by Umar Syakir | DISK UiTM Tapah
+  </span>
+</footer>
+
     </div>
   );
 }
