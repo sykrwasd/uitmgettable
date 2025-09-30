@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} antialiased`}>
         {/* ✅ Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-LX2M9ZLB80"
+          src="https://www.googletagmanager.com/gtag/js?id=G-LTZX9KYVLN"
           strategy="afterInteractive"
         />
         <Script id="ga-init" strategy="afterInteractive">
@@ -37,7 +37,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-LX2M9ZLB80');
+            gtag('config', 'G-LTZX9KYVLN');
           `}
         </Script>
 
