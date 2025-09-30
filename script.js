@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 
 async function scrape() {
   const url =
-    "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_tt.cfm?id1=68ADD521575E2C9DAFC50759147E999EAC8A&id2=7A23D543CD7E6CB004A8CBC696779A8989BE";
+    "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_tt.cfm?id1=68C9BD532537369CD0C703435D6A9A87869AA646176A52&id2=7A47BD31BF1776B17BAACFDCDF639990A3AE93B8658A3A";
 
   const res = await axios.get(url, {
     headers: {

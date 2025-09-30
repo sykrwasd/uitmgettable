@@ -4,9 +4,10 @@ import * as cheerio from "cheerio";
 async function scrape() {
   const url = "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_result111.cfm"
   const payload = new URLSearchParams({
-  search_campus: 'A4',
-  search_course: 'csc264',
-  captcha_no_type: 'captcha1',
+  search_campus: 'APB',
+  searcg_faculty: 'AC',
+  search_course: '',
+  captcha_no_type: '',
   captcha1: '123456',
   captcha2: '123456',
   captcha3: '123456',
@@ -43,6 +44,7 @@ $("table tr").each((_, tr) => {
 });
 
 console.log(rows);
+//console.log(res.data)
 
   //console.log(res.data)
 }

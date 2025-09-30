@@ -42,6 +42,7 @@ export default function Home() {
   const [subjectName, setSubjectName] = useState("");
   const [campus,setCampus] =useState("")
    const[result,setResult] =useState("")
+   const [selangor, setSelangor] = useState(false)
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -254,6 +255,7 @@ export default function Home() {
 
   async function getSubject(campus: string) {
     campus = campus.split("-")[0];
+    //alert(campus)
     setCampus(campus)
     try {
       //setLoadingSubjects(true);
@@ -332,10 +334,26 @@ export default function Home() {
               {loadingCampus ? (
                 <p className="text-gray-700 mb-4">Loading campuses...</p>
               ) : (
+                <>
                 <select
                   className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
                   onChange={(e) => getSubject(e.target.value)}
-                >
+                  >
+                  <option value="">Select Campus</option>
+                  {fetchCampus.map((row, idx) => (
+                    <option key={idx} value={row.text} className="text-black">
+                      {row.text}
+                    </option>
+                  ))}
+
+
+                </select>
+
+                {selangor && (
+                <select
+                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+                  onChange={(e) => getSubject(e.target.value)}
+                  >
                   <option value="">Select Campus</option>
                   {fetchCampus.map((row, idx) => (
                     <option key={idx} value={row.text} className="text-black">
@@ -343,7 +361,17 @@ export default function Home() {
                     </option>
                   ))}
                 </select>
+
+                )}
+
+
+
+                  </>
+                
+                
               )}
+
+              
 
               {/* Subject dropdown */}
               {loadingSubjects &&(

@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} antialiased`}>
         {/* ✅ Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-LX2M9ZLB8"
+          src="https://www.googletagmanager.com/gtag/js?id=G-LX2M9ZLB80"
           strategy="afterInteractive"
         />
         <Script id="ga-init" strategy="afterInteractive">
