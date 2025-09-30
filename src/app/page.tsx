@@ -299,7 +299,7 @@ export default function Home() {
 
       if(res.ok){
 
-      }{
+      }else{
          setResult("error")
           setTimeout(() => setResult(""), 1000); // auto hide after 3s
       }
@@ -441,7 +441,7 @@ export default function Home() {
     Fork us on GitHub
   </a>
   <span className="text-sm text-gray-600">
-     by Umar Syakir | DISK UiTM Tapah
+     by   Umar Syakir | DISK UiTM Tapah
   </span>
 </footer>
 
