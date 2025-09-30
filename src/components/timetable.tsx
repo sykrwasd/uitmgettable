@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas-pro";
 import { SwatchesPicker } from "react-color";
@@ -67,6 +67,12 @@ const Timetable: React.FC<TimetableProps> = ({
   };
 
   const [color, setColor] = useState("#155dfc");
+  const [pickerWidth, setPickerWidth] = useState(400);
+
+useEffect(() => {
+  setPickerWidth(Math.min(window.innerWidth * 0.9, 400));
+}, []);
+
 
   const days = [
     "Monday",
@@ -261,7 +267,7 @@ const Timetable: React.FC<TimetableProps> = ({
     {/* Form Content */}
     <div className="mt-4">
       <SwatchesPicker
-        width={Math.min(window.innerWidth * 0.9, 400)} // responsive width
+        width={pickerWidth} // responsive width
         className="rounded-xl mx-auto"
         color={color}
         onChange={(colorResult: any) => {
