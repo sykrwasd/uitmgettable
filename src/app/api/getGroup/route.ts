@@ -3,10 +3,11 @@ import * as cheerio from "cheerio";
 
 export async function POST(req: Request) {
   try {
-    const subjectName = await req.json(); // coming from frontend
+    const {subjectName,campus} = await req.json(); // coming from frontend
     console.log("Received path:", subjectName);
+    console.log(campus)
 
-    const subURL = await getURL(subjectName)
+    const subURL = await getURL(subjectName,campus)
 
     
 
@@ -61,11 +62,11 @@ export async function POST(req: Request) {
 }
 
 
-async function getURL(subjectName:string){
+async function getURL(subjectName:string, campus:string){
  const subjectURL =
       "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_result111.cfm";
     const payload = new URLSearchParams({
-      search_campus: "A4",
+      search_campus: `${campus}`,
       search_course: `${subjectName}`,
       captcha_no_type: "captcha1",
       captcha1: "123456",

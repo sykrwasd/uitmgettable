@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Timetable from "@/components/timetable";
 import { FaGithub } from "react-icons/fa";
+import OrderErrorPopup from "@/components/orderError";
 
 type Campus = {
   id: string;
@@ -39,6 +40,8 @@ export default function Home() {
   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
   const [selectedClasses, setSelectedClasses] = useState<SelectedClass[]>([]);
   const [subjectName, setSubjectName] = useState("");
+  const [campus,setCampus] =useState("")
+   const[result,setResult] =useState("")
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -251,8 +254,9 @@ export default function Home() {
 
   async function getSubject(campus: string) {
     campus = campus.split("-")[0];
+    setCampus(campus)
     try {
-      setLoadingSubjects(true);
+      //setLoadingSubjects(true);
       const res = await fetch("/api/getSubject", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -264,18 +268,22 @@ export default function Home() {
     } catch (e) {
       console.error(e);
     } finally {
-      setLoadingSubjects(false);
+      setLoadingSubjects(true);
     }
   }
 
   async function getGroup(subjectName : string) {
     //alert(subjectName);
-
+    //alert(campus)
     try {
       const res = await fetch("/api/getGroup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(subjectName), // send both subject & path
+        body: JSON.stringify({
+  subjectName,
+  campus
+}),
+ // send both subject & path
       });
 
       const result = await res.json();
@@ -285,8 +293,15 @@ export default function Home() {
       if (Array.isArray(result)) {
         setFetchGroup(result);
       } else {
-        console.error("Expected array but got:", result);
+        //console.error("Expected array but got:", result);
         setFetchGroup([]);
+      }
+
+      if(res.ok){
+
+      }{
+         setResult("error")
+          setTimeout(() => setResult(""), 1000); // auto hide after 3s
       }
     } catch (e) {
       console.error(e);
@@ -295,6 +310,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
+      {result === "error" && <OrderErrorPopup message="Subject doesnt exist, please try again" />}
       {/* Animated background elements */}{" "}
       <div className="relative  min-h-screen p-4">
         {/* Header section */}
@@ -330,9 +346,8 @@ export default function Home() {
               )}
 
               {/* Subject dropdown */}
-              {loadingSubjects ? (
-                <p className="text-gray-700">Loading subjects...</p>
-              ) : fetchSubjects.length > 0 ? (
+              {loadingSubjects &&(
+                 
                 <div className="flex gap-2">
                   <input
                     type="text"
@@ -348,7 +363,7 @@ export default function Home() {
                     Search
                   </button>
                 </div>
-              ) : null}
+              )}
             </div>
 
             {/* Available Classes */}
