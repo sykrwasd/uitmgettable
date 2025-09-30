@@ -417,22 +417,23 @@ export default function Home() {
 
               {/* Subject dropdown */}
               {loadingSubjects && (
-                <div className="flex gap-2">
-                  <input
-                    type="text"
-                    placeholder="Enter subject name"
-                    value={subjectName}
-                    onChange={(e) => setSubjectName(e.target.value)}
-                    className="flex-1 p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  />
-                  <button
-                    onClick={() => getGroup(subjectName)}
-                    className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
-                  >
-                    Search
-                  </button>
-                </div>
-              )}
+  <div className="flex flex-col sm:flex-row gap-2">
+    <input
+      type="text"
+      placeholder="Enter subject name"
+      value={subjectName}
+      onChange={(e) => setSubjectName(e.target.value)}
+      className="flex-1 p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+    />
+    <button
+      onClick={() => getGroup(subjectName)}
+      className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
+    >
+      Search
+    </button>
+  </div>
+)}
+
             </div>
 
             {/* Available Classes */}
