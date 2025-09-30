@@ -14,7 +14,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
-  subject: string,
+  subject: string;
 };
 
 type SelectedClass = Group & {
@@ -68,7 +68,15 @@ const Timetable: React.FC<TimetableProps> = ({
 
   const [color, setColor] = useState("#155dfc");
 
-  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Sunday"];
+  const days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
 
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
@@ -94,7 +102,6 @@ const Timetable: React.FC<TimetableProps> = ({
             className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-xl shadow-sm hover:shadow-md transition-all"
             style={{ backgroundColor: `${color}50`, borderColor: `${color}` }}
           >
-            
             Change Color
           </button>
         </div>
@@ -104,9 +111,7 @@ const Timetable: React.FC<TimetableProps> = ({
         <div ref={timetableRef} className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
-              <tr className=" text-white"
-              style={{ backgroundColor: color }}
-              >
+              <tr className=" text-white" style={{ backgroundColor: color }}>
                 <th className="border border-gray-300 p-3 text-left font-semibold">
                   Time
                 </th>
@@ -187,8 +192,11 @@ const Timetable: React.FC<TimetableProps> = ({
                               {displayClass.venue}
                             </div>
                             <div className="text-xs opacity-75">
-                              {displayClass.subject_code}
+                              {displayClass.subject_code.length > 3
+                                ? "KOKO"
+                                : displayClass.subject_code}
                             </div>
+
                             <div className="text-xs opacity-60">
                               {displayClass.timeSlot}
                             </div>
@@ -245,29 +253,37 @@ const Timetable: React.FC<TimetableProps> = ({
       )}
 
       <dialog id="colorModal" className="modal">
-        <div className="modal-box bg-white">
-          <h3 className="text-center font-bold text-lg text-gray-400">
-            Select Color
-          </h3>
+  <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
+    <h3 className="text-center font-bold text-lg text-gray-600">
+      Select Color
+    </h3>
 
-          {/* Form Content */}
-          <div className="mt-4">
-            <SwatchesPicker
-              width={450}
-              className="rounded-xl"
-              color={color}
-              onChange={(colorResult: any) => {
-                setColor(colorResult.hex);
-                (
-                  document.getElementById("colorModal") as HTMLDialogElement
-                )?.close();
-              }}
-            />
+    {/* Form Content */}
+    <div className="mt-4">
+      <SwatchesPicker
+        width={Math.min(window.innerWidth * 0.9, 400)} // responsive width
+        className="rounded-xl mx-auto"
+        color={color}
+        onChange={(colorResult: any) => {
+          setColor(colorResult.hex);
+          (document.getElementById("colorModal") as HTMLDialogElement)?.close();
+        }}
+      />
 
-            <div className="modal-action flex gap-3"></div>
-          </div>
-        </div>
-      </dialog>
+      <div className="modal-action flex justify-center mt-4">
+        <button
+          className="btn btn-sm btn-outline"
+          onClick={() =>
+            (document.getElementById("colorModal") as HTMLDialogElement)?.close()
+          }
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
     </div>
   );
 };

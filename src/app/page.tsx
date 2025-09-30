@@ -10,6 +10,11 @@ type Campus = {
   text: string;
 };
 
+type Faculty = {
+  code: string;
+  fullname: string;
+};
+
 type Group = {
   no: string;
   day_time: string;
@@ -34,15 +39,20 @@ type Subject = {
 
 export default function Home() {
   const [fetchCampus, setFetchCampus] = useState<Campus[]>([]);
+  const [fetchFaculty, setFetchFaculty] = useState<Faculty[]>([]);
   const [loadingCampus, setLoadingCampus] = useState(true);
   const [loadingSubjects, setLoadingSubjects] = useState(false);
   const [fetchSubjects, setFetchSubjects] = useState<Subject[]>([]);
   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
   const [selectedClasses, setSelectedClasses] = useState<SelectedClass[]>([]);
   const [subjectName, setSubjectName] = useState("");
-  const [campus,setCampus] =useState("")
-   const[result,setResult] =useState("")
-   const [selangor, setSelangor] = useState(false)
+  const [campus, setCampus] = useState("");
+  const [result, setResult] = useState({
+    result: "",
+    message: "",
+  });
+  const [selangor, setSelangor] = useState(false);
+  const [faculty, setFaculty] = useState("");
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -194,37 +204,37 @@ export default function Home() {
 
   // Add class to timetable
   const addClass = (classItem: Group) => {
-    console.log("Adding all sections of subject:", classItem.subject_code);
+    const parsed = parseDayTime(classItem.day_time);
+    if (!parsed) return;
 
-    // Get all classes of the same subject
-    const subjectClasses = fetchGroup.filter(
-      (cls) => cls.class_code === classItem.class_code
+    // Check if a class already exists at the same day & time slot
+    const conflict = selectedClasses.find(
+      (c) => c.day === parsed.day && c.timeSlot === parsed.timeSlot
     );
 
-    // Parse and add each section
-    const newClasses: SelectedClass[] = [];
-
-    subjectClasses.forEach((cls) => {
-      const parsed = parseDayTime(cls.day_time);
-      if (!parsed) return;
-
-      const selectedClass: SelectedClass = {
-        ...cls,
-        day: parsed.day,
-        timeSlot: parsed.timeSlot,
-      };
-
-      // Avoid duplicates
-      const exists = selectedClasses.some(
-        (c) => c.class_code === cls.class_code && c.day_time === cls.day_time
-      );
-
-      if (!exists) newClasses.push(selectedClass);
-    });
-
-    if (newClasses.length > 0) {
-      setSelectedClasses((prev) => [...prev, ...newClasses]);
+    if (conflict) {
+      setResult({
+        result: "error",
+        message: `Conflict detected! "${classItem.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
+      });
+      setTimeout(
+        () =>
+          setResult({
+            result: "",
+            message: "",
+          }),
+        7000
+      ); // auto hide after 3s
+      return; // Don't add the conflicting class
     }
+
+    const selectedClass: SelectedClass = {
+      ...classItem,
+      day: parsed.day,
+      timeSlot: parsed.timeSlot,
+    };
+
+    setSelectedClasses((prev) => [...prev, selectedClass]);
   };
 
   // Remove class from timetable
@@ -238,6 +248,7 @@ export default function Home() {
 
   useEffect(() => {
     getCampus();
+    getFaculty();
   }, []);
 
   async function getCampus() {
@@ -246,6 +257,7 @@ export default function Home() {
       const res = await fetch("/api/getCam");
       const data = await res.json();
       setFetchCampus(data);
+      console.log(data);
     } catch (err) {
       console.error("Failed to fetch data:", err);
     } finally {
@@ -253,20 +265,46 @@ export default function Home() {
     }
   }
 
-  async function getSubject(campus: string) {
-    campus = campus.split("-")[0];
-    //alert(campus)
-    setCampus(campus)
+  async function getFaculty() {
+    try {
+      setLoadingCampus(true);
+      const res = await fetch("/api/getFac");
+      const data = await res.json();
+      setFetchFaculty(data);
+      console.log(data);
+    } catch (err) {
+      console.error("Failed to fetch data:", err);
+    } finally {
+      setLoadingCampus(false);
+    }
+  }
+
+  async function getSubject(campus: string, faculty: string) {
+    if (campus.includes("( Please Select a Faculty )")) {
+      setSelangor(true);
+      campus = "selangor";
+    } else if (campus.startsWith("SELANGOR")) {
+      setSelangor(false);
+      campus = campus.split("-")[1]?.trim();
+    } else {
+      setFaculty("");
+      setSelangor(false);
+      campus = campus.split("-")[0]?.trim() ?? "";
+    }
+
+    console.log("Campus:", campus);
+    console.log("Faculty:", faculty);
+    setCampus(campus);
+
     try {
       //setLoadingSubjects(true);
       const res = await fetch("/api/getSubject", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(campus),
+        body: JSON.stringify({ campus, faculty }),
       });
 
       const data = await res.json();
-      
     } catch (e) {
       console.error(e);
     } finally {
@@ -274,18 +312,21 @@ export default function Home() {
     }
   }
 
-  async function getGroup(subjectName : string) {
-    //alert(subjectName);
+  async function getGroup(subjectName: string) {
+    const sub = subjectName.toUpperCase();
+    console.log(sub);
+
     //alert(campus)
     try {
       const res = await fetch("/api/getGroup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-  subjectName,
-  campus
-}),
- // send both subject & path
+          subjectName: sub,
+          campus,
+          faculty,
+        }),
+        // send both subject & path
       });
 
       const result = await res.json();
@@ -299,11 +340,20 @@ export default function Home() {
         setFetchGroup([]);
       }
 
-      if(res.ok){
-
-      }else{
-         setResult("error")
-          setTimeout(() => setResult(""), 1000); // auto hide after 3s
+      if (res.ok) {
+      } else {
+        setResult({
+          result: "error",
+          message: "Subject does not exist",
+        });
+        setTimeout(
+          () =>
+            setResult({
+              result: "",
+              message: "",
+            }),
+          1000
+        ); // auto hide after 3s
       }
     } catch (e) {
       console.error(e);
@@ -312,7 +362,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
-      {result === "error" && <OrderErrorPopup message="Subject doesnt exist, please try again" />}
+      {result.result === "error" && (
+        <OrderErrorPopup message={result.message} />
+      )}
       {/* Animated background elements */}{" "}
       <div className="relative  min-h-screen p-4">
         {/* Header section */}
@@ -335,47 +387,36 @@ export default function Home() {
                 <p className="text-gray-700 mb-4">Loading campuses...</p>
               ) : (
                 <>
-                <select
-                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  onChange={(e) => getSubject(e.target.value)}
+                  <select
+                    className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+                    onChange={(e) => getSubject(e.target.value, faculty)}
                   >
-                  <option value="">Select Campus</option>
-                  {fetchCampus.map((row, idx) => (
-                    <option key={idx} value={row.text} className="text-black">
-                      {row.text}
-                    </option>
-                  ))}
-
-
-                </select>
-
-                {selangor && (
-                <select
-                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  onChange={(e) => getSubject(e.target.value)}
-                  >
-                  <option value="">Select Campus</option>
-                  {fetchCampus.map((row, idx) => (
-                    <option key={idx} value={row.text} className="text-black">
-                      {row.text}
-                    </option>
-                  ))}
-                </select>
-
-                )}
-
-
-
-                  </>
-                
-                
+                    <option value="">Select Campus</option>
+                    {fetchCampus.map((row, idx) => (
+                      <option key={idx} value={row.text} className="text-black">
+                        {row.text}
+                      </option>
+                    ))}
+                  </select>
+                </>
               )}
 
-              
+              {selangor && (
+                <select
+                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+                  onChange={(e) => setFaculty(e.target.value)}
+                >
+                  <option value="">Select Faculty</option>
+                  {fetchFaculty.map((row, idx) => (
+                    <option key={idx} value={row.code} className="text-black">
+                      {row.code} - {row.fullname}
+                    </option>
+                  ))}
+                </select>
+              )}
 
               {/* Subject dropdown */}
-              {loadingSubjects &&(
-                 
+              {loadingSubjects && (
                 <div className="flex gap-2">
                   <input
                     type="text"
@@ -385,8 +426,8 @@ export default function Home() {
                     className="flex-1 p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
                   />
                   <button
-                    onClick={(e) => getGroup(subjectName)}
-                    className="p-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition"
+                    onClick={() => getGroup(subjectName)}
+                    className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
                   >
                     Search
                   </button>
@@ -414,18 +455,20 @@ export default function Home() {
                         onClick={() => addClass(row)}
                         className={`p-3 rounded-lg cursor-pointer transition-all ${
                           isSelected
-                            ? "bg-green-500/20 border border-green-500/50"
-                            : "bg-white/20 hover:bg-green-500/30 border border-black/20"
+                            ? "bg-green-500/20 border border-green-300/50"
+                            : "bg-white/50 hover:bg-green-300/30 border border-black/20"
                         }`}
                       >
-                        <div className="text-white  font-medium">
+                        <div className="text-black  font-medium">
                           {row.class_code}
                         </div>
-                        <div className="text-gray-400 text-sm">
+                        <div className="text-gray-600 text-sm">
                           {row.day_time} • {row.venue}
                         </div>
-                        <div className="text-gray-400 text-xs">
-                          {row.subject_code} • {row.mode}
+                        <div className="text-gray-600 text-xs">
+                          {row.subject_code.length > 3
+                            ? "KOKO"
+                            : row.subject_code}
                         </div>
                       </div>
                     );
@@ -458,21 +501,20 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-center items-center gap-2">
-  <a
-    href="https://github.com/sykrwasd/uitmgettable"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 hover:underline flex items-center gap-1"
-  >
-    <FaGithub className="w-5 h-5" />
-    Fork us on GitHub
-  </a>
-  <span className="text-sm text-gray-600">
-     by   Umar Syakir | DISK UiTM Tapah
-  </span>
-</footer>
-
+      <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-center items-center gap-2">
+        <a
+          href="https://github.com/sykrwasd/uitmgettable"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline flex items-center gap-1"
+        >
+          <FaGithub className="w-5 h-5" />
+          Fork us on GitHub
+        </a>
+        <span className="text-sm text-gray-600">
+          by Umar Syakir | DISK UiTM Tapah
+        </span>
+      </footer>
     </div>
   );
 }

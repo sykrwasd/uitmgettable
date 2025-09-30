@@ -1,23 +1,16 @@
 import axios from "axios";
 
-export async function POST(req: Request) {
+export async function GET() {
   try {
+   
     
-    const campus = await req.json();
-    console.log(campus)
+    const url =  "https://uitmtimetable.skrin.xyz/api.php?getfaculty";
     
-    const url = "https://uitmtimetable.skrin.xyz/api.php?getfaculty"
-    const payload = new URLSearchParams({
-      subject: "",
-      faculty: "",
-      campus: "",
-    });
     
-    const res = await axios.post(url, payload.toString(), {
+     const res = await axios.get(url, {
       headers: {
         "User-Agent": "Mozilla/5.0",
-        "Content-Type": "application/x-www-form-urlencoded",
-        //"Referer": "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm"
+        "Referer": "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm"
       }
     
     });

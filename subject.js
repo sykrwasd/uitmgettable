@@ -4,8 +4,8 @@ import * as cheerio from "cheerio";
 async function scrape() {
   const url = "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_result111.cfm"
   const payload = new URLSearchParams({
-  search_campus: 'APB',
-  searcg_faculty: 'AC',
+  search_campus: 'HEP', // APB,CITU,HEP
+  search_faculty: '',
   search_course: '',
   captcha_no_type: '',
   captcha1: '123456',
@@ -26,6 +26,8 @@ async function scrape() {
       Referer:"https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
     },
   });
+
+  //console.log(res.data)
 
   const $ = cheerio.load(res.data);
 
