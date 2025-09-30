@@ -3,23 +3,27 @@ import * as cheerio from "cheerio";
 
 export async function POST(req: Request) {
   try {
-    let { subjectName, campus,faculty } = await req.json(); // coming from frontend
+    const { subjectName, campus: originalCampus, faculty } = await req.json(); // coming from frontend
+
     console.log("Received subjectnasme:", subjectName);
-     console.log("Received faculty:", faculty);
-    console.log("Received campus:",campus);
+    console.log("Received faculty:", faculty);
+    console.log("Received campus:", originalCampus);
 
-    if(campus === "LANGUAGE COURSES" ){
-      campus = "APB"
-    } else if (campus === "CITU COURSES" ){
-      campus = "CITU"
-    } else if (campus === "CO" ){
-      campus = "HEP"
-    } else if (campus === "selangor"){
-      campus = "B"
+    let campus = originalCampus;
+
+    if (campus === "LANGUAGE COURSES") {
+      campus = "APB";
+    } else if (campus === "CITU COURSES") {
+      campus = "CITU";
+    } else if (campus === "CO") {
+      campus = "HEP";
+    } else if (campus === "selangor") {
+      campus = "B";
     }
-    console.log(campus)
 
-    const subURL = await getURL(subjectName, campus,faculty);
+    console.log(campus);
+
+    const subURL = await getURL(subjectName, campus, faculty);
 
     const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/${subURL}`;
 
@@ -71,11 +75,10 @@ export async function POST(req: Request) {
   }
 }
 
-async function getURL(subjectName: string, campus: string, faculty:string) {
-
-   console.log("Received subjectnasme:", subjectName);
-     console.log("Received faculty:", faculty);
-    console.log("Received campus:",campus);
+async function getURL(subjectName: string, campus: string, faculty: string) {
+  console.log("Received subjectnasme:", subjectName);
+  console.log("Received faculty:", faculty);
+  console.log("Received campus:", campus);
 
   const url =
     "https://simsweb4.uitm.edu.my/estudent/class_timetable/index_result111.cfm";
