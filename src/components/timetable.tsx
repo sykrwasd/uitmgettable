@@ -68,7 +68,7 @@ const Timetable: React.FC<TimetableProps> = ({
 
   const [color, setColor] = useState("#155dfc");
 
-  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday","Sunday"];
 
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">

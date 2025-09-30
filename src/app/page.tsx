@@ -18,7 +18,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
-  subject: string,
+  subject: string;
 };
 
 type SelectedClass = Group & {
@@ -38,6 +38,7 @@ export default function Home() {
   const [fetchSubjects, setFetchSubjects] = useState<Subject[]>([]);
   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
   const [selectedClasses, setSelectedClasses] = useState<SelectedClass[]>([]);
+  const [subjectName, setSubjectName] = useState("");
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -189,40 +190,38 @@ export default function Home() {
 
   // Add class to timetable
   const addClass = (classItem: Group) => {
-  console.log("Adding all sections of subject:", classItem.subject_code);
+    console.log("Adding all sections of subject:", classItem.subject_code);
 
-  // Get all classes of the same subject
-  const subjectClasses = fetchGroup.filter(
-    (cls) => cls.class_code === classItem.class_code
-  );
-
-  // Parse and add each section
-  const newClasses: SelectedClass[] = [];
-
-  subjectClasses.forEach((cls) => {
-    const parsed = parseDayTime(cls.day_time);
-    if (!parsed) return;
-
-    const selectedClass: SelectedClass = {
-      ...cls,
-      day: parsed.day,
-      timeSlot: parsed.timeSlot,
-    };
-
-    // Avoid duplicates
-    const exists = selectedClasses.some(
-      (c) =>
-        c.class_code === cls.class_code && c.day_time === cls.day_time
+    // Get all classes of the same subject
+    const subjectClasses = fetchGroup.filter(
+      (cls) => cls.class_code === classItem.class_code
     );
 
-    if (!exists) newClasses.push(selectedClass);
-  });
+    // Parse and add each section
+    const newClasses: SelectedClass[] = [];
 
-  if (newClasses.length > 0) {
-    setSelectedClasses((prev) => [...prev, ...newClasses]);
-  }
-};
+    subjectClasses.forEach((cls) => {
+      const parsed = parseDayTime(cls.day_time);
+      if (!parsed) return;
 
+      const selectedClass: SelectedClass = {
+        ...cls,
+        day: parsed.day,
+        timeSlot: parsed.timeSlot,
+      };
+
+      // Avoid duplicates
+      const exists = selectedClasses.some(
+        (c) => c.class_code === cls.class_code && c.day_time === cls.day_time
+      );
+
+      if (!exists) newClasses.push(selectedClass);
+    });
+
+    if (newClasses.length > 0) {
+      setSelectedClasses((prev) => [...prev, ...newClasses]);
+    }
+  };
 
   // Remove class from timetable
   const removeClass = (classCode: string, dayTime: string) => {
@@ -261,12 +260,7 @@ export default function Home() {
       });
 
       const data = await res.json();
-      if (Array.isArray(data)) {
-        setFetchSubjects(data);
-      } else {
-        console.error("Expected array but got:", data);
-        setFetchSubjects([]);
-      }
+      
     } catch (e) {
       console.error(e);
     } finally {
@@ -274,36 +268,34 @@ export default function Home() {
     }
   }
 
- async function getGroup(selected: { subject: string; path: string }) {
-  console.log(selected.path, selected.subject);
+  async function getGroup(subjectName : string) {
+    //alert(subjectName);
 
-  try {
-    const res = await fetch("/api/getGroup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(selected), // send both subject & path
-    });
+    try {
+      const res = await fetch("/api/getGroup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(subjectName), // send both subject & path
+      });
 
-    const result = await res.json();
+      const result = await res.json();
 
-    console.log(result);
+      console.log(result);
 
-    if (Array.isArray(result)) {
-      setFetchGroup(result);
-    } else {
-      console.error("Expected array but got:", result);
-      setFetchGroup([]);
+      if (Array.isArray(result)) {
+        setFetchGroup(result);
+      } else {
+        console.error("Expected array but got:", result);
+        setFetchGroup([]);
+      }
+    } catch (e) {
+      console.error(e);
     }
-  } catch (e) {
-    console.error(e);
   }
-}
-
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
       {/* Animated background elements */}{" "}
-      
       <div className="relative  min-h-screen p-4">
         {/* Header section */}
         <div className="text-center mb-8 space-y-4">
@@ -341,25 +333,21 @@ export default function Home() {
               {loadingSubjects ? (
                 <p className="text-gray-700">Loading subjects...</p>
               ) : fetchSubjects.length > 0 ? (
-                <select
-  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-  onChange={(e) => {
-    const selected = JSON.parse(e.target.value);
-    getGroup(selected); // selected is { subject, path }
-  }}
->
-  <option value="">Select Subject</option>
-  {fetchSubjects.map((row) => (
-    <option
-      key={row.path}
-      value={JSON.stringify({ subject: row.subject, path: row.path })}
-      className="text-black"
-    >
-      {row.subject}
-    </option>
-  ))}
-</select>
-
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    placeholder="Enter subject name"
+                    value={subjectName}
+                    onChange={(e) => setSubjectName(e.target.value)}
+                    className="flex-1 p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+                  />
+                  <button
+                    onClick={(e) => getGroup(subjectName)}
+                    className="p-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition"
+                  >
+                    Search
+                  </button>
+                </div>
               ) : null}
             </div>
 
@@ -427,18 +415,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-        
-    <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex justify-center items-center gap-2">
-      <a
-        href="https://github.com/sykrwasd/uitmgettable"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:underline flex items-center gap-1"
-      >
-        <FaGithub className="w-5 h-5" />
-        Fork us on GitHub
-      </a>
-    </footer>
+      <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex justify-center items-center gap-2">
+        <a
+          href="https://github.com/sykrwasd/uitmgettable"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline flex items-center gap-1"
+        >
+          <FaGithub className="w-5 h-5" />
+          Fork us on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
