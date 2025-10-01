@@ -4,7 +4,7 @@ export async function GET() {
   try {
    
     
-    const url =  "https://uitmtimetable.skrin.xyz/api.php?getfaculty";
+    const url =  "https://uitmtimetable.com/api.php?getfaculty";
     
     
      const res = await axios.get(url, {
