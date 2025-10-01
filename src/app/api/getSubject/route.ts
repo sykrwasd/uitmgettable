@@ -6,7 +6,7 @@ export async function POST(req: Request) {
     const campus = await req.json();
     console.log("receive",campus)
     
-    const url = "https://uitmtimetable.skrin.xyz/api.php?getsubject"
+    const url = "https://uitmtimetable.com/api.php?getsubject"
     const payload = new URLSearchParams({
       subject: "",
       faculty: "",

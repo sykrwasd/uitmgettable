@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 
 async function scrape() {
   const url =
-    "https://uitmtimetable.skrin.xyz/api.php?getfaculty";
+    "https://uitmtimetable.com/api.php?getfaculty";
 
   const res = await axios.get(url, {
     headers: {
