@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import jsPDF from "jspdf";
 import html2canvas from "html2canvas-pro";
 import { SwatchesPicker } from "react-color";
+import { event } from "../../utils/gtag";
 
 type Group = {
   no: string;
@@ -64,6 +64,11 @@ const Timetable: React.FC<TimetableProps> = ({
 
     // Cleanup
     document.body.removeChild(clone);
+
+    event({
+      action: "save_timetable",
+      params: { classes_count: selectedClasses.length, method: "image" },
+    });
   };
 
   const [color, setColor] = useState("#155dfc");
