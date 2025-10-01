@@ -11,8 +11,8 @@ type Campus = {
 };
 
 type Faculty = {
-  code: string;
-  fullname: string;
+  text: string;
+  id: string;
 };
 
 type Group = {
@@ -271,7 +271,7 @@ export default function Home() {
       const res = await fetch("/api/getFac");
       const data = await res.json();
       setFetchFaculty(data);
-      console.log(data);
+      console.log("faculty fetyched",data);
     } catch (err) {
       console.error("Failed to fetch data:", err);
     } finally {
@@ -373,7 +373,7 @@ export default function Home() {
             UitmGetTimetable
           </h1>
           <p className="text-gray-600 font-bold text-lg">
-            Smart scheduling made simple
+             An open source UiTM timetable generator
           </p>
         </div>
 
@@ -408,8 +408,8 @@ export default function Home() {
                 >
                   <option value="">Select Faculty</option>
                   {fetchFaculty.map((row, idx) => (
-                    <option key={idx} value={row.code} className="text-black">
-                      {row.code} - {row.fullname}
+                    <option key={idx} value={row.id} className="text-black">
+                    {row.text}
                     </option>
                   ))}
                 </select>

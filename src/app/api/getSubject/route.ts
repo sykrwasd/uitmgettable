@@ -1,32 +1,55 @@
 import axios from "axios";
+import * as cheerio from "cheerio";
 
 export async function POST(req: Request) {
   try {
-    
     const campus = await req.json();
-    console.log("receive",campus)
-    
-    const url = "https://uitmtimetable.com/api.php?getsubject"
+    console.log("RECEIVEDEASAD", campus);
+
+    const url =
+      "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
     const payload = new URLSearchParams({
-      subject: "",
-      faculty: "",
-      campus: `${campus}`
-    });
-    
+  search_campus: `${campus.campus}`, // APB,CITU,HEP
+  search_faculty: '',
+  search_course: '',
+  captcha_no_type: '',
+  captcha1: '',
+  captcha2: '',
+  captcha3: '',
+  token1: 'ey7JhbGciOiJbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA1ODY3NjcsImV4cCI6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbIi9jb252aWQxOS9zYXJpbmdhbmhhcmlhbi9ieS9ub3Bla2VyamEiLCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsli9zaW1zL3N0YWZmIiwiL2hlYS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw',
+  token2: 'I6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbI19jb252aWQxOS9zYXJpbmdhbmhhcmlhbi9ieS9ub3Bla2VyamE1LCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsli9zaW1zL3N0YWZmIiwiL2hlYS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw',
+  token3: 'Byb2ZpbGiJIUzI1NjIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA1ODY3NjcsImV4cCI6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbIi9jb252aWQxOS9zYXJpbmdh b3Bla2VyamEiLCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsIi9zaWizL3N0YWZmIiwiL2h1YS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw'
+});
     const res = await axios.post(url, payload.toString(), {
       headers: {
         "User-Agent": "Mozilla/5.0",
         "Content-Type": "application/x-www-form-urlencoded",
-        //"Referer": "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm"
-      }
-    
+        Referer:
+          "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
+      },
     });
 
-     return new Response(JSON.stringify(res.data), {
-        status: 200,
-      });
+    const $ = cheerio.load(res.data);
     
+       const rows: any[] = [];
+   $("table tr").each((_, tr) => {
+  const cells = $(tr).find("td");
+  if (cells.length === 3) {
+    const href = $(cells[2]).find("a").attr("href"); // grab href
+    rows.push({
+      no: $(cells[0]).text().trim(),
+      course: $(cells[1]).text().trim(),
+      href: href || null
+    });
+  }
+});
     
+    console.log(rows);
+
+
+    return new Response(JSON.stringify(rows), {
+      status: 200,
+    });
   } catch (err) {
     console.error("Error adding item:", err);
     return new Response(JSON.stringify({ error: "Failed to fetch subject" }), {

@@ -3,7 +3,7 @@ import axios from "axios";
 
 export async function GET() {
   try {
-    const url ="https://simsweb4.uitm.edu.my/estudent/class_timetable/cfc/select.cfc?method=find_cam_icress_student&key=All&page=1&page_limit=30"
+    const url ="https://simsweb4.uitm.edu.my/estudent/class_timetable/cfc/select.cfc?method=CAM_lII1II11I1lIIII11IIl1I111I&key=All&page=1&page_limit=30"
     // Replace with actual fields from DevTools
     const payload = new URLSearchParams({
       
