@@ -257,7 +257,7 @@ export default function Home() {
       const res = await fetch("/api/getCam");
       const data = await res.json();
       setFetchCampus(data);
-      console.log(data);
+      //console.log(data);
     } catch (err) {
       console.error("Failed to fetch data:", err);
     } finally {
@@ -271,7 +271,7 @@ export default function Home() {
       const res = await fetch("/api/getFac");
       const data = await res.json();
       setFetchFaculty(data);
-      console.log("faculty fetyched",data);
+      //console.log("faculty fetyched",data);
     } catch (err) {
       console.error("Failed to fetch data:", err);
     } finally {
@@ -292,8 +292,8 @@ export default function Home() {
       campus = campus.split("-")[0]?.trim() ?? "";
     }
 
-    console.log("Campus:", campus);
-    console.log("Faculty:", faculty);
+    //console.log("Campus:", campus);
+    //console.log("Faculty:", faculty);
     setCampus(campus);
 
     try {
@@ -314,7 +314,7 @@ export default function Home() {
 
   async function getGroup(subjectName: string) {
     const sub = subjectName.toUpperCase();
-    console.log(sub);
+    //console.log(sub);
 
     //alert(campus)
     try {
@@ -331,7 +331,7 @@ export default function Home() {
 
       const result = await res.json();
 
-      console.log(result);
+      //console.log(result);
 
       if (Array.isArray(result)) {
         setFetchGroup(result);

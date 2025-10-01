@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import Image from 'next/image';
 
 const poppins = Poppins({
   weight: ["400", "500", "600"],
@@ -12,11 +13,8 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "UitmGetTable",
   description: "UiTM Timetable Generator",
-  icons: {
-    icon: "/img/logo.png",
-    shortcut: "/img/logo.png",
-    apple: "/img/logo.png",
-  },
+  icons: "/logo-v3.ico  ", // sets favicon
+
 };
 
 export default function RootLayout({
@@ -27,7 +25,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} antialiased`}>
-        {/* ✅ Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LTZX9KYVLN"
           strategy="afterInteractive"
