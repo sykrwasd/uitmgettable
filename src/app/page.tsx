@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Timetable from "@/components/timetable";
 import { FaGithub } from "react-icons/fa";
 import OrderErrorPopup from "@/components/orderError";
+import Select from "react-select";
 
 type Campus = {
   id: string;
@@ -33,8 +34,8 @@ type SelectedClass = Group & {
 };
 
 type Subject = {
-  subject: string;
-  path: string;
+  course: string;
+  href: string;
 };
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
   });
   const [selangor, setSelangor] = useState(false);
   const [faculty, setFaculty] = useState("");
+  const [searchGroup, setSearchGroup] = useState("");
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -203,20 +205,45 @@ export default function Home() {
   };
 
   // Add class to timetable
-  const addClass = (classItem: Group) => {
-    const parsed = parseDayTime(classItem.day_time);
-    if (!parsed) return;
 
-    // Check if a class already exists at the same day & time slot
-    const conflict = selectedClasses.find(
-      (c) => c.day === parsed.day && c.timeSlot === parsed.timeSlot
+  const addClass = (classItem: Group) => {
+    const sameClasses = fetchGroup.filter(
+      (c) => c.class_code === classItem.class_code
     );
 
-    if (conflict) {
-      setResult({
-        result: "error",
-        message: `Conflict detected! "${classItem.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
-      });
+    let hasConflict = false;
+
+    const newClasses: SelectedClass[] = [];
+
+    sameClasses.forEach((c) => {
+      const parsed = parseDayTime(c.day_time);
+      if (!parsed) return;
+
+      // Check conflict
+      const conflict = selectedClasses.find(
+        (sel) => sel.day === parsed.day && sel.timeSlot === parsed.timeSlot
+      );
+
+      if (conflict) {
+        hasConflict = true;
+        setResult({
+          result: "error",
+          message: `Conflict detected! "${c.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
+        });
+      } else {
+        newClasses.push({
+          ...c,
+          day: parsed.day,
+          timeSlot: parsed.timeSlot,
+        });
+      }
+    });
+
+    if (!hasConflict) {
+      setSelectedClasses((prev) => [...prev, ...newClasses]);
+    }
+
+    if (hasConflict) {
       setTimeout(
         () =>
           setResult({
@@ -224,25 +251,14 @@ export default function Home() {
             message: "",
           }),
         7000
-      ); // auto hide after 3s
-      return; // Don't add the conflicting class
+      );
     }
-
-    const selectedClass: SelectedClass = {
-      ...classItem,
-      day: parsed.day,
-      timeSlot: parsed.timeSlot,
-    };
-
-    setSelectedClasses((prev) => [...prev, selectedClass]);
   };
 
   // Remove class from timetable
-  const removeClass = (classCode: string, dayTime: string) => {
+  const removeClass = (classCode: string) => {
     setSelectedClasses((prev) =>
-      prev.filter(
-        (cls) => !(cls.class_code === classCode && cls.day_time === dayTime)
-      )
+      prev.filter((cls) => cls.class_code !== classCode)
     );
   };
 
@@ -257,7 +273,7 @@ export default function Home() {
       const res = await fetch("/api/getCam");
       const data = await res.json();
       setFetchCampus(data);
-      //console.log(data);
+      console.log(data);
     } catch (err) {
       console.error("Failed to fetch data:", err);
     } finally {
@@ -305,6 +321,8 @@ export default function Home() {
       });
 
       const data = await res.json();
+      setFetchSubjects(data);
+      //  console.log("fetch subjects", data);
     } catch (e) {
       console.error(e);
     } finally {
@@ -331,7 +349,7 @@ export default function Home() {
 
       const result = await res.json();
 
-      //console.log(result);
+      console.log("fetchgroup", result);
 
       if (Array.isArray(result)) {
         setFetchGroup(result);
@@ -373,7 +391,7 @@ export default function Home() {
             UitmGetTimetable
           </h1>
           <p className="text-gray-600 font-bold text-lg">
-             An open source UiTM timetable generator
+            An open source UiTM timetable generator
           </p>
         </div>
 
@@ -409,7 +427,7 @@ export default function Home() {
                   <option value="">Select Faculty</option>
                   {fetchFaculty.map((row, idx) => (
                     <option key={idx} value={row.id} className="text-black">
-                    {row.text}
+                      {row.text}
                     </option>
                   ))}
                 </select>
@@ -417,23 +435,30 @@ export default function Home() {
 
               {/* Subject dropdown */}
               {loadingSubjects && (
-  <div className="flex flex-col sm:flex-row gap-2">
-    <input
-      type="text"
-      placeholder="Enter subject name"
-      value={subjectName}
-      onChange={(e) => setSubjectName(e.target.value)}
-      className="flex-1 p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-    />
-    <button
-      onClick={() => getGroup(subjectName)}
-      className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
-    >
-      Search
-    </button>
-  </div>
-)}
-
+                <div className="flex flex-col sm:flex-row gap-2 w-full">
+                  <Select
+                    options={fetchSubjects.map((row) => ({
+                      value: row.course,
+                      label: row.course,
+                    }))}
+                    onChange={(selected) =>
+                      setSubjectName(selected?.value ?? "")
+                    }
+                    placeholder="Select Subject"
+                    className="w-full "
+                    menuPortalTarget={document.body}
+                    styles={{
+                      menuPortal: (base) => ({ ...base, zIndex: 9999 }), // keep it on top
+                    }}
+                  />
+                  <button
+                    onClick={() => getGroup(subjectName)}
+                    className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
+                  >
+                    Search
+                  </button>
+                </div>
+              )}
             </div>
 
             {/* Available Classes */}
@@ -442,38 +467,52 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-gray-700 mb-4">
                   Available Classes
                 </h3>
-                <div className="space-y-2 max-h-96 overflow-y-auto">
-                  {fetchGroup.map((row) => {
-                    const isSelected = selectedClasses.some(
-                      (cls) =>
-                        cls.class_code === row.class_code &&
-                        cls.day_time === row.day_time
-                    );
 
-                    return (
-                      <div
-                        key={`${row.class_code}-${row.day_time}`}
-                        onClick={() => addClass(row)}
-                        className={`p-3 rounded-lg cursor-pointer transition-all ${
-                          isSelected
-                            ? "bg-green-500/20 border border-green-300/50"
-                            : "bg-white/50 hover:bg-green-300/30 border border-black/20"
-                        }`}
-                      >
-                        <div className="text-black  font-medium">
-                          {row.class_code}
+                <input
+                  type="text"
+                  placeholder="Search class"
+                  value={searchGroup}
+                  onChange={(e) => setSearchGroup(e.target.value)}
+                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20 mb-3"
+                />
+                <div className="space-y-2 max-h-96 overflow-y-auto">
+                  {fetchGroup
+                    .filter((row) =>
+                      row.class_code
+                        .toLowerCase()
+                        .includes(searchGroup.toLowerCase())
+                    )
+                    .map((row) => {
+                      const isSelected = selectedClasses.some(
+                        (cls) =>
+                          cls.class_code === row.class_code &&
+                          cls.day_time === row.day_time
+                      );
+
+                      return (
+                        <div
+                          key={`${row.class_code}-${row.day_time}`}
+                          onClick={() => addClass(row)}
+                          className={`p-3 rounded-lg cursor-pointer transition-all ${
+                            isSelected
+                              ? "bg-green-500/20 border border-green-300/50"
+                              : "bg-white/50 hover:bg-green-300/30 border border-black/20"
+                          }`}
+                        >
+                          <div className="text-black  font-medium">
+                            {row.class_code}
+                          </div>
+                          <div className="text-gray-600 text-sm">
+                            {row.day_time} • {row.venue}
+                          </div>
+                          <div className="text-gray-600 text-xs">
+                            {row.subject_code.length > 15
+                              ? "KOKO"
+                              : row.subject_code}
+                          </div>
                         </div>
-                        <div className="text-gray-600 text-sm">
-                          {row.day_time} • {row.venue}
-                        </div>
-                        <div className="text-gray-600 text-xs">
-                          {row.subject_code.length > 3
-                            ? "KOKO"
-                            : row.subject_code}
-                        </div>
-                      </div>
-                    );
-                  })}
+                      );
+                    })}
                 </div>
               </div>
             )}
