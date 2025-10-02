@@ -44,6 +44,7 @@ An open-source UiTM timetable generator.
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+
 ### Deployment
 
 This project is deployed on **Netlify**. To deploy your own copy:
@@ -55,6 +56,38 @@ This project is deployed on **Netlify**. To deploy your own copy:
 ## Contributing
 
 Fork the repo, submit PRs, and help make this project better!
+
+## Commit Message Guidelines
+
+We follow an **emoji-based commit convention** to keep history fun and easy to read 🚀  
+
+### Format:
+
+
+### Examples:
+- ✨ Add timetable scraping feature  
+- 🐛 Fix campus code extraction bug  
+- 🎨 Improve UI layout for timetable table  
+- 📝 Update README with contributors  
+- 🔧 Configure Netlify build settings  
+- ✅ Add tests for timetable generator  
+
+### Common Emojis:
+- ✨ `:sparkles:` → New feature  
+- 🐛 `:bug:` → Bug fix  
+- 🎨 `:art:` → UI / style changes  
+- 📝 `:memo:` → Docs / README changes  
+- 🔧 `:wrench:` → Config changes  
+- ♻️ `:recycle:` → Refactor code  
+- 🚑 `:ambulance:` → Hotfix / quick patch  
+- ✅ `:white_check_mark:` → Add/update tests  
+- 🔥 `:fire:` → Remove code / files  
+- 📦 `:package:` → Dependencies update  
+
+---
+
+👉 Please use these emojis in your commits to keep the history clean and consistent 🙌
+
 
 ## License
 
