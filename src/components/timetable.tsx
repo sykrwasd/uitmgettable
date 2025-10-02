@@ -73,13 +73,14 @@ const Timetable: React.FC<TimetableProps> = ({
 
   const [color, setColor] = useState("#155dfc");
   const [pickerWidth, setPickerWidth] = useState(400);
+  const [hideWeekend, setHideWeekend] = useState(false);
+  const [invert, setInvert] = useState(false);
 
-useEffect(() => {
-  setPickerWidth(Math.min(window.innerWidth * 0.9, 400));
-}, []);
+  useEffect(() => {
+    setPickerWidth(Math.min(window.innerWidth * 0.9, 400));
+  }, []);
 
-
-  const days = [
+  let days = [
     "Monday",
     "Tuesday",
     "Wednesday",
@@ -88,6 +89,12 @@ useEffect(() => {
     "Saturday",
     "Sunday",
   ];
+
+  if (!hideWeekend) {
+    days = days;
+  } else {
+    days = days.slice(0, 5);
+  }
 
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
@@ -115,113 +122,95 @@ useEffect(() => {
           >
             Change Color
           </button>
+
+          <label className="ml-2 flex items-center space-x-2 cursor-pointer">
+            <input
+              type="checkbox"
+              name="toggleWeekend"
+              onChange={(e) => setHideWeekend(e.target.checked)}
+              className="w-4 h-4 text-blue-500 border-gray-300 focus:ring-blue-500"
+            />
+            <span className="text-white font-medium">Hide weekend</span>
+            <input
+              type="checkbox"
+              name="toggleWeekend"
+              onChange={(e) => setInvert(e.target.checked)}
+              className="w-4 h-4 text-blue-500 border-gray-300 focus:ring-blue-500"
+            />
+            <span className="text-white font-medium">Invert Day and Time</span>
+          </label>
         </div>
       </div>
+
+ 
 
       <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
-        <div ref={timetableRef} className="overflow-x-auto">
-          <table className="w-full border-collapse">
-            <thead>
-              <tr className=" text-white" style={{ backgroundColor: color }}>
-                <th className="border border-gray-300 p-3 text-left font-semibold">
-                  Time
-                </th>
-                {days.map((day) => (
-                  <th
-                    key={day}
-                    className="border border-gray-300 p-3 text-center font-semibold min-w-[180px]"
-                  >
-                    {day}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {timeSlots.map((timeSlot) => (
-                <tr key={timeSlot} className="hover:bg-gray-50">
-                  <td className="border border-gray-300 p-3 font-medium bg-gray-100">
-                    {timeSlot}
-                  </td>
-                  {days.map((day) => {
-                    const classInSlot = selectedClasses.find(
-                      (cls) => cls.day === day && cls.timeSlot === timeSlot
-                    );
+  <div ref={timetableRef} className="overflow-x-auto">
+    <table className="w-full border-collapse">
+      <thead>
+        <tr className="text-white" style={{ backgroundColor: color }}>
+          <th className="border border-gray-300 p-3 text-left font-semibold">
+            {invert ? "Day" : "Time"}
+          </th>
+          {(invert ? timeSlots : days).map((header) => (
+            <th
+              key={header}
+              className="border border-gray-300 p-3 text-center font-semibold min-w-[160px]"
+            >
+              {header}
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {(invert ? days : timeSlots).map((row) => (
+          <tr key={row} className="hover:bg-gray-50">
+            <td className="border border-gray-300 p-3 font-medium bg-gray-100">
+              {row}
+            </td>
+            {(invert ? timeSlots : days).map((col) => {
+              const day = invert ? row : col;
+              const timeSlot = invert ? col : row;
 
-                    // Also check for classes that might fall within this time slot even if timeSlot doesn't match exactly
-                    const classInTimeRange = !classInSlot
-                      ? selectedClasses.find((cls) => {
-                          if (cls.day !== day) return false;
+              const classInSlot = selectedClasses.find(
+                (cls) => cls.day === day && cls.timeSlot === timeSlot
+              );
 
-                          // Check if the class time overlaps with current slot
-                          const [slotStart, slotEnd] = timeSlot.split("-");
-                          const classTimeMatch = cls.timeSlot.match(
-                            /(\d{2}):(\d{2})-(\d{2}):(\d{2})/
-                          );
+              return (
+                <td
+                  key={`${day}-${timeSlot}`}
+                  className="border border-gray-300 p-2 h-20 relative"
+                >
+                  {classInSlot && (
+                    <div
+                      className="text-white p-2 rounded text-xs h-full cursor-pointer hover:bg-blue-600 transition-colors"
+                      style={{ backgroundColor: color }}
+                      onClick={() =>
+                        onRemoveClass(classInSlot.class_code, classInSlot.day_time)
+                      }
+                      title="Click to remove"
+                    >
+                      <div className="font-semibold">{classInSlot.class_code}</div>
+                      <div className="font-semibold">{classInSlot.subject}</div>
+                      <div className="text-xs opacity-90">{classInSlot.venue}</div>
+                      <div className="text-xs opacity-75">
+                        {classInSlot.subject_code.length > 15
+                          ? "KOKO"
+                          : classInSlot.subject_code}
+                      </div>
+                      <div className="text-xs opacity-60">{classInSlot.timeSlot}</div>
+                    </div>
+                  )}
+                </td>
+              );
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
 
-                          if (classTimeMatch) {
-                            const classStart = `${classTimeMatch[1]}:${classTimeMatch[2]}`;
-                            const classEnd = `${classTimeMatch[3]}:${classTimeMatch[4]}`;
-
-                            // Check if class time overlaps with this slot
-                            return (
-                              (classStart >= slotStart &&
-                                classStart < slotEnd) ||
-                              (classEnd > slotStart && classEnd <= slotEnd) ||
-                              (classStart <= slotStart && classEnd >= slotEnd)
-                            );
-                          }
-                          return false;
-                        })
-                      : null;
-
-                    const displayClass = classInSlot || classInTimeRange;
-
-                    return (
-                      <td
-                        key={`${day}-${timeSlot}`}
-                        className="border border-gray-300 p-2 h-20 relative"
-                      >
-                        {displayClass && (
-                          <div
-                            className=" text-white p-2 rounded text-xs h-full cursor-pointer hover:bg-blue-600 transition-colors"
-                            style={{ backgroundColor: color }}
-                            onClick={() =>
-                              onRemoveClass(
-                                displayClass.class_code,
-                                displayClass.day_time
-                              )
-                            }
-                            title="Click to remove"
-                          >
-                            <div className="font-semibold">
-                              {displayClass.class_code}
-                            </div>
-                            <div className="font-semibold">
-                              {displayClass.subject}
-                            </div>
-                            <div className="text-xs opacity-90">
-                              {displayClass.venue}
-                            </div>
-                            <div className="text-xs opacity-75">
-                              {displayClass.subject_code.length > 3
-                                ? "KOKO"
-                                : displayClass.subject_code}
-                            </div>
-
-                            <div className="text-xs opacity-60">
-                              {displayClass.timeSlot}
-                            </div>
-                          </div>
-                        )}
-                      </td>
-                    );
-                  })}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
 
       {/* Selected Classes Summary - Only show if there are classes */}
       {selectedClasses.length > 0 && (
@@ -264,37 +253,40 @@ useEffect(() => {
       )}
 
       <dialog id="colorModal" className="modal">
-  <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
-    <h3 className="text-center font-bold text-lg text-gray-600">
-      Select Color
-    </h3>
+        <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
+          <h3 className="text-center font-bold text-lg text-gray-600">
+            Select Color
+          </h3>
 
-    {/* Form Content */}
-    <div className="mt-4">
-      <SwatchesPicker
-        width={pickerWidth} // responsive width
-        className="rounded-xl mx-auto"
-        color={color}
-        onChange={(colorResult: any) => {
-          setColor(colorResult.hex);
-          (document.getElementById("colorModal") as HTMLDialogElement)?.close();
-        }}
-      />
+          {/* Form Content */}
+          <div className="mt-4">
+            <SwatchesPicker
+              width={pickerWidth} // responsive width
+              className="rounded-xl mx-auto"
+              color={color}
+              onChange={(colorResult: any) => {
+                setColor(colorResult.hex);
+                (
+                  document.getElementById("colorModal") as HTMLDialogElement
+                )?.close();
+              }}
+            />
 
-      <div className="modal-action flex justify-center mt-4">
-        <button
-          className="btn btn-sm btn-outline"
-          onClick={() =>
-            (document.getElementById("colorModal") as HTMLDialogElement)?.close()
-          }
-        >
-          Cancel
-        </button>
-      </div>
-    </div>
-  </div>
-</dialog>
-
+            <div className="modal-action flex justify-center mt-4">
+              <button
+                className="btn btn-sm btn-outline"
+                onClick={() =>
+                  (
+                    document.getElementById("colorModal") as HTMLDialogElement
+                  )?.close()
+                }
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </dialog>
     </div>
   );
 };
