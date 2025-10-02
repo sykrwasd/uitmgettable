@@ -206,61 +206,63 @@ export default function Home() {
 
   // Add class to timetable
 
-  const addClass = (classItem: Group) => {
-    const sameClasses = fetchGroup.filter(
-      (c) => c.class_code === classItem.class_code
+const addClass = (classItem: Group) => {
+  const sameClasses = fetchGroup.filter(
+    (c) => c.class_code === classItem.class_code
+  );
+
+  let hasConflict = false;
+
+  const newClasses: SelectedClass[] = [];
+
+  sameClasses.forEach((c) => {
+    const parsed = parseDayTime(c.day_time);
+    if (!parsed) return;
+
+    // Check conflict
+    const conflict = selectedClasses.find(
+      (sel) => sel.day === parsed.day && sel.timeSlot === parsed.timeSlot
     );
 
-    let hasConflict = false;
+    if (conflict) {
+      hasConflict = true;
+      setResult({
+        result: "error",
+        message: `Conflict detected! "${c.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
+      });
+    } else {
+      newClasses.push({
+        ...c,
+        day: parsed.day,
+        timeSlot: parsed.timeSlot,
+      });
+    }
+  });
 
-    const newClasses: SelectedClass[] = [];
+  if (!hasConflict) {
+    setSelectedClasses((prev) => [...prev, ...newClasses]);
+  }
 
-    sameClasses.forEach((c) => {
-      const parsed = parseDayTime(c.day_time);
-      if (!parsed) return;
-
-      // Check conflict
-      const conflict = selectedClasses.find(
-        (sel) => sel.day === parsed.day && sel.timeSlot === parsed.timeSlot
-      );
-
-      if (conflict) {
-        hasConflict = true;
+  if (hasConflict) {
+    setTimeout(
+      () =>
         setResult({
-          result: "error",
-          message: `Conflict detected! "${c.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
-        });
-      } else {
-        newClasses.push({
-          ...c,
-          day: parsed.day,
-          timeSlot: parsed.timeSlot,
-        });
-      }
-    });
+          result: "",
+          message: "",
+        }),
+      7000
+    );
+  }
+};
 
-    if (!hasConflict) {
-      setSelectedClasses((prev) => [...prev, ...newClasses]);
-    }
-
-    if (hasConflict) {
-      setTimeout(
-        () =>
-          setResult({
-            result: "",
-            message: "",
-          }),
-        7000
-      );
-    }
-  };
 
   // Remove class from timetable
-  const removeClass = (classCode: string) => {
-    setSelectedClasses((prev) =>
-      prev.filter((cls) => cls.class_code !== classCode)
-    );
-  };
+ const removeClass = (classCode: string) => {
+  setSelectedClasses((prev) =>
+    prev.filter((cls) => cls.class_code !== classCode)
+  );
+};
+
 
   useEffect(() => {
     getCampus();
@@ -273,7 +275,7 @@ export default function Home() {
       const res = await fetch("/api/getCam");
       const data = await res.json();
       setFetchCampus(data);
-      console.log(data);
+      //console.log(data);
     } catch (err) {
       console.error("Failed to fetch data:", err);
     } finally {
@@ -296,9 +298,9 @@ export default function Home() {
   }
 
   async function getSubject(campus: string, faculty: string) {
-    if (campus.includes("( Please Select a Faculty )")) {
-      setSelangor(true);
+    if (campus.includes("( Please Select a Faculty )") || campus.includes("selangor")) {
       campus = "selangor";
+      setSelangor(true);
     } else if (campus.startsWith("SELANGOR")) {
       setSelangor(false);
       campus = campus.split("-")[1]?.trim();
@@ -308,9 +310,10 @@ export default function Home() {
       campus = campus.split("-")[0]?.trim() ?? "";
     }
 
-    //console.log("Campus:", campus);
-    //console.log("Faculty:", faculty);
+    setFaculty(faculty)
+
     setCampus(campus);
+   
 
     try {
       //setLoadingSubjects(true);
@@ -333,8 +336,11 @@ export default function Home() {
   async function getGroup(subjectName: string) {
     const sub = subjectName.toUpperCase();
     //console.log(sub);
+    //console.log("faculty",faculty)
 
     //alert(campus)
+
+    
     try {
       const res = await fetch("/api/getGroup", {
         method: "POST",
@@ -349,7 +355,7 @@ export default function Home() {
 
       const result = await res.json();
 
-      console.log("fetchgroup", result);
+      //console.log("fetchgroup", result);
 
       if (Array.isArray(result)) {
         setFetchGroup(result);
@@ -422,7 +428,9 @@ export default function Home() {
               {selangor && (
                 <select
                   className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  onChange={(e) => setFaculty(e.target.value)}
+                  onChange={(e) => 
+                    getSubject(campus,e.target.value)
+                  }
                 >
                   <option value="">Select Faculty</option>
                   {fetchFaculty.map((row, idx) => (

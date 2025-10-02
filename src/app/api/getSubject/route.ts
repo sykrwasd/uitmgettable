@@ -3,24 +3,29 @@ import * as cheerio from "cheerio";
 
 export async function POST(req: Request) {
   try {
-    const campus = await req.json();
-    console.log("RECEIVEDEASAD", campus.campus);
+    const {campus:originalCampus,faculty} = await req.json();
+    console.log("RECEIVEDEASAD", originalCampus);
+    console.log(faculty)
 
-    if (campus.campus === "LANGUAGE COURSES") {
-      campus.campus;
-    } else if (campus.campus === "CITU COURSES") {
-      campus.campus = "CITU";
-    } else if (campus.campus === "CO") {
-      campus.campus = "HEP";
-    } else if (campus.campus === "selangor") {
-      campus.campus = "B";
+     let campus = originalCampus;
+
+    if (campus === "LANGUAGE COURSES") {
+      campus;
+    } else if (campus === "CITU COURSES") {
+      campus = "CITU";
+    } else if (campus === "CO") {
+      campus = "HEP";
+    } else if (campus === "selangor") {
+      campus = "B";
     }
+
+
 
     const url =
       "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
     const payload = new URLSearchParams({
-      search_campus: `${campus.campus}`, // APB,CITU,HEP
-      search_faculty: "",
+      search_campus: `${campus}`, // APB,CITU,HEP
+      search_faculty:`${faculty}`,
       search_course: "",
       captcha_no_type: "",
       captcha1: "",
