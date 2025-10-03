@@ -3,7 +3,6 @@ export async function getCampus() {
   const res = await fetch("/api/getCam");
   if (!res.ok) throw new Error("Failed to fetch");
   const data = await res.json();
-  console.log(data);
   return data;
 }
 
@@ -11,7 +10,6 @@ export async function getFaculty() {
   const res = await fetch("/api/getFac");
   if (!res.ok) throw new Error("Failed to fetch");
   const data = await res.json();
-  console.log(data);
   return data;
 }
 
@@ -24,7 +22,6 @@ export async function getSubject(campus:string,faculty:string) {
       });
   if (!res.ok) throw new Error("Failed to fetch ");
   const data = await res.json();
-  console.log(data);
   return data;
 }
 
@@ -38,9 +35,8 @@ export async function getGroup(campus:string,faculty:string,subject:string) {
           campus,
           faculty,
         }),
-        // send both subject & path
       });
 
-  if (!res.ok) throw new Error("Failed to add item");
+ 
   return res.json();
 }

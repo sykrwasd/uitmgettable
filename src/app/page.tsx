@@ -5,17 +5,12 @@ import Timetable from "@/components/timetable";
 import { FaGithub } from "react-icons/fa";
 import OrderErrorPopup from "@/components/orderError";
 import Select from "react-select";
-import { getCampus, getFaculty, getGroup, getSubject } from "@/lib/api";
-
-type Campus = {
-  id: string;
-  text: string;
-};
-
-type Faculty = {
-  text: string;
-  id: string;
-};
+import { getGroup, getSubject } from "@/lib/api";
+import { useCampus } from "./hooks/useCampus";
+import { useFaculty } from "./hooks/useFaculty";
+import { useSubjects } from "./hooks/useSubjects";
+import { parseCampus } from "@/lib/utils";
+import { useGroups } from "./hooks/useGroups";
 
 type Group = {
   no: string;
@@ -35,18 +30,7 @@ type SelectedClass = Group & {
   timeSlot: string;
 };
 
-type Subject = {
-  course: string;
-  href: string;
-};
-
 export default function Home() {
-  const [fetchCampus, setFetchCampus] = useState<Campus[]>([]);
-  const [fetchFaculty, setFetchFaculty] = useState<Faculty[]>([]);
-  const [loadingCampus, setLoadingCampus] = useState(true);
-  const [loadingSubjects, setLoadingSubjects] = useState(false);
-  const [fetchSubjects, setFetchSubjects] = useState<Subject[]>([]);
-  const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
   const [selectedClasses, setSelectedClasses] = useState<SelectedClass[]>([]);
   const [subjectName, setSubjectName] = useState("");
   const [campus, setCampus] = useState("");
@@ -54,9 +38,18 @@ export default function Home() {
     result: "",
     message: "",
   });
-  const [selangor, setSelangor] = useState(false);
   const [faculty, setFaculty] = useState("");
   const [searchGroup, setSearchGroup] = useState("");
+  const { fetchCampus, loadingCampus } = useCampus();
+  const { fetchFaculty } = useFaculty();
+  const { fetchSubjects, loadingSubjects } = useSubjects(campus, faculty);
+  const [selangor, setSelangor] = useState(false);
+  const [search, setSearch] = useState(false);
+  const { fetchGroup } = useGroups(
+    search ? campus : "",
+    search ? faculty : "",
+    search ? subjectName : ""
+  );
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -281,88 +274,60 @@ export default function Home() {
     );
   };
 
-  useEffect(() => {
-    getCampus().then(setFetchCampus);
-    getFaculty().then(setFetchFaculty);
-    //getTimetable();
-  }, []);
-
-  async function handleSubject(campus: string, faculty: string) {
-    if (
-      campus.includes("( Please Select a Faculty )") ||
-      campus.includes("selangor")
-    ) {
-      campus = "selangor";
-      setSelangor(true);
-    } else if (campus.startsWith("SELANGOR")) {
-      setSelangor(false);
-      campus = campus.split("-")[1]?.trim();
-    } else {
-      setFaculty("");
-      setSelangor(false);
-      campus = campus.split("-")[0]?.trim() ?? "";
-    }
-
-    setFaculty(faculty);
+  function handleCampusChange(selected: string) {
+    const { campus, selangor } = parseCampus(selected);
     setCampus(campus);
-
-    try {
-      getSubject(campus, faculty).then(setFetchSubjects);
-    } catch (e) {
-      console.error(e);
-    } finally {
-      setLoadingSubjects(true);
-    }
+    setSelangor(selangor);
   }
 
-  async function handleGroup(subjectName: string) {
-    const sub = subjectName.toUpperCase();
+  // async function handleGroup(subjectName: string) {
+  //   const sub = subjectName.toUpperCase();
 
-    try {
-      const result = await getGroup(campus, faculty, sub);
+  //   try {
+  //     const result = await getGroup(campus, faculty, sub);
 
-      //console.log("fetchgroup", result);
+  //     //console.log("fetchgroup", result);
 
-      if (Array.isArray(result)) {
-        setFetchGroup(result);
-      } else {
-        //console.error("Expected array but got:", result);
-        setFetchGroup([]);
-        setResult({
-          result: "error",
-          message: "Subject does not exist",
-        });
-        setTimeout(
-          () =>
-            setResult({
-              result: "",
-              message: "",
-            }),
-          1000
-        );
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
+  //     if (Array.isArray(result)) {
+  //       setFetchGroup(result);
+  //     } else {
+  //       //console.error("Expected array but got:", result);
+  //       setFetchGroup([]);
+  //       setResult({
+  //         result: "error",
+  //         message: "Subject does not exist",
+  //       });
+  //       setTimeout(
+  //         () =>
+  //           setResult({
+  //             result: "",
+  //             message: "",
+  //           }),
+  //         1000
+  //       );
+  //     }
+  //   } catch (e) {
+  //     console.error(e);
+  //   }
+  // }
 
-  async function getTimetable() {
-    try {
-      setLoadingCampus(true);
-      const res = await fetch("/api/getTimetable");
-      const data = await res.json();
-      const firstClass = data[0];
-      if (firstClass) {
-        addClass(firstClass);
-      }
+  // async function getTimetable() {
+  //   try {
+  //     setLoadingCampus(true);
+  //     const res = await fetch("/api/getTimetable");
+  //     const data = await res.json();
+  //     const firstClass = data[0];
+  //     if (firstClass) {
+  //       addClass(firstClass);
+  //     }
 
-      console.log("fetchtimetable", data);
-    } catch (err) {
-      console.error("Failed to fetch data:", err);
-    } finally {
-      setLoadingCampus(false);
-    }
-  }
+  //     console.log("fetchtimetable", data);
+  //   } catch (err) {
+  //     console.error("Failed to fetch data:", err);
+  //   } finally {
+  //     setLoadingCampus(false);
+  //   }
+  // }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
@@ -393,7 +358,7 @@ export default function Home() {
                 <>
                   <select
                     className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                    onChange={(e) => handleSubject(e.target.value, faculty)}
+                    onChange={(e) => handleCampusChange(e.target.value)}
                   >
                     <option value="">Select Campus</option>
                     {fetchCampus.map((row, idx) => (
@@ -402,21 +367,20 @@ export default function Home() {
                       </option>
                     ))}
                   </select>
+                  {selangor && (
+                    <select
+                      className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+                      onChange={(e) => setFaculty(e.target.value)}
+                    >
+                      <option value="">Select Faculty</option>
+                      {fetchFaculty.map((row, idx) => (
+                        <option key={idx} value={row.id} className="text-black">
+                          {row.text}
+                        </option>
+                      ))}
+                    </select>
+                  )}
                 </>
-              )}
-
-              {selangor && (
-                <select
-                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  onChange={(e) => handleSubject(campus, e.target.value)}
-                >
-                  <option value="">Select Faculty</option>
-                  {fetchFaculty.map((row, idx) => (
-                    <option key={idx} value={row.id} className="text-black">
-                      {row.text}
-                    </option>
-                  ))}
-                </select>
               )}
 
               {/* Subject dropdown */}
@@ -438,7 +402,7 @@ export default function Home() {
                     }}
                   />
                   <button
-                    onClick={() => handleGroup(subjectName)}
+                    onClick={() => setSearch(true)}
                     className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
                   >
                     Search
