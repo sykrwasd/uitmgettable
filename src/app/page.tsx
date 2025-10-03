@@ -5,6 +5,7 @@ import Timetable from "@/components/timetable";
 import { FaGithub } from "react-icons/fa";
 import OrderErrorPopup from "@/components/orderError";
 import Select from "react-select";
+import { getCampus, getFaculty, getGroup, getSubject } from "@/lib/api";
 
 type Campus = {
   id: string;
@@ -26,6 +27,7 @@ type Group = {
   subject_code: string;
   faculty: string;
   subject: string;
+  lecturer?: string;
 };
 
 type SelectedClass = Group & {
@@ -206,99 +208,90 @@ export default function Home() {
 
   // Add class to timetable
 
-const addClass = (classItem: Group) => {
-  const sameClasses = fetchGroup.filter(
-    (c) => c.class_code === classItem.class_code
-  );
+  const addClass = (classItem: Group) => {
+    console.log("Received:\n" + JSON.stringify(classItem, null, 2));
 
-  let hasConflict = false;
-
-  const newClasses: SelectedClass[] = [];
-
-  sameClasses.forEach((c) => {
-    const parsed = parseDayTime(c.day_time);
-    if (!parsed) return;
-
-    // Check conflict
-    const conflict = selectedClasses.find(
-      (sel) => sel.day === parsed.day && sel.timeSlot === parsed.timeSlot
+    const sameClasses = fetchGroup.filter(
+      (c) => c.class_code === classItem.class_code
     );
 
-    if (conflict) {
-      hasConflict = true;
-      setResult({
-        result: "error",
-        message: `Conflict detected! "${c.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
-      });
-    } else {
-      newClasses.push({
-        ...c,
-        day: parsed.day,
-        timeSlot: parsed.timeSlot,
-      });
-    }
-  });
+    let hasConflict = false;
+    const newClasses: SelectedClass[] = [];
 
-  if (!hasConflict) {
-    setSelectedClasses((prev) => [...prev, ...newClasses]);
-  }
+    sameClasses.forEach((c) => {
+      const parsed = parseDayTime(c.day_time);
+      if (!parsed) return;
 
-  if (hasConflict) {
-    setTimeout(
-      () =>
+      console.log("parsed", parsed);
+
+      const alreadySelected = selectedClasses.some(
+        (sel) => sel.class_code === c.class_code && sel.day_time === c.day_time
+      );
+
+      if (alreadySelected) {
+        console.log(`Skipped duplicate: ${c.class_code} ${c.day_time}`);
+        return; // skip adding
+      }
+
+      const conflict = selectedClasses.find(
+        (sel) => sel.day === parsed.day && sel.timeSlot === parsed.timeSlot
+      );
+
+      console.log(conflict);
+
+      if (conflict) {
+        hasConflict = true;
+        console.log("here");
         setResult({
-          result: "",
-          message: "",
-        }),
-      7000
-    );
-  }
-};
+          result: "error",
+          message: `Conflict detected! "${c.class_code}" overlaps with "${conflict.class_code}" on ${parsed.day} ${parsed.timeSlot}`,
+        });
+      } else {
+        newClasses.push({
+          ...c,
+          day: parsed.day,
+          timeSlot: parsed.timeSlot,
+        });
+        console.log("newclass", newClasses);
+      }
+    });
 
+    if (!hasConflict && newClasses.length > 0) {
+      setSelectedClasses((prev) => [...prev, ...newClasses]);
+    }
+
+    console.log("selected class", selectedClasses);
+
+    if (hasConflict) {
+      setTimeout(
+        () =>
+          setResult({
+            result: "",
+            message: "",
+          }),
+        7000
+      );
+    }
+  };
 
   // Remove class from timetable
- const removeClass = (classCode: string) => {
-  setSelectedClasses((prev) =>
-    prev.filter((cls) => cls.class_code !== classCode)
-  );
-};
-
+  const removeClass = (classCode: string) => {
+    setSelectedClasses((prev) =>
+      prev.filter((cls) => cls.class_code !== classCode)
+    );
+  };
 
   useEffect(() => {
-    getCampus();
-    getFaculty();
+    getCampus().then(setFetchCampus);
+    getFaculty().then(setFetchFaculty);
+    //getTimetable();
   }, []);
 
-  async function getCampus() {
-    try {
-      setLoadingCampus(true);
-      const res = await fetch("/api/getCam");
-      const data = await res.json();
-      setFetchCampus(data);
-      //console.log(data);
-    } catch (err) {
-      console.error("Failed to fetch data:", err);
-    } finally {
-      setLoadingCampus(false);
-    }
-  }
-
-  async function getFaculty() {
-    try {
-      setLoadingCampus(true);
-      const res = await fetch("/api/getFac");
-      const data = await res.json();
-      setFetchFaculty(data);
-      //console.log("faculty fetyched",data);
-    } catch (err) {
-      console.error("Failed to fetch data:", err);
-    } finally {
-      setLoadingCampus(false);
-    }
-  }
-
-  async function getSubject(campus: string, faculty: string) {
-    if (campus.includes("( Please Select a Faculty )") || campus.includes("selangor")) {
+  async function handleSubject(campus: string, faculty: string) {
+    if (
+      campus.includes("( Please Select a Faculty )") ||
+      campus.includes("selangor")
+    ) {
       campus = "selangor";
       setSelangor(true);
     } else if (campus.startsWith("SELANGOR")) {
@@ -310,22 +303,11 @@ const addClass = (classItem: Group) => {
       campus = campus.split("-")[0]?.trim() ?? "";
     }
 
-    setFaculty(faculty)
-
+    setFaculty(faculty);
     setCampus(campus);
-   
 
     try {
-      //setLoadingSubjects(true);
-      const res = await fetch("/api/getSubject", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ campus, faculty }),
-      });
-
-      const data = await res.json();
-      setFetchSubjects(data);
-      //  console.log("fetch subjects", data);
+      getSubject(campus, faculty).then(setFetchSubjects);
     } catch (e) {
       console.error(e);
     } finally {
@@ -333,27 +315,11 @@ const addClass = (classItem: Group) => {
     }
   }
 
-  async function getGroup(subjectName: string) {
+  async function handleGroup(subjectName: string) {
     const sub = subjectName.toUpperCase();
-    //console.log(sub);
-    //console.log("faculty",faculty)
 
-    //alert(campus)
-
-    
     try {
-      const res = await fetch("/api/getGroup", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          subjectName: sub,
-          campus,
-          faculty,
-        }),
-        // send both subject & path
-      });
-
-      const result = await res.json();
+      const result = await getGroup(campus, faculty, sub);
 
       //console.log("fetchgroup", result);
 
@@ -362,10 +328,6 @@ const addClass = (classItem: Group) => {
       } else {
         //console.error("Expected array but got:", result);
         setFetchGroup([]);
-      }
-
-      if (res.ok) {
-      } else {
         setResult({
           result: "error",
           message: "Subject does not exist",
@@ -377,10 +339,28 @@ const addClass = (classItem: Group) => {
               message: "",
             }),
           1000
-        ); // auto hide after 3s
+        );
       }
     } catch (e) {
       console.error(e);
+    }
+  }
+
+  async function getTimetable() {
+    try {
+      setLoadingCampus(true);
+      const res = await fetch("/api/getTimetable");
+      const data = await res.json();
+      const firstClass = data[0];
+      if (firstClass) {
+        addClass(firstClass);
+      }
+
+      console.log("fetchtimetable", data);
+    } catch (err) {
+      console.error("Failed to fetch data:", err);
+    } finally {
+      setLoadingCampus(false);
     }
   }
 
@@ -413,7 +393,7 @@ const addClass = (classItem: Group) => {
                 <>
                   <select
                     className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                    onChange={(e) => getSubject(e.target.value, faculty)}
+                    onChange={(e) => handleSubject(e.target.value, faculty)}
                   >
                     <option value="">Select Campus</option>
                     {fetchCampus.map((row, idx) => (
@@ -428,9 +408,7 @@ const addClass = (classItem: Group) => {
               {selangor && (
                 <select
                   className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                  onChange={(e) => 
-                    getSubject(campus,e.target.value)
-                  }
+                  onChange={(e) => handleSubject(campus, e.target.value)}
                 >
                   <option value="">Select Faculty</option>
                   {fetchFaculty.map((row, idx) => (
@@ -460,7 +438,7 @@ const addClass = (classItem: Group) => {
                     }}
                   />
                   <button
-                    onClick={() => getGroup(subjectName)}
+                    onClick={() => handleGroup(subjectName)}
                     className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
                   >
                     Search
