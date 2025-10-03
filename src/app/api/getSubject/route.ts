@@ -1,76 +1,111 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 
+async function fetchSubjects(campus: string, faculty: string) {
+  let processedCampus = campus;
+
+  if (campus === "LANGUAGE COURSES") {
+    processedCampus = "APB";
+  } else if (campus === "CITU COURSES") {
+    processedCampus = "CITU";
+  } else if (campus === "CO") {
+    processedCampus = "HEP";
+  } else if (campus === "selangor") {
+    processedCampus = "B";
+  }
+
+  const url =
+    "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
+  
+  const payload = new URLSearchParams({
+    search_campus: `${processedCampus}`, // APB,CITU,HEP,B
+    search_faculty: `${faculty}`,
+    search_course: "",
+    captcha_no_type: "sss",
+    token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
+    token2: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
+    token3: "lIIlllIlIIlIllIIIIlllIlIlI",
+    llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
+    llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIlllIlIll",
+    lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
+  });
+
+  const res = await axios.post(url, payload.toString(), {
+    headers: {
+      "User-Agent": "Mozilla/5.0",
+      "Content-Type": "application/x-www-form-urlencoded",
+      Referer:
+        "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
+    },
+  });
+
+  const $ = cheerio.load(res.data);
+
+  const rows: any[] = [];
+  $("table tr").each((_, tr) => {
+    const cells = $(tr).find("td");
+    if (cells.length === 3) {
+      const href = $(cells[2]).find("a").attr("href"); // grab href
+      rows.push({
+        no: $(cells[0]).text().trim(),
+        course: $(cells[1]).text().trim(),
+        href: href || null,
+      });
+    }
+  });
+
+  console.log("Fetched subjects:", rows.length);
+  return rows;
+}
+
 export async function POST(req: Request) {
   try {
-    const {campus:originalCampus,faculty} = await req.json();
-    console.log("RECEIVEDEASAD", originalCampus);
-    console.log(faculty)
+    const { campus: originalCampus, faculty } = await req.json();
+    console.log("POST - Received campus:", originalCampus);
+    console.log("POST - Received faculty:", faculty);
 
-     let campus = originalCampus;
-
-    if (campus === "LANGUAGE COURSES") {
-      campus;
-    } else if (campus === "CITU COURSES") {
-      campus = "CITU";
-    } else if (campus === "CO") {
-      campus = "HEP";
-    } else if (campus === "selangor") {
-      campus = "B";
-    }
-
-
-
-    const url =
-      "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
-    const payload = new URLSearchParams({
-      search_campus: `${campus}`, // APB,CITU,HEP
-      search_faculty:`${faculty}`,
-      search_course: "",
-      captcha_no_type: "",
-      captcha1: "",
-      captcha2: "",
-      captcha3: "",
-      token1:
-        "ey7JhbGciOiJbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA1ODY3NjcsImV4cCI6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbIi9jb252aWQxOS9zYXJpbmdhbmhhcmlhbi9ieS9ub3Bla2VyamEiLCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsli9zaW1zL3N0YWZmIiwiL2hlYS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw",
-      token2:
-        "I6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbI19jb252aWQxOS9zYXJpbmdhbmhhcmlhbi9ieS9ub3Bla2VyamE1LCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsli9zaW1zL3N0YWZmIiwiL2hlYS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw",
-      token3:
-        "Byb2ZpbGiJIUzI1NjIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA1ODY3NjcsImV4cCI6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbIi9jb252aWQxOS9zYXJpbmdh b3Bla2VyamEiLCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsIi9zaWizL3N0YWZmIiwiL2h1YS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw",
-    });
-    const res = await axios.post(url, payload.toString(), {
-      headers: {
-        "User-Agent": "Mozilla/5.0",
-        "Content-Type": "application/x-www-form-urlencoded",
-        Referer:
-          "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
-      },
-    });
-
-    const $ = cheerio.load(res.data);
-
-    const rows: any[] = [];
-    $("table tr").each((_, tr) => {
-      const cells = $(tr).find("td");
-      if (cells.length === 3) {
-        const href = $(cells[2]).find("a").attr("href"); // grab href
-        rows.push({
-          no: $(cells[0]).text().trim(),
-          course: $(cells[1]).text().trim(),
-          href: href || null,
-        });
-      }
-    });
-
-    console.log(rows);
+    const rows = await fetchSubjects(originalCampus, faculty);
 
     return new Response(JSON.stringify(rows), {
       status: 200,
+      headers: { "Content-Type": "application/json" },
     });
   } catch (err) {
-    console.error("Error adding item:", err);
-    return new Response(JSON.stringify({ error: "Failed to fetch subject" }), {
+    console.error("Error in POST /api/getSubject:", err);
+    return new Response(JSON.stringify({ error: "Failed to fetch subjects" }), {
       status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+}
+
+export async function GET(req: Request) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const campus = searchParams.get("campus") || "";
+    const faculty = searchParams.get("faculty") || "";
+
+    console.log("GET - Received campus:", campus);
+    console.log("GET - Received faculty:", faculty);
+
+    if (!campus) {
+      return new Response(JSON.stringify({ error: "Campus parameter is required" }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    const rows = await fetchSubjects(campus, faculty);
+
+    return new Response(JSON.stringify(rows), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  } catch (err) {
+    console.error("Error in GET /api/getSubject:", err);
+    return new Response(JSON.stringify({ error: "Failed to fetch subjects" }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
     });
   }
 }
