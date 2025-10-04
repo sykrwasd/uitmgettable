@@ -16,12 +16,12 @@ async function fetchSubjects(campus: string, faculty: string) {
 
   const url =
     "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
-  
+
   const payload = new URLSearchParams({
     search_campus: `${processedCampus}`, // APB,CITU,HEP,B
     search_faculty: `${faculty}`,
     search_course: "",
-    captcha_no_type: "sss",
+    captcha_no_type: "",
     token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
     token2: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
     token3: "lIIlllIlIIlIllIIIIlllIlIlI",
@@ -65,6 +65,7 @@ export async function POST(req: Request) {
     console.log("POST - Received faculty:", faculty);
 
     const rows = await fetchSubjects(originalCampus, faculty);
+    console.log(rows)
 
     return new Response(JSON.stringify(rows), {
       status: 200,

@@ -44,12 +44,12 @@ export default function Home() {
   const { fetchFaculty } = useFaculty();
   const { fetchSubjects, loadingSubjects } = useSubjects(campus, faculty);
   const [selangor, setSelangor] = useState(false);
-  const [search, setSearch] = useState(false);
-  const { fetchGroup } = useGroups(
-    search ? campus : "",
-    search ? faculty : "",
-    search ? subjectName : ""
-  );
+ const { fetchGroup, loading: loadingGroup } = useGroups(
+  campus,
+  faculty,
+  subjectName
+);
+
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -401,71 +401,61 @@ export default function Home() {
                       menuPortal: (base) => ({ ...base, zIndex: 9999 }), // keep it on top
                     }}
                   />
-                  <button
-                    onClick={() => setSearch(true)}
-                    className="w-full sm:w-auto px-4 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"
-                  >
-                    Search
-                  </button>
+                
                 </div>
               )}
             </div>
 
             {/* Available Classes */}
-            {fetchGroup.length > 0 && (
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-4">
-                  Available Classes
-                </h3>
+           {/* Available Classes */}
+<div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+    Available Classes
+  </h3>
 
-                <input
-                  type="text"
-                  placeholder="Search class"
-                  value={searchGroup}
-                  onChange={(e) => setSearchGroup(e.target.value)}
-                  className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20 mb-3"
-                />
-                <div className="space-y-2 max-h-96 overflow-y-auto">
-                  {fetchGroup
-                    .filter((row) =>
-                      row.class_code
-                        .toLowerCase()
-                        .includes(searchGroup.toLowerCase())
-                    )
-                    .map((row) => {
-                      const isSelected = selectedClasses.some(
-                        (cls) =>
-                          cls.class_code === row.class_code &&
-                          cls.day_time === row.day_time
-                      );
+  {loadingGroup ? (
+    <div className="flex justify-center items-center py-10">
+      <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+    </div>
+  ) : fetchGroup.length === 0 ? (
+    <p className="text-gray-500">No classes available</p>
+  ) : (
+    <div className="space-y-2 max-h-96 overflow-y-auto">
+      {fetchGroup
+        .filter((row) =>
+          row.class_code.toLowerCase().includes(searchGroup.toLowerCase())
+        )
+        .map((row) => {
+          const isSelected = selectedClasses.some(
+            (cls) =>
+              cls.class_code === row.class_code &&
+              cls.day_time === row.day_time
+          );
 
-                      return (
-                        <div
-                          key={`${row.class_code}-${row.day_time}`}
-                          onClick={() => addClass(row)}
-                          className={`p-3 rounded-lg cursor-pointer transition-all ${
-                            isSelected
-                              ? "bg-green-500/20 border border-green-300/50"
-                              : "bg-white/50 hover:bg-green-300/30 border border-black/20"
-                          }`}
-                        >
-                          <div className="text-black  font-medium">
-                            {row.class_code}
-                          </div>
-                          <div className="text-gray-600 text-sm">
-                            {row.day_time} • {row.venue}
-                          </div>
-                          <div className="text-gray-600 text-xs">
-                            {row.subject_code.length > 15
-                              ? "KOKO"
-                              : row.subject_code}
-                          </div>
-                        </div>
-                      );
-                    })}
-                </div>
+          return (
+            <div
+              key={`${row.class_code}-${row.day_time}`}
+              onClick={() => addClass(row)}
+              className={`p-3 rounded-lg cursor-pointer transition-all ${
+                isSelected
+                  ? "bg-green-500/20 border border-green-300/50"
+                  : "bg-white/50 hover:bg-green-300/30 border border-black/20"
+              }`}
+            >
+              <div className="text-black font-medium">{row.class_code}</div>
+              <div className="text-gray-600 text-sm">
+                {row.day_time} • {row.venue}
               </div>
-            )}
+              <div className="text-gray-600 text-xs">
+                {row.subject_code.length > 15 ? "KOKO" : row.subject_code}
+              </div>
+            </div>
+          );
+        })}
+    </div>
+  )}
+</div>
+
 
             {/* Debug Info */}
             {/* {selectedClasses.length > 0 && (

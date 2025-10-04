@@ -245,8 +245,8 @@ const Timetable: React.FC<TimetableProps> = ({
       {/* Empty state message */}
       {selectedClasses.length === 0 && (
         <div className="mt-6 text-center py-8">
-          <p className="text-gray-500 text-lg">No classes selected yet</p>
-          <p className="text-gray-400 text-sm mt-2">
+          <p className="text-white text-lg">No classes selected yet</p>
+          <p className="text-white text-sm mt-2">
             Select classes from the left panel to see them in your timetable
           </p>
         </div>

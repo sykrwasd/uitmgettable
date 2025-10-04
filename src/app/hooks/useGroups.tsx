@@ -1,8 +1,5 @@
-"use client";
-
 import { getGroup } from "@/lib/api";
 import { useEffect, useState } from "react";
-
 
 type Group = {
   no: string;
@@ -15,21 +12,21 @@ type Group = {
   faculty: string;
   subject: string;
   lecturer?: string;
-};;
+};
 
-export function useGroups(campus: string, faculty: string, sub:string) {
+export function useGroups(campus: string, faculty: string, sub: string) {
   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
+  const [loading, setLoading] = useState(false); // new loading state
 
- console.log(campus + faculty + sub)
   useEffect(() => {
-    if (!campus || !faculty || !sub) return;
+    if (!campus || !sub) return;
 
-
-    getGroup(campus, faculty,sub)
+    setLoading(true); // start loading
+    getGroup(campus, faculty, sub)
       .then((data) => setFetchGroup(data))
       .catch((err) => console.error(err))
-     
-  }, [campus, faculty,sub]);
+      .finally(() => setLoading(false)); // stop loading
+  }, [campus, faculty, sub]);
 
-  return { fetchGroup };
+  return { fetchGroup, loading };
 }
