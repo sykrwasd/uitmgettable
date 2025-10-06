@@ -83,16 +83,37 @@ async function getURL(subjectName: string, campus: string, faculty: string) {
   const url =
     "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
   const payload = new URLSearchParams({
-    search_campus: `${campus}`, // APB,A,HEP
+    search_campus: `${campus}`, // example: A4, APB, etc.
     search_faculty: `${faculty}`,
     search_course: `${subjectName}`,
     captcha_no_type: "",
+    captcha1: "",
+    captcha2: "",
+    captcha3: "",
     token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
-    token2: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
+    token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     token3: "lIIlllIlIIlIllIIIIlllIlIlI",
     llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
     llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIlllIlIll",
     lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
+    lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
+    lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
+      "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI:
+      "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
   });
 
   const res = await axios.post(url, payload.toString(), {

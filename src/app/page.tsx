@@ -44,12 +44,21 @@ export default function Home() {
   const { fetchFaculty } = useFaculty();
   const { fetchSubjects, loadingSubjects } = useSubjects(campus, faculty);
   const [selangor, setSelangor] = useState(false);
- const { fetchGroup, loading: loadingGroup } = useGroups(
-  campus,
-  faculty,
-  subjectName
-);
+  const { fetchGroup, loading: loadingGroup } = useGroups(
+    campus,
+    faculty,
+    subjectName
+  );
+  const [showReportModal, setShowReportModal] = useState(false);
+  const [reportMessage, setReportMessage] = useState("");
 
+  const handleReportSubmit = () => {
+    if (!reportMessage.trim()) return alert("Please describe the issue.");
+    console.log("User report:", reportMessage);
+    setShowReportModal(false);
+    setReportMessage("");
+    alert("Thank you! Your report has been submitted.");
+  };
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -401,61 +410,65 @@ export default function Home() {
                       menuPortal: (base) => ({ ...base, zIndex: 9999 }), // keep it on top
                     }}
                   />
-                
                 </div>
               )}
             </div>
 
             {/* Available Classes */}
-           {/* Available Classes */}
-<div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-  <h3 className="text-xl font-semibold text-gray-700 mb-4">
-    Available Classes
-  </h3>
+            {/* Available Classes */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                Available Classes
+              </h3>
 
-  {loadingGroup ? (
-    <div className="flex justify-center items-center py-10">
-      <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-    </div>
-  ) : fetchGroup.length === 0 ? (
-    <p className="text-gray-500">No classes available</p>
-  ) : (
-    <div className="space-y-2 max-h-96 overflow-y-auto">
-      {fetchGroup
-        .filter((row) =>
-          row.class_code.toLowerCase().includes(searchGroup.toLowerCase())
-        )
-        .map((row) => {
-          const isSelected = selectedClasses.some(
-            (cls) =>
-              cls.class_code === row.class_code &&
-              cls.day_time === row.day_time
-          );
+              {loadingGroup ? (
+                <div className="flex justify-center items-center py-10">
+                  <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+                </div>
+              ) : fetchGroup.length === 0 ? (
+                <p className="text-gray-500">No classes available</p>
+              ) : (
+                <div className="space-y-2 max-h-96 overflow-y-auto">
+                  {fetchGroup
+                    .filter((row) =>
+                      row.class_code
+                        .toLowerCase()
+                        .includes(searchGroup.toLowerCase())
+                    )
+                    .map((row) => {
+                      const isSelected = selectedClasses.some(
+                        (cls) =>
+                          cls.class_code === row.class_code &&
+                          cls.day_time === row.day_time
+                      );
 
-          return (
-            <div
-              key={`${row.class_code}-${row.day_time}`}
-              onClick={() => addClass(row)}
-              className={`p-3 rounded-lg cursor-pointer transition-all ${
-                isSelected
-                  ? "bg-green-500/20 border border-green-300/50"
-                  : "bg-white/50 hover:bg-green-300/30 border border-black/20"
-              }`}
-            >
-              <div className="text-black font-medium">{row.class_code}</div>
-              <div className="text-gray-600 text-sm">
-                {row.day_time} • {row.venue}
-              </div>
-              <div className="text-gray-600 text-xs">
-                {row.subject_code.length > 15 ? "KOKO" : row.subject_code}
-              </div>
+                      return (
+                        <div
+                          key={`${row.class_code}-${row.day_time}`}
+                          onClick={() => addClass(row)}
+                          className={`p-3 rounded-lg cursor-pointer transition-all ${
+                            isSelected
+                              ? "bg-green-500/20 border border-green-300/50"
+                              : "bg-white/50 hover:bg-green-300/30 border border-black/20"
+                          }`}
+                        >
+                          <div className="text-black font-medium">
+                            {row.class_code}
+                          </div>
+                          <div className="text-gray-600 text-sm">
+                            {row.day_time} • {row.venue}
+                          </div>
+                          <div className="text-gray-600 text-xs">
+                            {row.subject_code.length > 15
+                              ? "KOKO"
+                              : row.subject_code}
+                          </div>
+                        </div>
+                      );
+                    })}
+                </div>
+              )}
             </div>
-          );
-        })}
-    </div>
-  )}
-</div>
-
 
             {/* Debug Info */}
             {/* {selectedClasses.length > 0 && (
@@ -481,7 +494,49 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-center items-center gap-2">
+
+      {/* {showReportModal && (
+  <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-50">
+    <div className="bg-white rounded-2xl shadow-lg w-11/12 max-w-md p-6 relative animate-fadeIn">
+      <h3 className="text-xl font-semibold text-gray-800 mb-3">
+        Report a Problem
+      </h3>
+      <p className="text-gray-600 text-sm mb-4">
+        Please describe the issue or bug you encountered.
+      </p>
+
+      <textarea
+        className="w-full p-3 border border-gray-300 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:outline-none"
+        rows={4}
+        placeholder="Type your message here..."
+        value={reportMessage}
+        onChange={(e) => setReportMessage(e.target.value)}
+      ></textarea>
+
+      <div className="mt-4 flex justify-end gap-2">
+        <button
+          onClick={() => setShowReportModal(false)}
+          className="px-4 py-2 rounded-lg bg-gray-300 hover:bg-gray-400 text-gray-800 transition"
+        >
+          Cancel
+        </button>
+        <button
+          onClick={handleReportSubmit}
+          className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+)} */}
+
+
+     <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-center items-center gap-2">
+        {/* Left - Report button */}
+        {/*    */}
+
+        {/* Center - GitHub */}
         <a
           href="https://github.com/sykrwasd/uitmgettable"
           target="_blank"
@@ -491,6 +546,8 @@ export default function Home() {
           <FaGithub className="w-5 h-5" />
           Fork us on GitHub
         </a>
+
+        {/* Right - Credits */}
         <span className="text-sm text-gray-600">
           by Umar Syakir | DISK UiTM Tapah
         </span>

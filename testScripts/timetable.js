@@ -1,7 +1,7 @@
 import axios from "axios";
 
 async function scrape() {
-  const url = "https://cdn.uitm.edu.my/jadual/baru/MATRIC_NUM.json";
+  const url = "https://cdn.uitm.edu.my/jadual/baru/2023890992.json";
 
   const res = await axios.get(url, {
     headers: {

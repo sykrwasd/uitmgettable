@@ -22,12 +22,30 @@ async function fetchSubjects(campus: string, faculty: string) {
     search_faculty: `${faculty}`,
     search_course: "",
     captcha_no_type: "",
-    token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
-    token2: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
+   token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
+    token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     token3: "lIIlllIlIIlIllIIIIlllIlIlI",
     llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
     llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIlllIlIll",
     lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
+    lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
+    lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
+      "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI:
+      "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
   });
 
   const res = await axios.post(url, payload.toString(), {
