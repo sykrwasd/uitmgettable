@@ -18,8 +18,8 @@ FEATURES
 ⚡ Built with Next.js
 ☁️ Deployed on Netlify
 🔍 Fetches data from:
-🟣 UiTM Official Timetable → https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm
-🟢 UiTM Timetable Mirror → https://uitmtimetable.skrin.xyz/
+* 🟣 UiTM Official Timetable → https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm
+* 🟢 UiTM Timetable Mirror → https://uitmtimetable.skrin.xyz/
 
 
 GETTING STARTED
