@@ -16,8 +16,8 @@ export async function GET() {
     
     });
 
-    console.log(res.data)
-    console.log(res.data.results)
+    // console.log(res.data)
+    // console.log(res.data.results)
 
      return new Response(JSON.stringify(res.data.results), {
         status: 200,

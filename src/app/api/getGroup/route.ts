@@ -143,10 +143,10 @@ async function getURL(subjectName: string, campus: string, faculty: string) {
     }
   });
 
-  console.log(rows);
+  //console.log(rows);
 
   const subHref = rows.map((sub) => sub.href);
-  console.log("hrefs", subHref[0]);
+  //console.log("hrefs", subHref[0]);
   const subURL = subHref[0];
   return subURL;
 }

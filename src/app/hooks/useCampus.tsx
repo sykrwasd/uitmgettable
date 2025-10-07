@@ -14,6 +14,7 @@ export function useCampus() {
   useEffect(() => {
     getCampus().then((data) => {
       setFetchCampus(data);
+      console.log(data);
       setLoadingCampus(false);
     });
   }, []);

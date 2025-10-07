@@ -1,16 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Timetable from "@/components/timetable";
-import { FaGithub } from "react-icons/fa";
-import OrderErrorPopup from "@/components/orderError";
-import Select from "react-select";
-import { getGroup, getSubject } from "@/lib/api";
 import { useCampus } from "./hooks/useCampus";
 import { useFaculty } from "./hooks/useFaculty";
 import { useSubjects } from "./hooks/useSubjects";
 import { parseCampus } from "@/lib/utils";
 import { useGroups } from "./hooks/useGroups";
+import Footer from "@/components/Footer";
+import CampusSelect from "@/components/CampusSelect";
+import SubjectSelect from "@/components/SubjectSelect";
+import Timetable from "@/components/Timetable";
+import OrderErrorPopup from "@/components/orderError";
+import GroupList from "@/components/GroupList";
 
 type Group = {
   no: string;
@@ -49,16 +50,6 @@ export default function Home() {
     faculty,
     subjectName
   );
-  const [showReportModal, setShowReportModal] = useState(false);
-  const [reportMessage, setReportMessage] = useState("");
-
-  const handleReportSubmit = () => {
-    if (!reportMessage.trim()) return alert("Please describe the issue.");
-    console.log("User report:", reportMessage);
-    setShowReportModal(false);
-    setReportMessage("");
-    alert("Thank you! Your report has been submitted.");
-  };
 
   // Time slots from 8AM to 6PM in 2-hour intervals (used for parsing)
   const timeSlots = [
@@ -289,61 +280,11 @@ export default function Home() {
     setSelangor(selangor);
   }
 
-  // async function handleGroup(subjectName: string) {
-  //   const sub = subjectName.toUpperCase();
-
-  //   try {
-  //     const result = await getGroup(campus, faculty, sub);
-
-  //     //console.log("fetchgroup", result);
-
-  //     if (Array.isArray(result)) {
-  //       setFetchGroup(result);
-  //     } else {
-  //       //console.error("Expected array but got:", result);
-  //       setFetchGroup([]);
-  //       setResult({
-  //         result: "error",
-  //         message: "Subject does not exist",
-  //       });
-  //       setTimeout(
-  //         () =>
-  //           setResult({
-  //             result: "",
-  //             message: "",
-  //           }),
-  //         1000
-  //       );
-  //     }
-  //   } catch (e) {
-  //     console.error(e);
-  //   }
-  // }
-
-  // async function getTimetable() {
-  //   try {
-  //     setLoadingCampus(true);
-  //     const res = await fetch("/api/getTimetable");
-  //     const data = await res.json();
-  //     const firstClass = data[0];
-  //     if (firstClass) {
-  //       addClass(firstClass);
-  //     }
-
-  //     console.log("fetchtimetable", data);
-  //   } catch (err) {
-  //     console.error("Failed to fetch data:", err);
-  //   } finally {
-  //     setLoadingCampus(false);
-  //   }
-  // }
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
-      {/* Animated background elements */}{" "}
       <div className="relative  min-h-screen p-4">
         {/* Header section */}
         <div className="text-center mb-8 space-y-4">
@@ -355,134 +296,41 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Main content grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {/* Left column - Selection controls */}
           <div className="lg:col-span-1 space-y-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 space-y-4">
-              {/* Campus dropdown */}
-              {loadingCampus ? (
-                <p className="text-gray-700 mb-4">Loading campuses...</p>
-              ) : (
-                <>
-                  <select
-                    className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                    onChange={(e) => handleCampusChange(e.target.value)}
-                  >
-                    <option value="">Select Campus</option>
-                    {fetchCampus.map((row, idx) => (
-                      <option key={idx} value={row.text} className="text-black">
-                        {row.text}
-                      </option>
-                    ))}
-                  </select>
-                  {selangor && (
-                    <select
-                      className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                      onChange={(e) => setFaculty(e.target.value)}
-                    >
-                      <option value="">Select Faculty</option>
-                      {fetchFaculty.map((row, idx) => (
-                        <option key={idx} value={row.id} className="text-black">
-                          {row.text}
-                        </option>
-                      ))}
-                    </select>
-                  )}
-                </>
-              )}
+              <CampusSelect
+                loadingCampus={loadingCampus}
+                fetchCampus={fetchCampus}
+                handleCampusChange={handleCampusChange}
+                selangor={selangor}
+                setFaculty={setFaculty}
+                fetchFaculty={fetchFaculty}
+              />
 
-              {/* Subject dropdown */}
-              {loadingSubjects && (
-                <div className="flex flex-col sm:flex-row gap-2 w-full">
-                  <Select
-                    options={fetchSubjects.map((row) => ({
-                      value: row.course,
-                      label: row.course,
-                    }))}
-                    onChange={(selected) =>
-                      setSubjectName(selected?.value ?? "")
-                    }
-                    placeholder="Select Subject"
-                    className="w-full "
-                    menuPortalTarget={document.body}
-                    styles={{
-                      menuPortal: (base) => ({ ...base, zIndex: 9999 }), // keep it on top
-                    }}
-                  />
-                </div>
-              )}
+              <SubjectSelect
+                loadingSubjects={loadingSubjects}
+                fetchSubjects={fetchSubjects}
+                setSubjectName={setSubjectName}
+              ></SubjectSelect>
             </div>
 
-            {/* Available Classes */}
-            {/* Available Classes */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h3 className="text-xl font-semibold text-gray-700 mb-4">
                 Available Classes
               </h3>
 
-              {loadingGroup ? (
-                <div className="flex justify-center items-center py-10">
-                  <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-                </div>
-              ) : fetchGroup.length === 0 ? (
-                <p className="text-gray-500">No classes available</p>
-              ) : (
-                <div className="space-y-2 max-h-96 overflow-y-auto">
-                  {fetchGroup
-                    .filter((row) =>
-                      row.class_code
-                        .toLowerCase()
-                        .includes(searchGroup.toLowerCase())
-                    )
-                    .map((row) => {
-                      const isSelected = selectedClasses.some(
-                        (cls) =>
-                          cls.class_code === row.class_code &&
-                          cls.day_time === row.day_time
-                      );
+            <GroupList
+            loadingGroup={loadingGroup}
+            fetchGroup={fetchGroup}
+            searchGroup={searchGroup}
+            setSearchGroup={setSearchGroup}
+            selectedClasses={selectedClasses}
+            addClass={addClass}
+            ></GroupList>
 
-                      return (
-                        <div
-                          key={`${row.class_code}-${row.day_time}`}
-                          onClick={() => addClass(row)}
-                          className={`p-3 rounded-lg cursor-pointer transition-all ${
-                            isSelected
-                              ? "bg-green-500/20 border border-green-300/50"
-                              : "bg-white/50 hover:bg-green-300/30 border border-black/20"
-                          }`}
-                        >
-                          <div className="text-black font-medium">
-                            {row.class_code}
-                          </div>
-                          <div className="text-gray-600 text-sm">
-                            {row.day_time} • {row.venue}
-                          </div>
-                          <div className="text-gray-600 text-xs">
-                            {row.subject_code.length > 15
-                              ? "KOKO"
-                              : row.subject_code}
-                          </div>
-                        </div>
-                      );
-                    })}
-                </div>
-              )}
+
             </div>
-
-            {/* Debug Info */}
-            {/* {selectedClasses.length > 0 && (
-              <div className="bg-yellow-100/20 backdrop-blur-sm rounded-lg p-4">
-                <h4 className="text-sm font-semibold text-yellow-200 mb-2">Debug: Selected Classes ({selectedClasses.length})</h4>
-                <div className="text-xs text-yellow-300 space-y-1">
-                  {selectedClasses.map((cls, idx) => (
-                    <div key={idx}>
-                      {cls.class_code}: Day=&quot;{cls.day}&quot;, TimeSlot=&quot;{cls.timeSlot}&quot;, Original=&quot;{cls.day_time}&quot;
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )} */}
           </div>
 
           {/* Right column - Timetable */}
@@ -495,63 +343,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* {showReportModal && (
-  <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-50">
-    <div className="bg-white rounded-2xl shadow-lg w-11/12 max-w-md p-6 relative animate-fadeIn">
-      <h3 className="text-xl font-semibold text-gray-800 mb-3">
-        Report a Problem
-      </h3>
-      <p className="text-gray-600 text-sm mb-4">
-        Please describe the issue or bug you encountered.
-      </p>
-
-      <textarea
-        className="w-full p-3 border border-gray-300 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        rows={4}
-        placeholder="Type your message here..."
-        value={reportMessage}
-        onChange={(e) => setReportMessage(e.target.value)}
-      ></textarea>
-
-      <div className="mt-4 flex justify-end gap-2">
-        <button
-          onClick={() => setShowReportModal(false)}
-          className="px-4 py-2 rounded-lg bg-gray-300 hover:bg-gray-400 text-gray-800 transition"
-        >
-          Cancel
-        </button>
-        <button
-          onClick={handleReportSubmit}
-          className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition"
-        >
-          Submit
-        </button>
-      </div>
-    </div>
-  </div>
-)} */}
-
-
-     <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-center items-center gap-2">
-        {/* Left - Report button */}
-        {/*    */}
-
-        {/* Center - GitHub */}
-        <a
-          href="https://github.com/sykrwasd/uitmgettable"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:underline flex items-center gap-1"
-        >
-          <FaGithub className="w-5 h-5" />
-          Fork us on GitHub
-        </a>
-
-        {/* Right - Credits */}
-        <span className="text-sm text-gray-600">
-          by Umar Syakir | DISK UiTM Tapah
-        </span>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }
