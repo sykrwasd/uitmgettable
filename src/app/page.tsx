@@ -9,7 +9,7 @@ import { useGroups } from "./hooks/useGroups";
 import Footer from "@/components/Footer";
 import CampusSelect from "@/components/CampusSelect";
 import SubjectSelect from "@/components/SubjectSelect";
-import Timetable from "@/components/Timetable";
+import Timetable from "@/components/timetable";
 import GroupList from "@/components/GroupList";
 import OrderErrorPopup from "@/components/orderError";
 
