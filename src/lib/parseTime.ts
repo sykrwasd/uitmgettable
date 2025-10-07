@@ -33,7 +33,7 @@ export function parseDayTime(dayTime: string): ParsedDayTime | null {
   const convertTo24 = (timeStr: string): string => {
     const match = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
     if (!match) return timeStr;
-    let [_, hour, min, ampm] = match;
+    const [_, hour, min, ampm] = match;
     let h = parseInt(hour);
     if (ampm.toUpperCase() === "PM" && h !== 12) h += 12;
     if (ampm.toUpperCase() === "AM" && h === 12) h = 0;
