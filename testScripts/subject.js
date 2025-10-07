@@ -3,18 +3,33 @@ import * as cheerio from "cheerio";
 
 async function scrape() {
   const url = "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm"
-  const payload = new URLSearchParams({
-  search_campus: 'B', // APB,CITU,HEP
-  search_faculty: 'SR',
-  search_course: 'SMG313',
+const payload = new URLSearchParams({
+  search_campus: 'A4',
+  search_course: 'mat183',
   captcha_no_type: '',
   captcha1: '',
   captcha2: '',
   captcha3: '',
-  token1: 'ey7JhbGciOiJbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA1ODY3NjcsImV4cCI6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbIi9jb252aWQxOS9zYXJpbmdhbmhhcmlhbi9ieS9ub3Bla2VyamEiLCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsli9zaW1zL3N0YWZmIiwiL2hlYS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw',
-  token2: 'I6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbI19jb252aWQxOS9zYXJpbmdhbmhhcmlhbi9ieS9ub3Bla2VyamE1LCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsli9zaW1zL3N0YWZmIiwiL2hlYS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw',
-  token3: 'Byb2ZpbGiJIUzI1NjIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA1ODY3NjcsImV4cCI6MTc2NjUwNjc2NywicGVnYXdhaV9iZXJ0YW5nZ3VuZ2phd2FiIjoiRmFpZGFoIE1vaGFtbWFkIiwidXNlciI6ImlzdHVkZW50IiwidXJsIjpbIi9jb252aWQxOS9zYXJpbmdh b3Bla2VyamEiLCIvY29udmlkMTkvc2VtYWsvc3RhdHVzL3Zha3NpbiIsIi9zaWizL3N0YWZmIiwiL2h1YS9kb2t1bWVuL3Byb2ZpbGUiXX0.SICKMG-1QLovNxWu5Ab9ZxcskOW32DGvFKUww21Q3rw'
+  token1: 'lIIlllIlIIlIllIIIIIlIlllllIlIll',
+  token2: 'lIIlllIlIllIlIIlIllIIIIlllIllll',
+  token3: 'lIIlllIlIIlIllIIIIllllIlIlI',
+  llIlllIlIIllIlIIIIlllIlIll: 'lIIlllIlIllIlIIlIllIlIIIlllIlIll',
+  llIlllIlIIlllllIIIlllIlIll: 'lIIllIlIlllIlIIlIllIIIIllllIlIll',
+  lIIlllIlIIlIllIIIIlllIlIll: 'lIIlllIlIIlIllIIIIlIllIlllIlIll',
+  lIIlIlllIlIIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllIlIIIIlllIlIlllI',
+  lIIlIlllIlIIllIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllIllIlIIIIlllIlIllI',
+  lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: 'lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI',
+  lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: 'lIIlIllIlIllllIlIIllIlIIIIlllIlIllI',
+  lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI',
+  lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI: 'lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI',
+  lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllIlIlIIlIIllIlIIIIlllIlIllI',
+  llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI',
+  lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI',
+  llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: 'lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI',
+  llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl: 'llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI',
 });
+
+
 
 
     

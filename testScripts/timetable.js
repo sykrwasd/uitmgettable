@@ -1,7 +1,7 @@
 import axios from "axios";
 
 async function scrape() {
-  const url = "https://cdn.uitm.edu.my/jadual/baru/2023890992.json";
+  const url = "https://cdn.uitm.edu.my/jadual/baru/2024441874.json";
 
   const res = await axios.get(url, {
     headers: {
@@ -33,7 +33,7 @@ async function scrape() {
       .filter(Boolean); // remove nulls
 
       console.log(JSON.stringify(res.data, null, 2));
- // console.log(JSON.stringify(reformattedData, null, 2));
+  console.log(JSON.stringify(reformattedData, null, 2));
 }
 
 scrape().catch(console.error);
