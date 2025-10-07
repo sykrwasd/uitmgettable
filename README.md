@@ -25,8 +25,8 @@ FEATURES
 GETTING STARTED
 ---------------
 PREREQUISITES
-   • Node.js >= 18
-   • npm or yarn
+* Node.js >= 18
+* npm or yarn
 
 
 INSTALLATION
