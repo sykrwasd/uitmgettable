@@ -4,7 +4,7 @@ uitmgettable
 🕒 An open-source UiTM Timetable Generator — built for students, by students 🎓
 
 
-[ TECHNOLOGIES ]
+TECHNOLOGIES
 ----------------
 ⚡ Built with Next.js
 ☁️ Deployed on Netlify
