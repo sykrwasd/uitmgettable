@@ -81,16 +81,16 @@ EXAMPLES:
    ✅ Add tests for timetable generator  
 
 COMMON EMOJIS:
-   ✨ :sparkles: → New feature  
-   🐛 :bug: → Bug fix  
-   🎨 :art: → UI / style changes  
-   📝 :memo: → Docs / README updates  
-   🔧 :wrench: → Config changes  
-   ♻️ :recycle: → Refactor code  
-   🚑 :ambulance: → Hotfix / quick patch  
-   ✅ :white_check_mark: → Add/update tests  
-   🔥 :fire: → Remove code/files  
-   📦 :package: → Dependencies update  
+   ✨ → New feature  
+   🐛 → Bug fix  
+   🎨 → UI / style changes  
+   📝 → Docs / README updates  
+   🔧 → Config changes  
+   ♻️ → Refactor code  
+   🚑 → Hotfix / quick patch  
+   ✅ → Add/update tests  
+   🔥 → Remove code/files  
+   📦 → Dependencies update  
 
 
 LICENSE
