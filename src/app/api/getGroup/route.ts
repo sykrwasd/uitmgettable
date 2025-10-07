@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     console.log("📍 Campus:", originalCampus);
 
     // --- Clean & Normalize Inputs ---
-    let cleanSubject = subjectName.replace(/\*/g, "").trim().toUpperCase();
+    const cleanSubject = subjectName.replace(/\*/g, "").trim().toUpperCase();
 
     let campus = originalCampus;
     if (campus === "LANGUAGE COURSES") campus = "APB";
