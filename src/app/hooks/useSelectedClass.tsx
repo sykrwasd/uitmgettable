@@ -49,7 +49,6 @@ export function useSelectedClass(fetchGroup: any[]) {
     });
 
     if (!hasConflict && newClasses.length) {
-        
       setSelectedClasses((prev) => [...prev, ...newClasses]);
     }
 
