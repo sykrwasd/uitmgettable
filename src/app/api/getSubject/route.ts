@@ -18,33 +18,36 @@ async function fetchSubjects(campus: string, faculty: string) {
     "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
 
   const payload = new URLSearchParams({
-    search_campus: `${processedCampus}`, // APB,CITU,HEP,B
+    search_campus: `${processedCampus}`,
     search_faculty: `${faculty}`,
     search_course: "",
     captcha_no_type: "",
-   token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
+    captcha1: "",
+    captcha2: "",
+    captcha3: "",
+    token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
     token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    token3: "lIIlllIlIIlIllIIIIlllIlIlI",
-    llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIIIIlllIlIll",
-    llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIlllIlIll",
+    token3: "lIIlllIlIIlIllIIIIllllIlIlI",
+    llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
+    llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
     lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
-    lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
     lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
     lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
     lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
     lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI",
+      "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
     lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
       "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
     lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+      "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlllIllllI", 
     llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI:
+    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
       "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
   });
 
@@ -83,7 +86,7 @@ export async function POST(req: Request) {
     console.log("POST - Received faculty:", faculty);
 
     const rows = await fetchSubjects(originalCampus, faculty);
-    console.log(rows)
+    console.log(rows);
 
     return new Response(JSON.stringify(rows), {
       status: 200,
@@ -108,10 +111,13 @@ export async function GET(req: Request) {
     console.log("GET - Received faculty:", faculty);
 
     if (!campus) {
-      return new Response(JSON.stringify({ error: "Campus parameter is required" }), {
-        status: 400,
-        headers: { "Content-Type": "application/json" },
-      });
+      return new Response(
+        JSON.stringify({ error: "Campus parameter is required" }),
+        {
+          status: 400,
+          headers: { "Content-Type": "application/json" },
+        }
+      );
     }
 
     const rows = await fetchSubjects(campus, faculty);

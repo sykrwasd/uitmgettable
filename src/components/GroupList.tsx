@@ -76,7 +76,7 @@ export default function GroupList({
                       }`}
                     >
                       <div className="text-black font-medium">
-                        {row.class_code}
+                        {row.class_code.replace(/\*/g, "").trim()}
                       </div>
                       <div className="text-gray-600 text-sm">
                         {row.day_time} • {row.venue}

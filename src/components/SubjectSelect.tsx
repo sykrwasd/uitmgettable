@@ -25,12 +25,12 @@ setSubjectName
         <div className="flex flex-col sm:flex-row gap-2 w-full">
           <Select
             options={fetchSubjects.map((row) => ({
-              value: row.course,
-              label: row.course,
+              value: row.course.replace(/\*/g, "").trim(),
+              label: row.course.replace(/\*/g, "").trim(),
             }))}
             onChange={(selected) => setSubjectName(selected?.value ?? "")}
             placeholder="Select Subject"
-            className="w-full "
+            className="w-full"
             menuPortalTarget={document.body}
             styles={{
               menuPortal: (base) => ({ ...base, zIndex: 9999 }), 

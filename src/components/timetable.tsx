@@ -190,7 +190,7 @@ const Timetable: React.FC<TimetableProps> = ({
                       }
                       title="Click to remove"
                     >
-                      <div className="font-semibold">{classInSlot.class_code}</div>
+                      <div className="font-semibold">{classInSlot.class_code.replace(/\*/g, "").trim()}</div>
                       <div className="font-semibold">{classInSlot.subject}</div>
                       <div className="text-xs opacity-90">{classInSlot.venue}</div>
                       <div className="text-xs opacity-75">
@@ -225,7 +225,7 @@ const Timetable: React.FC<TimetableProps> = ({
                 className="bg-blue-50 border border-blue-200 rounded p-3"
               >
                 <div className="font-medium text-blue-900">
-                  {cls.class_code}
+                  {cls.class_code.replace(/\*/g, "").trim()}
                 </div>
                 <div className="text-sm text-blue-700">{cls.day_time}</div>
                 <div className="text-sm text-blue-600">{cls.venue}</div>
