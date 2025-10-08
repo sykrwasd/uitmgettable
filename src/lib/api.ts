@@ -40,3 +40,16 @@ export async function getGroup(campus:string,faculty:string,subject:string) {
  
   return res.json();
 }
+
+export async function getTimetable(matricNumber:string) {
+ const res = await fetch("/api/getTimetable", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          matricNumber
+        }),
+      });
+  if (!res.ok) throw new Error("Failed to fetch");
+  const data = await res.json();
+  return data;
+}

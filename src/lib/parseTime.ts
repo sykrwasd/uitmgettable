@@ -1,4 +1,3 @@
-// src/lib/parseDayTime.ts
 export type ParsedDayTime = {
   day: string;
   timeSlot: string;

@@ -61,7 +61,7 @@ export function useSelectedClass(fetchGroup: any[]) {
     setSelectedClasses((prev) => prev.filter((cls) => cls.class_code !== classCode));
   };
 
-   console.log(selectedClasses)
+   //console.log(selectedClasses)
 
   return { selectedClasses, addClass, removeClass, result, setResult };
 }

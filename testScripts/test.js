@@ -79,7 +79,7 @@ async function scrape() {
 
   console.log("Subjects found:", rows.length);
 
-  const subjectName = "mat183";
+  const subjectName = "lcc111";
   const filtered = rows.filter((row) =>
     row.course.toUpperCase().includes(subjectName.toUpperCase())
   );

@@ -16,17 +16,17 @@ type Group = {
 
 export function useGroups(campus: string, faculty: string, sub: string) {
   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
-  const [loading, setLoading] = useState(false); // new loading state
+  const [loadingGroup, setLoadingGroup] = useState(false); // new loading state
 
   useEffect(() => {
     if (!campus || !sub) return;
 
-    setLoading(true); // start loading
+    setLoadingGroup(true); // start loading
     getGroup(campus, faculty, sub)
       .then((data) => setFetchGroup(data))
       .catch((err) => console.error(err))
-      .finally(() => setLoading(false)); // stop loading
+      .finally(() => setLoadingGroup(false)); // stop loading
   }, [campus, faculty, sub]);
 
-  return { fetchGroup, loading };
+  return { fetchGroup, loadingGroup };
 }

@@ -11,6 +11,7 @@ async function scrape() {
   });
 
   const rawData = res.data;
+  //console.log(rawData)
   
  const seen = new Set();
   // Reformat only the dates that have jadual data
@@ -32,7 +33,7 @@ async function scrape() {
       )
       .filter(Boolean); // remove nulls
 
-      console.log(JSON.stringify(res.data, null, 2));
+      //console.log(JSON.stringify(res.data, null, 2));
   console.log(JSON.stringify(reformattedData, null, 2));
 }
 

@@ -13,9 +13,12 @@ type DayData = {
   jadual: JadualClass[];
 };
 
-export async function GET() {
+export async  function POST(req: Request) {
+
+  const {matricNumber} =  await req.json()
+  console.log("received",matricNumber)
   try {
-    const url = "https://cdn.uitm.edu.my/jadual/baru/MATRIC_NUMBER.json";
+    const url = `https://cdn.uitm.edu.my/jadual/baru/${matricNumber}.json`;
 
     const res = await axios.get(url, {
       headers: {
@@ -52,6 +55,7 @@ export async function GET() {
       )
       .filter(Boolean); // remove nulls
 
+      console.log(JSON.stringify(reformattedData, null, 2));
     return new Response(JSON.stringify(reformattedData), {
       status: 200,
     });
