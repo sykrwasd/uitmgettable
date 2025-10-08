@@ -53,12 +53,12 @@ export default function GroupList({
           <div className="space-y-2 max-h-96 overflow-y-auto">
             {fetchGroup.length > 0 &&
               fetchGroup
-                .filter((row) =>
+                .filter((row,idx) =>
                   row.class_code
                     .toLowerCase()
                     .includes(searchGroup.toLowerCase())
                 )
-                .map((row) => {
+                .map((row,idx) => {
                   const isSelected = selectedClasses.some(
                     (cls) =>
                       cls.class_code === row.class_code &&
@@ -67,7 +67,7 @@ export default function GroupList({
 
                   return (
                     <div
-                      key={`${row.class_code}-${row.day_time}`}
+                      key={idx}
                       onClick={() => addClass(row)}
                       className={`p-3 rounded-lg cursor-pointer transition-all ${
                         isSelected

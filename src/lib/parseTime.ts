@@ -35,7 +35,6 @@ export function parseDayTime(dayTime: string): ParsedDayTime | null {
     if (!match) return timeStr;
     const [_, hour, min, ampm] = match;
     let h = parseInt(hour);
-    if (ampm.toUpperCase() === "PM" && h !== 12) h += 12;
     if (ampm.toUpperCase() === "AM" && h === 12) h = 0;
     return `${String(h).padStart(2, "0")}:${min}`;
   };

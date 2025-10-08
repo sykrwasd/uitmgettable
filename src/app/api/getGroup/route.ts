@@ -22,51 +22,62 @@ export async function POST(req: Request) {
     const url =
       "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
 
-    const payload = new URLSearchParams({
-      search_campus: campus, // use dynamic campus
-      search_faculty: faculty,
-      search_course: "",
-      captcha_no_type: "",
-      captcha1: "",
-      captcha2: "",
-      captcha3: "",
-      token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
-      token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-      token3: "lIIlllIlIIlIllIIIIllllIlIlI",
-      llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
-      llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
-      lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
-      lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
-      lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
-      lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
-      lIIlIllIlIllllIlIIllIlIIIIlllIlIllI:
-        "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
-      lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
-      lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
-        "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
-      lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlllIlIllI",
-      llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-      lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-      llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-      llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
-        "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-    });
-
-    // --- Fetch main table ---
-    const res = await axios.post(url, payload.toString(), {
-      headers: {
-        "User-Agent": "Mozilla/5.0",
-        "Content-Type": "application/x-www-form-urlencoded",
-        Referer:
-          "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
-      },
-    });
+   const payload = new URLSearchParams({
+       search_campus: campus,
+       search_course: "",
+       search_faculty: faculty,
+       captcha_no_type: "",
+       captcha1: "",
+       captcha2: "",
+       captcha3: "",
+       token1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
+       token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
+       token3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
+       llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
+       llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
+       lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
+       lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
+       lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
+       lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
+       lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
+       lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
+         "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
+       lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
+         "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
+       lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+         "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
+       llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+         "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+       lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+         "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+       llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
+         "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+       llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
+         "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
+     });
+   
+     // Request headers
+     const res = await axios.post(url, payload.toString(), {
+       headers: {
+         "Accept": "*/*",
+         "Accept-Encoding": "gzip, deflate, br, zstd",
+         "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+         "Cache-Control": "no-cache",
+         "Connection": "keep-alive",
+         "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+         "Origin": "https://simsweb4.uitm.edu.my",
+         "Pragma": "no-cache",
+         "Referer":
+           "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
+         "Sec-Fetch-Dest": "empty",
+         "Sec-Fetch-Mode": "cors",
+         "Sec-Fetch-Site": "same-origin",
+         "User-Agent":
+           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+         "X-Requested-With": "XMLHttpRequest",
+       },
+       withCredentials: true,
+     });
 
     const $ = cheerio.load(res.data);
     const rows: any[] = [];
