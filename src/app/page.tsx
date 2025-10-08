@@ -49,12 +49,14 @@ export default function TimetableSwitcher() {
       <div className="relative min-h-screen p-4">
         {/* Header */}
         <div className="text-center mb-8 space-y-4">
+<div className="text-center mb-8 space-y-4">
           <h1 className="text-4xl font-bold text-gray-600 bg-clip-text">
-            Timetable Builder
+            UitmGetTimetable
           </h1>
           <p className="text-gray-600 font-bold text-lg">
-            Switch between manual or automatic class selection
+            An open source UiTM timetable generator
           </p>
+        </div>
 
           {/* Mode Switch */}
           <div className="flex justify-center items-center gap-3 mt-2">
