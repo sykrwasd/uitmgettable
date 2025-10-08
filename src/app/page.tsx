@@ -66,9 +66,7 @@ export default function TimetableSwitcher() {
                 type="checkbox"
                 className="sr-only peer"
                 checked={mode === "auto"}
-                onChange={() =>
-                  setMode(mode === "manual" ? "auto" : "manual")
-                }
+                onChange={() => setMode(mode === "manual" ? "auto" : "manual")}
               />
               <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:bg-blue-600 transition-all"></div>
               <div
@@ -100,22 +98,21 @@ export default function TimetableSwitcher() {
                   setSubjectName={setSubjectName}
                 />
               </div>
-           ) : (
-  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center border border-yellow-300/30">
-    <h3 className="text-2xl font-bold text-gray-700 mb-2">
-      🚧 Smart Fetch (Under Construction)
-    </h3>
-    <p className="text-gray-600 text-base">
-      This feature is currently being developed. Soon, you’ll be able to
-      automatically fetch your registered classes directly from UiTM’s system!
-    </p>
-    <div className="mt-4 inline-block bg-yellow-200 text-yellow-800 px-4 py-2 rounded-lg font-semibold">
-      Coming Soon 🚀
-    </div>
-  </div>
-)
-
-            }
+            ) : (
+              <div className="backdrop-blur-sm rounded-lg p-6 text-center border bg-yellow-200/50 border-yellow-300/70">
+                <h3 className="text-2xl font-bold text-gray-700 mb-2">
+                  🚧 Smart Fetch (Under Construction)
+                </h3>
+                <p className="text-gray-600 text-base">
+                  This feature is currently being developed. Soon, you’ll be
+                  able to automatically fetch your registered classes directly
+                  from UiTM’s system!
+                </p>
+                <div className="mt-4 inline-block bg-yellow-200 text-yellow-800 px-4 py-2 rounded-lg font-semibold">
+                  Coming Soon 🚀
+                </div>
+              </div>
+            )}
 
             {/* Available Classes List (only for manual) */}
             {mode === "manual" ? (
@@ -134,13 +131,10 @@ export default function TimetableSwitcher() {
                 />
               </div>
             ) : (
-
-               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-gray-700 mb-4">
                   Registered Classes
                 </h3>
-
-                
               </div>
             )}
           </div>
