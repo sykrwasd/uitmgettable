@@ -7,18 +7,16 @@ async function scrape() {
 
   // Updated payload
   const payload = new URLSearchParams({
-    search_campus: "A4",
-    search_course: "",
-    captcha_no_type: "",
-    captcha1: "",
-    captcha2: "",
-    captcha3: "",
+    captcha_no_type: "llIlllIlIIllIlIIIIlllIlIll",
+    captcha1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
+    captcha2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
+    captcha3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     token1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
     token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     token3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
     llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
-    lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
+    lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIIlllIIIIlIllIlllIlIll",
     lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
     lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
     lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
@@ -37,20 +35,23 @@ async function scrape() {
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
       "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
+    search_campus: "A4",
+    search_course: "",
+    lIIIlllIIllll: "lIIIlllIIllll",
   });
 
   // Request headers
   const res = await axios.post(url, payload.toString(), {
     headers: {
-      "Accept": "*/*",
+      Accept: "*/*",
       "Accept-Encoding": "gzip, deflate, br, zstd",
       "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
       "Cache-Control": "no-cache",
-      "Connection": "keep-alive",
+      Connection: "keep-alive",
       "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-      "Origin": "https://simsweb4.uitm.edu.my",
-      "Pragma": "no-cache",
-      "Referer":
+      Origin: "https://simsweb4.uitm.edu.my",
+      Pragma: "no-cache",
+      Referer:
         "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
       "Sec-Fetch-Dest": "empty",
       "Sec-Fetch-Mode": "cors",
@@ -77,14 +78,16 @@ async function scrape() {
     }
   });
 
-  console.log("Subjects found:", rows.length);
+  //console.log("Subjects found:", rows.length);
 
-  const subjectName = "lcc111";
+  const subjectName = "mat133";
   const filtered = rows.filter((row) =>
     row.course.toUpperCase().includes(subjectName.toUpperCase())
   );
 
-  console.log("Filtered:", filtered);
+  //console.log("Filtered:", filtered);
+
+  console.log(rows)
 
   await getGroup(filtered);
 }
@@ -127,7 +130,7 @@ async function getGroup(filtered) {
       }
     });
 
-    console.log(JSON.stringify(rows, null, 2));
+    //console.log(JSON.stringify(rows, null, 2));
   }
 }
 

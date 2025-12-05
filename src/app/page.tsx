@@ -23,7 +23,7 @@ export default function TimetableSwitcher() {
   const [mode, setMode] = useState<string>("manual");
 
   const [subjectName, setSubjectName] = useState("");
-  const [matricNumber,setMatricNumber] = useState("")
+  const [matricNumber, setMatricNumber] = useState("");
   const [campus, setCampus] = useState("");
   const [faculty, setFaculty] = useState("");
   const [searchGroup, setSearchGroup] = useState("");
@@ -32,9 +32,10 @@ export default function TimetableSwitcher() {
   const { fetchCampus, loadingCampus } = useCampus();
   const { fetchFaculty } = useFaculty();
   const { fetchSubjects, loadingSubjects } = useSubjects(campus, faculty);
-  const { fetchGroup, loadingGroup } = useGroups(campus,faculty,subjectName);
-  const { selectedClasses, addClass, removeClass, result } = useSelectedClass(fetchGroup);
-  const { fetchTimetable ,loadingTimetable,fetchData } = useTimetable()
+  const { fetchGroup, loadingGroup } = useGroups(campus, faculty, subjectName);
+  const { selectedClasses, addClass, removeClass, clearAll, result } =
+    useSelectedClass(fetchGroup);
+  const { fetchTimetable, loadingTimetable, fetchData } = useTimetable();
 
   const handleCampusChange = (selected: string) => {
     const { campus, selangor } = parseCampus(selected);
@@ -43,17 +44,14 @@ export default function TimetableSwitcher() {
   };
 
   const handleFetch = () => {
-      fetchData(matricNumber)
-  }
-
-
+    fetchData(matricNumber);
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
-      
 
       <div className="relative min-h-screen p-4">
         {/* Header */}
@@ -62,41 +60,44 @@ export default function TimetableSwitcher() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {/* Left Column - switchable */}
           <div className="lg:col-span-1 space-y-6">
-           {mode === "manual" ? (
-  <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
-    {/* Overlay */}
-     <div className="absolute inset-0 bg-red-600/70 backdrop-blur-sm flex flex-col items-center justify-center rounded-lg z-10 p-4">
-      <p className="text-white font-bold text-lg text-center">
-        Temporarily Closed 🚧
-      </p>
-      <p className="text-white text-sm text-center mt-2">
-        Manual timetable is unreliable due to source format changes. Use the new feature instead.
-      </p>
-    </div>
+            {mode === "manual" ? (
+              <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
+                {/* Overlay */}
+                {/* <div className="absolute inset-0 bg-red-600/70 backdrop-blur-sm flex flex-col items-center justify-center rounded-lg z-10 p-4">
+                  <p className="text-white font-bold text-lg text-center">
+                    Temporarily Closed 🚧
+                  </p>
+                  <p className="text-white text-sm text-center mt-2">
+                    Manual timetable is unreliable due to source format changes.
+                    Use the new feature instead.
+                  </p>
+                </div> */}
 
-    {/* Original content still exists, but unclickable */}
-    <div className="opacity-50 pointer-events-none">
-      <CampusSelect
-        loadingCampus={loadingCampus}
-        fetchCampus={fetchCampus}
-        handleCampusChange={handleCampusChange}
-        selangor={selangor}
-        setFaculty={setFaculty}
-        fetchFaculty={fetchFaculty}
-      />
-      <SubjectSelect
-        loadingSubjects={loadingSubjects}
-        fetchSubjects={fetchSubjects}
-        setSubjectName={setSubjectName}
-      />
-    </div>
-  </div>
-) : (
-  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 space-y-4">
-    <TimetableFetch matricNumber={matricNumber} setMatricNumber={setMatricNumber} onFetch={handleFetch}></TimetableFetch>
-  </div>
-)}
-
+                <div className="opacity-50 flex flex-col gap-5">
+                  <CampusSelect
+                    loadingCampus={loadingCampus}
+                    fetchCampus={fetchCampus}
+                    handleCampusChange={handleCampusChange}
+                    selangor={selangor}
+                    setFaculty={setFaculty}
+                    fetchFaculty={fetchFaculty}
+                  />
+                  <SubjectSelect
+                    loadingSubjects={loadingSubjects}
+                    fetchSubjects={fetchSubjects}
+                    setSubjectName={setSubjectName}
+                  />
+                </div>
+              </div>
+            ) : (
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 space-y-4">
+                <TimetableFetch
+                  matricNumber={matricNumber}
+                  setMatricNumber={setMatricNumber}
+                  onFetch={handleFetch}
+                ></TimetableFetch>
+              </div>
+            )}
 
             {/* Available Classes List (only for manual) */}
             {mode === "manual" ? (
@@ -121,8 +122,8 @@ export default function TimetableSwitcher() {
                 </h3>
 
                 <RegisteredList
-                fetchTimetable={fetchTimetable}
-                loadingTimetable={loadingTimetable}
+                  fetchTimetable={fetchTimetable}
+                  loadingTimetable={loadingTimetable}
                 ></RegisteredList>
               </div>
             )}
@@ -130,20 +131,17 @@ export default function TimetableSwitcher() {
 
           {/* Right Column - always timetable */}
           <div className="lg:col-span-2">
-
             {mode === "manual" ? (
-
               <Timetable
                 selectedClasses={selectedClasses}
                 onRemoveClass={removeClass}
+                onClearAll={clearAll}
               />
             ) : (
-
               <FetchTimetable
                 selectedClasses={fetchTimetable}
                 onRemoveClass={() => {}}
               ></FetchTimetable>
-
             )}
           </div>
         </div>

@@ -18,6 +18,7 @@ export function useSubjects(campus: string, faculty?: string) {
     getSubject(campus, faculty || "")
       .then(setFetchSubjects)
       .catch(console.error)
+      .finally(() => setLoadingSubjects(false))
   }, [campus, faculty]);
 
   return { fetchSubjects, loadingSubjects };

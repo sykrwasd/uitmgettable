@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import html2canvas from "html2canvas-pro";
 import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
+import toast from 'react-hot-toast';
 
 type Group = {
   no: string;
@@ -45,40 +46,84 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   const saveAsImage = async () => {
     if (!timetableRef.current) return;
 
-    // Clone the timetable to render off-screen
-    const clone = timetableRef.current.cloneNode(true) as HTMLElement;
-    clone.style.position = "absolute";
-    clone.style.left = "-9999px"; // move off-screen
-    clone.style.width = "max-content"; // expand to full width
-    document.body.appendChild(clone);
+    try {
+      toast.loading('Generating timetable image...', { id: 'export' });
+      
+      // Clone the timetable to render off-screen
+      const clone = timetableRef.current.cloneNode(true) as HTMLElement;
+      clone.style.position = "absolute";
+      clone.style.left = "-9999px"; // move off-screen
+      clone.style.width = "max-content"; // expand to full width
+      document.body.appendChild(clone);
 
-    // Capture screenshot
-    const canvas = await html2canvas(clone, { scale: 3 });
-    const imgData = canvas.toDataURL("image/png");
+      // Capture screenshot
+      const canvas = await html2canvas(clone, { scale: 3 });
+      const imgData = canvas.toDataURL("image/png");
 
-    // Download
-    const link = document.createElement("a");
-    link.href = imgData;
-    link.download = "timetable.png";
-    link.click();
+      // Download
+      const link = document.createElement("a");
+      link.href = imgData;
+      link.download = "timetable.png";
+      link.click();
 
-    // Cleanup
-    document.body.removeChild(clone);
+      // Cleanup
+      document.body.removeChild(clone);
 
-    event({
-      action: "save_timetable",
-      params: { classes_count: selectedClasses.length, method: "image" },
-    });
+      toast.success('📥 Timetable saved successfully!', { id: 'export', duration: 2000 });
+
+      event({
+        action: "save_timetable",
+        params: { classes_count: selectedClasses.length, method: "image" },
+      });
+    } catch (error) {
+      toast.error('Failed to export timetable', { id: 'export' });
+    }
   };
 
-  const [color, setColor] = useState("#155dfc");
+  const DEFAULT_COLOR = "#155dfc";
+  const COLORS_STORAGE_KEY = 'uitm-timetable-fetch-colors';
+  
+  const [classColors, setClassColors] = useState<Record<string, string>>({});
   const [pickerWidth, setPickerWidth] = useState(400);
   const [hideWeekend, setHideWeekend] = useState(false);
   const [invert, setInvert] = useState(false);
+  const [selectedClassForColor, setSelectedClassForColor] = useState<string | null>(null);
 
+  // Load colors from localStorage
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem(COLORS_STORAGE_KEY);
+        if (saved) {
+          setClassColors(JSON.parse(saved));
+        }
+      } catch (error) {
+        console.error('Failed to load colors from localStorage:', error);
+      }
+    }
     setPickerWidth(Math.min(window.innerWidth * 0.9, 400));
   }, []);
+
+  // Save colors to localStorage whenever they change
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem(COLORS_STORAGE_KEY, JSON.stringify(classColors));
+      } catch (error) {
+        console.error('Failed to save colors to localStorage:', error);
+      }
+    }
+  }, [classColors]);
+
+  // Get color for a specific class
+  const getClassColor = (classCode: string) => {
+    return classColors[classCode] || DEFAULT_COLOR;
+  };
+
+  // Update color for a specific class
+  const updateClassColor = (classCode: string, color: string) => {
+    setClassColors(prev => ({ ...prev, [classCode]: color }));
+  };
 
   let days = [
     "Monday",
@@ -103,6 +148,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
           Your Timetable
         </h2>
 
+       
         <div className="flex flex-wrap justify-center gap-3">
           <button
             onClick={saveAsImage}
@@ -111,17 +157,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             Save as Image
           </button>
 
-          <button
-            onClick={() =>
-              (
-                document.getElementById("colorModal") as HTMLDialogElement
-              )?.show()
-            }
-            className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-xl shadow-sm hover:shadow-md transition-all"
-            style={{ backgroundColor: `${color}50`, borderColor: `${color}` }}
-          >
-            Change Color
-          </button>
+      
 
           <label className="ml-2 flex items-center space-x-2 cursor-pointer">
             <input
@@ -148,7 +184,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   <div ref={timetableRef} className="overflow-x-auto">
     <table className="w-full border-collapse">
       <thead>
-        <tr className="text-white" style={{ backgroundColor: color }}>
+        <tr className="text-white" style={{ backgroundColor: DEFAULT_COLOR }}>
           <th className="border border-gray-300 p-3 text-left font-semibold">
             {invert ? "Day" : "Time"}
           </th>
@@ -183,8 +219,13 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                 >
                   {classInSlot && (
                     <div
-                      className="text-white p-2 rounded text-xs h-full cursor-pointer hover:bg-blue-600 transition-colors"
-                      style={{ backgroundColor: color }}
+                      className="text-white p-2 rounded text-xs h-full cursor-pointer transition-colors"
+                      style={{ 
+                        backgroundColor: getClassColor(classInSlot.class_code),
+                        filter: 'brightness(1)'
+                      }}
+                      onMouseEnter={(e) => e.currentTarget.style.filter = 'brightness(0.9)'}
+                      onMouseLeave={(e) => e.currentTarget.style.filter = 'brightness(1)'}
                       onClick={() =>
                         onRemoveClass(classInSlot.class_code, classInSlot.day_time)
                       }
@@ -214,34 +255,97 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
     
 
-      <dialog id="colorModal" className="modal">
+      {/* Class List Modal */}
+      <dialog id="classListModalFetch" className="modal">
+        <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
+          <h3 className="text-center font-bold text-lg text-gray-600 mb-4">
+            Select Class to Customize
+          </h3>
+
+          {selectedClasses.length === 0 ? (
+            <p className="text-center text-gray-500 py-4">
+              No classes selected yet
+            </p>
+          ) : (
+            <div className="space-y-2 max-h-96 overflow-y-auto">
+              {/* Get unique classes by class_code */}
+              {Array.from(new Map(selectedClasses.map(cls => [cls.class_code, cls])).values()).map((cls) => (
+                <button
+                  key={cls.class_code}
+                  onClick={() => {
+                    setSelectedClassForColor(cls.class_code);
+                    (document.getElementById("classListModalFetch") as HTMLDialogElement)?.close();
+                    (document.getElementById("colorModalFetch") as HTMLDialogElement)?.show();
+                  }}
+                  className="w-full p-3 rounded-lg border-2 transition-all hover:shadow-md text-left"
+                  style={{ 
+                    borderColor: getClassColor(cls.class_code),
+                    backgroundColor: `${getClassColor(cls.class_code)}20`
+                  }}
+                >
+                  <div className="flex items-center gap-3">
+                    <div 
+                      className="w-8 h-8 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: getClassColor(cls.class_code) }}
+                    />
+                    <div className="flex-1">
+                      <div className="font-semibold text-gray-800">{cls.subject}</div>
+                      <div className="text-sm text-gray-600">{cls.class_code.replace(/\*/g, "").trim()}</div>
+                    </div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
+
+          <div className="modal-action flex justify-center mt-4">
+            <button
+              className="btn btn-sm btn-outline"
+              onClick={() =>
+                (document.getElementById("classListModalFetch") as HTMLDialogElement)?.close()
+              }
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </dialog>
+
+      {/* Color Picker Modal */}
+      <dialog id="colorModalFetch" className="modal">
         <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
           <h3 className="text-center font-bold text-lg text-gray-600">
             Select Color
           </h3>
+          
+          {selectedClassForColor && (
+            <p className="text-center text-sm text-gray-500 mt-2">
+              for {selectedClasses.find(c => c.class_code === selectedClassForColor)?.subject}
+            </p>
+          )}
 
-          {/* Form Content */}
           <div className="mt-4">
             <SwatchesPicker
-              width={pickerWidth} // responsive width
+              width={pickerWidth}
               className="rounded-xl mx-auto"
-              color={color}
+              color={selectedClassForColor ? getClassColor(selectedClassForColor) : DEFAULT_COLOR}
               onChange={(colorResult: any) => {
-                setColor(colorResult.hex);
-                (
-                  document.getElementById("colorModal") as HTMLDialogElement
-                )?.close();
+                if (selectedClassForColor) {
+                  updateClassColor(selectedClassForColor, colorResult.hex);
+                  toast.success('Color updated!', { duration: 1500 });
+                }
+                (document.getElementById("colorModalFetch") as HTMLDialogElement)?.close();
+                setSelectedClassForColor(null);
               }}
             />
 
             <div className="modal-action flex justify-center mt-4">
               <button
                 className="btn btn-sm btn-outline"
-                onClick={() =>
-                  (
-                    document.getElementById("colorModal") as HTMLDialogElement
-                  )?.close()
-                }
+                onClick={() => {
+                  (document.getElementById("colorModalFetch") as HTMLDialogElement)?.close();
+                  setSelectedClassForColor(null);
+                }}
               >
                 Cancel
               </button>

@@ -36,8 +36,16 @@ export default function GroupList({
   return (
     <>
       {loadingGroup ? (
-        <div className="flex justify-center items-center py-10">
-          <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+        <div className="space-y-2 animate-pulse">
+          {[1, 2, 3, 4, 5].map((i) => (
+            <div
+              key={i}
+              className="bg-white/70 rounded-lg p-3 border border-gray-200"
+            >
+              <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+              <div className="h-3 bg-gray-200 rounded w-1/2"></div>
+            </div>
+          ))}
         </div>
       ) : fetchGroup.length === 0 ? (
         <p className="text-gray-500">No classes available</p>

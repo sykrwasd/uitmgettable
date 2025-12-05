@@ -18,6 +18,7 @@ export function useGroups(campus: string, faculty: string, sub: string) {
   const [fetchGroup, setFetchGroup] = useState<Group[]>([]);
   const [loadingGroup, setLoadingGroup] = useState(false); // new loading state
 
+
   useEffect(() => {
     if (!campus || !sub) return;
 

@@ -1,4 +1,6 @@
 import axios from "axios";
+import { wrapper } from "axios-cookiejar-support";
+import { CookieJar } from "tough-cookie";
 import * as cheerio from "cheerio";
 
 async function fetchSubjects(campus: string, faculty: string) {
@@ -14,49 +16,82 @@ async function fetchSubjects(campus: string, faculty: string) {
     processedCampus = "B";
   }
 
-  const url =
-    "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
+  console.log("received campus", campus);
+  console.log("receivde faclty", faculty);
+  const jar = new CookieJar();
+  const client = wrapper(axios.create({ jar, withCredentials: true }));
+
+  // After the first GET:
+  await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
+
+  // Read cookies from jar
+  const cookies = await jar.getCookies(
+    "https://simsweb4.uitm.edu.my/estudent/class_timetable/"
+  );
+
+  let id1, id2, id3;
+
+  for (const c of cookies) {
+    if (c.key === "KEY1") id1 = c.value;
+    if (c.key === "KEY2") id2 = c.value;
+    if (c.key === "KEY3") id3 = c.value;
+  }
+
+  console.log({ id1, id2, id3 });
+
+  // Build dynamic URL
+  const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
 
   const payload = new URLSearchParams({
-    search_campus: `${processedCampus}`,
-    search_faculty: `${faculty}`,
-    search_course: "",
-    captcha_no_type: "",
-    captcha1: "",
-    captcha2: "",
-    captcha3: "",
-    token1: "lIIlllIlIIlIllIIIIIlIlllllIlIll",
+    captcha_no_type: "llIlllIlIIllIlIIIIlllIlIll",
+    captcha1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
+    captcha2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
+    captcha3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
+
+    token1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
     token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    token3: "lIIlllIlIIlIllIIIIllllIlIlI",
+    token3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
+
     llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
     llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
-    lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIlIllIIIIlIllIlllIlIll",
+    lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIIlllIIIIlIllIlllIlIll",
+
     lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
     lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
     lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
     lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
+
     lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
     lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
       "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
+
     lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlllIllllI", 
+      "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
     llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+
     lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+
     llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
       "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
+
+    search_campus: processedCampus,
+    search_faculty: faculty,
+    search_course: "",
+    lIIIlllIIllll: "lIIIlllIIllll",
   });
 
-  const res = await axios.post(url, payload.toString(), {
+  const res = await client.post(url, payload.toString(), {
     headers: {
       "User-Agent": "Mozilla/5.0",
       "Content-Type": "application/x-www-form-urlencoded",
+      "X-Requested-With": "XMLHttpRequest",
       Referer:
-        "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
+        "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
     },
   });
 
@@ -75,7 +110,17 @@ async function fetchSubjects(campus: string, faculty: string) {
     }
   });
 
-  console.log("Fetched subjects:", rows.length);
+  //console.log("Fetched subjects:", rows.length);
+
+  const fixed = rows.map((item, index, arr) => ({
+    ...item,
+    href: arr[(index + arr.length) % arr.length].href,
+    // example : index = 2
+    // (2-1+3)%3
+    // 4%3
+    // 1
+    // so -> index 2 ke index 1
+  }));
   return rows;
 }
 
@@ -86,7 +131,7 @@ export async function POST(req: Request) {
     console.log("POST - Received faculty:", faculty);
 
     const rows = await fetchSubjects(originalCampus, faculty);
-    console.log(rows);
+    //console.log(rows);
 
     return new Response(JSON.stringify(rows), {
       status: 200,
