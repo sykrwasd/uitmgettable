@@ -11,7 +11,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
-  subject: string;
+  subject_name: string;
   lecturer?: string;
 };
 

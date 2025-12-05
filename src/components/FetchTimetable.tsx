@@ -15,7 +15,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
-  subject: string;
+  subject_name: string;
 };
 
 type SelectedClass = Group & {
@@ -231,7 +231,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                       }
                       title="Click to remove"
                     >
-                      <div className="font-semibold text-sm">{classInSlot.subject}</div>
+                      <div className="font-semibold text-sm">{classInSlot.subject_name}</div>
                       <div className="text-xs opacity-90">{classInSlot.venue}</div>
                       <div className="text-xs opacity-75">
                         {classInSlot.subject_code.length > 15
@@ -289,7 +289,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                       style={{ backgroundColor: getClassColor(cls.class_code) }}
                     />
                     <div className="flex-1">
-                      <div className="font-semibold text-gray-800">{cls.subject}</div>
+                      <div className="font-semibold text-gray-800">{cls.subject_name}</div>
                       <div className="text-sm text-gray-600">{cls.class_code.replace(/\*/g, "").trim()}</div>
                     </div>
                   </div>
@@ -320,7 +320,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
           
           {selectedClassForColor && (
             <p className="text-center text-sm text-gray-500 mt-2">
-              for {selectedClasses.find(c => c.class_code === selectedClassForColor)?.subject}
+              for {selectedClasses.find(c => c.class_code === selectedClassForColor)?.subject_name}
             </p>
           )}
 

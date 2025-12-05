@@ -7,7 +7,7 @@ type Group = {
   venue: string;
   subject_code: string;
   faculty: string;
-  subject: string;
+  subject_name: string;
   lecturer?: string;
 };
 
@@ -22,7 +22,7 @@ export default function RegisteredList({
 }: GroupProps) {
   // ✅ Remove duplicates — based on subject name
   const uniqueTimetable = Array.from(
-    new Map(fetchTimetable.map((item) => [item.subject.trim(), item])).values()
+    new Map(fetchTimetable.map((item) => [item.subject_name.trim(), item])).values()
   );
 
   return (
@@ -58,7 +58,7 @@ export default function RegisteredList({
               {/* Top: Subject + Code */}
               <div className="flex justify-between items-center mb-1">
                 <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
-                  {row.subject}
+                  {row.subject_name}
                 </h4>
                 <span className="text-xs font-medium bg-blue-100 text-blue-700 px-2 py-0.5 rounded-md">
                   {row.class_code.replace(/\*/g, "").trim()}
