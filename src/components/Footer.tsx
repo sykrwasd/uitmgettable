@@ -60,12 +60,12 @@ export default function Footer() {
               <h4 className="font-bold text-lg text-gray-800">Ver 1.2</h4>
               <p className="text-sm text-gray-500 mb-2">Dec 3, 2025</p>
               <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-              <li>
-  <span className="font-semibold text-blue-600">New:</span>{" "}
-  <span className="animate-gradient bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
-    Colourful Classes
-  </span>
-</li>
+                <li>
+                  <span className="font-semibold text-blue-600">New:</span>{" "}
+                  <span className="animate-gradient bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
+                    Colourful Classes
+                  </span>
+                </li>
 
                 <li>
                   <span className="font-semibold text-blue-600">New:</span>{" "}
@@ -79,7 +79,6 @@ export default function Footer() {
                   <span className="font-semibold text-blue-600">New:</span>{" "}
                   Skeleton loading animations
                 </li>
-              
               </ul>
             </div>
 
@@ -89,10 +88,8 @@ export default function Footer() {
               <h4 className="font-bold text-lg text-gray-800">Ver 1.1</h4>
               <p className="text-sm text-gray-500 mb-2">Oct 8, 2025</p>
               <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-                <li>
-                  Auto-fetch from iStudent Portal
-                </li>
-                <li>Added "Smart Fetch" mode</li>
+                <li>Auto-fetch from iStudent Portal</li>
+                <li>Added &quot;Smart Fetch&quot;  mode</li>
               </ul>
             </div>
 

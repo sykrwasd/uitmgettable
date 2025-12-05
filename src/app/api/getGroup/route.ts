@@ -140,7 +140,7 @@ export async function POST(req: Request) {
   }
 }
 
-async function getGroup(filtered: any[], subject_name : String) {
+async function getGroup(filtered: any[], subject_name : string) {
   const results: any[] = [];
   console.log("subject_name", subject_name)
 
