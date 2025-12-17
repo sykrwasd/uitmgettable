@@ -2,6 +2,7 @@ import axios from "axios";
 import { wrapper } from "axios-cookiejar-support";
 import { CookieJar } from "tough-cookie";
 import * as cheerio from "cheerio";
+import { cookieManager } from "@/lib/cookieManager";
 
 async function fetchSubjects(campus: string, faculty: string) {
   let processedCampus = campus;
@@ -18,28 +19,20 @@ async function fetchSubjects(campus: string, faculty: string) {
 
   console.log("received campus", campus);
   console.log("receivde faclty", faculty);
-  const jar = new CookieJar();
+  console.log("receivde faclty", faculty);
+  
+  // --- Use Cookie Manager ---
+  const { jar, ids } = await cookieManager.getCookies();
+  if (!ids) throw new Error("Failed to get cookies");
+  const { id1, id2, id3 } = ids;
+
   const client = wrapper(axios.create({ jar, withCredentials: true }));
 
-  // After the first GET:
-  await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
-
-  // Read cookies from jar
-  const cookies = await jar.getCookies(
-    "https://simsweb4.uitm.edu.my/estudent/class_timetable/"
-  );
-
-  let id1, id2, id3;
-
-  for (const c of cookies) {
-    if (c.key === "KEY1") id1 = c.value;
-    if (c.key === "KEY2") id2 = c.value;
-    if (c.key === "KEY3") id3 = c.value;
-  }
+  // Remote fetch logic removed in favor of CookieManager
+  // await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
 
   console.log({ id1, id2, id3 });
 
-  // Build dynamic URL
   const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
 
   const payload = new URLSearchParams({

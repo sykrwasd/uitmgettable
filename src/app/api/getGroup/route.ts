@@ -2,6 +2,7 @@ import axios from "axios";
 import { wrapper } from "axios-cookiejar-support";
 import { CookieJar } from "tough-cookie";
 import * as cheerio from "cheerio";
+import { cookieManager } from "@/lib/cookieManager";
 
 export async function POST(req: Request) {
   try {
@@ -15,7 +16,12 @@ export async function POST(req: Request) {
     const cleanSubject = subjectName.replace(/\./g, "").trim().toUpperCase();
 
     console.log("clean subject", cleanSubject);
-    const jar = new CookieJar();
+    
+    // --- Use Cookie Manager ---
+    const { jar, ids } = await cookieManager.getCookies();
+    if (!ids) throw new Error("Failed to get cookies");
+    const { id1, id2, id3 } = ids;
+
     const client = wrapper(axios.create({ jar, withCredentials: true }));
 
     let campus = originalCampus;
@@ -24,19 +30,8 @@ export async function POST(req: Request) {
     else if (campus === "CO") campus = "HEP";
     else if (campus === "selangor") campus = "B";
 
-    await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
-
-    const cookies = await jar.getCookies(
-      "https://simsweb4.uitm.edu.my/estudent/class_timetable/"
-    );
-
-    let id1, id2, id3;
-
-    for (const c of cookies) {
-      if (c.key === "KEY1") id1 = c.value;
-      if (c.key === "KEY2") id2 = c.value;
-      if (c.key === "KEY3") id3 = c.value;
-    }
+    // await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
+    // Remote fetch logic removed in favor of CookieManager
 
     console.log({ id1, id2, id3 });
 
