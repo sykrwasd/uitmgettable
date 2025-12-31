@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import toast from "react-hot-toast";
 import html2canvas from "html2canvas-pro";
+import { trackEvent } from "@/utils/umami";
 
 interface SaveImageDeviceProps {
   timetableRef: React.RefObject<HTMLDivElement | null>;
@@ -62,6 +63,8 @@ export default function SaveImageDevice({
         id: "export",
         duration: 2000,
       });
+
+      trackEvent("save_timetable", { method: "image", device });
 
       closeModal();
     } catch (error) {

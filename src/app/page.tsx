@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { trackEvent } from "@/utils/umami";
 import { useCampus } from "./hooks/useCampus";
 import { useFaculty } from "./hooks/useFaculty";
 import { useSubjects } from "./hooks/useSubjects";
@@ -44,7 +45,24 @@ export default function TimetableSwitcher() {
   };
 
   const handleFetch = () => {
+    trackEvent("fetch_timetable", { matricNumber });
     fetchData(matricNumber);
+  };
+
+
+  const handleAddClass = (group: any) => {
+    trackEvent("add_class", { classCode: group.class_code, subject: group.subject_code });
+    addClass(group);
+  };
+
+  const handleRemoveClass = (classCode: string, dayTime: string) => {
+    trackEvent("remove_class", { classCode });
+    removeClass(classCode, dayTime);
+  };
+
+  const handleClearAll = () => {
+    trackEvent("clear_all_classes");
+    clearAll && clearAll();
   };
 
   return (
@@ -55,7 +73,10 @@ export default function TimetableSwitcher() {
 
       <div className="relative min-h-screen p-4">
         {/* Header */}
-        <Header mode={mode} setMode={setMode}></Header>
+        <Header mode={mode} setMode={(m) => {
+          trackEvent("change_mode", { mode: m });
+          setMode(m);
+        }}></Header>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {/* Left Column - switchable */}
@@ -112,7 +133,7 @@ export default function TimetableSwitcher() {
                   searchGroup={searchGroup}
                   setSearchGroup={setSearchGroup}
                   selectedClasses={selectedClasses}
-                  addClass={addClass}
+                  addClass={handleAddClass}
                 />
               </div>
             ) : (
@@ -134,8 +155,8 @@ export default function TimetableSwitcher() {
             {mode === "manual" ? (
               <Timetable
                 selectedClasses={selectedClasses}
-                onRemoveClass={removeClass}
-                onClearAll={clearAll}
+                onRemoveClass={handleRemoveClass}
+                onClearAll={handleClearAll}
               />
             ) : (
               <FetchTimetable

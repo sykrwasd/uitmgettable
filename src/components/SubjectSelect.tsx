@@ -1,5 +1,7 @@
 "use client"; // make sure this component only runs on the client
 
+import { trackEvent } from "@/utils/umami"; // import trackEvent
+
 import Select from "react-select";
 import { useEffect, useState } from "react";
 
@@ -25,12 +27,16 @@ export default function SubjectSelect({
 
   return (
     <div className="flex flex-col sm:flex-row gap-2 w-full">
+
       <Select
         options={fetchSubjects.map((row) => ({
           value: row.course.replace(/\./g, "").trim(),
           label: row.course.replace(/\./g, "").trim(),
         }))}
-        onChange={(selected) => setSubjectName(selected?.value ?? "")}
+        onChange={(selected) => {
+          trackEvent("select_subject", { subject: selected?.value });
+          setSubjectName(selected?.value ?? "");
+        }}
         placeholder={loadingSubjects ? "Loading subjects…" : "Select Subject"}
         className="w-full"
         menuPortalTarget={isClient ? document.body : undefined} 

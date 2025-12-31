@@ -1,3 +1,5 @@
+import { trackEvent } from "@/utils/umami";
+
 type Campus = {
   id: string;
   text: string;
@@ -17,7 +19,6 @@ interface CampusProps {
   setFaculty: (value:string) => void
 }
 
-
 export default function CampusSelect({
   loadingCampus,
   fetchCampus,
@@ -35,7 +36,10 @@ export default function CampusSelect({
                 <>
                   <select
                     className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                    onChange={(e) => handleCampusChange(e.target.value)}
+                    onChange={(e) => {
+                      trackEvent("select_campus", { campus: e.target.value });
+                      handleCampusChange(e.target.value);
+                    }}
                   >
                     <option value="">Select Campus</option>
                     {fetchCampus.map((row, idx) => (
@@ -47,7 +51,10 @@ export default function CampusSelect({
                   {selangor && (
                     <select
                       className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
-                      onChange={(e) => setFaculty(e.target.value)}
+                      onChange={(e) => {
+                        trackEvent("select_faculty", { faculty: e.target.value });
+                        setFaculty(e.target.value);
+                      }}
                     >
                       <option value="">Select Faculty</option>
                       {fetchFaculty.map((row, idx) => (

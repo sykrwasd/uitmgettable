@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import html2canvas from "html2canvas-pro";
 import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
+import { trackEvent } from "@/utils/umami";
 import toast from "react-hot-toast";
 
 type Group = {
@@ -80,6 +81,7 @@ const Timetable: React.FC<TimetableProps> = ({
         action: "save_timetable",
         params: { classes_count: selectedClasses.length, method: "image" },
       });
+      trackEvent("save_timetable", { classes_count: selectedClasses.length, method: "image" });
     } catch (error) {
       toast.error("Failed to export timetable", { id: "export" });
     }
