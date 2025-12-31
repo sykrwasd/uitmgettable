@@ -64,7 +64,10 @@ export default function SaveImageDevice({
         duration: 2000,
       });
 
-      trackEvent("save_timetable", { method: "image", device });
+      trackEvent("save_timetable", { 
+        method: "image", 
+        device 
+      });
 
       closeModal();
     } catch (error) {
