@@ -38,6 +38,11 @@ export default function RootLayout({
             gtag('config', 'G-LTZX9KYVLN');
           `}
         </Script>
+        <Script 
+          src="https://cloud.umami.is/script.js"
+          data-website-id="5dbb2e57-b54c-4134-8675-94b2e5d537c2"
+          strategy="afterInteractive"
+        />
 
         <Toaster 
           position="top-right"
