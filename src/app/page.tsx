@@ -49,22 +49,6 @@ export default function TimetableSwitcher() {
     fetchData(matricNumber);
   };
 
-
-  const handleAddClass = (group: any) => {
-    trackEvent("add_class", { classCode: group.class_code, subject: group.subject_code });
-    addClass(group);
-  };
-
-  const handleRemoveClass = (classCode: string, dayTime: string) => {
-    trackEvent("remove_class", { classCode });
-    removeClass(classCode, dayTime);
-  };
-
-  const handleClearAll = () => {
-    trackEvent("clear_all_classes");
-    clearAll && clearAll();
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
       {result.result === "error" && (
@@ -133,7 +117,7 @@ export default function TimetableSwitcher() {
                   searchGroup={searchGroup}
                   setSearchGroup={setSearchGroup}
                   selectedClasses={selectedClasses}
-                  addClass={handleAddClass}
+                  addClass={addClass}
                 />
               </div>
             ) : (
@@ -155,8 +139,8 @@ export default function TimetableSwitcher() {
             {mode === "manual" ? (
               <Timetable
                 selectedClasses={selectedClasses}
-                onRemoveClass={handleRemoveClass}
-                onClearAll={handleClearAll}
+                onRemoveClass={removeClass}
+                onClearAll={clearAll}
               />
             ) : (
               <FetchTimetable
