@@ -23,6 +23,19 @@ export default function Header({ mode, setMode }: Props) {
         An <span className="font-bold text-blue-600">open source</span> UiTM
         timetable generator
       </p>
+
+      {/* Social Proof */}
+      <div className="flex justify-center mt-4">
+        <div className="bg-blue-50/80 backdrop-blur-sm border border-blue-100 rounded-full px-4 py-1.5 flex items-center gap-2 shadow-sm">
+          <span className="relative flex h-2.5 w-2.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+          </span>
+          <span className="text-sm font-medium text-blue-800">
+            Trusted by 1k+ students
+          </span>
+        </div>
+      </div>
       <div className="w-full flex justify-center">
         <div className="w-full max-w-3xl bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
           <div className="flex items-start">
