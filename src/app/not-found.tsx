@@ -10,7 +10,7 @@ export default function NotFound() {
 
         {/* Gif */}
         <img
-          src="https://tenor.com/gkwvjqWLQZR.gif"
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2l6dWpxcTcydTdrMHZ2ZnJlN3ZycGMyZXBsdmVmNzkxcjFwd3VxaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f99OlzSrutL3qCi5je/giphy.gif"
           alt="404 gif"
           className="w-72 h-72 object-cover rounded-xl mx-auto"
         />
