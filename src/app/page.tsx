@@ -51,6 +51,20 @@ export default function TimetableSwitcher() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
+      {/* Maintenance Modal */}
+      <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
+        <div className="bg-white rounded-2xl shadow-2xl p-8 flex flex-col items-center gap-4 max-w-sm w-full mx-4 text-center">
+          <img
+            src="https://media.tenor.com/GOj9ZF_-ZOcAAAAM/cat.gif"
+            alt="Cat maintenance"
+            className="w-40 h-40 object-cover rounded-xl"
+          />
+          <h2 className="text-2xl font-bold text-gray-800">Under Maintenance 🚧</h2>
+          <p className="text-gray-500 text-sm">
+            We&apos;re updating things! Please check back soon.
+          </p>
+        </div>
+      </div>
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
