@@ -77,11 +77,11 @@ async function fetchSubjects(campus: string, faculty: string) {
     lIIIlllIIllll: "lIIIlllIIllll",
   });
 
-  let res;
-  let retries = 3;
+
+  let retries = 5;
   while (retries > 0) {
     try {
-      res = await client.post(url, payload.toString(), {
+      const res = await client.post(url, payload.toString(), {
         headers: {
           "User-Agent": "Mozilla/5.0",
           "Content-Type": "application/x-www-form-urlencoded",
@@ -90,7 +90,27 @@ async function fetchSubjects(campus: string, faculty: string) {
             "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
         },
       });
-      break;
+
+      const $ = cheerio.load(res.data);
+      const rows: any[] = [];
+      
+      $("table tr").each((_, tr) => {
+        const cells = $(tr).find("td");
+        if (cells.length === 3) {
+          const href = $(cells[2]).find("a").attr("href");
+          rows.push({
+            no: $(cells[0]).text().trim(),
+            course: $(cells[1]).text().trim(),
+            href: href || null,
+          });
+        }
+      });
+
+      if (rows.length === 0) {
+        throw new Error("Empty subjects list (possible CAPTCHA/session failure). Retrying...");
+      }
+
+      return rows;
     } catch (err) {
       retries--;
       if (retries === 0) throw err;
@@ -98,35 +118,7 @@ async function fetchSubjects(campus: string, faculty: string) {
     }
   }
 
-  if (!res) throw new Error("Failed to fetch subjects after retries");
-
-  const $ = cheerio.load(res.data);
-
-  const rows: any[] = [];
-  $("table tr").each((_, tr) => {
-    const cells = $(tr).find("td");
-    if (cells.length === 3) {
-      const href = $(cells[2]).find("a").attr("href"); // grab href
-      rows.push({
-        no: $(cells[0]).text().trim(),
-        course: $(cells[1]).text().trim(),
-        href: href || null,
-      });
-    }
-  });
-
-  //console.log("Fetched subjects:", rows.length);
-
-  const fixed = rows.map((item, index, arr) => ({
-    ...item,
-    href: arr[(index + arr.length) % arr.length].href,
-    // example : index = 2
-    // (2-1+3)%3
-    // 4%3
-    // 1
-    // so -> index 2 ke index 1
-  }));
-  return rows;
+  throw new Error("Failed to fetch subjects after retries");
 }
 
 export async function POST(req: Request) {

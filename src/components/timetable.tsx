@@ -98,10 +98,8 @@ const Timetable: React.FC<TimetableProps> = ({
   const [pickerWidth, setPickerWidth] = useState(400);
   const [hideWeekend, setHideWeekend] = useState(false);
   const [invert, setInvert] = useState(false);
-  const [selectedClassForColor, setSelectedClassForColor] = useState<
-    string | null
-  >(null);
-
+  const [isCustomizing, setIsCustomizing] = useState(false);
+  const [selectedClassForColor, setSelectedClassForColor] = useState<string | null>(null);
   const [headerColor, setHeaderColor] = useState<string | null>(null);
 
   // Load colors from localStorage
@@ -199,14 +197,13 @@ const Timetable: React.FC<TimetableProps> = ({
           )}
 
           <button
-            onClick={() =>
-              (
-                document.getElementById("classListModal") as HTMLDialogElement
-              )?.show()
-            }
+            onClick={() => {
+              setIsCustomizing((prev) => !prev);
+              setSelectedClassForColor(null);
+            }}
             className="px-5 py-2 bg-white/50 text-gray-800 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
           >
-            Customize Colors
+            {isCustomizing ? "Close Colors" : "Customize Colors"}
           </button>
 
           <label className="ml-2 flex items-center space-x-2 cursor-pointer">
@@ -227,6 +224,63 @@ const Timetable: React.FC<TimetableProps> = ({
           </label>
         </div>
       </div>
+
+      {isCustomizing && (
+        <div className="bg-white/90 backdrop-blur-sm rounded-lg p-6 mb-6 shadow-lg animate-fade-in">
+          <h3 className="text-lg font-bold text-gray-800 mb-4 text-center">Customize Colors</h3>
+          <div className="flex flex-wrap gap-2 justify-center">
+             <button
+                onClick={() => setSelectedClassForColor(selectedClassForColor === "HEADER_COLOR" ? null : "HEADER_COLOR")}
+                className="px-4 py-2 rounded-full border-2 text-sm font-semibold transition-all hover:scale-105"
+                style={{
+                  borderColor: headerColor || DEFAULT_COLOR,
+                  backgroundColor: selectedClassForColor === "HEADER_COLOR" 
+                                    ? (headerColor || DEFAULT_COLOR) 
+                                    : (headerColor || DEFAULT_COLOR) + "20",
+                  color: selectedClassForColor === "HEADER_COLOR" ? "#fff" : "#1f2937"
+                }}
+             >
+                Header Background
+             </button>
+             {Array.from(new Map(selectedClasses.map(cls => [cls.class_code, cls])).values()).map((cls) => (
+                <button
+                  key={cls.class_code}
+                  onClick={() => setSelectedClassForColor(selectedClassForColor === cls.class_code ? null : cls.class_code)}
+                  className="px-4 py-2 rounded-full border-2 text-sm font-semibold transition-all hover:scale-105"
+                  style={{
+                    borderColor: getClassColor(cls.class_code),
+                    backgroundColor: selectedClassForColor === cls.class_code 
+                                      ? getClassColor(cls.class_code) 
+                                      : `${getClassColor(cls.class_code)}20`,
+                    color: selectedClassForColor === cls.class_code ? "#fff" : "#1f2937"
+                  }}
+                >
+                  {cls.subject_name}
+                </button>
+             ))}
+          </div>
+
+          {selectedClassForColor && (
+             <div className="mt-8 flex flex-col items-center bg-gray-50/50 p-4 rounded-xl border border-gray-100">
+                <p className="text-sm font-medium text-gray-600 mb-4 text-center">
+                   Pick a color for <span className="font-bold">{selectedClassForColor === "HEADER_COLOR" ? "Header" : selectedClasses.find((c) => c.class_code === selectedClassForColor)?.subject_name}</span>
+                </p>
+                <SwatchesPicker
+                  width={pickerWidth}
+                  className="shadow-sm"
+                  color={selectedClassForColor === "HEADER_COLOR" ? (headerColor || DEFAULT_COLOR) : getClassColor(selectedClassForColor)}
+                  onChange={(colorResult: any) => {
+                    if (selectedClassForColor === "HEADER_COLOR") {
+                      setHeaderColor(colorResult.hex);
+                    } else {
+                      updateClassColor(selectedClassForColor, colorResult.hex);
+                    }
+                  }}
+                />
+             </div>
+          )}
+        </div>
+      )}
 
       <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
         <div ref={timetableRef} className="overflow-x-auto">
@@ -356,206 +410,14 @@ const Timetable: React.FC<TimetableProps> = ({
         </div>
       )}
 
-      {/* Class List Modal */}
-      <dialog
-        id="classListModal"
-        className="modal"
-        onClick={(e) => {
-          const dialog = e.currentTarget;
-          const rect = dialog
-            .querySelector(".modal-box")
-            ?.getBoundingClientRect();
-          if (!rect) return;
-
-          const clickedInside =
-            e.clientX >= rect.left &&
-            e.clientX <= rect.right &&
-            e.clientY >= rect.top &&
-            e.clientY <= rect.bottom;
-
-          if (!clickedInside) dialog.close();
-        }}
-      >
-        <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
-          <h3 className="text-center font-bold text-lg text-gray-600 mb-4">
-            Select Class to Customize
-          </h3>
-          <div className="space-y-2 max-h-96 overflow-y-auto">
-            <button
-              onClick={() => {
-                setSelectedClassForColor("HEADER_COLOR");
-                (
-                  document.getElementById("classListModal") as HTMLDialogElement
-                )?.close();
-                (
-                  document.getElementById("colorModal") as HTMLDialogElement
-                )?.show();
-              }}
-              className="w-full p-3 rounded-lg border-2 transition-all hover:shadow-md text-left mb-3"
-              style={{
-                borderColor: headerColor || DEFAULT_COLOR,
-                backgroundColor: (headerColor || DEFAULT_COLOR) + "20",
-              }}
-            >
-              <div className="flex items-center gap-3">
-                <div
-                  className="w-8 h-8 rounded-full"
-                  style={{ backgroundColor: headerColor || DEFAULT_COLOR }}
-                />
-                <div className="font-semibold">Header</div>
-              </div>
-            </button>
-          </div>
-
-          {selectedClasses.length === 0 ? (
-            <>
-              <p className="text-center text-gray-500 py-4">
-                No classes selected yet
-              </p>
-            </>
-          ) : (
-            <div className="space-y-2 max-h-96 overflow-y-auto">
-              {/* Get unique classes by class_code */}
-              {Array.from(
-                new Map(
-                  selectedClasses.map((cls) => [cls.class_code, cls])
-                ).values()
-              ).map((cls) => (
-                <button
-                  key={cls.class_code}
-                  onClick={() => {
-                    setSelectedClassForColor(cls.class_code);
-                    (
-                      document.getElementById(
-                        "classListModal"
-                      ) as HTMLDialogElement
-                    )?.close();
-                    (
-                      document.getElementById("colorModal") as HTMLDialogElement
-                    )?.show();
-                  }}
-                  className="w-full p-3 rounded-lg border-2 transition-all hover:shadow-md text-left"
-                  style={{
-                    borderColor: getClassColor(cls.class_code),
-                    backgroundColor: `${getClassColor(cls.class_code)}20`,
-                  }}
-                >
-                  <div className="flex items-center gap-3">
-                    <div
-                      className="w-8 h-8 rounded-full flex-shrink-0"
-                      style={{ backgroundColor: getClassColor(cls.class_code) }}
-                    />
-                    <div className="flex-1">
-                      <div className="font-semibold text-gray-800">
-                        {cls.subject_name}
-                      </div>
-                      <div className="text-sm text-gray-600">
-                        {cls.class_code.replace(/\*/g, "").trim()}
-                      </div>
-                    </div>
-                  </div>
-                </button>
-              ))}
-            </div>
-          )}
-
-          <div className="modal-action flex justify-center mt-4">
-            <button
-              className="btn btn-sm btn-outline"
-              onClick={() =>
-                (
-                  document.getElementById("classListModal") as HTMLDialogElement
-                )?.close()
-              }
-            >
-              Close
-            </button>
-          </div>
+      {selectedClasses.length === 0 && (
+        <div className="mt-6 text-center py-8">
+          <p className="text-white text-lg">No classes selected yet</p>
+          <p className="text-white text-sm mt-2">
+            Select classes from the left panel to see them in your timetable
+          </p>
         </div>
-      </dialog>
-
-      {/* Color Picker Modal */}
-
-      <dialog
-        id="colorModal"
-        className="modal"
-        onClick={(e) => {
-          const dialog = e.currentTarget;
-          const rect = dialog
-            .querySelector(".modal-box")
-            ?.getBoundingClientRect();
-          if (!rect) return;
-
-          const clickedInside =
-            e.clientX >= rect.left &&
-            e.clientX <= rect.right &&
-            e.clientY >= rect.top &&
-            e.clientY <= rect.bottom;
-
-          if (!clickedInside) {
-            (
-              document.getElementById("colorModal") as HTMLDialogElement
-            )?.close();
-          }
-        }}
-      >
-        <div className="modal-box bg-white p-4 sm:p-6 w-full max-w-md rounded-xl">
-          <h3 className="text-center font-bold text-lg text-gray-600">
-            Select Color
-          </h3>
-
-          {selectedClassForColor && (
-            <p className="text-center text-sm text-gray-500 mt-2">
-              for{" "}
-              {
-                selectedClasses.find(
-                  (c) => c.class_code === selectedClassForColor
-                )?.subject_name
-              }
-            </p>
-          )}
-
-          <div className="mt-4">
-            <SwatchesPicker
-              width={pickerWidth}
-              className="rounded-xl mx-auto"
-              color={
-                selectedClassForColor
-                  ? getClassColor(selectedClassForColor)
-                  : DEFAULT_COLOR
-              }
-              onChange={(colorResult: any) => {
-                if (selectedClassForColor === "HEADER_COLOR") {
-                  setHeaderColor(colorResult.hex);
-                  toast.success("Color updated!", { duration: 1500 });
-                } else if (selectedClassForColor) {
-                  updateClassColor(selectedClassForColor, colorResult.hex);
-                  toast.success("Color updated!", { duration: 1500 });
-                }
-
-                (
-                  document.getElementById("colorModal") as HTMLDialogElement
-                )?.close();
-                setSelectedClassForColor(null);
-              }}
-            />
-
-            <div className="modal-action flex justify-center mt-4">
-              <button
-                className="btn btn-sm btn-outline"
-                onClick={() => {
-                  (
-                    document.getElementById("colorModal") as HTMLDialogElement
-                  )?.close();
-                  setSelectedClassForColor(null);
-                }}
-              >
-                Cancel
-              </button>
-            </div>
-          </div>
-        </div>
-      </dialog>
+      )}
     </div>
   );
 };
