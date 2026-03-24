@@ -19,7 +19,6 @@ async function fetchSubjects(campus: string, faculty: string) {
 
   console.log("received campus", campus);
   console.log("receivde faclty", faculty);
-  console.log("receivde faclty", faculty);
   
   // --- Use Cookie Manager ---
   const { jar, ids } = await cookieManager.getCookies();
@@ -32,7 +31,7 @@ async function fetchSubjects(campus: string, faculty: string) {
   // await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
 
   console.log({ id1, id2, id3 });
-
+  
   const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
 
   const payload = new URLSearchParams({
@@ -78,15 +77,28 @@ async function fetchSubjects(campus: string, faculty: string) {
     lIIIlllIIllll: "lIIIlllIIllll",
   });
 
-  const res = await client.post(url, payload.toString(), {
-    headers: {
-      "User-Agent": "Mozilla/5.0",
-      "Content-Type": "application/x-www-form-urlencoded",
-      "X-Requested-With": "XMLHttpRequest",
-      Referer:
-        "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
-    },
-  });
+  let res;
+  let retries = 3;
+  while (retries > 0) {
+    try {
+      res = await client.post(url, payload.toString(), {
+        headers: {
+          "User-Agent": "Mozilla/5.0",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "X-Requested-With": "XMLHttpRequest",
+          Referer:
+            "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
+        },
+      });
+      break;
+    } catch (err) {
+      retries--;
+      if (retries === 0) throw err;
+      await new Promise((resolve) => setTimeout(resolve, 500));
+    }
+  }
+
+  if (!res) throw new Error("Failed to fetch subjects after retries");
 
   const $ = cheerio.load(res.data);
 

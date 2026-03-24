@@ -82,15 +82,28 @@ export async function POST(req: Request) {
       lIIIlllIIllll: "lIIIlllIIllll",
     });
 
-    const res = await client.post(url, payload.toString(), {
-      headers: {
-        "User-Agent": "Mozilla/5.0",
-        "Content-Type": "application/x-www-form-urlencoded",
-        "X-Requested-With": "XMLHttpRequest",
-        Referer:
-          "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
-      },
-    });
+    let res;
+    let retries = 3;
+    while (retries > 0) {
+      try {
+        res = await client.post(url, payload.toString(), {
+          headers: {
+            "User-Agent": "Mozilla/5.0",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-Requested-With": "XMLHttpRequest",
+            Referer:
+              "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
+          },
+        });
+        break;
+      } catch (err) {
+        retries--;
+        if (retries === 0) throw err;
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+    }
+
+    if (!res) throw new Error("Failed to fetch group after retries");
 
     const $ = cheerio.load(res.data);
     const rows: any[] = [];
@@ -123,7 +136,7 @@ export async function POST(req: Request) {
     }
 
     // --- Fetch group details ---
-    const groups = await getGroup(filtered,cleanSubject);
+    const groups = await getGroup(filtered, cleanSubject, client);
     
     //console.log("GROUPS", groups);
     return new Response(JSON.stringify(groups), { status: 200 });
@@ -135,30 +148,43 @@ export async function POST(req: Request) {
   }
 }
 
-async function getGroup(filtered: any[], subject_name : string) {
+async function getGroup(filtered: any[], subject_name: string, client: any) {
   const results: any[] = [];
   console.log("subject_name", subject_name)
 
   for (const subject of filtered) {
     if (!subject.href) continue;
 
-    //console.log("🔍 Fetching:", subject.href);
+    // Small delay to prevent UITM server from closing the socket (ECONNRESET)
+    await new Promise((resolve) => setTimeout(resolve, 300));
 
-    const res = await axios.get(subject.href, {
-      headers: {
-        "User-Agent": "Mozilla/5.0",
-        Referer:
-          "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
-      },
-    });
+    let res;
+    let retries = 3;
+    while (retries > 0) {
+      try {
+        res = await client.get(subject.href, {
+          headers: {
+            "User-Agent": "Mozilla/5.0",
+            Referer:
+              "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
+          },
+        });
+        break;
+      } catch (err) {
+        retries--;
+        if (retries === 0) throw err;
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+    }
+
+    if (!res) throw new Error("Failed to fetch group details after retries");
 
     const $ = cheerio.load(res.data);
-    const rows: any[] = [];
 
     $("table tr").each((_, tr) => {
       const cells = $(tr).find("td");
       if (cells.length > 0) {
-        rows.push({
+        results.push({
           no: $(cells[0]).text().trim(),
           day_time: $(cells[1]).text().trim(),
           class_code: $(cells[2]).text().trim(),
@@ -167,12 +193,12 @@ async function getGroup(filtered: any[], subject_name : string) {
           venue: $(cells[5]).text().trim(),
           subject_code: $(cells[6]).text().trim(),
           faculty: $(cells[7]).text().trim(),
-          subject_name : subject_name,
+          subject_name: subject_name,
         });
       }
     });
-
-    console.log("RESUKLT",rows)
-    return rows;
   }
+
+  console.log("RESULT", results.length, "rows total");
+  return results;
 }

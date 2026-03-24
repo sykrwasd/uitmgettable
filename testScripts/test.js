@@ -1,9 +1,30 @@
 import axios from "axios";
+import { wrapper } from "axios-cookiejar-support";
+import { CookieJar } from "tough-cookie";
 import * as cheerio from "cheerio";
 
 async function scrape() {
-  const url =
-    "https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm";
+  // --- 1. Get cookies (cookie.js algorithm) ---
+  const jar = new CookieJar();
+  const client = wrapper(axios.create({ jar, withCredentials: true }));
+
+  await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
+
+  const cookieList = await jar.getCookies(
+    "https://simsweb4.uitm.edu.my/estudent/class_timetable/"
+  );
+
+  let id1 = "", id2 = "", id3 = "";
+  for (const c of cookieList) {
+    if (c.key === "KEY1") id1 = c.value;
+    if (c.key === "KEY2") id2 = c.value;
+    if (c.key === "KEY3") id3 = c.value;
+  }
+
+  console.log("Cookies:", { id1, id2, id3 });
+
+  // --- 2. Build URL with cookie IDs ---
+  const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
 
   // Updated payload
   const payload = new URLSearchParams({
@@ -41,7 +62,7 @@ async function scrape() {
   });
 
   // Request headers
-  const res = await axios.post(url, payload.toString(), {
+  const res = await client.post(url, payload.toString(), {
     headers: {
       Accept: "*/*",
       "Accept-Encoding": "gzip, deflate, br, zstd",
@@ -130,7 +151,7 @@ async function getGroup(filtered) {
       }
     });
 
-    //console.log(JSON.stringify(rows, null, 2));
+    console.log(JSON.stringify(rows, null, 2));
   }
 }
 

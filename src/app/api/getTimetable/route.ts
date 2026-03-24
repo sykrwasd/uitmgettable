@@ -20,12 +20,25 @@ export async  function POST(req: Request) {
   try {
     const url = `https://cdn.uitm.edu.my/jadual/baru/${matricNumber}.json`;
 
-    const res = await axios.get(url, {
-      headers: {
-        "User-Agent": "Mozilla/5.0",
-        Referer: "https://mystudent.uitm.edu.my/",
-      },
-    });
+    let res;
+    let retries = 3;
+    while (retries > 0) {
+      try {
+        res = await axios.get(url, {
+          headers: {
+            "User-Agent": "Mozilla/5.0",
+            Referer: "https://mystudent.uitm.edu.my/",
+          },
+        });
+        break;
+      } catch (err) {
+        retries--;
+        if (retries === 0) throw err;
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+    }
+
+    if (!res) throw new Error("Failed to fetch timetable after retries");
 
     const rawData: Record<string, DayData> = res.data;
 
