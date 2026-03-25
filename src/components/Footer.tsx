@@ -1,4 +1,4 @@
-import { FaGithub, FaHistory } from "react-icons/fa";
+import { FaGithub, FaHistory, FaHeart } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -40,10 +40,16 @@ export default function Footer() {
           Fork us on GitHub
         </a>
 
-        {/* Right - Credits */}
-        <span className="text-sm text-gray-600">
-          by Umar Syakir | DISK UiTM Tapah
-        </span>
+        {/* Right - Ko-fi */}
+        <a
+          href="https://ko-fi.com/sykrwasd"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-pink-500 hover:text-pink-600 hover:underline flex items-center gap-1 text-sm"
+        >
+          <FaHeart className="w-4 h-4" />
+          Support on Ko-fi
+        </a>
       </footer>
 
       {/* Changelog Modal */}
