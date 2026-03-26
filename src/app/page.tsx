@@ -79,7 +79,7 @@ export default function TimetableSwitcher() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {/* Left Column - switchable */}
           <div className="lg:col-span-1 space-y-6">
-            {mode === "manual" ? (
+            {mode === "manual" ? ( 
               <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
                 {/* Overlay */}
                 {/* <div className="absolute inset-0 bg-red-600/70 backdrop-blur-sm flex flex-col items-center justify-center rounded-lg z-10 p-4">
