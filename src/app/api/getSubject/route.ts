@@ -1,8 +1,6 @@
 import axios from "axios";
-import { wrapper } from "axios-cookiejar-support";
-import { CookieJar } from "tough-cookie";
 import * as cheerio from "cheerio";
-import { cookieManager } from "@/lib/cookieManager";
+import { createUitmPayload, UITM_TIMETABLE_URL, UITM_TIMETABLE_HEADERS } from "@/lib/uitmPayload";
 
 async function fetchSubjects(campus: string, faculty: string) {
   let processedCampus = campus;
@@ -19,64 +17,16 @@ async function fetchSubjects(campus: string, faculty: string) {
 
   console.log("received campus", campus);
   console.log("receivde faclty", faculty);
-  
-  // --- Use Cookie Manager ---
-  const { jar, ids } = await cookieManager.getCookies();
-  if (!ids) throw new Error("Failed to get cookies");
-  const { id1, id2, id3 } = ids;
 
-  const client = wrapper(axios.create({ jar, withCredentials: true }));
-
-  // Remote fetch logic removed in favor of CookieManager
-  // await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
-
-  console.log({ id1, id2, id3 });
-  
-  const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
-
-  const payload = new URLSearchParams({
-    captcha_no_type: "llIlllIlIIllIlIIIIlllIlIll",
-    captcha1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
-    captcha2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    captcha3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    token1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
-    token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    token3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
-    llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
-    lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIIlllIIIIlIllIlllIlIll",
-    lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
-    lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
-    lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
-    lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
-    lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
-    lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI: "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
-    lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
-    llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl: "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-    search_campus: processedCampus,
-    search_faculty: faculty,
-    search_course: "",
-    lIIIlllIIllll: "lIIIlllIIllll",
-  });
-
+  const payload = createUitmPayload(processedCampus, faculty, "");
 
   let retries = 5;
   while (retries > 0) {
     try {
-      const res = await client.post(url, payload.toString(), {
-        headers: {
-          "User-Agent": "Mozilla/5.0",
-          "Content-Type": "application/x-www-form-urlencoded",
-          "X-Requested-With": "XMLHttpRequest",
-          Referer:
-            "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
-        },
+      const res = await axios.post(UITM_TIMETABLE_URL, payload.toString(), {
+        headers: UITM_TIMETABLE_HEADERS,
       });
 
-      console.log(res.data)
 
       const $ = cheerio.load(res.data);
       const rows: any[] = [];

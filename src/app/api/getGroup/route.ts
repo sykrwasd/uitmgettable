@@ -1,8 +1,6 @@
 import axios from "axios";
-import { wrapper } from "axios-cookiejar-support";
-import { CookieJar } from "tough-cookie";
 import * as cheerio from "cheerio";
-import { cookieManager } from "@/lib/cookieManager";
+import { createUitmPayload, UITM_TIMETABLE_URL, UITM_TIMETABLE_HEADERS } from "@/lib/uitmPayload";
 
 export async function POST(req: Request) {
   try {
@@ -16,13 +14,6 @@ export async function POST(req: Request) {
     const cleanSubject = subjectName.replace(/\./g, "").trim().toUpperCase();
 
     console.log("clean subject", cleanSubject);
-    
-    // --- Use Cookie Manager ---
-    const { jar, ids } = await cookieManager.getCookies();
-    if (!ids) throw new Error("Failed to get cookies");
-    const { id1, id2, id3 } = ids;
-
-    const client = wrapper(axios.create({ jar, withCredentials: true }));
 
     let campus = originalCampus;
     if (campus === "LANGUAGE COURSES") campus = "APB";
@@ -30,70 +21,14 @@ export async function POST(req: Request) {
     else if (campus === "CO") campus = "HEP";
     else if (campus === "selangor") campus = "B";
 
-    // await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
-    // Remote fetch logic removed in favor of CookieManager
-
-    console.log({ id1, id2, id3 });
-
-    const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
-
-    const payload = new URLSearchParams({
-      captcha_no_type: "llIlllIlIIllIlIIIIlllIlIll",
-      captcha1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
-      captcha2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-      captcha3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-
-      token1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
-      token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-      token3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-
-      llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
-      llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
-      lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIIlllIIIIlIllIlllIlIll",
-
-      lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
-      lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
-      lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
-      lIIlIllIlIllllIlIIllIlIIIIlllIlIllI:
-        "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
-
-      lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
-      lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
-        "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
-
-      lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
-      llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-
-      lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-      llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-        "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-
-      llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
-        "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-
-      search_campus: campus,
-      search_faculty: faculty,
-      search_course: "",
-      lIIIlllIIllll: "lIIIlllIIllll",
-    });
+    const payload = createUitmPayload(campus, faculty, "");
 
     let res;
     let retries = 3;
     while (retries > 0) {
       try {
-        res = await client.post(url, payload.toString(), {
-          headers: {
-            "User-Agent": "Mozilla/5.0",
-            "Content-Type": "application/x-www-form-urlencoded",
-            "X-Requested-With": "XMLHttpRequest",
-            Referer:
-              "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
-          },
+        res = await axios.post(UITM_TIMETABLE_URL, payload.toString(), {
+          headers: UITM_TIMETABLE_HEADERS,
         });
         break;
       } catch (err) {
@@ -136,7 +71,7 @@ export async function POST(req: Request) {
     }
 
     // --- Fetch group details ---
-    const groups = await getGroup(filtered, cleanSubject, client);
+    const groups = await getGroup(filtered, cleanSubject);
     
     //console.log("GROUPS", groups);
     return new Response(JSON.stringify(groups), { status: 200 });
@@ -148,7 +83,7 @@ export async function POST(req: Request) {
   }
 }
 
-async function getGroup(filtered: any[], subject_name: string, client: any) {
+async function getGroup(filtered: any[], subject_name: string) {
   const results: any[] = [];
   console.log("subject_name", subject_name)
 
@@ -162,7 +97,7 @@ async function getGroup(filtered: any[], subject_name: string, client: any) {
     let retries = 3;
     while (retries > 0) {
       try {
-        res = await client.get(subject.href, {
+        res = await axios.get(subject.href, {
           headers: {
             "User-Agent": "Mozilla/5.0",
             Referer:

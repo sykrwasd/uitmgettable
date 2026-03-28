@@ -51,7 +51,7 @@ export default function TimetableSwitcher() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
-      Maintenance Modal
+      {/* Maintenance Modal
       <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
         <div className="bg-white rounded-2xl shadow-2xl p-8 flex flex-col items-center gap-4 max-w-sm w-full mx-4 text-center">
           <img
@@ -64,7 +64,7 @@ export default function TimetableSwitcher() {
             We&apos;re updating things! Please check back soon.
           </p>
         </div>
-      </div>
+      </div> */}
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}

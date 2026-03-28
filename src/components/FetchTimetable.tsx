@@ -5,6 +5,7 @@ import html2canvas from "html2canvas-pro";
 import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
 import toast from 'react-hot-toast';
+import SaveImageDevice from "./SaveImageDevice";
 import { trackEvent } from "@/utils/umami";
 
 type Group = {
@@ -43,47 +44,6 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   ];
 
   const timetableRef = useRef<HTMLDivElement>(null);
-
-  const saveAsImage = async () => {
-    if (!timetableRef.current) return;
-
-    try {
-      toast.loading('Generating timetable image...', { id: 'export' });
-      
-      // Clone the timetable to render off-screen
-      const clone = timetableRef.current.cloneNode(true) as HTMLElement;
-      clone.style.position = "absolute";
-      clone.style.left = "-9999px"; // move off-screen
-      clone.style.width = "max-content"; // expand to full width
-      document.body.appendChild(clone);
-
-      // Capture screenshot
-      const canvas = await html2canvas(clone, { scale: 3 });
-      const imgData = canvas.toDataURL("image/png");
-
-      // Download
-      const link = document.createElement("a");
-      link.href = imgData;
-      link.download = "timetable.png";
-      link.click();
-
-      // Cleanup
-      document.body.removeChild(clone);
-
-      toast.success('📥 Timetable saved successfully!', { id: 'export', duration: 2000 });
-
-      event({
-        action: "save_timetable",
-        params: { classes_count: selectedClasses.length, method: "image" },
-      });
-      trackEvent("save_timetable", { 
-        classes_count: selectedClasses.length, 
-        method: "image" 
-      });
-    } catch (error) {
-      toast.error('Failed to export timetable', { id: 'export' });
-    }
-  };
 
   const DEFAULT_COLOR = "#155dfc";
   const COLORS_STORAGE_KEY = 'uitm-timetable-fetch-colors';
@@ -156,12 +116,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
        
         <div className="flex flex-wrap justify-center gap-3">
-          <button
-            onClick={saveAsImage}
-            className="px-5 py-2 bg-blue-600/50 text-white font-semibold rounded-lg shadow hover:bg-blue-500 transition"
-          >
-            Save as Image
-          </button>
+          <SaveImageDevice timetableRef={timetableRef} selectedCount={selectedClasses.length} />
 
           <button
             onClick={() => {
