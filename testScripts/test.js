@@ -11,10 +11,12 @@ async function scrape() {
   await client.get("https://simsweb4.uitm.edu.my/estudent/class_timetable/");
 
   const cookieList = await jar.getCookies(
-    "https://simsweb4.uitm.edu.my/estudent/class_timetable/"
+    "https://simsweb4.uitm.edu.my/estudent/class_timetable/",
   );
 
-  let id1 = "", id2 = "", id3 = "";
+  let id1 = "",
+    id2 = "",
+    id3 = "";
   for (const c of cookieList) {
     if (c.key === "KEY1") id1 = c.value;
     if (c.key === "KEY2") id2 = c.value;
@@ -56,32 +58,20 @@ async function scrape() {
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
       "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-    search_campus: "A4",
-    search_course: "",
+    search_campus: "K",
+    search_course: "MGT400",
     lIIIlllIIllll: "lIIIlllIIllll",
   });
 
   // Request headers
   const res = await client.post(url, payload.toString(), {
     headers: {
-      Accept: "*/*",
-      "Accept-Encoding": "gzip, deflate, br, zstd",
-      "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
-      "Cache-Control": "no-cache",
-      Connection: "keep-alive",
-      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-      Origin: "https://simsweb4.uitm.edu.my",
-      Pragma: "no-cache",
+      "User-Agent": "Mozilla/5.0",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "X-Requested-With": "XMLHttpRequest",
       Referer:
         "https://simsweb4.uitm.edu.my/estudent/class_timetable/index.htm",
-      "Sec-Fetch-Dest": "empty",
-      "Sec-Fetch-Mode": "cors",
-      "Sec-Fetch-Site": "same-origin",
-      "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
-      "X-Requested-With": "XMLHttpRequest",
     },
-    withCredentials: true,
   });
 
   const $ = cheerio.load(res.data);
@@ -101,14 +91,14 @@ async function scrape() {
 
   //console.log("Subjects found:", rows.length);
 
-  const subjectName = "mat133";
+  const subjectName = "MGT400";
   const filtered = rows.filter((row) =>
-    row.course.toUpperCase().includes(subjectName.toUpperCase())
+    row.course.toUpperCase().includes(subjectName.toUpperCase()),
   );
 
   //console.log("Filtered:", filtered);
 
-  console.log(rows)
+  console.log(rows);
 
   await getGroup(filtered);
 }

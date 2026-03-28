@@ -4,7 +4,7 @@ import * as cheerio from "cheerio";
 async function scrape() {
   const url =
     `
-   https://simsweb4.uitm.edu.my/estudent/class_timetable/index_tt.cfm?id1=7F1DBC9AD53FBDA303DAFFD99CAE5FE680B940&id3=5BF8CF3&id2=4E45BF8CF95E8A3F86CAC211757D95B8516B8F
+   https://simsweb4.uitm.edu.my/estudent/class_timetable/index_tt.cfm?id1=4DAB6C9682B3A7FBA90731BE9DB03B821F&id3=B6C9683&id2=7604AEE5A274AED3EB43CD559296E6904E
     `;
 
   const res = await axios.get(url, {

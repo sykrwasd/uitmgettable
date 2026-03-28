@@ -28,6 +28,7 @@ async function fetchSubjects(campus: string, faculty: string) {
       });
 
 
+
       const $ = cheerio.load(res.data);
       const rows: any[] = [];
       
@@ -42,6 +43,8 @@ async function fetchSubjects(campus: string, faculty: string) {
           });
         }
       });
+
+      console.log(rows)
 
       if (rows.length === 0) {
         throw new Error("Empty subjects list (possible CAPTCHA/session failure). Retrying...");
