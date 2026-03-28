@@ -39,38 +39,23 @@ async function fetchSubjects(campus: string, faculty: string) {
     captcha1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
     captcha2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     captcha3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-
     token1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
     token2: "lIIlllIlIllIlIIlIllIIIIlllIllll",
     token3: "lIIlllIlIllIlIIlIllIIIIlllIllll",
-
     llIlllIlIIllIlIIIIlllIlIll: "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
     llIlllIlIIlllllIIIlllIlIll: "lIIllIlIlllIlIIlIllIIIIllllIlIll",
     lIIlllIlIIlIllIIIIlllIlIll: "lIIlllIlIIIlllIIIIlIllIlllIlIll",
-
     lIIlIlllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllI",
     lIIlIlllIlIIllIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
     lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI: "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
     lIIlIllIlIllllIlIIllIlIIIIlllIlIllI: "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
-
-    lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
-    lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI:
-      "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
-
-    lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
-    llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-
-    lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI:
-      "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-
-    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
-      "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-
+    lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
+    lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI: "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
+    lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
+    llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI: "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
+    llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl: "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
     search_campus: processedCampus,
     search_faculty: faculty,
     search_course: "",
@@ -90,6 +75,8 @@ async function fetchSubjects(campus: string, faculty: string) {
             "https://simsweb4.uitm.edu.my/estudent/class_timetable/indexIllIl.cfm",
         },
       });
+
+      console.log(res.data)
 
       const $ = cheerio.load(res.data);
       const rows: any[] = [];
