@@ -48,27 +48,21 @@ export default function Header({ mode, setMode }: Props) {
 
       {/* Status & Social Proof */}
       <div className="flex flex-wrap justify-center items-center gap-3 mt-4">
-        <div className="bg-blue-50/80 backdrop-blur-sm border border-blue-100 rounded-full px-4 py-1.5 flex items-center gap-2 shadow-sm transition-all">
-          <span className="relative flex h-2.5 w-2.5">
-            {health === "checking" ? (
-              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-gray-400"></span>
-            ) : (
-              <>
-                <span className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${health === 'up' ? 'bg-green-400' : 'bg-red-400'}`}></span>
-                <span className={`relative inline-flex rounded-full h-2.5 w-2.5 ${health === 'up' ? 'bg-green-500' : 'bg-red-500'}`}></span>
-              </>
-            )}
-          </span>
-          <span className="text-sm font-medium text-blue-800">
-            {health === "checking" ? "Checking status..." : health === "up" ? "iCress Online" : "iCress Offline"}
-          </span>
-        </div>
+       
 
         <div className="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-1.5 flex items-center shadow-sm">
           <span className="text-sm font-medium text-gray-700">
-            🎓 Trusted by 1k+ students
+            🎓 Trusted by 10k+ students
           </span>
+          
         </div>
+         <div className="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-1.5 flex items-center shadow-sm">
+          <span className="text-sm font-medium text-gray-700">
+            📊 Has Generated over 10k+ timetables
+          </span>
+          
+        </div>
+        
       </div>
       <div className="w-full flex justify-center">
         <div className="w-full max-w-3xl bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
