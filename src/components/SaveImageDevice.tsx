@@ -7,12 +7,10 @@ import { trackEvent } from "@/utils/umami";
 
 interface SaveImageDeviceProps {
   timetableRef: React.RefObject<HTMLDivElement | null>;
-  selectedCount: number;
 }
 
 export default function SaveImageDevice({
   timetableRef,
-  selectedCount,
 }: SaveImageDeviceProps) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [device, setDevice] = useState<"phone" | "tablet" | "laptop" | "image">(
@@ -33,29 +31,26 @@ export default function SaveImageDevice({
       clone.style.left = "-9999px";
 
       let width = 1080;
+      let height = 1920;
 
       if (device === "tablet") {
         width = 1200;
+        height = 1600;
       } else if (device === "laptop") {
         width = 1920;
+        height = 1080;
       } else if (device === "image") {
         // Use the original timetable's size
         const rect = timetableRef.current.getBoundingClientRect();
         width = rect.width + 100;
+        height = rect.height;
       }
       clone.style.width = `${width}px`;
-      clone.style.height = `auto`;
+      clone.style.height = `${height}px`;
       clone.style.transformOrigin = "top left";
-      
-      // Make it dynamic for smaller devices by squishing forced widths
-      if (device === "phone" || device === "tablet") {
-        const ths = clone.querySelectorAll("th");
-        ths.forEach(th => th.classList.remove("min-w-[160px]"));
-      }
-
       document.body.appendChild(clone);
 
-      const canvas = await html2canvas(clone, { scale: 3, windowWidth: width });
+      const canvas = await html2canvas(clone, { scale: 3, width, height });
       const imgData = canvas.toDataURL("image/png");
 
       const link = document.createElement("a");
@@ -71,8 +66,7 @@ export default function SaveImageDevice({
 
       trackEvent("save_timetable", { 
         method: "image", 
-        device,
-        classes_count: selectedCount
+        device 
       });
 
       closeModal();

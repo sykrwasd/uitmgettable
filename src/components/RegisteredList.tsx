@@ -20,10 +20,17 @@ export default function RegisteredList({
   loadingTimetable,
   fetchTimetable,
 }: GroupProps) {
-  // ✅ Remove duplicates — based on subject name
+
+
   const uniqueTimetable = Array.from(
-    new Map(fetchTimetable.map((item) => [item.subject_name.trim(), item])).values()
-  );
+  new Map(
+    fetchTimetable.map((item) => [
+      `${item.subject_code}-${item.class_code}-${item.day_time}`,
+      item,
+    ])
+  ).values()
+);
+
 
   return (
     <>
@@ -58,7 +65,7 @@ export default function RegisteredList({
               {/* Top: Subject + Code */}
               <div className="flex justify-between items-center mb-1">
                 <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
-                  {row.subject_name}
+                  {row.subject_code}
                 </h4>
                 <span className="text-xs font-medium bg-blue-100 text-blue-700 px-2 py-0.5 rounded-md">
                   {row.class_code.replace(/\*/g, "").trim()}

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 async function scrape() {
-  const url = "https://cdn.uitm.edu.my/jadual/baru/2024441874.json";
+  const url = "https://cdn.uitm.link/jadual/baru/2026118031.json";
 
   const res = await axios.get(url, {
     headers: {

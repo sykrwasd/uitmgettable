@@ -53,10 +53,8 @@ export async function POST(req: Request) {
 
     console.log("🍪 Cookies:", { id1, id2, id3 });
 
-    // --- 4. Build URL with session ---
     const url = `https://simsweb4.uitm.edu.my/estudent/class_timetable/INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${id1}&id2=${id2}&id3=${id3}`;
 
-    // --- 5. Build payload ---
     const payload = new URLSearchParams({
       captcha_no_type: "llIlllIlIIllIlIIIIlllIlIll",
       captcha1: "lIIlllIlIllIllIIIIIlIlllllIlIll",
@@ -99,7 +97,6 @@ export async function POST(req: Request) {
       lIIIlllIIllll: "lIIIlllIIllll",
     });
 
-    // --- 6. POST request ---
     const res = await client.post(url, payload.toString(), {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
@@ -129,7 +126,6 @@ export async function POST(req: Request) {
 
     console.log("📊 Total subjects:", rows.length);
 
-    // --- Filter ---
     const filtered = rows.filter((row) =>
       row.course.toUpperCase().includes(cleanSubject)
     );
