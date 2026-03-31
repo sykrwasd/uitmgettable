@@ -77,7 +77,7 @@ export default function Header({ mode, setMode }: Props) {
             type="checkbox"
             className="sr-only peer"
             checked={mode === "auto"}
-            onChange={() => setMode(mode === "manual" ? "auto" : "manual")}
+            onChange={() => setMode(mode === "manual" ? "auto" : "manual")} 
           />
           <div className="w-12 h-6 sm:w-14 sm:h-7 md:w-16 md:h-8 bg-gradient-to-r from-gray-300 to-gray-400 peer-focus:outline-none peer-focus:ring-2 sm:peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:bg-gradient-to-r peer-checked:from-blue-500 peer-checked:to-blue-600 transition-all duration-300 shadow-md sm:shadow-lg"></div>
           <div className="absolute left-0.5 top-0.5 sm:left-1 sm:top-1 w-5 h-5 sm:w-5 sm:h-5 md:w-6 md:h-6 bg-white rounded-full shadow-md transform transition-all duration-300 peer-checked:translate-x-6 sm:peer-checked:translate-x-7 md:peer-checked:translate-x-8 flex items-center justify-center">
