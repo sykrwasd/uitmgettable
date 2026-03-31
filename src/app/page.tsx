@@ -13,7 +13,7 @@ import CampusSelect from "@/components/campus-select";
 import SubjectSelect from "@/components/subject-select";
 import GroupList from "@/components/group-list";
 import OrderErrorPopup from "@/components/order-error";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import { useTimetable } from "./hooks/useTimetable";
 import RegisteredList from "@/components/register-list";
 import FetchTimetable from "@/components/fetch-timetable";
