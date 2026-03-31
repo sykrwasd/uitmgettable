@@ -58,8 +58,8 @@ async function scrape() {
       "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
       "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-    search_campus: "K",
-    search_course: "MGT400",
+    search_campus: "m3",
+    search_course: "mat423",
     lIIIlllIIllll: "lIIIlllIIllll",
   });
 
