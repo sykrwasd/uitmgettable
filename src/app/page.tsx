@@ -10,13 +10,13 @@ import { useGroups } from "./hooks/useGroups";
 import { useSelectedClass } from "./hooks/useSelectedClass";
 import Footer from "@/components/footer";
 import CampusSelect from "@/components/campus-select";
-import SubjectSelect from "@/components/subject-select";
-import GroupList from "@/components/group-list";
-import OrderErrorPopup from "@/components/order-error";
-import Header from "@/components/Header";
+import SubjectSelect from "@/components/SubjectSelect";
+import GroupList from "@/components/GroupList";
+import OrderErrorPopup from "@/components/orderError";
+import Header from "@/components/header";
 import { useTimetable } from "./hooks/useTimetable";
-import RegisteredList from "@/components/register-list";
-import FetchTimetable from "@/components/fetch-timetable";
+import RegisteredList from "@/components/RegisteredList";
+import FetchTimetable from "@/components/FetchTimetable";
 
 export default function TimetableSwitcher() {
   const [mode, setMode] = useState<string>("manual");
