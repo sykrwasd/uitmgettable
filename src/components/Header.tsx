@@ -6,26 +6,7 @@ interface Props {
 }
 
 export default function Header({ mode, setMode }: Props) {
-  const [health, setHealth] = useState<"checking" | "up" | "down">("checking");
-
-  useEffect(() => {
-    const checkHealth = async () => {
-      try {
-        const res = await fetch("/api/healthCheck");
-        if (res.ok) {
-          setHealth("up");
-        } else {
-          setHealth("down");
-        }
-      } catch {
-        setHealth("down");
-      }
-    };
-
-    checkHealth();
-    const interval = setInterval(checkHealth, 60000);
-    return () => clearInterval(interval);
-  }, []);
+  
   return (
     <div className="text-center mb-6 sm:mb-8 md:mb-12 space-y-4 sm:space-y-5 md:space-y-6">
       {/* Hero Section with Glass Morphism */}
@@ -79,7 +60,7 @@ export default function Header({ mode, setMode }: Props) {
         </div>
       </div>
 
-      {/* Mode Switch with Enhanced Design */}
+      {/* Mode Switch */}
       <div className="flex justify-center items-center gap-2.5 sm:gap-3 md:gap-4 mt-4 sm:mt-5 md:mt-6">
         <span
           className={`text-xs sm:text-sm md:text-base font-medium transition-all duration-300 ${
@@ -98,9 +79,7 @@ export default function Header({ mode, setMode }: Props) {
             checked={mode === "auto"}
             onChange={() => setMode(mode === "manual" ? "auto" : "manual")}
           />
-          {/* Toggle Background */}
-          <div className="w-12 h-6 sm:w-14 sm:h-7 md:w-16 md:h-8 bg-gradient-to-r from-gray-300 to-gray-400 peer-focus:outline-none peer-focus:ring-2 sm:peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:bg-gradient-to-r peer-checked:from-blue-500 peer-checked:to-blue-600 transition-all duration-300 shadow-md sm:shadow-lg group-hover:shadow-lg sm:group-hover:shadow-xl"></div>
-          {/* Toggle Slider */}
+          <div className="w-12 h-6 sm:w-14 sm:h-7 md:w-16 md:h-8 bg-gradient-to-r from-gray-300 to-gray-400 peer-focus:outline-none peer-focus:ring-2 sm:peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:bg-gradient-to-r peer-checked:from-blue-500 peer-checked:to-blue-600 transition-all duration-300 shadow-md sm:shadow-lg"></div>
           <div className="absolute left-0.5 top-0.5 sm:left-1 sm:top-1 w-5 h-5 sm:w-5 sm:h-5 md:w-6 md:h-6 bg-white rounded-full shadow-md transform transition-all duration-300 peer-checked:translate-x-6 sm:peer-checked:translate-x-7 md:peer-checked:translate-x-8 flex items-center justify-center">
             <div
               className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full transition-colors duration-300 ${
@@ -120,6 +99,7 @@ export default function Header({ mode, setMode }: Props) {
           Smart Fetch
         </span>
       </div>
+
     </div>
   );
 }

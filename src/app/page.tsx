@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { trackEvent } from "@/utils/umami";
 import { useCampus } from "./hooks/useCampus";
 import { useFaculty } from "./hooks/useFaculty";
@@ -8,17 +8,15 @@ import { useSubjects } from "./hooks/useSubjects";
 import { parseCampus } from "@/lib/utils";
 import { useGroups } from "./hooks/useGroups";
 import { useSelectedClass } from "./hooks/useSelectedClass";
-import Footer from "@/components/Footer";
-import CampusSelect from "@/components/CampusSelect";
-import SubjectSelect from "@/components/SubjectSelect";
-import Timetable from "@/components/timetable";
-import GroupList from "@/components/GroupList";
-import OrderErrorPopup from "@/components/orderError";
-import Header from "@/components/Header";
-import TimetableFetch from "@/components/TimetableFetch";
+import Footer from "@/components/footer";
+import CampusSelect from "@/components/campus-select";
+import SubjectSelect from "@/components/subject-select";
+import GroupList from "@/components/group-list";
+import OrderErrorPopup from "@/components/order-error";
+import Header from "@/components/header";
 import { useTimetable } from "./hooks/useTimetable";
-import RegisteredList from "@/components/RegisteredList";
-import FetchTimetable from "@/components/FetchTimetable";
+import RegisteredList from "@/components/register-list";
+import FetchTimetable from "@/components/fetch-timetable";
 
 export default function TimetableSwitcher() {
   const [mode, setMode] = useState<string>("manual");
@@ -45,113 +43,82 @@ export default function TimetableSwitcher() {
   };
 
   const handleFetch = () => {
+    if (!matricNumber.trim()) return;
     trackEvent("fetch_timetable", { matricNumber });
     fetchData(matricNumber);
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
-      Maintenance Modal
-      <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
-        <div className="bg-white rounded-2xl shadow-2xl p-8 flex flex-col items-center gap-4 max-w-sm w-full mx-4 text-center">
-          <img
-            src="https://media.tenor.com/GOj9ZF_-ZOcAAAAM/cat.gif"
-            alt="Cat maintenance"
-            className="w-40 h-40 object-cover rounded-xl"
-          />
-          <h2 className="text-2xl font-bold text-gray-800">Under Maintenance 🚧</h2>
-          <p className="text-gray-500 text-sm">
-            We&apos;re updating things! Please check back soon.
-          </p>
-        </div>
-      </div>
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
 
       <div className="relative min-h-screen p-4">
-        {/* Header */}
         <Header mode={mode} setMode={(m) => {
           trackEvent("change_mode", { mode: m });
           setMode(m);
-        }}></Header>
+        }} />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {/* Left Column - switchable */}
+          {/* Left Column — switches based on mode */}
           <div className="lg:col-span-1 space-y-6">
-            {mode === "manual" ? ( 
-              <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
-                {/* Overlay */}
-                {/* <div className="absolute inset-0 bg-red-600/70 backdrop-blur-sm flex flex-col items-center justify-center rounded-lg z-10 p-4">
-                  <p className="text-white font-bold text-lg text-center">
-                    Temporarily Closed 🚧
-                  </p>
-                  <p className="text-white text-sm text-center mt-2">
-                    Manual timetable is unreliable due to source format changes.
-                    Use the new feature instead.
-                  </p>
-                </div> */}
+            {mode === "manual" ? (
+              <>
+                {/* Manual: campus + subject selectors */}
+                <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
+                  <div className="flex flex-col gap-5">
+                    <CampusSelect
+                      loadingCampus={loadingCampus}
+                      fetchCampus={fetchCampus}
+                      handleCampusChange={handleCampusChange}
+                      selangor={selangor}
+                      setFaculty={setFaculty}
+                      fetchFaculty={fetchFaculty}
+                    />
+                    <SubjectSelect
+                      loadingSubjects={loadingSubjects}
+                      fetchSubjects={fetchSubjects}
+                      setSubjectName={setSubjectName}
+                    />
+                  </div>
+                </div>
 
-                <div className="opacity-50 flex flex-col gap-5">
-                  <CampusSelect
-                    loadingCampus={loadingCampus}
-                    fetchCampus={fetchCampus}
-                    handleCampusChange={handleCampusChange}
-                    selangor={selangor}
-                    setFaculty={setFaculty}
-                    fetchFaculty={fetchFaculty}
-                  />
-                  <SubjectSelect
-                    loadingSubjects={loadingSubjects}
-                    fetchSubjects={fetchSubjects}
-                    setSubjectName={setSubjectName}
+                {/* Available Classes */}
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Available Classes
+                  </h3>
+                  <GroupList
+                    loadingGroup={loadingGroup}
+                    fetchGroup={fetchGroup}
+                    searchGroup={searchGroup}
+                    setSearchGroup={setSearchGroup}
+                    selectedClasses={selectedClasses}
+                    addClass={addClass}
                   />
                 </div>
-              </div>
+              </>
             ) : (
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 space-y-4">
-                <TimetableFetch
-                  matricNumber={matricNumber}
-                  setMatricNumber={setMatricNumber}
-                  onFetch={handleFetch}
-                ></TimetableFetch>
-              </div>
-            )}
-
-            {/* Available Classes List (only for manual) */}
-            {mode === "manual" ? (
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-4">
-                  Available Classes
-                </h3>
-
-                <GroupList
-                  loadingGroup={loadingGroup}
-                  fetchGroup={fetchGroup}
-                  searchGroup={searchGroup}
-                  setSearchGroup={setSearchGroup}
-                  selectedClasses={selectedClasses}
-                  addClass={addClass}
-                />
-              </div>
-            ) : (
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-gray-700 mb-4">
-                  Registered Classes
-                </h3>
-
-                <RegisteredList
-                  fetchTimetable={fetchTimetable}
-                  loadingTimetable={loadingTimetable}
-                ></RegisteredList>
-              </div>
+              <>
+                {/* Smart Fetch: registered classes list */}
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    Registered Classes
+                  </h3>
+                  <RegisteredList
+                    fetchTimetable={fetchTimetable}
+                    loadingTimetable={loadingTimetable}
+                  />
+                </div>
+              </>
             )}
           </div>
 
-          {/* Right Column - always timetable */}
+          {/* Right Column — FetchTimetable for both modes */}
           <div className="lg:col-span-2">
             {mode === "manual" ? (
-              <Timetable
+              <FetchTimetable
                 selectedClasses={selectedClasses}
                 onRemoveClass={removeClass}
                 onClearAll={clearAll}
@@ -160,7 +127,11 @@ export default function TimetableSwitcher() {
               <FetchTimetable
                 selectedClasses={fetchTimetable}
                 onRemoveClass={() => {}}
-              ></FetchTimetable>
+                matricNumber={matricNumber}
+                onMatricChange={setMatricNumber}
+                onImport={handleFetch}
+                loadingImport={loadingTimetable}
+              />
             )}
           </div>
         </div>

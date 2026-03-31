@@ -13,6 +13,9 @@ type Group = {
   faculty: string;
   subject_name: string;
   lecturer?: string;
+  // Pre-computed by the API route
+  day?: string;
+  timeSlot?: string;
 };
 
 type SelectedClass = Group & {
@@ -31,8 +34,15 @@ export function useTimetable() {
     try {
       const data: Group[] = await getTimetable(matricNumber);
 
+      
+
       const formatted = data
         .map((item) => {
+          // If the API already gave us day + timeSlot, use them directly.
+          // Otherwise fall back to parsing day_time.
+          if (item.day && item.timeSlot) {
+            return item as unknown as SelectedClass;
+          }
           const parsed = parseDayTime(item.day_time);
           return parsed ? { ...item, ...parsed } : null;
         })
