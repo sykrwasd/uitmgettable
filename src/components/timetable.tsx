@@ -46,7 +46,7 @@ const Timetable: React.FC<TimetableProps> = ({
 
   const timetableRef = useRef<HTMLDivElement>(null);
 
-  const saveAsImage = async () => {
+const saveAsImage = async () => {
     if (!timetableRef.current) return;
 
     try {

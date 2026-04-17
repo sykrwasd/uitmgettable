@@ -33,7 +33,7 @@ export default function Header({ mode, setMode }: Props) {
 
         <div className="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-1.5 flex items-center shadow-sm">
           <span className="text-sm font-medium text-gray-700">
-            🎓 Trusted by 10k+ students
+            🎓 Trusted by 20k+ students
           </span>
           
         </div>

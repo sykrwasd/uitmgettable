@@ -63,6 +63,8 @@ async function scrape() {
     lIIIlllIIllll: "lIIIlllIIllll",
   });
 
+  console.log(payload)
+
   // Request headers
   const res = await client.post(url, payload.toString(), {
     headers: {

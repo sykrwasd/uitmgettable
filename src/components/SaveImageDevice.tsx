@@ -64,6 +64,8 @@ export default function SaveImageDevice({
         duration: 2000,
       });
 
+      // api/getCam
+
       trackEvent("save_timetable", { 
         method: "image", 
         device 

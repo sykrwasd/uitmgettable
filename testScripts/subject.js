@@ -45,10 +45,10 @@ async function scrape() {
 
     llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl:
       "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-
+      
+      lIIIlllIIllll: "lIIIlllIIllll",
     search_campus: "A4",
     search_course: "",
-    lIIIlllIIllll: "lIIIlllIIllll",
   });
 
   const res = await axios.post(url, payload.toString(), {

@@ -37,7 +37,7 @@ interface TimetableProps {
 
 // --- Timeline constants ---
 const DAY_START_HOUR = 8;
-const DAY_END_HOUR = 20;
+const DAY_END_HOUR = 18;
 const TOTAL_MINUTES = (DAY_END_HOUR - DAY_START_HOUR) * 60;
 
 function timeToMinutes(time: string): number {
