@@ -22,7 +22,7 @@ jobs:
         run: yarn install
 
       - name: Run scraper for all campuses
-        run: node testScripts/scraperAll.js
+        run: node scripts/scraperAll.js
 
       - name: Commit and push JSON files
         run: |
