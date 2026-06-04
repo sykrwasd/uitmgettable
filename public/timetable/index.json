@@ -1,0 +1,197 @@
+{
+  "scraped_at": "2026-06-04T18:51:02.202Z",
+  "campuses": [
+    {
+      "campus": "APB",
+      "name": "SELANGOR - LANGUAGE",
+      "courses": 161,
+      "status": "ok"
+    },
+    {
+      "campus": "CITU",
+      "name": "SELANGOR - CITU",
+      "courses": 24,
+      "status": "ok"
+    },
+    {
+      "campus": "HEP",
+      "name": "SELANGOR - CO-CURRICULUM",
+      "courses": 108,
+      "status": "ok"
+    },
+    {
+      "campus": "A",
+      "name": "SERI ISKANDAR",
+      "courses": 665,
+      "status": "ok"
+    },
+    {
+      "campus": "A4",
+      "name": "TAPAH",
+      "courses": 183,
+      "status": "ok"
+    },
+    {
+      "campus": "B10",
+      "name": "DENGKIL",
+      "courses": 39,
+      "status": "ok"
+    },
+    {
+      "campus": "C",
+      "name": "JENGKA",
+      "courses": 373,
+      "status": "ok"
+    },
+    {
+      "campus": "C3",
+      "name": "RAUB",
+      "courses": 114,
+      "status": "ok"
+    },
+    {
+      "campus": "D",
+      "name": "MACHANG",
+      "courses": 462,
+      "status": "ok"
+    },
+    {
+      "campus": "D2",
+      "name": "KOTA BHARU",
+      "courses": 204,
+      "status": "ok"
+    },
+    {
+      "campus": "J",
+      "name": "SEGAMAT",
+      "courses": 399,
+      "status": "ok"
+    },
+    {
+      "campus": "J4",
+      "name": "PASIR GUDANG",
+      "courses": 212,
+      "status": "ok"
+    },
+    {
+      "campus": "K",
+      "name": "SUNGAI PETANI",
+      "courses": 515,
+      "status": "ok"
+    },
+    {
+      "campus": "M",
+      "name": "ALOR GAJAH",
+      "courses": 414,
+      "status": "ok"
+    },
+    {
+      "campus": "M1",
+      "name": "BANDARAYA MELAKA",
+      "courses": 238,
+      "status": "ok"
+    },
+    {
+      "campus": "M3",
+      "name": "JASIN",
+      "courses": 281,
+      "status": "ok"
+    },
+    {
+      "campus": "N",
+      "name": "KUALA PILAH",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "N3",
+      "name": "KUALA PILAH 2",
+      "courses": 204,
+      "status": "ok"
+    },
+    {
+      "campus": "N4",
+      "name": "SEREMBAN 3",
+      "courses": 336,
+      "status": "ok"
+    },
+    {
+      "campus": "N5",
+      "name": "REMBAU",
+      "courses": 176,
+      "status": "ok"
+    },
+    {
+      "campus": "P",
+      "name": "BUKIT MERTAJAM",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "P2",
+      "name": "BERTAM",
+      "courses": 110,
+      "status": "ok"
+    },
+    {
+      "campus": "P4",
+      "name": "PERMATANG PAUH",
+      "courses": 500,
+      "status": "ok"
+    },
+    {
+      "campus": "Q",
+      "name": "SAMARAHAN",
+      "courses": 544,
+      "status": "ok"
+    },
+    {
+      "campus": "Q5",
+      "name": "SAMARAHAN 2",
+      "courses": 332,
+      "status": "ok"
+    },
+    {
+      "campus": "Q6",
+      "name": "MUKAH",
+      "courses": 110,
+      "status": "ok"
+    },
+    {
+      "campus": "R",
+      "name": "ARAU",
+      "courses": 590,
+      "status": "ok"
+    },
+    {
+      "campus": "S",
+      "name": "KOTA KINABALU",
+      "courses": 524,
+      "status": "ok"
+    },
+    {
+      "campus": "S2",
+      "name": "TAWAU",
+      "courses": 6,
+      "status": "ok"
+    },
+    {
+      "campus": "T",
+      "name": "DUNGUN",
+      "courses": 423,
+      "status": "ok"
+    },
+    {
+      "campus": "T4",
+      "name": "BUKIT BESI",
+      "courses": 107,
+      "status": "ok"
+    },
+    {
+      "campus": "T5",
+      "name": "KUALA TERENGGANU",
+      "courses": 133,
+      "status": "ok"
+    }
+  ]
+}
