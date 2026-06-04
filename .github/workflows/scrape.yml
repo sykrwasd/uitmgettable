@@ -5,6 +5,9 @@ on:
     - cron: '0 0 1 * *'  # runs 1st of every month at midnight
   workflow_dispatch:       # allows manual trigger from GitHub UI
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
