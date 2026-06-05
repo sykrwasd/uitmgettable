@@ -41,9 +41,9 @@ export default function Footer() {
           <Image
             src="/kdlogodev-light.svg"
             alt="KrackedDevs"
-            width={90}
-            height={22}
-            className="h-5 w-auto"
+            width={140}
+            height={35}
+            className="h-8 w-auto"
           />
         </a>
 
