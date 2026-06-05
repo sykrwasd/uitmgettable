@@ -35,15 +35,15 @@ export default function Footer() {
           href="https://krackeddevs.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity"
+          className="flex items-center gap-2 bg-gray-900 px-4 py-1.5 rounded-full opacity-80 hover:opacity-100 transition-opacity"
         >
-          <span className="text-xs text-gray-500 dark:text-gray-400">Backed by</span>
+          <span className="text-xs text-gray-400 font-medium">Backed by</span>
           <Image
             src="/kdlogodev-light.svg"
             alt="KrackedDevs"
             width={90}
             height={22}
-            className="h-5 w-auto invert dark:invert-0"
+            className="h-5 w-auto"
           />
         </a>
 
