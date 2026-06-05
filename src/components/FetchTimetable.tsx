@@ -198,7 +198,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       link.download = "timetable.png";
       link.click();
       document.body.removeChild(clone);
-      toast.success("📥 Timetable saved!", { id: "export", duration: 2000 });
+      toast.success("Timetable saved!", { id: "export", duration: 2000 });
       event({ action: "save_timetable", params: { classes_count: selectedClasses.length, method: "image" } });
       trackEvent("save_timetable", { classes_count: selectedClasses.length, method: "image" });
     } catch {
@@ -228,7 +228,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={() => setIsImportOpen(false)}>
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-8 w-full max-w-sm mx-4 flex flex-col gap-4" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-center justify-between">
-              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">🎓 Import from MyStudent</h3>
+              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">Import from MyStudent</h3>
               <button onClick={() => setIsImportOpen(false)} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-400">Enter your UiTM matric number to auto-load your registered timetable.</p>
@@ -257,7 +257,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={() => setEditingClass(null)}>
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 w-full max-w-sm mx-4 flex flex-col gap-4" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">✏️ Edit Class</h3>
+              <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">Edit Class</h3>
               <button onClick={() => setEditingClass(null)} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
             </div>
 
@@ -328,18 +328,18 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
         <div className="flex flex-wrap justify-center gap-2">
           <button onClick={saveAsImage} className="px-4 py-2 bg-blue-600/80 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-500 transition">
-            💾 Save as Image
+            Save as Image
           </button>
 
           {onImport && (
             <button onClick={() => setIsImportOpen(true)} className="px-4 py-2 bg-blue-600/60 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition">
-              🎓 Import
+              Import
             </button>
           )}
 
           {onClearAll && selectedClasses.length > 0 && (
             <button onClick={onClearAll} className="px-4 py-2 bg-red-500/70 text-white text-sm font-semibold rounded-lg shadow hover:bg-red-600 transition">
-              🗑 Clear All
+              Clear All
             </button>
           )}
 
@@ -347,14 +347,14 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             onClick={() => { setIsCustomizing((p) => !p); setSelectedClassForColor(null); }}
             className="px-4 py-2 bg-white/60 dark:bg-white/10 text-gray-800 dark:text-gray-200 text-sm font-semibold rounded-lg shadow hover:bg-white/80 transition"
           >
-            🎨 Colors
+            Colors
           </button>
 
           <button
             onClick={() => setIsSettingsOpen((p) => !p)}
             className={`px-4 py-2 text-sm font-semibold rounded-lg shadow transition ${isSettingsOpen ? "bg-blue-500 text-white" : "bg-white/60 dark:bg-white/10 text-gray-800 dark:text-gray-200 hover:bg-white/80"}`}
           >
-            ⚙️ Settings
+            Settings
           </button>
         </div>
       </div>
@@ -362,7 +362,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       {/* Settings Panel */}
       {isSettingsOpen && (
         <div className="bg-white/80 dark:bg-white/10 backdrop-blur-sm rounded-xl p-5 mb-6 border border-black/10 dark:border-white/10">
-          <h3 className="text-sm font-bold text-gray-700 dark:text-gray-200 mb-4">⚙️ Timetable Settings</h3>
+          <h3 className="text-sm font-bold text-gray-700 dark:text-gray-200 mb-4">Timetable Settings</h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 
@@ -584,6 +584,11 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                             {showVenue && cls.venue && durationMin >= 60 && (
                               <div className="text-white/75 leading-none overflow-hidden text-ellipsis whitespace-nowrap" style={{ fontSize: fs.venue }}>
                                 {cls.venue}
+                              </div>
+                            )}
+                            {editable && (
+                              <div className="text-white/50 leading-none" style={{ fontSize: "9px" }}>
+                                click to edit
                               </div>
                             )}
                           </div>

@@ -28,14 +28,14 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
           className="w-9 h-9 flex items-center justify-center rounded-full bg-white/60 dark:bg-white/10 border border-black/10 dark:border-white/10 shadow-sm hover:scale-105 transition-transform text-base"
           title="Toggle theme"
         >
-          {dark ? "☀️" : "🌙"}
+          {dark ? "Light" : "Dark"}
         </button>
       </div>
 
       {/* Hero */}
       <div className="text-center space-y-4">
         <div className="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 text-xs font-semibold px-3 py-1 rounded-full border border-blue-200 dark:border-blue-700">
-          ✦ Open Source UiTM Tool
+          Open Source UiTM Tool
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-gray-900 dark:text-white leading-tight">
@@ -49,17 +49,17 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
         {/* Stats */}
         <div className="flex flex-wrap justify-center gap-3 pt-1">
           <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-white/60 dark:bg-white/5 border border-black/10 dark:border-white/10 px-3 py-1.5 rounded-full">
-            🎓 Trusted by 20k+ students
+            Trusted by 20k+ students
           </span>
           <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-white/60 dark:bg-white/5 border border-black/10 dark:border-white/10 px-3 py-1.5 rounded-full">
-            📊 10k+ timetables generated
+            10k+ timetables generated
           </span>
         </div>
 
         {/* Warning */}
         <div className="max-w-2xl mx-auto mt-2">
           <p className="text-xs text-yellow-700 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700/40 rounded-lg px-4 py-2.5">
-            ⚠️ Always cross-check with UiTM&apos;s official timetable to avoid confusion.
+            Always cross-check with UiTM&apos;s official timetable to avoid confusion.
           </p>
         </div>
 
