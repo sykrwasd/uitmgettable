@@ -1,0 +1,134 @@
+{
+  ".DCC607": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "DCC607A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS240",
+      "faculty": "DS"
+    }
+  ],
+  ".DCS151": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "DCS1512A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DCS251": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "DCS2514A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DCT151": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "DCT1512A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DCT251": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "DCT2514A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DCT351": [
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "DCT3516A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DFO401": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "DFO401-1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS240",
+      "faculty": "DS"
+    }
+  ],
+  ".DPM154": [
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "DPM1542A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DPM251": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "DPM2514A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".DSM403": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "DSM403-5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS240",
+      "faculty": "DS"
+    }
+  ],
+  ".ENT300": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "DS1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS110",
+      "faculty": "DS"
+    }
+  ],
+  ".FDC411": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "DS240FDC411",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "DS240",
+      "faculty": "DS"
+    }
+  ]
+}

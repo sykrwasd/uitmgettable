@@ -1,0 +1,2073 @@
+{
+  ".CGE410": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-3AFKE_PKK",
+      "program": "CEEH243,2H243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-3/4FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-6_PKK",
+      "program": "CEEH243,2H243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-6_PKK",
+      "program": "CEEH243,2H243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A8-3FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A8-3FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CGE416": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B1-A7-26FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-8_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B1-A7-26FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B1-A7-26FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-6_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-6_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CGE443": [],
+  ".CGE526": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-3/4FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-1_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-1_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CGE536": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Mekanik Bendalir, Pilot Plant",
+      "program": "CEEH243,EH243",
+      "faculty": "CE, EH"
+    }
+  ],
+  ".CGE545": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-8_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-8_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-14:00 PM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A8-6FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A8-6FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CGE567": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-8_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CGE674": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-7_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-6_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-6_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CHE413": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A8-9/10FKA_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-4_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-4_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CHE430": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-3AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-5_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B3-A11-14/15FKM_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B3-A11-14/15FKM_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A7-5FKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B3-A11-14/15FKM_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B3-A11-14/15FKM_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-6FKA_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-6FKA_PKK",
+      "program": "EH220, CEEH220",
+      "faculty": "EH, CE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 13:00 PM-14:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    }
+  ],
+  ".CHE433": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,,CE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-2AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220,CEEH220,,INEH210",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-14:00 PM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "CEEH220,EH220,CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-3AFKE_PKK",
+      "program": "EH220,CEEH220,,INEH210",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-3AFKE_PKK",
+      "program": "EH220,CEEH220,,INEH210",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "CEEH220,EH220,CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "CEEH220,EH220,CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CHE434": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CHE471": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-2AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-8_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-5AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    }
+  ],
+  ".CHE485": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2203A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Kimia",
+      "program": "EH220",
+      "faculty": "EH"
+    }
+  ],
+  ".CHE493": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-7_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-6_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A11-6_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE, EH"
+    }
+  ],
+  ".CHE495": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-1AFKE_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-7_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-7_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CHE502": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A10-16/17FKM_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B3-A10-14/15FKM_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B3-A10-14/15FKM_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-3_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-3_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    }
+  ],
+  ".CHE504": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Jisim & Pemindahan Haba, Pilot Plant",
+      "program": "CEEH220,EH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Jisim & Pemindahan Haba, Pilot Plant",
+      "program": "CEEH220,EH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Jisim & Pemindahan Haba, Pilot Plant",
+      "program": "CEEH220,EH220",
+      "faculty": "EH,CE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Jisim & Pemindahan Haba, Pilot Plant",
+      "program": "CEEH220,EH220",
+      "faculty": "EH,CE"
+    }
+  ],
+  ".CHE544": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah G _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah G _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A7-5FKE_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A7-5FKE_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    }
+  ],
+  ".CHE553": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-3_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-1_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-5_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-5_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-3_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-3_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CPE414": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MKB5-A9-15A-PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "MKB5-A9-15A-PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MKB5-A9-15A-PKK",
+      "program": "EH243,CEEH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CPE420": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-5_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-3_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-7/8FKA_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-7/8FKA_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A7-6FKE_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".CPE520": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-4_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "MKB5-A9-15A-PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-3AFKE_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "MKB5-A9-15A-PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "MKB5-A9-15A-PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A12-1_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A13-4AFKE_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    }
+  ],
+  ".ECE523": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2204I",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2204H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A13-3AFKE_PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "EH2204J",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH220,EH220",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".EEE510": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "EH2204G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A12-2_PKK",
+      "program": "EH220,CEEH220",
+      "faculty": "EH,CE"
+    }
+  ],
+  ".MAT435": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B1-A7-26FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B1-A7-26FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "EH2201R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "BLENDED,B3-A9-12/13_PKM",
+      "program": "CEEH220, EH220, CEEH243, EH243,EC222",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B3-A10-14/15FKM_PKK",
+      "program": "EH243, CEEH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "EH2201R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220, EH220, CEEH243, EH243,EC222",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-14:00 PM )",
+      "group": "EH2201R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A11-9_PKK",
+      "program": "CEEH220, EH220, CEEH243, EH243,EC222",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2201B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED,B3-A10-14/15FKM_PKK",
+      "program": "EH243, CEEH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2431",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED,B3-A10-14/15FKM_PKK",
+      "program": "EH243, CEEH243",
+      "faculty": "CE, EH"
+    }
+  ],
+  ".MAT455": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah G _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah G _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah G _PKK",
+      "program": "CEEH220, EH220,INEH210",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Dewan Kuliah G _PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B5-A7-5FKE_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B5-A7-5FKE_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-3/4FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-3/4FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH220, EH220,INEH210",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2202E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH220, EH220,INEH210",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A13-2AFKE_PKK",
+      "program": "CEEH220, EH220, CEEH243, EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2432A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A8-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-5/6FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EH2202F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH220, EH220",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A13-2AFKE_PKK",
+      "program": "CEEH220, EH220, CEEH243, EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "EH2202R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B5-A13-2AFKE_PKK",
+      "program": "CEEH220, EH220, CEEH243, EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2432B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "B2-A9-7/8FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ],
+  ".MAT565": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2433A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah D _PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2433A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2433A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243, EH243",
+      "faculty": "CE, EH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EH2433B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B2-A9-9/10FKA_PKK",
+      "program": "CEEH243,EH243",
+      "faculty": "CE,EH"
+    }
+  ]
+}

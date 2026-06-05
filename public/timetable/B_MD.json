@@ -1,0 +1,2541 @@
+{
+  ".ANS711": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "ANS1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD782",
+      "faculty": "MD"
+    }
+  ],
+  ".ANS712": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "ANS1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD782",
+      "faculty": "MD"
+    }
+  ],
+  ".ANS721": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "ANS2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD782",
+      "faculty": "MD"
+    }
+  ],
+  ".ANS722": [
+    {
+      "day_time": "MONDAY( 11:30 AM-13:00 PM )",
+      "group": "ANS2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD782",
+      "faculty": "MD"
+    }
+  ],
+  ".ANS723": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-12:00 PM )",
+      "group": "ANS2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD782",
+      "faculty": "MD"
+    }
+  ],
+  ".ANS731": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "ANS3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD782",
+      "faculty": "MD"
+    }
+  ],
+  ".ANS741": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "ANS4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS751": [
+    {
+      "day_time": "MONDAY( 15:30 PM-16:30 PM )",
+      "group": "ANS5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS752": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "ANS5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS761": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:30 PM )",
+      "group": "ANS6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS771": [
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "ANS1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS781": [
+    {
+      "day_time": "WEDNESDAY( 12:30 PM-13:30 PM )",
+      "group": "ANS2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS782": [
+    {
+      "day_time": "FRIDAY( 14:30 PM-15:30 PM )",
+      "group": "ANS1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS783": [
+    {
+      "day_time": "FRIDAY( 14:00 PM-16:00 PM )",
+      "group": "ANS2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ANS784": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ANS2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP752": [
+    {
+      "day_time": "WEDNESDAY( 14:30 PM-15:30 PM )",
+      "group": "CHP1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP753": [
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "CHP1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP759": [
+    {
+      "day_time": "FRIDAY( 15:30 PM-16:30 PM )",
+      "group": "CHP1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP763": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "CHP2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP764": [
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "CHP2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP769": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:30 PM )",
+      "group": "CHP2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP772": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:30 PM )",
+      "group": "CHP2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP773": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:30 AM )",
+      "group": "CHP1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CHP779": [
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "CHP1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CTS731": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "CTS1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CTS732": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "CTS1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CTS733": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "CTS1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CTS734": [
+    {
+      "day_time": "FRIDAY( 11:00 AM-13:00 PM )",
+      "group": "CTS1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT911": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT912": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT913": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT914": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT921": [
+    {
+      "day_time": "MONDAY( 10:30 AM-11:30 AM )",
+      "group": "DCT2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT922": [
+    {
+      "day_time": "TUESDAY( 10:30 AM-11:30 AM )",
+      "group": "DCT2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT923": [
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-11:30 AM )",
+      "group": "DCT2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT924": [
+    {
+      "day_time": "THURSDAY( 10:30 AM-11:30 AM )",
+      "group": "DCT2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-11:30 AM )",
+      "group": "DCT2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT931": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT932": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT933": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT934": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT951": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT952": [
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT953": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT954": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT961": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT962": [
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT963": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-17:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT964": [
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT971": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT972": [
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DCT973": [
+    {
+      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
+      "group": "DCT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH932": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH933": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "DPH3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD931",
+      "faculty": "MD"
+    }
+  ],
+  ".DPH934": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "DPH4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD931",
+      "faculty": "MD"
+    }
+  ],
+  ".DPH935": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "DPH5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH936": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "DPH6",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD931",
+      "faculty": "MD"
+    }
+  ],
+  ".DPH941": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:00 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:30 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH942": [
+    {
+      "day_time": "TUESDAY( 14:30 PM-16:00 PM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH943": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH944": [
+    {
+      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH945": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH946": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH950": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DPH954": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "DRPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM711": [
+    {
+      "day_time": "MONDAY( 11:00 AM-12:30 PM )",
+      "group": "EMM3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD778",
+      "faculty": "MD"
+    }
+  ],
+  ".EMM712": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:30 AM )",
+      "group": "EMM3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD778",
+      "faculty": "MD"
+    }
+  ],
+  ".EMM713": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:30 AM )",
+      "group": "EMM2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD778",
+      "faculty": "MD"
+    }
+  ],
+  ".EMM714": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:30 AM )",
+      "group": "EMM2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD778",
+      "faculty": "MD"
+    }
+  ],
+  ".EMM716": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:30 AM )",
+      "group": "EMM3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD778",
+      "faculty": "MD"
+    }
+  ],
+  ".EMM717": [
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:30 PM )",
+      "group": "EMM5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM718": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "EMM5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM720": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:30 AM )",
+      "group": "EMM3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD778",
+      "faculty": "MD"
+    }
+  ],
+  ".EMM721": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:30 PM )",
+      "group": "EMM4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM722": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:30 PM )",
+      "group": "EMM4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM723": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:30 PM )",
+      "group": "EMM5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM724": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:30 PM )",
+      "group": "EMM5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM725": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:30 PM )",
+      "group": "EMM5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM726": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:30 PM )",
+      "group": "EMM5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM727": [
+    {
+      "day_time": "FRIDAY( 14:00 PM-15:30 PM )",
+      "group": "EMM6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM728": [
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "EMM6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM729": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "EMM7",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM730": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "EMM7",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM731": [
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "EMM7",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM732": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-17:00 PM )",
+      "group": "EMM5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EMM733": [
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "EMM8",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM703": [
+    {
+      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM704": [
+    {
+      "day_time": "FRIDAY( 14:30 PM-15:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM705": [
+    {
+      "day_time": "MONDAY( 16:00 PM-17:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM706": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM712": [
+    {
+      "day_time": "FRIDAY( 11:30 AM-12:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM714": [
+    {
+      "day_time": "MONDAY( 11:30 AM-12:30 PM )",
+      "group": "FPM6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM715": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "FPM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM722": [
+    {
+      "day_time": "MONDAY( 13:00 PM-14:00 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:30 PM-15:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM724": [
+    {
+      "day_time": "TUESDAY( 11:30 AM-12:30 PM )",
+      "group": "FPM6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM725": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "FPM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM732": [
+    {
+      "day_time": "TUESDAY( 14:30 PM-15:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM734": [
+    {
+      "day_time": "WEDNESDAY( 11:30 AM-12:30 PM )",
+      "group": "FPM6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM735": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "FPM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM742": [
+    {
+      "day_time": "WEDNESDAY( 14:30 PM-15:30 PM )",
+      "group": "FPM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM744": [
+    {
+      "day_time": "THURSDAY( 11:30 AM-12:30 PM )",
+      "group": "FPM6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FPM745": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "FPM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MED712": [
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "MED1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD784",
+      "faculty": "MD"
+    }
+  ],
+  ".MED725": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "MED1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD784",
+      "faculty": "MD"
+    }
+  ],
+  ".MED736": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "MED3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD784",
+      "faculty": "MD"
+    }
+  ],
+  ".MED742": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "MED4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD",
+      "faculty": ""
+    }
+  ],
+  ".MED751": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "MED5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MED761": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-10:00 AM )",
+      "group": "MED6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MED781": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "MED1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MEL731": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MEL732": [
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MEL733": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MEL734": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MEL735": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "MD7852",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MOG721": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "MOG2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MPH732": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-13:00 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MPH733": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-13:00 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MPH735": [
+    {
+      "day_time": "MONDAY( 08:30 AM-09:30 AM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 09:30 AM-10:30 AM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MPH736": [
+    {
+      "day_time": "MONDAY( 11:00 AM-12:00 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:30 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MPH737": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-16:30 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MPH738": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:30 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-13:00 PM )",
+      "group": "MPH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ORT703": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "ORT2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ORT731": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "ORT1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ORT741": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "ORT3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ORT751": [
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "ORT3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ORT752": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "ORT3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM711": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-18:30 PM )",
+      "group": "PCM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM712": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-10:00 AM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM728": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-12:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM729": [
+    {
+      "day_time": "SUNDAY( 15:00 PM-16:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM736": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM737": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM738": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM739": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM744": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM746": [
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM747": [
+    {
+      "day_time": "FRIDAY( 14:00 PM-15:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM751": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM761": [
+    {
+      "day_time": "FRIDAY( 10:30 AM-11:30 AM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM762": [
+    {
+      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM763": [
+    {
+      "day_time": "FRIDAY( 14:00 PM-15:00 PM )",
+      "group": "PCM2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM779": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-17:00 PM )",
+      "group": "PCM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PCM781": [
+    {
+      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "group": "PCM1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED710": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-08:30 AM )",
+      "group": "PED1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED712": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "PED2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED714": [
+    {
+      "day_time": "SATURDAY( 09:00 AM-10:00 AM )",
+      "group": "PED2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED715": [
+    {
+      "day_time": "TUESDAY( 11:30 AM-12:30 PM )",
+      "group": "PED2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED716": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "PED2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED717": [
+    {
+      "day_time": "TUESDAY( 17:30 PM-18:00 PM )",
+      "group": "PED1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED718": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "PED1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED730": [
+    {
+      "day_time": "THURSDAY( 11:30 AM-12:30 PM )",
+      "group": "PED1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PED741": [
+    {
+      "day_time": "TUESDAY( 17:30 PM-18:00 PM )",
+      "group": "PED1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY710": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "PSY1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD772",
+      "faculty": "MD"
+    }
+  ],
+  ".PSY720": [
+    {
+      "day_time": "MONDAY( 12:30 PM-13:30 PM )",
+      "group": "PSY2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD772",
+      "faculty": "MD"
+    }
+  ],
+  ".PSY726": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "PSY2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD772",
+      "faculty": "MD"
+    }
+  ],
+  ".PSY730": [
+    {
+      "day_time": "SUNDAY( 11:30 AM-12:30 PM )",
+      "group": "PSY3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD772",
+      "faculty": "MD"
+    }
+  ],
+  ".PSY740": [
+    {
+      "day_time": "SUNDAY( 15:00 PM-16:00 PM )",
+      "group": "PSY2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY750": [
+    {
+      "day_time": "SATURDAY( 10:00 AM-11:30 AM )",
+      "group": "PSY1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY760": [
+    {
+      "day_time": "SATURDAY( 15:00 PM-16:30 PM )",
+      "group": "PSY2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY761": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-12:00 PM )",
+      "group": "PSY2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY770": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PSY1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY780": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-16:00 PM )",
+      "group": "PSY2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY781": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "PSY2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PSY782": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "PSY2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD712": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "RAD2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD724": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD731": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "RAD2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD732": [
+    {
+      "day_time": "FRIDAY( 14:30 PM-15:30 PM )",
+      "group": "RAD6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD736": [
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "RAD6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD747": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-11:30 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD752": [
+    {
+      "day_time": "SUNDAY( 12:00 PM-13:00 PM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "RAD2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".RAD754": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-11:30 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "RAD1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH710": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "REH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-08:30 AM )",
+      "group": "REH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH711": [
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "REH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "REH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH712": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:30 AM )",
+      "group": "REH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "REH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH713": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "REH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-11:30 AM )",
+      "group": "REH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH714": [
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "REH1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-15:30 PM )",
+      "group": "REH1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH716": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "REH2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH717": [
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-11:30 AM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH718": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH719": [
+    {
+      "day_time": "TUESDAY( 10:30 AM-11:30 AM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH721": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH722": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH723": [
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "REH6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "REH6",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH724": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    },
+    {
+      "day_time": "THURSDAY( 09:30 AM-10:30 AM )",
+      "group": "REH3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MD779",
+      "faculty": "MD"
+    }
+  ],
+  ".REH725": [
+    {
+      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
+      "group": "REH1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH726": [
+    {
+      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
+      "group": "REH7",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH727": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-08:30 AM )",
+      "group": "REH7",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH728": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-08:30 AM )",
+      "group": "REH1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH729": [
+    {
+      "day_time": "FRIDAY( 11:30 AM-12:30 PM )",
+      "group": "REH7",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH730": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "REH2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH731": [
+    {
+      "day_time": "FRIDAY( 14:30 PM-15:30 PM )",
+      "group": "REH2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".REH732": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-08:30 AM )",
+      "group": "REH2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SUR721": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "SUR2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SUR722": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "SUR2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ]
+}

@@ -1,0 +1,1741 @@
+{
+  ".ACC116": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".ACC117": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".ACC406": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF2B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ACC407": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF2B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ACC416": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF3B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADM501": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADM510": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADM511": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADM550": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF3B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADM551": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF3B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS402": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238,BSCP",
+      "faculty": "AM,CP"
+    }
+  ],
+  ".ADS404": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF1B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS408": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238/ AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF2B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS409": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238,AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF2B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238,AM228",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS452": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS460": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF1B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS465": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF3B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS503": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS504": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238,BSCP",
+      "faculty": "AM,CP"
+    }
+  ],
+  ".ADS510": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS511": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS512": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF8B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS514": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF7B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238,AM228",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS544": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF9B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS553": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF10B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS555": [
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10N",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10O",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10P",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10Q",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10R",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10S",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10T",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10U",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10V",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 19:00 PM-21:00 PM )",
+      "group": "NAMAF10W",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS560": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF7C",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS607": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS652": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS653": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS656": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS660": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF8B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS667": [
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10D",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10E",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10F",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10G",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10H",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238, AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10I",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10J",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10K",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10M",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ADS669": [
+    {
+      "day_time": "SUNDAY( 21:00 PM-23:00 PM )",
+      "group": "NAMAF10B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228",
+      "faculty": "AM"
+    }
+  ],
+  ".CGI600": [
+    {
+      "day_time": "FRIDAY( 14:30 PM-17:30 PM )",
+      "group": "AM5503A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM550",
+      "faculty": "AM"
+    }
+  ],
+  ".CGI654": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "AM5503A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM550",
+      "faculty": "AM"
+    }
+  ],
+  ".CGI655": [
+    {
+      "day_time": "SATURDAY( 09:00 AM-12:00 PM )",
+      "group": "AM5502A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM550",
+      "faculty": "AM"
+    }
+  ],
+  ".CGI658": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AM5501A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "D4100 - FSPPP",
+      "program": "AM550",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AM5501A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "D4100 - FSPPP",
+      "program": "AM550",
+      "faculty": "AM"
+    }
+  ],
+  ".CGI737": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "AM5502A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM550",
+      "faculty": "AM"
+    }
+  ],
+  ".CGI738": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "AM5501A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "D4100 - FSPPP",
+      "program": "AM550",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "AM5501A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "D4100 - FSPPP",
+      "program": "AM550",
+      "faculty": "AM"
+    }
+  ],
+  ".CSC134": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".CSC408": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".ECO120": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110,CS143",
+      "faculty": "AM,CS"
+    }
+  ],
+  ".ECO415": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238,AM228",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA700": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7701A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7701P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7002A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7003P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA702": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7701A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2080 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7701P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2080 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7001A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2081 - FSPPP,D2066 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7002P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2081 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7011A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2080 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7011P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2080 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA704": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7701A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7702P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA709": [
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7701A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7701P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA716": [
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7702A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2064 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7703P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2064 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA717": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7702P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2065 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA719": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7702A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2065 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7702P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2065 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA727": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7702A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7702P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2076 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA733": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7703A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2081 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7703P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2081 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA737": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "AM7003A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2068 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "AM7004P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2068 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-12:00 PM )",
+      "group": "AM7013A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2068 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-12:00 PM )",
+      "group": "AM7014P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2068 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "AM7703A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D2068 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "AM7704P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2068 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA747": [
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7703A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM770",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7704P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA752": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7703P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D2064 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA756": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7702A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2049 - FSPPP",
+      "program": "AM770",
+      "faculty": "AM"
+    }
+  ],
+  ".EMA760": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7001A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "FRIDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7001P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".ENT300": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".ENT530": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".LAW245": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".LAW299": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".LAW309": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".LAW439": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF3B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".LAW445": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF2B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".LAW507": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".MAT112": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK204",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".MAT402": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF1B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    }
+  ],
+  ".MCA712": [
+    {
+      "day_time": "MONDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7001A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D3060 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7001P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D3060 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".MCA715": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7001A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7001P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1048 - FSPPP",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MCA721": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7002A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7003P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".MCA722": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7002A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7002P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1048 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".MCA724": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7003A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7003P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".MCA728": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7002A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "D3060 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7002P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D3060 - FSPPP",
+      "program": "AM700",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR700": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7011A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7011P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR701": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7011A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7011P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR703": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7012A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7013P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR704": [
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7012A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C1054 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AM7012P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1054 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR705": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7012A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7013P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR706": [
+    {
+      "day_time": "FRIDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7012A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C1054 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "FRIDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7012P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1054 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR710": [
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7013A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "MONDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7013P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".MIR711": [
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7011A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "C1054 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-21:30 PM )",
+      "group": "AM7012P",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1054 - FSPPP",
+      "program": "AM701",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD101": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD102": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD104": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD120": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD215": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD240": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD253": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD257": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF5B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD270": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD320": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD321": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD350": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD363": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NAMAF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD370": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD380": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK201",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD381": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK201",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".PAD390": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM110",
+      "faculty": "AM"
+    }
+  ],
+  ".STA404": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NAMAF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238",
+      "faculty": "AM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAMAF4B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AM228,AM238,IC210",
+      "faculty": "AM,IC"
+    }
+  ]
+}

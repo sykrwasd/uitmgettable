@@ -1,0 +1,387 @@
+{
+  ".AAR651": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "AP2437A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP A3-037-Studio Senibina",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "AP2437A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP A3-037-Studio Senibina",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".AAR654": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AP2437A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP A3-037-Studio Senibina",
+      "program": "AP243",
+      "faculty": "AP"
+    }
+  ],
+  ".BSR410": [
+    {
+      "day_time": "SATURDAY( 11:30 AM-13:30 PM )",
+      "group": "NAP2297A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP229",
+      "faculty": "AP"
+    }
+  ],
+  ".BSR414": [
+    {
+      "day_time": "SUNDAY( 11:30 AM-14:30 PM )",
+      "group": "NAP2298A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP229",
+      "faculty": "AP"
+    }
+  ],
+  ".BSR455": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NAP2297A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".BSR658": [
+    {
+      "day_time": "SATURDAY( 14:30 PM-17:30 PM )",
+      "group": "NAP2298B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP229",
+      "faculty": "AP"
+    }
+  ],
+  ".BSR666": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAP2299A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP229",
+      "faculty": "AP"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NAP2299B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP229",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA413": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "NAP2461A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA433": [
+    {
+      "day_time": "SATURDAY( 11:30 AM-14:30 PM )",
+      "group": "NAP2462A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "C206-207",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA442": [
+    {
+      "day_time": "SATURDAY( 15:30 PM-18:30 PM )",
+      "group": "NAP2465A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA558": [
+    {
+      "day_time": "SUNDAY( 15:30 PM-18:30 PM )",
+      "group": "NAP2469A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246,CFAP246",
+      "faculty": "AP,CF"
+    },
+    {
+      "day_time": "SUNDAY( 15:30 PM-18:30 PM )",
+      "group": "NAP2469B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA613": [
+    {
+      "day_time": "SUNDAY( 11:30 AM-14:30 PM )",
+      "group": "NAP2469B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    },
+    {
+      "day_time": "SUNDAY( 11:30 AM-14:30 PM )",
+      "group": "NAP2469D",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246,CFAP246",
+      "faculty": "AP,CF"
+    }
+  ],
+  ".CMA663": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NAP2467A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA674": [
+    {
+      "day_time": "SATURDAY( 10:30 AM-14:30 PM )",
+      "group": "NAP2469A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246,CFAP246",
+      "faculty": "AP,CF"
+    },
+    {
+      "day_time": "SATURDAY( 10:30 AM-14:30 PM )",
+      "group": "NAP2469B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246,CFAP246",
+      "faculty": "AP,CF"
+    }
+  ],
+  ".CMA683": [
+    {
+      "day_time": "SUNDAY( 11:30 AM-14:30 PM )",
+      "group": "NAP2467A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".CMA693": [
+    {
+      "day_time": "SATURDAY( 11:30 AM-14:30 PM )",
+      "group": "NAP2468A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "C221/222",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ],
+  ".ENT600": [
+    {
+      "day_time": "SUNDAY( 15:30 PM-18:30 PM )",
+      "group": "NAP2468A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "C221/222",
+      "program": "AP246,AP229",
+      "faculty": "AP"
+    }
+  ],
+  ".GLS693": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "AP2208R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah Besar SUG",
+      "program": "AP220",
+      "faculty": "AP"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AP2208R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makma1l Fotogrametri",
+      "program": "AP220",
+      "faculty": "AP"
+    }
+  ],
+  ".INA500": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-18:00 PM )",
+      "group": "AP2477A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP247, CFAP247",
+      "faculty": "AP, CF"
+    }
+  ],
+  ".INA600": [
+    {
+      "day_time": "MONDAY( 09:00 AM-18:00 PM )",
+      "group": "AP2477A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP247, CFAP247",
+      "faculty": "AP, CF"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-18:00 PM )",
+      "group": "AP2477A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP247, CFAP247",
+      "faculty": "AP, CF"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-18:00 PM )",
+      "group": "AP2477A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP247, CFAP247",
+      "faculty": "AP, CF"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-18:00 PM )",
+      "group": "AP2477A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AP247, CFAP247",
+      "faculty": "AP, CF"
+    }
+  ],
+  ".LAS617": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP- A3-036/A -Studio Senibina Landskap,AP-003/0-TEC10- BILIK TEC10 - LANDSKAP",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP- A3-036/A -Studio Senibina Landskap,AP-003/0-TEC10- BILIK TEC10 - LANDSKAP",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".LAS620": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP-003/0-TEC17- Bilik TEC17- Landskap",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".LAS625": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP- A4-036/A-Studio Senibina Landskap,AP- A4-035/A-Studio Senibina Landskap",
+      "program": "AP248",
+      "faculty": "AP"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP- A4-036/A-Studio Senibina Landskap,AP- A4-035/A-Studio Senibina Landskap",
+      "program": "AP248",
+      "faculty": "AP"
+    }
+  ],
+  ".LAS626": [
+    {
+      "day_time": "THURSDAY( 13:00 PM-19:00 PM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP-003/0-TEC17- Bilik TEC17- Landskap,AP- A3-046/A-Studio Senibina Landskap,AP- A3-035/A-Studio Senibina Landskap,AP- A4-035/A-Studio Senibina Landskap",
+      "program": "AP248",
+      "faculty": "AP"
+    }
+  ],
+  ".LAS683": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-17:00 PM )",
+      "group": "AP24810A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AP- A3-036/A -Studio Senibina Landskap",
+      "program": "AP248",
+      "faculty": "AP"
+    }
+  ],
+  ".PMG458": [
+    {
+      "day_time": "SATURDAY( 15:30 PM-18:30 PM )",
+      "group": "NAP2468A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "C221/222",
+      "program": "AP246",
+      "faculty": "AP"
+    }
+  ]
+}

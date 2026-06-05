@@ -1,0 +1,861 @@
+{
+  ".ENT300": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".ENT530": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBFP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMC651": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBF10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMC690": [
+    {
+      "day_time": "SUNDAY( 22:00 PM-23:00 PM )",
+      "group": "NIMBLF-LIA",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 22:00 PM-23:00 PM )",
+      "group": "NIMBLF-LIB",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 22:00 PM-23:00 PM )",
+      "group": "NIMBRF-LIA",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 22:00 PM-23:00 PM )",
+      "group": "NIMBRF-LIB",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 22:00 PM-23:00 PM )",
+      "group": "NIMBSF-LIA",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 22:00 PM-23:00 PM )",
+      "group": "NIMBSF-LIB",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD124": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMDF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD213": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-08:30 AM )",
+      "group": "NIMDF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD214": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMDF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD221": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMDF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD222": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMDF5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD223": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMDF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD224": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMDF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD225": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMDF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD226": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMDF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD227": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD263": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD311": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD312": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD313": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMDF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD314": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMDF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD315": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMDF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD316": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IMD318": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMDF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM110",
+      "faculty": "IM"
+    }
+  ],
+  ".IML527": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBLF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML577": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBLF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244",
+      "faculty": "IM"
+    }
+  ],
+  ".IML588": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBLF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML590": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMBLF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML592": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBLF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML606": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBLF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244",
+      "faculty": "IM"
+    }
+  ],
+  ".IML625": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBLF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML630": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBLF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML633": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBLF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML636": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBLF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML651": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBLF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML654": [
+    {
+      "day_time": "SUNDAY( 21:00 PM-22:00 PM )",
+      "group": "NIMBLF-LIA",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-22:00 PM )",
+      "group": "NIMBLF-LIB",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-22:00 PM )",
+      "group": "NIMBRF-LIA",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-22:00 PM )",
+      "group": "NIMBRF-LIB",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-22:00 PM )",
+      "group": "NIMBSF-LIA",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 21:00 PM-22:00 PM )",
+      "group": "NIMBSF-LIB",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245,CDIM245",
+      "faculty": "IM,CD"
+    }
+  ],
+  ".IML656": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBLF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IML699": [
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBLF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR451": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR454": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBRF6B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR455": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR504": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR531": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBLF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR532": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMBF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR533": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR604": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBRF6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246",
+      "faculty": "IM"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBRF6B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR605": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBRF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR606": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBRF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR652": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246, BA233,BM233",
+      "faculty": "IM, BA,BM"
+    }
+  ],
+  ".IMR659": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBF10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR664": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBRF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244 ,IM245 ,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMR665": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBRF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS456": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBSF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245,IM246,CDIM245,IM245,SI261,SI262",
+      "faculty": "CD,IM,SI"
+    }
+  ],
+  ".IMS506": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBRF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CDIM246,IM246,IM245",
+      "faculty": "CD,IM"
+    }
+  ],
+  ".IMS552": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBFP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS555": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS556": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS561": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBSF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS565": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBSF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS566": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMBSF7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS607": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBSF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS610": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBFP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS611": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBFP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS654": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBSF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS655": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBSF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS656": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBSF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM245",
+      "faculty": "IM"
+    }
+  ],
+  ".IMS657": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBSF10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IM244,IM245,IM246",
+      "faculty": "IM"
+    }
+  ]
+}

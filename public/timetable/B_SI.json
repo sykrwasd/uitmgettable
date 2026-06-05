@@ -1,0 +1,3215 @@
+{
+  ".ENT530": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBF4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NCIMBFP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBSF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    }
+  ],
+  ".ICM451": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "SI2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2633C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".ICM454": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2633C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".ICM455": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2632A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".ICM549": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".ICM550": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "SI2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".ICM561": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ICM571": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "SI",
+      "faculty": ""
+    }
+  ],
+  ".ICM572": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM IM",
+      "program": "SI",
+      "faculty": ""
+    }
+  ],
+  ".ICM573": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC111": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMDF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC112": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMDF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC113": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMDF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC151": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMDF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC401": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "SI1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI1B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI1C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,BILIK SEMINAR",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC407": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMBF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC411": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMBF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "SI1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "SI1B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SI1C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC412": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMBF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260, SI261, SI262, SI263, CDIM260",
+      "faculty": "SI, CD"
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "SI260, SI261, SI262, SI263, CDIM260",
+      "faculty": "SI, CD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SI1B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260, SI261, SI262, SI263, CDIM260",
+      "faculty": "SI, CD"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SI1B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260, SI261, SI262, SI263, CDIM260",
+      "faculty": "SI, CD"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SI1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260, SI261, SI262, SI263, CDIM260",
+      "faculty": "SI, CD"
+    },
+    {
+      "day_time": "TUESDAY( 21:00 PM-22:00 PM )",
+      "group": "SI1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260, SI261, SI262, SI263, CDIM260",
+      "faculty": "SI, CD"
+    }
+  ],
+  ".IMC413": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBF1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SI1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SI1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI1B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ANJUNG PROFESOR IM",
+      "program": "",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-14:00 PM )",
+      "group": "SI1B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SI1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SI1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC414": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "SI1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SI1C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SI1B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SI1D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "SI260",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC451": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMBF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "SI1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "SI260, SI261, SI262, SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "SI1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "SI260, SI261, SI262, SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "SI1B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "SI260, SI261, SI262, SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 21:00 PM-22:00 PM )",
+      "group": "SI1B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "SI260, SI261, SI262, SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "SI260, SI261, SI262, SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "SI1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260, SI261, SI262, SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".IMC452": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SIST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 6",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "SIST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 6",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SIST3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SIST3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SIST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SIST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SIST4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 19:30 PM-20:30 PM )",
+      "group": "SIST4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "SIST5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-21:00 PM )",
+      "group": "SIST5",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC501": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCIMBFP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2603A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ANJUNG PROFESOR IM",
+      "program": "",
+      "faculty": "SI260"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2613B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2613C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2623A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2623B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2633C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR",
+      "program": "SI263",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2613A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "SI2613D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ANJUNG PROFESOR IM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2623C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB INFO TOOL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "SI263",
+      "faculty": ""
+    }
+  ],
+  ".IMC701": [
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI770-FLP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC702": [
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "SI770-FLP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 18:00 PM-20:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 18:00 PM-20:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 18:00 PM-20:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC731": [
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMC732": [
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "SI770-FLP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMD121": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMDF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMD122": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NIMDF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMD123": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMDF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IMD161": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMDF3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".IML460": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2602ST1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "SI260",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "SI2602ST1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML465": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2602ST2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 12",
+      "program": "SI260",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2602ST2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 12",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML470": [
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "SI2602ST2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "SI260",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2602ST2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML511": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 20:00 PM-21:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    }
+  ],
+  ".IML512": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 20:00 PM-21:00 PM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "ELEK D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "SI260,SI261,SI262,SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
+      "group": "ELEK D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "SI260,SI261,SI262,SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".IML513": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "CDIM260 ,CDIM261 ,CDIM262 ,CDIM263 ,SI260 ,SI261 ,SI262 ,SI263",
+      "faculty": "CD,SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "ELEK D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IML517": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "SI2603A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML527": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2603A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML577": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 1",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML588": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "SI260",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML590": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "SI260",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IML592": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "SI260",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "TUESDAY( 19:00 PM-20:00 PM )",
+      "group": "SI2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "SI260",
+      "faculty": "SI"
+    }
+  ],
+  ".IMR461": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2612ST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2612ST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "SI2612ST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-14:00 PM )",
+      "group": "SI2612ST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR462": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2612ST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2612ST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR463": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2612ST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2612ST2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "SI2612ST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-14:00 PM )",
+      "group": "SI2612ST1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR511": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2613C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA 2",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2613A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "INFORMATION RETRIEVAL RESEARCH LAB (BK 16)",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2613A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "INFORMATION RETRIEVAL RESEARCH LAB (BK 16)",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "SI2613B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-14:00 PM )",
+      "group": "SI2613B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "SI2613D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-19:00 PM )",
+      "group": "SI2613D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR512": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2613A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "SI2613A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2613B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR 1 IM",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2613B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR 1 IM",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2613C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2613C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "SI2613D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-14:00 PM )",
+      "group": "SI2613D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR531": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRONIC RECORD LAB  (BK15)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRONIC RECORD LAB  (BK15)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRONIC RECORD LAB  (BK15)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "ELEK C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRONIC RECORD LAB  (BK15)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 6",
+      "program": "SI261",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR532": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "ELEK B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "SI",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "ELEK D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR533": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCIMBFP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "ELEK A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "SI261",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "ELEK A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "SI261",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "ELEK B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 13:00 PM-14:00 PM )",
+      "group": "ELEK B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ELEK C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-13:00 PM )",
+      "group": "ELEK D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21),AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-16:00 PM )",
+      "group": "ELEK D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "ELEK E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "group": "ELEK E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "ELEK F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
+      "group": "ELEK F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR541": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2614A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "SI2614A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "SI2614C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-14:00 PM )",
+      "group": "SI2614C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2614B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "SI2614B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR542": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2614A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 6",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2614B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2614C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR543": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "SI2614B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-14:00 PM )",
+      "group": "SI2614B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SI2614C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59,BILIK KULIAH PASCA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "SI2614C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SI2614A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR 2 IM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SI2614A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR 2 IM",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR544": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2614B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PRESERVATION LAB (BK 17)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SI2614B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PRESERVATION LAB (BK 17)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2614A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PRESERVATION LAB (BK 17)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 19:00 PM-20:00 PM )",
+      "group": "SI2614A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PRESERVATION LAB (BK 17)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2614C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PRESERVATION LAB (BK 17)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
+      "group": "SI2614C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PRESERVATION LAB (BK 17)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMR652": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NIMBF8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI262,SI260,SI261",
+      "faculty": "SI"
+    }
+  ],
+  ".IMS450": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS455": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NIMBSF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    }
+  ],
+  ".IMS457": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2632A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS458": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 62",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2632A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS511": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2623A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2623B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-19:00 PM )",
+      "group": "SI2623C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS555": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2623A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2623B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA (KEGUNAAN SEMUA PROGRAM IM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "SI2623C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS560": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2624A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "SI2624B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".IMS561": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ELEKC",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS562": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "ELEKC",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PASCA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEKD",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS563": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "ELEK A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB INFO TOOL",
+      "program": "SI262,SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ELEKB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB INFO TOOL",
+      "program": "SI262,SI263",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "ELEKD",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH PTAR,LAB INFO TOOL",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS564": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SI2624A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM IM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2624B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS565": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2624A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "SI2624B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM IM",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMS566": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "SI2624B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-16:00 PM )",
+      "group": "SI2624A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MGT162": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NCIMDF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI110",
+      "faculty": "SI"
+    }
+  ],
+  ".MGT400": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NIMBSF2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SI260,SI261,SI262",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2ST1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 12",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2ST2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 12",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2ST3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 6",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2ST4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 6",
+      "program": "",
+      "faculty": "SI"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SI2ST5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "CDIM260,CDIM261,CDIM262,CDIM263,SI260,SI261,SI262,SI263",
+      "faculty": "SI"
+    }
+  ],
+  ".MIM711": [
+    {
+      "day_time": "WEDNESDAY( 19:00 PM-20:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 19:00 PM-20:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-10:00 AM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-10:00 AM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIM712": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-19:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-19:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "SI770-FLP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIM741": [
+    {
+      "day_time": "WEDNESDAY( 21:00 PM-22:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 21:00 PM-22:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-18:00 PM )",
+      "group": "SI770-FLP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIM742": [
+    {
+      "day_time": "WEDNESDAY( 20:00 PM-21:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 20:00 PM-21:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI770-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI770-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDIO VISUAL LAB (BK 22)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIS711": [
+    {
+      "day_time": "FRIDAY( 19:00 PM-20:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 19:00 PM-20:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIS712": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIS741": [
+    {
+      "day_time": "FRIDAY( 20:00 PM-21:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 20:00 PM-21:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MIS796": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-19:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI776-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI776-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ARCHIVAL REPOSITORIES STUDIO (BK 21)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MLS716": [],
+  ".MLS717": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MLS746": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB CATALOGING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MLS747": [
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI772-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 6",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI772-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MRM711": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-19:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORAL HISTORY LAB (BK 20)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MRM712": [
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "SI773-FT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "SI773-PT",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 5",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MRM795": [
+    {
+      "day_time": "SATURDAY( 15:00 PM-18:00 PM )",
+      "group": "SI770-FLP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER 3",
+      "program": "",
+      "faculty": ""
+    }
+  ]
+}

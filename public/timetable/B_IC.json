@@ -1,0 +1,3497 @@
+{
+  ".CSC134": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "134-IC1302A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "134-IC1302A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".CTU101": [],
+  ".CTU152": [],
+  ".ENT300": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "ICENT300-1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".ENT530": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "LG2415A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK 106 KENANGA 2",
+      "program": "LG241,LG242,IC210",
+      "faculty": "APB,IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "ICENT530-1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC210, IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP101": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1301B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1301A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP102": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1301A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC668",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1301B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP103": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1301B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1301A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP151": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1302A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP152": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1302A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP153": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1302A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC668",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP201": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "IC1303B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1303C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP202": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1303C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1303B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP203": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1303A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP204": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1303B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1303A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP251": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1304A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1304B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP252": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1304A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1304B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP253": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1304A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1304B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP254": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1304A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1304B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP255": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1304A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1304B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP256": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1304A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1304B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC668",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP301": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1305A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC668",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP302": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1305A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC666",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IDP303": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "IC1305A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".IFL701": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7031A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7032A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    }
+  ],
+  ".IFL702": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7031A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7032A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    }
+  ],
+  ".IFL705": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7031A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7032A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7033A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    }
+  ],
+  ".IFL732": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7031A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7032A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7033A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    }
+  ],
+  ".IFL734": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7031A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7032A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7033A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    }
+  ],
+  ".IFL773": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC7033A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC703",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU400": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NICBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU401": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU451": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC220, IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-216/217",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU452": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-205/206",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU453": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2103P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2103P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU501": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC210,INIC210",
+      "faculty": "IC,IN"
+    }
+  ],
+  ".IMU503": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2103P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2103P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU550": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2105P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2105P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Cempaka 5",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2105P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU551": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU553": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU554": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU555": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-216/217",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU600": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2105P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2105P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2105P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "NICBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU601": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210,IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU602": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2105P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2105P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2105P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU603": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-104",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-114/115",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU604": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2105P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2105P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2105P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU650": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2106C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-205",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2206A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2206P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2106P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU652": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2206B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Cempaka 5",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU653": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2106P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU654": [
+    {
+      "day_time": "SATURDAY( 16:30 PM-18:30 PM )",
+      "group": "NICBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU655": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2106P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2106C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU656": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2106C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU690": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2107A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2107P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2107P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2107P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU692": [
+    {
+      "day_time": "FRIDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2107A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2107P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2107P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2107P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
+      "group": "NICBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 10:30 AM-12:30 PM )",
+      "group": "NICBF9B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU700": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7011A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC701",
+      "faculty": "IC,IN"
+    }
+  ],
+  ".IMU701": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7011A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC701",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7012A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC701",
+      "faculty": "IC"
+    }
+  ],
+  ".IMU732": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7011A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC701",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7012A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC701",
+      "faculty": "IC"
+    }
+  ],
+  ".IPI700": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7021A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7022A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7023A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC702",
+      "faculty": "IC"
+    }
+  ],
+  ".IPI730": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7021A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7022A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC702",
+      "faculty": "IC"
+    }
+  ],
+  ".IPI732": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7021A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7022A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7023A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC702",
+      "faculty": "IC"
+    }
+  ],
+  ".IPI790": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC7024A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC702",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC100": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1301A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC662",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1303B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC101": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC1302A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC151": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC1303A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC1303B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC400": [
+    {
+      "day_time": "SUNDAY( 10:30 AM-12:30 PM )",
+      "group": "NICBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-216/217",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-212/213",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC402": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC403": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC210,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC452": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-211-213",
+      "program": "IC210/IC220,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC210,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC501": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2103P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-211-213",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2103P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-214/215",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC550": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-103",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-216/217",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2104B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC210,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2104P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-207",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-202",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah 101",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC551": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-103",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
+      "group": "NICBFH5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC552": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-104",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2206P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC554": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah 105",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-211-213",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-204",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 10:30 AM-12:30 PM )",
+      "group": "NICBFH5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC601": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2206B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-205/206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2206A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2106C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2206P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2106P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
+      "group": "NICBFH8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC700": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7011A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC701,IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7021A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC701,IC702",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7023A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC701, IC702",
+      "faculty": "IC"
+    }
+  ],
+  ".ISC730": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7011A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC701, IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7012A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC701, IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7021A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC701, IC702",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "IC7022A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC701, IC702",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH401": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2201A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-214/215",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-211-213",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH402": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH403": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC220,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2202B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C3 301/303",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2202C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH501": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2203A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2203P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2203P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN MUKTAMAR 2",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH550": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Cempaka 5",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-108/109",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Cempaka 5",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH552": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-214/215",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-207/208",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "NICBFH5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH554": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220,INIC210",
+      "faculty": "IC, IN"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-205/206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-214/215",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2204P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C3 301/303",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-207/208",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH601": [
+    {
+      "day_time": "SUNDAY( 10:30 AM-12:30 PM )",
+      "group": "NICBFH8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC668",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-203",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH602": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2206P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2206B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2206A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH603": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2206B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2206A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2206P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "NICBFH8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH604": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-214/215",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Cempaka 5",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH605": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 101",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-207/208",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC663",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH606": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Cempaka 5",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2205P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2205P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2205P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-206",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 10:30 AM-12:30 PM )",
+      "group": "NICBFH8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH651": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NICBFH8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2206P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-202",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "IC2206A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2206B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH691": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2207A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2207P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2207P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2207P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "IC2207P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ISH692": [
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2207A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2207P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2207P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2207P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "IC2207P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".ITS401": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2103P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "IC2103P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
+      "group": "IC2103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "IC2103P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-211-213",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "IC2103P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC210",
+      "faculty": "IC"
+    }
+  ],
+  ".ITT569": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2204P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2204P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC220,INIC210",
+      "faculty": "IC,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "IC2204A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2204B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2204P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2204C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-114/115",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2204P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2204P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C4-207",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2204P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C1-201/202",
+      "program": "IC220,INIC210",
+      "faculty": "IC,IN"
+    }
+  ],
+  ".STA404": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC210, IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2105P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC210,IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2205P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2205P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-214/215",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2205P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210, IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2105P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C2-211-213",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2105P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 001",
+      "program": "IC210,IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 004",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2205P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 002",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2205P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 003",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2105P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-207",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2205A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2205B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2105P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "IC2205P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2205P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "IC2205P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "IC2105P",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-203",
+      "program": "IC210",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2205P1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C5-205",
+      "program": "IC220",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "IC2205P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ACIS 102",
+      "program": "IC220",
+      "faculty": "IC"
+    }
+  ],
+  ".UED102": [
+    {
+      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
+      "group": "IC1301A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "IC1301A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC667",
+      "program": "IC130",
+      "faculty": "IC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IC1301B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOMPLEKS AL-FARABI 06 AC669",
+      "program": "IC130",
+      "faculty": "IC"
+    }
+  ]
+}

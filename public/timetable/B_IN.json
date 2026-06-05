@@ -1,0 +1,582 @@
+{
+  ".ASC453": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH03",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH03",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH04",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH04",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".CSC574": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK15 (Programmer 2)",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".CST699": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS-03",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".DSC651": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Big Data Lab",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Big Data Lab",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".EVM502": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "IN-EVM502",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "ONLINE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "IN-EVM502",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "FSK234 08 TEC 17",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EVM554": [
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "IN-EVM554",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "FSK7 01 DK15 (100)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "IN-EVM554",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "FSK6 11 BT14",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EVM556": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "IN-EVM556",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "FSK7 01 DK15 (100)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "IN-EVM556",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "FSK6 12 BT35",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FIN546": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "IN-FIN546",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 05 BK25",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "IN-FIN546",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 06 BK40",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ICT501": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK15 (Programmer 2)",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".ICT552": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK35",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".ICT751": [
+    {
+      "day_time": "SATURDAY( 15:00 PM-18:00 PM )",
+      "group": "INCS04",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK24",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ICT770": [
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "INCS04",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK22",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IMU690": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-17:30 PM )",
+      "group": "INIC",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "INIC210",
+      "faculty": "IN"
+    }
+  ],
+  ".ISP565": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "IS Lab",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".ISP613": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK31",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".ISP642": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "IS Lab",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".ITS401": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "INCS04",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Seminar",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "INCS04",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ITT532": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS-02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK17 (CCNA Lab)",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".MAT571": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".MGT555": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "IN-MGT555",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
+      "group": "IN-MGT555",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 06 BK39",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MKT425": [
+    {
+      "day_time": "MONDAY( 10:30 AM-13:30 PM )",
+      "group": "IN-MKT425",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 05 BK28",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MKT574": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "IN-MKT574",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 10 BS10",
+      "program": "IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "IN-MKT574",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 11 BT24",
+      "program": "IN",
+      "faculty": ""
+    }
+  ],
+  ".PHC632": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "INPH1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "INPH210",
+      "faculty": "IN"
+    }
+  ],
+  ".STA568": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK31",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK15",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".STA572": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK6",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK6",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK14",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK14",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".STA602": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah DK01",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK5",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".STA642": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK9",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK12",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".STA650": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "INCS01-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH01",
+      "program": "CD,CS,IN",
+      "faculty": ""
+    }
+  ],
+  ".TPT503": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "IN-TPT503",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK234 08 TEC 11",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "IN-TPT503",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "",
+      "faculty": ""
+    }
+  ]
+}

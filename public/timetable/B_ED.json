@@ -1,0 +1,5569 @@
+{
+  ".ADE415": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2415A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2422A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2422B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "",
+      "faculty": "ED242"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2416A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ADE430": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2421A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B32",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2421C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2421B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B32",
+      "program": "",
+      "faculty": "ED242"
+    }
+  ],
+  ".ADE468": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2423A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2423B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ADE475": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2422B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2422A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE485": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2423A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2423B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B32",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ADE522": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2422A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2422B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "",
+      "faculty": "ED242"
+    }
+  ],
+  ".ADE533": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2425A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE568": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2421B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "",
+      "faculty": "ED242"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2421A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2421C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ADE570": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2424A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE590": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2424A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE605": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2424A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE612": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "ED2426A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE617": [
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2426A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Multimedia",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE623": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2424A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B32",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE626": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2425A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE646": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2426A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B32",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2426B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE681": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "ED2425A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B33",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ADE695": [
+    {
+      "day_time": "MONDAY( 08:00 AM-14:00 PM )",
+      "group": "ED2428A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Seni B32",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".BHS400": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2484A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2602A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "ED2425A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "A4 BK8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2472A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "A7 BK22",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".BHS500": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "ED2418C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2473A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".BIO411": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2471A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 2) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-13:30 PM )",
+      "group": "ED2471A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT07 FSK 6(ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    }
+  ],
+  ".BIO460": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2472B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 2) ED Bangunan FF 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2472A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2472B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2472A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    }
+  ],
+  ".BIO462": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2473A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2473A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT10 FSK 6(ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT10 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED247R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT10 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".BIO511": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2474A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2474A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 2) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    }
+  ],
+  ".BIO560": [
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "ED2475A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK 10",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "ED247R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2475A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    }
+  ],
+  ".BIO565": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2476A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED247,INED",
+      "faculty": "ED,IN"
+    }
+  ],
+  ".BIO611": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2478A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "ED2478A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK 10",
+      "program": "ED247",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM412": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2602A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT14 FSK 6 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2602A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM420": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM421": [
+    {
+      "day_time": "TUESDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2603A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT14 FSK 6 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2603A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 09:30 AM-12:30 PM )",
+      "group": "ED260R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT14 FSK 6 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM431": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2604A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT15 FSK 6 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2604A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 2) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED260R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT15 FSK 6 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED260R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 2) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM474": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 2) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED260R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM572": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED260R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM573": [
+    {
+      "day_time": "THURSDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CHM576": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED260R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".CSC413": [
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2493A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "ED2493A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2,Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2,Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".CSC425": [
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2492B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2492B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".CTU500": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "500-ED01",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "500-ED02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 14",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "500-ED03",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 15",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".ECE101": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE102": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE103": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE104": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE150": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED110",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE151": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE152": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED110",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED110",
+      "faculty": "ED"
+    }
+  ],
+  ".ECE153": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED110",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE200": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE201": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE203": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED1103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE204": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED1103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EDM701": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7051A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7052A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7053A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    }
+  ],
+  ".EDM702": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7051A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7052A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7053A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    }
+  ],
+  ".EDM703": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7051A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7052A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    }
+  ],
+  ".EDM704": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7053A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    }
+  ],
+  ".EDM711": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7052A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7053A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7054A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7063A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU404": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2411A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED241,ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2421A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2421B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2461A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED246,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2461B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2411B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT09 FSK 6(ED)",
+      "program": "ED248,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2471A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "",
+      "faculty": "ED,INED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2491A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2491B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT09 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU456": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2422A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "ED242,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2422B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2462A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2462B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2492B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2602A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio Bestari",
+      "program": "ED241,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2472A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2472B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "ED247,ED249,ED260,ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU485": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT01 FSK 6(ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2424A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED242,INED,",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2484A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2494A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED241,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2474A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2604A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU545": [
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2415A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT14 FSK 6 (ED)",
+      "program": "ED241,ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2475A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2415A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED241,ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2425A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2475A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2485A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2495A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT13 FSK 6 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2425A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2495A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2485A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU550": [
+    {
+      "day_time": "MONDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2603A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT09 FSK 6(ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2413A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED241,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED2413A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2423A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED242,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2423B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2463A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2603A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2473A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "ED2493A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 09:30 AM-10:30 AM )",
+      "group": "ED2423A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED242,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 09:30 AM-10:30 AM )",
+      "group": "ED2423B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-11:30 AM )",
+      "group": "ED2463A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2473A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2483A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED248,INED,ED249",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2483A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED248,INED,ED249",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2493A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-11:30 AM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU555": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2424A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2474A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT04 FSK 6(ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2494A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3,BT02 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED241,ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2604A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2484A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU610": [
+    {
+      "day_time": "MONDAY( 09:30 AM-10:30 AM )",
+      "group": "ED2416A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT13 FSK 6 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-09:30 AM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2426A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2476A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2476B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 09:30 AM-10:30 AM )",
+      "group": "ED2486A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2486A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2416A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2416B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED241,ED242,ED246,ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED2416B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED241,ED242,ED246,ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2466A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED246 ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2466B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 09:30 AM-10:30 AM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED260, INED",
+      "faculty": "ED, IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "ED2466A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED246 ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:30 AM-10:30 AM )",
+      "group": "ED2476A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "ED2426A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2466B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-09:30 AM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED260, INED",
+      "faculty": "ED, IN"
+    }
+  ],
+  ".EDU620": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2418C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT12 FSK 6 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT13 FSK 6 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2428A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2428B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2498A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT12 FSK 6 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2478A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2488A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED248,ED260,ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2468A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EDU656": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2428A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2428B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2468A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2478A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2488A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2498A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2498B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2608A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EDU666": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2417A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2427A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2427B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2467A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2467B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2477A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2487A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2497A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2497B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-16:00 PM )",
+      "group": "ED2607A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU701": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7052A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED702,ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7702A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED702,ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7022A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702,ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7023A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702,ED705,ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU707": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7051A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED702,ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7701A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7021A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7051A2",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7701A2",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU708": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7051A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7701A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7051A2",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7701A2",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU711": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7052A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED705",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7702A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7052A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7053A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7702A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED705,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7703A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED705,ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".EDU757": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED7024A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED702,ED705,ED706,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED7053A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED702,ED705,ED706,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED7054A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED702,ED705,ED706,ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED7064A2",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED706",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED7703A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "ED7704A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED702,ED705,ED706,ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".ENT530": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2413A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT04 FSK 6(ED)",
+      "program": "ED241, ED242",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2463A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT01 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
+      "group": "ED2423B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "(FPHP)Dewan Kuliah 01",
+      "program": "",
+      "faculty": "ED2423B"
+    }
+  ],
+  ".ENT600": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2473A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT04 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT05 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT06 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2493A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT07 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT08 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2603A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT09 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MAE403": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2491A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-13:30 PM )",
+      "group": "ED2491B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE472": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2493A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT04 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2493A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT05 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE503": [
+    {
+      "day_time": "MONDAY( 11:30 AM-12:30 PM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "ED249, ED247, ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2492B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT04 FSK 6(ED)",
+      "program": "ED249, ED247, ED248, ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE514": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2495A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (ED)",
+      "program": "ED,INED",
+      "faculty": ""
+    }
+  ],
+  ".MAE541": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2496A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "ED247 ,ED248 ,ED260 ,ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2476A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2486A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "ED247,ED248,ED260,ED249",
+      "faculty": "ED,ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2606A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE572": [
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-13:30 PM )",
+      "group": "ED2493A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "",
+      "faculty": "ED,INED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE574": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2498A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".MAE582": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2496B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2496B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE711": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7062A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7063A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE714": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7062A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7063A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE723": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7062A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-20:00 PM )",
+      "group": "ED7063A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    }
+  ],
+  ".MAE724": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7064A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (ED)",
+      "program": "ED706",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT421": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED248,ED249,ED260,ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2491A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED249,ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2491B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED248,ED249,ED260,ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2491A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249,ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2491B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2471A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2471A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT03 FSK 6(ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT03 FSK 6(ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT422": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "ED2491A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "ED2491B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-17:00 PM )",
+      "group": "ED2491B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "ED2491A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT423": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2494A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2494A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT441": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED248,ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED248,ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249,ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2492B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F2 (ED)",
+      "program": "ED249,ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2492A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249,ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2492B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "ED249,ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT491": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2494A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT03 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2494A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT03 FSK 6(ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT522": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2495A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "CS,ED",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "ED2495A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK06 (ED)",
+      "program": "CS,ED",
+      "faculty": ""
+    }
+  ],
+  ".MAT575": [
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".MAT631": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2498A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "ED249",
+      "faculty": "CS,ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2498A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED249",
+      "faculty": "CS,ED"
+    }
+  ],
+  ".MEM665": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "ED2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHY433": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 09:30 AM-12:30 PM )",
+      "group": "ED248R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHY443": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".PHY534": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2483A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".PHY587": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2485A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".PHY589": [
+    {
+      "day_time": "WEDNESDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2484A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".PHY592": [
+    {
+      "day_time": "THURSDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2486A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    }
+  ],
+  ".PHY630": [
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2488A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED248,ED249",
+      "faculty": "ED"
+    }
+  ],
+  ".PSV724": [
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7021A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7022A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7023A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7024A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    }
+  ],
+  ".PSV735": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7021A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7022A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7023A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7024A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED702",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE423": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2464A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT05 FSK 6(ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SCE500": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2473A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2483A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2603A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT15 FSK 6 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE503": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE513": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2471A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Biologi) ED Bangunan FF 3",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2481A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2425A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED242",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE523": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2472A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2472B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2602A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT06 FSK 6(ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2466A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "ED246,ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2466B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah K6 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SCE550": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2475A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2475B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED,ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2485A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED248",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE551": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2484A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT07 FSK 6(ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2604A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2474A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE553": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2476A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED247,ED248, ED260,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2495A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2486A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (Kimia 1) ED Bangunan FF 3",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:30 AM-12:30 PM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (ED)",
+      "program": "ED247,ED248, ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE554": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2476A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2606A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2486A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT10 FSK 6(ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".SCE583": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2478A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED247,ED248,ED249,ED260,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2478B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED247",
+      "faculty": "ED247"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2488A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED247,ED248,ED249,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2498A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "ED249,INED",
+      "faculty": "ED,INED,IN"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2608A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED247,ED248,ED249,ED260,INED",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (ED)",
+      "program": "ED260",
+      "faculty": "ED260"
+    }
+  ],
+  ".SED450": [
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2462A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 14:30 PM-17:30 PM )",
+      "group": "ED2462B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SED453": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2461B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2461A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED454": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2462A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "ED2462B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED455": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2463A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED456": [
+    {
+      "day_time": "MONDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2462A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:30 PM )",
+      "group": "ED2462B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SED462": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2461A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "ED246, INED",
+      "faculty": "ED, IN"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2461B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED502": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED503": [
+    {
+      "day_time": "MONDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "ED246",
+      "faculty": "ED,ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2464A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED521": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2461A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kolej Angsana",
+      "program": "ED246,ED246,ED247,ED248,ED260, INED",
+      "faculty": "ED, IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2473B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2461B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kolej Angsana",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED522": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2468A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2603A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SED548": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2468A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SED552": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED246, INED",
+      "faculty": "ED, IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SED553": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2464B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SED611": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED612": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED613": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2463A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Padang Alam Bina",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED614": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Gelanggang Alam Bina",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Gelanggang Alam Bina",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED651": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2465A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "ED246, INED",
+      "faculty": "ED, IN"
+    }
+  ],
+  ".SED655": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2463B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2463A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Padang Kolej Angsana",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED690": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2466A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "ED246",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED246",
+      "faculty": "ED"
+    }
+  ],
+  ".SED696": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "ED246, INED",
+      "faculty": "ED, IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2466B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio PJK",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".SME543": [
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2475A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2475A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2475B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2475B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2485A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED248",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2485A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED248",
+      "faculty": "ED,IN"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2495A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED,INED"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2495A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED249",
+      "faculty": "ED,INED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2495B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2495B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ED2605A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F3 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".SME593": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2608B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3",
+      "program": "ED260",
+      "faculty": "ED260"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2478A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2478B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2488A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3",
+      "program": "ED247,ED248,ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2496A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengajaran Sains (ET&G) ED Bangunan FF 3",
+      "program": "ED249,ED248,ED260,ED247",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL401": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2411B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2411A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL402": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 2 ED Bangunan FF2",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT02 FSK 6(ED)",
+      "program": "ED241, INED210",
+      "faculty": "ED, INED, IN"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL420": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2411A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2411B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK08 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL425": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241, INED710",
+      "faculty": "ED, IN"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL426": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2411B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT01 FSK 6(ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2411A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL435": [
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2413A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL472": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2416A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:30 PM )",
+      "group": "ED2416G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "EDUCATION"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL476": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241, INED210",
+      "faculty": "ED, INED, IN"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2412E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2412C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL485": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2413A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241, INED210",
+      "faculty": "ED, INED, IN"
+    }
+  ],
+  ".TSL515": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK03 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL520": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2415A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL547": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK04 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah F5 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL551": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2413A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL552": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2415A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL553": [
+    {
+      "day_time": "MONDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2414C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2414D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2414E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2414A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2414B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2414G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2414F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL554": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2416A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "group": "ED2416G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL570": [],
+  ".TSL575": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2416B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT02 FSK 6(ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT15 FSK 6 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2416C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2416D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL620": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BT11 FSK 6 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK01 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2414D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2414E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL635": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK02 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED241",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ED2418E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (ED)",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL642": [
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2415A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer ELIT 1 ED Bangunan FF2",
+      "program": "ED241",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL712": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7701A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7701A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7702A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7703A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-14:00 PM )",
+      "group": "ED7704A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL751": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7701A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL752": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL753": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7702A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL754": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7702A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7702A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 16:00 PM-22:00 PM )",
+      "group": "ED7703A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".TSL756": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "ED7703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12 (ED)",
+      "program": "ED770",
+      "faculty": "ED"
+    }
+  ],
+  ".UBM599": [
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 12 MK11)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-11:30 AM )",
+      "group": "ED2418B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 10 MK7)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".UCS551": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2474A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2485A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2494A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2494A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "ED2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "ED260",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2494B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK07 (ED)",
+      "program": "ED249",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "ED2474A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT01 FSK 6(ED)",
+      "program": "ED247",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "ED2485A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK09 (ED)",
+      "program": "ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2604A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (ED)",
+      "program": "ED260",
+      "faculty": "ED"
+    }
+  ],
+  ".UED102": [
+    {
+      "day_time": "FRIDAY( 09:30 AM-11:30 AM )",
+      "group": "ED1101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BT15 FSK 6 (ED)",
+      "program": "",
+      "faculty": ""
+    }
+  ]
+}

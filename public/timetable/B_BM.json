@@ -1,0 +1,79 @@
+{
+  ".ECO556": [
+    {
+      "day_time": "SUNDAY( 10:30 AM-12:30 PM )",
+      "group": "NBO6C",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BM244",
+      "faculty": "BM"
+    }
+  ],
+  ".ENT530": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NBF6N",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BM244",
+      "faculty": "BM"
+    }
+  ],
+  ".FIN657": [
+    {
+      "day_time": "SUNDAY( 10:30 AM-12:30 PM )",
+      "group": "NBF9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 05 BK28",
+      "program": "BM242",
+      "faculty": "BM"
+    }
+  ],
+  ".FIN667": [
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "NBF9A1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BM222",
+      "faculty": "BM"
+    }
+  ],
+  ".FIN672": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "NBF9B2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BM242,BM222",
+      "faculty": "BM"
+    }
+  ],
+  ".HRM544": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NBH7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BM243",
+      "faculty": "BM"
+    }
+  ],
+  ".OPM655": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NBO6M",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BM244",
+      "faculty": "BM"
+    }
+  ]
+}

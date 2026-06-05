@@ -1,0 +1,5205 @@
+{
+  ".ADE411": [],
+  ".ADE418": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE261PAA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0404",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".ADE421": [],
+  ".ADE422": [],
+  ".ADE432": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ADE432SAA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD",
+      "program": "AD248      ,CAAD242      ,CAAD244      ,CAAD245      ,CAAD246      ,CAAD290      ,CAAD291      ,CAAD248      , CAAD243      , AS291      , CAMU221     , CAAD228      ,CAAD242      ,CAAD244      ,CAAD245      ,CAAD246      ,CAAD290    ,CAAD248      , CAAD243      , AS291  , CAMU221",
+      "faculty": "AD, CA, MU, AS"
+    }
+  ],
+  ".ADE441": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE441PA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 6 PFI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ADE443": [],
+  ".ADE450": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE267PA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 4 PFI",
+      "program": "",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE267PB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 3 PFI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-17:00 PM )",
+      "group": "NCCAG3",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".ADE451": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ADE265SA1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK D",
+      "program": "CAAD243        , CAAD244        , CAAD246        , CAAD242        , CAAD263        , CAAD264        , CAAD266        , CAAD262        , CAAD248        , AD263        , AD264        , AD266        , AD262        , AD248",
+      "faculty": "CA, AD"
+    }
+  ],
+  ".ADE452": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "ADE265SA2A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK D",
+      "program": "CAAD243    , CAAD244    , CAAD246    , CAAD242    , CAAD263    , CAAD264    , CAAD266    , CAAD262    , CAAD248    , AD263    , AD264    , AD266    , AD262    , AD248",
+      "faculty": "CAAD243    , CAAD244    , CAAD246    , CAAD242"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "INAD",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK D",
+      "program": "INAD210",
+      "faculty": "IN"
+    }
+  ],
+  ".ADE453": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "ADE265SA3A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK D",
+      "program": "CAAD243    , CAAD244    , CAAD246    , CAAD242    , CAAD263    , CAAD264    , CAAD266    , CAAD262    , CAAD248    , AD263    , AD264    , AD266    , AD262    , AD248",
+      "faculty": "CAAD243    , CAAD244    , CAAD246    , CAAD242"
+    }
+  ],
+  ".ADE476": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE476PAA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".ADE483": [],
+  ".ADE491": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE232SA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD248,AD262,AD263,AD264,AD265,AD266,AD290,AD291,AS290,AS291,CAAD248,CAAD262,CAAD263,CAAD264,CAAD265,CAAD266,CAAD290,CAAD291",
+      "faculty": "AD,CA,AS"
+    }
+  ],
+  ".ADE492": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE232PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13 PFI",
+      "program": "AD233 ,AD234 ,AD250 ,AD261 ,AD267 ,CAAD233 ,CAAD234 ,CAAD250 ,CAAD261 ,CAAD267",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE232PA-B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13 PFI",
+      "program": "AD233 ,AD234 ,AD250 ,AD261 ,AD267 ,CAAD233 ,CAAD234 ,CAAD250 ,CAAD261 ,CAAD267",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".ADE494": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE232PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13 PFI",
+      "program": "AD233 ,AD234 ,AD250 ,AD261 ,AD267 ,CAAD233 ,CAAD234 ,CAAD250 ,CAAD261 ,CAAD267",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".ADE540": [],
+  ".ADE551": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE551PAB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 2 PFI",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ADE551PAA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 3 PFI",
+      "program": "AD, CA",
+      "faculty": ""
+    }
+  ],
+  ".AMT709": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "AD702/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD702,CAAD702",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "AD703/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD703,CAAD703",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD704,CAAD704",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "AD711/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD701,AD711,CAAD701,CAAD711",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD702/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PG 1 (Bilik Kuliah)",
+      "program": "AD702,CAAD702",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD703/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PG 1 (Bilik Kuliah)",
+      "program": "AD703,CAAD703",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD704/FT",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PG 1 (Bilik Kuliah)",
+      "program": "AD704,CAAD704",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".AMT710": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD702/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD703/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD703,CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD704/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD704,CAAD704",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD711/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD711,CAAD711",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD702/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD703/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD703,CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD704,CAAD704",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD711/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD711,CAAD711",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".AMT711": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD702/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AD702/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD703/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD703,CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AD703/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD703,CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD704/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD704,CAAD704",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD704,CAAD704",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD711/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD711,CAAD711",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AD711/PT01",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD711,CAAD711",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".AMT757": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD702/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD702/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".AMT759": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Smart Class Room ARIF@B.4",
+      "program": "CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Smart Class Room ARIF@B.4",
+      "program": "CAAD703,AD703",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".AMT768": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".AMT805": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "AD702/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "AD703/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD703,CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "AD704/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD704,CAAD704",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "AD711/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA,Auditorium Utama",
+      "program": "AD711,CAAD711,AD701,CAAD701",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "CAAD701/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "CAAD702/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "CAAD703/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "CAAD704/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".ATH435": [
+    {
+      "day_time": "SUNDAY( 13:00 PM-15:00 PM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2341A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13 PFI",
+      "program": "CAAD234,AD234",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2331A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 15 PFI",
+      "program": "CAAD233,AD233",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2482A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AD228,CAAD228,AD248,CAAD248",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AD228,CAAD228,AD248,CAAD248",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2482C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AD228,CAAD228,AD248,CAAD248",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AD242,AD262,CAAD242,CAAD262",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AD246,AD266,CAAD246,CAAD266,AD291,CAAD291",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AD246,AD266,CAAD246,CAAD266,AD291,CAAD291",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AS290CAAD7",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AS290",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AS291AD7",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS,Auditorium",
+      "program": "AS291",
+      "faculty": "AS"
+    }
+  ],
+  ".ATH475": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD246,AD266,CAAD246,CAAD266",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".CFT400": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NCCAP1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "AD267",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "",
+      "faculty": "CA, AD"
+    }
+  ],
+  ".CFT401": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAP1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "AD267",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFT402": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "NCCAP1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "AD267",
+      "faculty": "AD"
+    }
+  ],
+  ".CFT403": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 6 PFI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAP1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD267",
+      "faculty": "AD"
+    }
+  ],
+  ".CFT404": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NCCAP1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "AD267",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFT405": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 4 PFI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "NCCAP1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "AD267",
+      "faculty": "AD"
+    }
+  ],
+  ".CFT451": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2672A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "CA, AD",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2672B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "CA, AD",
+      "faculty": ""
+    }
+  ],
+  ".CFT452": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2672A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 2",
+      "program": "CA, AD",
+      "faculty": ""
+    }
+  ],
+  ".CFT454": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2672A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 2",
+      "program": "CAAD267, AD267",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2672B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "",
+      "faculty": "CA, AD"
+    }
+  ],
+  ".CFT455": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2672A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7 PFI",
+      "program": "CAAD267, AD267",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "AD2672B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7 PFI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFT501": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2673A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 9 PFI",
+      "program": "CAAD267, AD267",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAP4",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "AD267",
+      "faculty": "AD"
+    }
+  ],
+  ".CFT502": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2673A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 4 PFI",
+      "program": "CA, AD",
+      "faculty": ""
+    }
+  ],
+  ".CFT503": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2673A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 1",
+      "program": "CA, AD",
+      "faculty": ""
+    }
+  ],
+  ".CFT504": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2673A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 8 PFI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFT505": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2673A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 9 PFI",
+      "program": "AD267, CAAD267",
+      "faculty": "CA, AD"
+    }
+  ],
+  ".CFT511": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2673A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST FOTOMEDIA 2",
+      "program": "",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-17:00 PM )",
+      "group": "NCCAP3",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD267",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD413": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2331A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 1",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD423": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2331A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 1",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD433": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2331A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 1",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD443": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2331A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 1",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD453": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2331A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 1",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD463": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 2",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD473": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 2",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CGD483": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 2",
+      "program": "AD233",
+      "faculty": "AD"
+    }
+  ],
+  ".CID460": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "AD265",
+      "faculty": "AD265"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK A",
+      "program": "AD265",
+      "faculty": "AD265"
+    }
+  ],
+  ".CID471": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "AD265",
+      "faculty": "AD265"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "AD265",
+      "faculty": "AD265"
+    }
+  ],
+  ".CID500": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK B",
+      "program": "AD265",
+      "faculty": "AD265"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK A",
+      "program": "AD265",
+      "faculty": "AD265"
+    }
+  ],
+  ".CID501": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK D",
+      "program": "AD265",
+      "faculty": "AD265"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK D",
+      "program": "AD265",
+      "faculty": "AD265"
+    }
+  ],
+  ".CMD411": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2341A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR ADV",
+      "program": "AD234",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2341B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR ADV",
+      "program": "AD234",
+      "faculty": "AD"
+    }
+  ],
+  ".CMD421": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2341A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD234",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2341B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD234",
+      "faculty": "AD"
+    }
+  ],
+  ".CMD431": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2341A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD234",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-17:00 PM )",
+      "group": "AD2341B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD234",
+      "faculty": "AD"
+    }
+  ],
+  ".CMD452": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD234",
+      "faculty": "AD"
+    }
+  ],
+  ".CMD462": [
+    {
+      "day_time": "MONDAY( 10:00 AM-14:00 PM )",
+      "group": "AD2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL POST PRODUCTION",
+      "program": "AD234",
+      "faculty": "AD"
+    }
+  ],
+  ".CMD472": [
+    {
+      "day_time": "TUESDAY( 13:00 PM-17:00 PM )",
+      "group": "AD2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ST VR BASIC",
+      "program": "AD234",
+      "faculty": "AD"
+    }
+  ],
+  ".CTH408": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD248,AD248",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2481B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD248,AD248",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2481C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD248,AD248",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2621A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD262,AD262",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2631A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD263,AD263",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2651A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD265,AD265",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD266,AD266",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "CAAD266,AD266",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2911A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AS290CAAD7",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AS290",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AS291AD7",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AS291",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2331A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 14 PFI",
+      "program": "CAAD233,AD233",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2341A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 14 PFI",
+      "program": "CAAD234,AD234",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".DIA112": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 1",
+      "program": "AD120",
+      "faculty": "AD"
+    }
+  ],
+  ".DIA411": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0405",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0515",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2672B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0406",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0408",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2671A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 3",
+      "program": "",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAG3",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0408",
+      "program": "AD267,AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".DIA413": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2672A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7 PFI",
+      "program": "AD267, CAAD267",
+      "faculty": "CA, AD"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2672B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 6 PFI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "CAAD2613E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAG3",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD267,AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".DIA414": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "CAAD2613E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 16 PFI",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".DTC710": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/FT01",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "CA, AD",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "CA, AD",
+      "faculty": ""
+    }
+  ],
+  ".DTC750": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD704/FT02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD704/PT03",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DTC755": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/FT02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DTC756": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/FT01",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT03",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DTC767": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/FT02",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "AD704/PT03",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EAD557": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "EAD557SAB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL TEKSTIL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "EAD557SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL TEKSTIL",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EAH712": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "EAH712A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD702,AD703,AD704,CAAD702,CAAD703,CAAD704",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".ECA401": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "ECA401PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 1",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "ECA401PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 1",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".ECA402": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "ECA402PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 4",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "ECA402PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 4",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".ECA403": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "ECA403PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STD. FND PRINTEC",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "ECA403PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STD. FND PRINTEC",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".ECA404": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "ECA404PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL WARNA",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "ECA404PA-A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK POST PRODUCTION,MAKMAL WARNA",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".EDT701": [],
+  ".EVC712": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "EVC712/FT",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AD701  ,AD702  ,AD704  ,AD711  ,CAAD701  ,CAAD702  ,CAAD704  ,CAAD711 ,AD703 ,CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "EVC712/PT",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AD701  ,AD702  ,AD704  ,AD711  ,CAAD701  ,CAAD702  ,CAAD704  ,CAAD711 ,AD703 ,CAAD703",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".FDD411": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD262,AD265,AD266,AD291,CAAD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD262,AD265,AD266,AD291,CAAD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD262,AD265,AD266,AD291,CAAD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD262,AD265,AD266,AD291,CAAD263",
+      "faculty": "AD"
+    }
+  ],
+  ".FDD412": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD266,AD262,AD263,AD265",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD266,AD262,AD263,AD265",
+      "faculty": "AD"
+    }
+  ],
+  ".FFA411": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD248,AD248",
+      "faculty": "AD,AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD248,AD248",
+      "faculty": "AD,AD"
+    }
+  ],
+  ".FFA412": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "CAAD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "CAAD248",
+      "faculty": "AD"
+    }
+  ],
+  ".FND413": [
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD262,AD263,AD265,AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD262,AD263,AD265,AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD262,AD263,AD265,AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD262,AD263,AD265,AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD262,AD263,AD265,AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-10:00 AM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FND458": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2341A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1 PFI",
+      "program": "AD234,CAAD234",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "AD2341A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1 PFI",
+      "program": "AD234,CAAD234",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".FND460": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1 PFI",
+      "program": "AD233,AD234,CAAD233,CAAD234",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1 PFI",
+      "program": "AD233,AD234,CAAD233,CAAD234",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 2 PFI",
+      "program": "AD233,AD234,CAAD233,CAAD234",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 2 PFI",
+      "program": "AD233,AD234,CAAD233,CAAD234",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2912A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD290,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "AD2912A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD290,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FNT714": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-19:00 PM )",
+      "group": "AD702/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LECTURER ROOM D",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-19:00 PM )",
+      "group": "AD702/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LECTURER ROOM D",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".FNT725": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD702/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD702/PT03",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".FNT760": [
+    {
+      "day_time": "MONDAY( 14:00 PM-19:00 PM )",
+      "group": "AD702/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 06",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-19:00 PM )",
+      "group": "AD702/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 06",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-19:00 PM )",
+      "group": "AD702/PT03",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 06",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".FNT801": [
+    {
+      "day_time": "SATURDAY( 09:00 AM-21:00 PM )",
+      "group": "AD702/FT03",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-21:00 PM )",
+      "group": "AD702/PT04",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD702,CAAD702",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-21:00 PM )",
+      "group": "CAAD702/FT03",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": "CA,AD"
+    }
+  ],
+  ".FSY400": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY402": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "SATURDAY( 10:00 AM-12:00 PM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY404": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY406": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2661A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2661B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY450": [
+    {
+      "day_time": "SUNDAY( 10:00 AM-12:00 PM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2059",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2059",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY451": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-10:00 AM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY452": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY456": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "SATURDAY( 13:00 PM-15:00 PM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY458": [
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "SATURDAY( 15:30 PM-17:30 PM )",
+      "group": "NCCAF2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY502": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY503": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2662C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD266,AD291",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY504": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY506": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 4",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY508": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2663C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2663A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2663D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2663B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY552": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 3",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY554": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY556": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".FSY558": [
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 2",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL FASHION 1",
+      "program": "AD266",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC401": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAG1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2611D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0513",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0404",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2611C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0513",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0405",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    }
+  ],
+  ".GDC402": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-11:00 AM )",
+      "group": "NCCAG1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7 PFI",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7 PFI",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2611C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 16 PFI",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 15 PFI",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC403": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0510",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2611C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0510",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0510",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0510",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-19:00 PM )",
+      "group": "NCCAG1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC404": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0511",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0511",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0511",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAG1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC405": [
+    {
+      "day_time": "SUNDAY( 15:00 PM-19:00 PM )",
+      "group": "NCCAG1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0302",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0302",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0302",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0404",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    }
+  ],
+  ".GDC406": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 16 PFI",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2611A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1 PFI",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "AD2611B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 15 PFI",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2611C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 15 PFI",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CAAD"
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-11:00 AM )",
+      "group": "NCCAG1",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".GDC450": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAG2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0514",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0301",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0303",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0404",
+      "program": "AD261, CAAD261",
+      "faculty": "AD, CA"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0406",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2612E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0512",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "AD2612G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0407",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".GDC451": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2612E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0407",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2612D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0302",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2612F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0512",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2612G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0512",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2612B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2612A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2612C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0408",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2612H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0406",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAG2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 2",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC452": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2612A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0408",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2612C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0404",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2612B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAG2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GAME 2",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC453": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAG2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0514",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0406",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0301",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0406",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0303",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0404",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0408",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0301",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2612F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0405",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".GDC502": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAG3",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "CAAD2613E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 16 PFI",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".GDC503": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAG4",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0409",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC504": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "CAAD2613E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0302",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-18:00 PM )",
+      "group": "NCCAG4",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0406",
+      "program": "AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDC550": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CAAD2614J",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CAAD2614M",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CAAD2614N",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CAAD2614Q",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CAAD2614ZA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    }
+  ],
+  ".GDC551": [],
+  ".GDC552": [],
+  ".GDC553": [],
+  ".GDG646": [
+    {
+      "day_time": "SATURDAY( 11:00 AM-14:00 PM )",
+      "group": "NADG8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0513",
+      "program": "AD241,AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".GDG696": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NADG8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0513",
+      "program": "AD241,AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".IDD400": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO MILLENIUM H",
+      "program": "AD, CA",
+      "faculty": ""
+    }
+  ],
+  ".IDD411": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015C",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "group": "NCCAE2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "AD264",
+      "faculty": "AD"
+    }
+  ],
+  ".IDD412": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2059",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2059",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD421": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN IDE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD422": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO MILLENIUM H",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD423": [
+    {
+      "day_time": "THURSDAY( 13:00 PM-16:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD432": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER IDE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER IDE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD433": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2641A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD450": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO MILLENIUM A",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAE2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "AD264",
+      "faculty": "AD"
+    }
+  ],
+  ".IDD451": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "NCCAE2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "AD264",
+      "faculty": "AD"
+    }
+  ],
+  ".IDD452": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD460": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAE2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD264",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015C",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD471": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD481": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD482": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "AD2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD500": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD502": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2643B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2055",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD503": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-14:00 PM )",
+      "group": "NCCAE2",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD264",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015A",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015A",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD504": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015B",
+      "program": "CA, AD",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2643B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3011",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD510": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "NCCAE4",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "2055",
+      "program": "AD264",
+      "faculty": "AD"
+    }
+  ],
+  ".IDD520": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2055",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-19:00 PM )",
+      "group": "AD2643A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2055",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD530": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2643B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO MILLENIUM I",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2643C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO MILLENIUM H",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD550": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "AD2644FYPA2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015C",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2644FYPA1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2644FYPA1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3023",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2644FYPA2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2644FYPA2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2644FYPA3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2059",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2644FYPA3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3026",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2644FYPA6",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3023",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD552": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2644A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER IDE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2644B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO MILLENIUM B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD565": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2644A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2055",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2644B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2052",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD570": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2644A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015C",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2644A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015A",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD580": [
+    {
+      "day_time": "TUESDAY( 13:00 PM-19:00 PM )",
+      "group": "AD2644C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDD600": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "NCCAE4",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO IDE LEVEL 5A",
+      "program": "AD264",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT410": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2631A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3030",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT530": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT532": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2633C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT534": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT538": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CMD 2,BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "AD2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD,STUDIO CMD 1",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CMD 2,BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2633B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD,STUDIO CMD 1",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT550": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3030",
+      "program": "AD263, CAAD263",
+      "faculty": "AD, CA"
+    }
+  ],
+  ".JDT552": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD263, CAAD263",
+      "faculty": "AD, CA"
+    }
+  ],
+  ".JDT554": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2634B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".JDT558": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CMD 2,BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "AD2634B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD,STUDIO CMD 1",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CMD 2,BENGKEL PERTUKANGAN CMD",
+      "program": "AD263",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2634B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERTUKANGAN CMD,STUDIO CMD 1",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".PMB414": [
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PMB420": [
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK POST PRODUCTION,BSTP 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-17:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK POST PRODUCTION,BSTP 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PMB422": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER (PC)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER (PC)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER (PC)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PMB423": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PMB531": [],
+  ".PMB540": [],
+  ".PMB543": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "AD2502A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BSTP 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PMD120": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 4",
+      "program": "AD120",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 4",
+      "program": "AD120",
+      "faculty": "AD"
+    }
+  ],
+  ".PMD122": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 3",
+      "program": "AD120",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-13:00 PM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPC 3",
+      "program": "AD120",
+      "faculty": "AD"
+    }
+  ],
+  ".PMD123": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STD. FND PRINTEC",
+      "program": "AD120",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "AD1202A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL PERCETAKAN,STD. FND PRINTEC",
+      "program": "AD120",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH402": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 01",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH404": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 04",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH406": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 05",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 05",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH408": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2481A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH451": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2482A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 02",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH452": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 02",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 02",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH454": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2482A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 05",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 03",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH456": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL ARCA 04",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL ARCA 04",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH458": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Seni Halus 1",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2482A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH501": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-20:00 PM )",
+      "group": "AD2483D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-20:00 PM )",
+      "group": "INAD",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "INAD210",
+      "faculty": "IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-20:00 PM )",
+      "group": "AD2483E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 03",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "AD2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 03",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 01",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 01",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-13:00 PM )",
+      "group": "AD2483C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LECTURER ROOM D",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "AD2483C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LECTURER ROOM D",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH502": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 03",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 03",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH504": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 03",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 03",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH506": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2483C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL ARCA 03",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2483C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL ARCA 03",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH508": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:30 PM )",
+      "group": "AD2483E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3058",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:30 PM )",
+      "group": "AD2483E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH510": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2483D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 06",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "INAD",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 06",
+      "program": "INAD210",
+      "faculty": "IN"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2483D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 06",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH515": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2483A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2483B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "AD2483C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "INAD",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIUM UTAMA",
+      "program": "INAD210",
+      "faculty": "IN"
+    }
+  ],
+  ".PSH550": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 05",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SERAMIK 05",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH551": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-20:00 PM )",
+      "group": "AD2484B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 04",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-20:00 PM )",
+      "group": "AD2484D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VCR",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-14:00 PM )",
+      "group": "AD2484A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 04",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-14:00 PM )",
+      "group": "AD2484C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DRAWING THN 1",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-14:00 PM )",
+      "group": "AD2484E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO VRD",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH552": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 04",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO CATAN 04",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH554": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 04",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL SENI CETAK 04",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH556": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL ARCA 04",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL ARCA 04",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSH558": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Seni Halus 1",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2484E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD248",
+      "faculty": "AD"
+    }
+  ],
+  ".PSY563": [],
+  ".RMD577": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2484A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AUDITORIOM SENI HALUS",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2484B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AD2484C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "5015A",
+      "program": "AD248",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2624C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD262",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2664A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AD2664B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4069 (AVA 1)",
+      "program": "AD266",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "AD2653A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PG 1 (Bilik Kuliah)",
+      "program": "AD265",
+      "faculty": "AD265"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "AD2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD263",
+      "faculty": "AD"
+    }
+  ],
+  ".TED451": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2623A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3057",
+      "program": "AD262",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2623A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD262",
+      "faculty": "AD"
+    }
+  ],
+  ".TED452": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL TEKSTIL",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL TEKSTIL",
+      "program": "AD262",
+      "faculty": "AD"
+    }
+  ],
+  ".TED453": [
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-19:00 PM )",
+      "group": "AD2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-19:00 PM )",
+      "group": "AD2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD262",
+      "faculty": "AD"
+    }
+  ],
+  ".TED454": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO TEKSTILE 2096",
+      "program": "AD262",
+      "faculty": "AD"
+    }
+  ],
+  ".TED455": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2622A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2622B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4049 (TEC ROOM)",
+      "program": "AD262",
+      "faculty": "AD"
+    }
+  ],
+  ".TED541": [],
+  ".TED542": [],
+  ".TED543": [],
+  ".TED544": [],
+  ".TED551": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "AD2624C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "CAAD2624C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".TED552": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-17:00 PM )",
+      "group": "AD2624C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BENGKEL TEKSTIL TENUN",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".TED553": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-19:00 PM )",
+      "group": "AD2624C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO TEKSTILE 2096",
+      "program": "AD262",
+      "faculty": "AD"
+    }
+  ],
+  ".THE659": [
+    {
+      "day_time": "SUNDAY( 15:00 PM-17:00 PM )",
+      "group": "NADGT8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "AD241,AD261",
+      "faculty": "AD"
+    }
+  ],
+  ".VCM713": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT01",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "CAAD703",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "CAAD703",
+      "faculty": ",AD,CA"
+    }
+  ],
+  ".VCM770": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4046 (LAB PG 2)",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".VCM771": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT03",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3056 (LAB PG 1)",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".VCM773": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT03",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ],
+  ".VCM778": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/FT02",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD,CA",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "CAAD703/PT02",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3033(BILIK AVA 2)",
+      "program": "AD,CA",
+      "faculty": ""
+    }
+  ]
+}

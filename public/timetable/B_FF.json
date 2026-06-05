@@ -1,0 +1,1907 @@
+{
+  ".CAF111": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "FF1211A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 63B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CAF112": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1211A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 63B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CAF113": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1211A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CAF121": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "FF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 57A",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "FF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CAF122": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-23:00 PM )",
+      "group": "FF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CAF123": [
+    {
+      "day_time": "WEDNESDAY( 20:00 PM-23:00 PM )",
+      "group": "FF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "16-5-6",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "FF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "16-5-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CAF124": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CAFF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CAFF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "FF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "FF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CCI711": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-22:00 PM )",
+      "group": "FF7101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "14-3-6",
+      "program": "CAFF710,FF710",
+      "faculty": "FF"
+    }
+  ],
+  ".CCI712": [
+    {
+      "day_time": "THURSDAY( 19:00 PM-22:00 PM )",
+      "group": "FF7101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "15-2-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CCI714": [
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "FF7101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "13-2-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CCI721": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "FF7102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "13-3-6",
+      "program": "FF, CA",
+      "faculty": ""
+    }
+  ],
+  ".CCI722": [
+    {
+      "day_time": "WEDNESDAY( 19:00 PM-22:00 PM )",
+      "group": "FF7102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM FiTA",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CCI723": [
+    {
+      "day_time": "TUESDAY( 20:00 PM-23:00 PM )",
+      "group": "FF7102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4-4-6",
+      "program": "FF710",
+      "faculty": "FF"
+    }
+  ],
+  ".CCI724": [
+    {
+      "day_time": "MONDAY( 19:00 PM-22:00 PM )",
+      "group": "FF7102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 56",
+      "program": "FF710",
+      "faculty": "FF"
+    }
+  ],
+  ".CFC412": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2401A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2411A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFC421": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 63A",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFD411": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2401A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2411A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFD413": [
+    {
+      "day_time": "MONDAY( 20:00 PM-23:00 PM )",
+      "group": "FF2401A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-23:00 PM )",
+      "group": "FF2411A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFD421": [
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-21:00 PM )",
+      "group": "FF2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-21:00 PM )",
+      "group": "FF2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CFD422": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "FF2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Lakon Fita 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DIA111": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1211A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 63B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DIA112": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "FF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "FF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DIA114": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF1211A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DIA411": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "FF2401A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2411A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DIA412": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 56",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 56",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".DIA541": [],
+  ".FAA421": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "FF2382A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FiTA 3",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FAA422": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "FF2382A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM FiTA",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FAB421": [
+    {
+      "day_time": "MONDAY( 13:00 PM-15:00 PM )",
+      "group": "FF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FITA 2",
+      "program": "CAFF239,FF239",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FAB422": [
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "CAFF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FITA 2",
+      "program": "CAFF239",
+      "faculty": "CA"
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FITA 2",
+      "program": "CAFF239, FF239",
+      "faculty": "CA, FF"
+    }
+  ],
+  ".FAC411": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "FF2381A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2391A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "FF239,CAFF239",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "ELE_FAC411",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF233,CAFF234,CAFF235,CAFF237,FF240,FF241,FF242,FF246",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FAC412": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FAC412",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 9",
+      "program": "FF233,FF234,FF235,FF237,FF240,FF241,FF242,FF246",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2381A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 9",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2391A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 9",
+      "program": "CAFF239,FF239",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FAP412": [
+    {
+      "day_time": "MONDAY( 17:00 PM-20:00 PM )",
+      "group": "FF2361A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "FF236\nCAFF236",
+      "faculty": "FF\nCAFF"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-20:00 PM )",
+      "group": "FF2371A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "FF237",
+      "faculty": "FF"
+    }
+  ],
+  ".FCI713": [
+    {
+      "day_time": "TUESDAY( 20:00 PM-23:00 PM )",
+      "group": "FF7101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2-2-6",
+      "program": "FF710",
+      "faculty": "FF"
+    }
+  ],
+  ".FCI725": [
+    {
+      "day_time": "THURSDAY( 20:00 PM-23:00 PM )",
+      "group": "FF7102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "7-4-6",
+      "program": "FF710",
+      "faculty": "FF"
+    }
+  ],
+  ".FDC411": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FDC411",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "13-2-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FDC413": [
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "ELE_FDC413",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "11-3-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FDC421": [
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "ELE_FDC421",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-21:00 PM )",
+      "group": "ELE_FDC421",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FFA111": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1151A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA112": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "FF1151A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA113": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "FF1151A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA114": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "FF1151A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA121": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "FF1152B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1152A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "FF1152C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA122": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1152B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "8-3-6",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "FF1152C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "8-3-6",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1152A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "8-3-6",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA123": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "FF1152A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "FF1152B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-13:00 PM )",
+      "group": "FF1152C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO DIGITAL FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFA124": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "FF1152A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "FF1152B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1152C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 1",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FFC412": [
+    {
+      "day_time": "MONDAY( 19:00 PM-22:00 PM )",
+      "group": "ELE_FFC412",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FFD121": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "FF1162A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FiTA 2",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFD122": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1162A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FITA 1 (TARI)",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-23:00 PM )",
+      "group": "FF1162B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FITA 1 (TARI)",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFD123": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "FF1162A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FITA 1 (TARI)",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1162B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FITA 1 (TARI)",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFD124": [
+    {
+      "day_time": "MONDAY( 20:00 PM-23:00 PM )",
+      "group": "FF1162B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FiTA 2",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "FF1162A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FiTA 2",
+      "program": "FF116",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFF243": [],
+  ".FFM111": [
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "FF1141A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "CAFF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM112": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "FF1141A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM113": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "FF1141A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 9",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM121": [
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "FF1141A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "8-4-6",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM124": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-12:00 PM )",
+      "group": "FF1142A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM125": [
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "FF1142A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "FF114",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
+      "group": "FF1142A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM126": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "FF1142A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM127": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "FF1142A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "FF114",
+      "faculty": "FF"
+    }
+  ],
+  ".FFM233": [],
+  ".FFM235": [],
+  ".FFM236": [],
+  ".FFT121": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "FF1132A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FiTA 2",
+      "program": "FF1132A",
+      "faculty": "FF"
+    }
+  ],
+  ".FFT122": [
+    {
+      "day_time": "MONDAY( 20:00 PM-23:00 PM )",
+      "group": "FF1132A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Lakon Fita 1",
+      "program": "FF113",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFT123": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "FF1132A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO GERAK FITA 1 (TARI)",
+      "program": "FF113",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFT124": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1132A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2-4-6",
+      "program": "FF113",
+      "faculty": "FF, CA"
+    }
+  ],
+  ".FFW111": [
+    {
+      "day_time": "TUESDAY( 13:30 PM-17:30 PM )",
+      "group": "FF1121A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-5-6",
+      "program": "CAFF112",
+      "faculty": "FF"
+    }
+  ],
+  ".FFW112": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF1121A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "15-4-6",
+      "program": "CAFF112",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "FF1121A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "9-3-6",
+      "program": "CAFF112",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
+      "group": "FF1121A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "9-3-6",
+      "program": "CAFF112",
+      "faculty": "FF"
+    }
+  ],
+  ".FFW113": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "FF1121A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "1-3-6",
+      "program": "CAFF112",
+      "faculty": "FF"
+    }
+  ],
+  ".FFW121": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "FF1122A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "FF112",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "FF1122B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FFW122": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "FF1122A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "15-4-6",
+      "program": "FF112",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "FF1122B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "15-4-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FFW123": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF1122B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "1-3-6",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
+      "group": "FF1122A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "1-3-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FMA411": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "ELE_FMA411",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "CAFF240  ,FF230  ,FF231  ,FF232  ,FF233  ,FF234  ,FF235  ,FF238  ,FF239 ,FF240 , FF241",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "FF2361A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "FF236",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FMA421": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "ELE_FMA421",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "FF230 ,FF231 ,FF232 ,FF233 ,FF234 ,FF235 ,FF238 ,FF239 ,FF240 ,FF241",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "FF2362A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "FF230   ,FF231   ,FF232   ,FF233   ,FF234   ,FF235   ,FF236   ,FF238   ,FF239   ,FF240   ,FF241",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FMA422": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "FF2362A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 59",
+      "program": "CAFF236",
+      "faculty": "FF"
+    }
+  ],
+  ".FMP411": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FMP411",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "FF230   ,FF231   ,FF233   ,FF234   ,FF235   ,FF237   ,FF238   ,FF239   ,FF240   ,FF241",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FMP411B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "FF230 ,FF231 ,FF240 ,FF241 ,FF232 ,FF233 ,FF234 ,FF235 ,FF238 ,FF239",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2371A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 60",
+      "program": "CAFF237",
+      "faculty": "FF"
+    }
+  ],
+  ".FMP421": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FMP421",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "FF240,FF241,FF233,FF238,FF239,CAFF241,CAFF240",
+      "faculty": "FF,CA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2372A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "CAFF237,FF237",
+      "faculty": "FF"
+    }
+  ],
+  ".FMP422": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-20:00 PM )",
+      "group": "ELE_FMP422",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "FF230,FF231,FF232,FF233,FF234,FF235,FF238,FF239,FF240,FF241,CAFF240,CAFF241",
+      "faculty": "FF,CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-20:00 PM )",
+      "group": "FF2372A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "FF237",
+      "faculty": "FF"
+    }
+  ],
+  ".FPS411": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ELE_FPS411",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 2",
+      "program": "FF232 ,FF233  ,FF236 ,FF237 ,FF238 ,FF239 ,FF240 ,FF241 ,CAFF232 ,CAFF233 ,CAFF236 ,CAFF237 ,CAFF238 ,CAFF239 ,CAFF240 ,CAFF241",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FPS422": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2-4-6",
+      "program": "FF234, FF235",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2352A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2-4-6",
+      "program": "FF234, FF235",
+      "faculty": "FF"
+    }
+  ],
+  ".FSC411": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2321A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 56",
+      "program": "CAFF232,FF232",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2331A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 56",
+      "program": "CAFF233, FF233",
+      "faculty": "FF"
+    }
+  ],
+  ".FSC412": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2331A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58A",
+      "program": "FF233",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
+      "group": "ELE_FSC412",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "FF230   , FF231   , FF234   , FF235   , FF236   , FF237   , FF238   , FF239   , FF240   , FF241",
+      "faculty": "FF"
+    }
+  ],
+  ".FTA111": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF1151A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "FF115",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "FF1121A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "1-3-6",
+      "program": "FF112",
+      "faculty": "FF"
+    }
+  ],
+  ".FTA121": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF1212A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF1212B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "FF1122A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "FF112",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "FF1122B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "FF112",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "FF1141A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-2-6",
+      "program": "FF114",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "FF1132A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2-4-6",
+      "program": "FF113, FF116",
+      "faculty": "FF, CA"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "FF1152A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 2",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "FF1162A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "2-4-6",
+      "program": "FF113, FF116",
+      "faculty": "FF, CA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "FF1152B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 2",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "FRIDAY( 17:00 PM-19:00 PM )",
+      "group": "FF1152C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 2",
+      "program": "CAFF115,FF115",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FTA122": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-19:00 PM )",
+      "group": "FF1142A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "FF1142B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 57A",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FTA232": [],
+  ".FTA411": [
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2331A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 57A",
+      "program": "CAFF233,FF233",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "FF2381A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 2",
+      "program": "FF238,CAFF238",
+      "faculty": "FF,CA"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2361A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-2-6",
+      "program": "CAFF236",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "FF2391A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER FiTA 2",
+      "program": "FF239,CAFF239",
+      "faculty": "FF,CA"
+    }
+  ],
+  ".FTA412": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2401A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2411A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 11",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "FF2381A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4-3-6 (LAMAN A)",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2391A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "4-3-6 (LAMAN A)",
+      "program": "CAFF239,FF239",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2361A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-2-6",
+      "program": "FF236",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2372A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-2-6",
+      "program": "FF237",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "FF2331A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58A",
+      "program": "CAFF233,FF233",
+      "faculty": "FF"
+    }
+  ],
+  ".FTA421": [
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF233",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2382A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "FF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "CAFF239,FF239",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2322A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF232",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF234",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2352A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF235",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2362A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF236",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2372A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF,FF237",
+      "faculty": "FF"
+    }
+  ],
+  ".FTA422": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2322A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58A",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58A",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 57A",
+      "program": "FF234",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "FF2352A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 57A",
+      "program": "FF235",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "FF2372A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-2-6",
+      "program": "FF237",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2342A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF234",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2352A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF235",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2362A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF236",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2372A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF237",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2382A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "CAFF239,FF239",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "FF2362A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 61",
+      "program": "FF236",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2382A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF238,FF238",
+      "faculty": "CA,FF"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "FF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK DRAWING",
+      "program": "CAFF239,FF239",
+      "faculty": "CA,FF"
+    }
+  ],
+  ".FTA423": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "FF2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "FF240, FF241",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "FF2412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN SEMINAR FITA 1",
+      "program": "FF240, FF241",
+      "faculty": "FF"
+    }
+  ],
+  ".FTA651": [],
+  ".FTA652": [],
+  ".FTP412": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "ELE_FTP412",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO WAYANG KULIT",
+      "program": "FF234  ,FF236  ,FF237  ,FF238  ,FF239  ,FF240  ,FF241  ,CAFF232  ,CAFF233  ,CAFF236  ,CAFF237  ,CAFF238  ,CAFF239  ,CAFF240  ,CAFF241  ,FF232  ,FF233",
+      "faculty": "FF"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "ELE_FTP412B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF234,CAFF234,FF232,CAFF233,FF236,CAFF236,FF238,CAFF238,FF239,CAFF239,FF240,CAFF240,FF241,CAFF241",
+      "faculty": "FF,CA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FTP412C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Lakon Fita 1",
+      "program": "FF234  ,CAFF234  ,FF232  ,CAFF233  ,FF236  ,CAFF236  ,FF238  ,CAFF238  ,FF239  ,CAFF239  ,FF240  ,CAFF240  ,FF241  ,CAFF241",
+      "faculty": "FF,CA"
+    }
+  ],
+  ".FTP421": [],
+  ".FTS412": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FTS412A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN EKSPERIMENTAL FiTA",
+      "program": "FF232     , FF233      , FF236     , FF237. FF238     , FF239     , FF240     , FF241",
+      "faculty": "FF"
+    }
+  ],
+  ".FTS421": [
+    {
+      "day_time": "MONDAY( 17:00 PM-20:00 PM )",
+      "group": "FF2352A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "3-2-6",
+      "program": "FF235",
+      "faculty": "FF"
+    }
+  ],
+  ".FWC415": [],
+  ".FWC421": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "ELE_FWC421",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58B",
+      "program": "FF",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "FF2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58B",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FWC422": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "FF2332A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "6-5-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FWC533": [
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "ELE_FWC533",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 56",
+      "program": "FF230     ,FF231     ,FF234     ,FF235     ,FF237     ,FF238     ,FF239    ,FF240    ,FF241 ,FF236",
+      "faculty": "FF"
+    }
+  ],
+  ".FWC536": [],
+  ".FWS415": [],
+  ".FWS421": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "FF2322A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 58A",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-15:00 PM )",
+      "group": "FF2382A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM FiTA",
+      "program": "CAFF238,FF238",
+      "faculty": "FF,CA"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "FF2392A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM FiTA",
+      "program": "FF239,CAFF239",
+      "faculty": "FF,CA"
+    }
+  ],
+  ".FWS422": [
+    {
+      "day_time": "TUESDAY( 13:30 PM-17:30 PM )",
+      "group": "FF2322A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "16-2-6",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FWS531": [
+    {
+      "day_time": "MONDAY( 17:00 PM-20:00 PM )",
+      "group": "ELE_FWS531",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH FiTA 8",
+      "program": "FF231   ,FF234   ,FF235   ,FF236   ,FF237   ,FF238   ,FF239  ,FF240  ,FF241",
+      "faculty": "FF"
+    }
+  ],
+  ".FWS536": [],
+  ".UED102": []
+}

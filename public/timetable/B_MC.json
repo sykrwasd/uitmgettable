@@ -1,0 +1,6064 @@
+{
+  ".ADV410": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC244S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC244S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV451": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "ADV451A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-19:00 PM )",
+      "group": "ADV451C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-19:00 PM )",
+      "group": "ADV451B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV452": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC244S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC244S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV532": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC244S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC244S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV533": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC244S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-20:00 PM )",
+      "group": "MC244S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV535": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "MC244S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC244S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV556": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "MC244S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "MC244S4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC244S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV557": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC244S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "MC244S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC244S4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV558": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-15:00 PM )",
+      "group": "ADV558 A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-15:00 PM )",
+      "group": "ADV558 B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-15:00 PM )",
+      "group": "REPEATER-558B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV600": [
+    {
+      "day_time": "MONDAY( 16:00 PM-20:00 PM )",
+      "group": "MC244S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "MC244S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV601": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "MC244S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-15:00 PM )",
+      "group": "MC244S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".ADV602": [
+    {
+      "day_time": "MONDAY( 14:00 PM-20:00 PM )",
+      "group": "MC244S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK1 (FKPM - MENARA SAAS)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-14:00 PM )",
+      "group": "MC244S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK1 (FKPM - MENARA SAAS)",
+      "program": "MC244",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO410": [
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "MC243S2D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC243S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS),BK14 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO432": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC243S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM),STUDIO TV (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO454": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC243S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S2D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-19:00 PM )",
+      "group": "MC243S2E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "BK21 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO455": [
+    {
+      "day_time": "MONDAY( 16:00 PM-20:00 PM )",
+      "group": "MC243S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-19:00 PM )",
+      "group": "MC243S2D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO503": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-19:00 PM )",
+      "group": "MC243S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM),STUDIO TV (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO504": [
+    {
+      "day_time": "THURSDAY( 12:00 PM-15:00 PM )",
+      "group": "MC243S4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO533": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "BRO533 B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S2D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "BRO533 A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO551": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC243S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC243S4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO604": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "243-FADLY",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "243-FARAMI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "243-SHAHNON",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "243-SLEEN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "243-SYAZWAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "243-ZAIRYN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".BRO655": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT410": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC246S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC246S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT450": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN,MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "MC246S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "MC246S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT451": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN,MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "MC246S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "MC246S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT452": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "MC246S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "MC246S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT500": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "MC246S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "MC246S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT501": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "MC246S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "MC246S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT549": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "MC246S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "MC246S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT550": [
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "MC246S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
+      "group": "MC246S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT552": [
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC246S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC246S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT553": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "MC246S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "MC246S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT600": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "MC246S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-13:00 PM )",
+      "group": "MC246S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT601": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "MC246S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "MC246S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT602": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "MC246S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "MC246S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CIT653": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "MC246S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "MC246S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB FOTO (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP410": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC248S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP500": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-15:00 PM )",
+      "group": "MC248S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-15:00 PM )",
+      "group": "MC248S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP532": [
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC248S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP533": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC248S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC248S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP542": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP549": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP551": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN,MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC248S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP600": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC248S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC248S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP601": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-20:00 PM )",
+      "group": "MC248S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-20:00 PM )",
+      "group": "MC248S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP602": [
+    {
+      "day_time": "TUESDAY( 13:00 PM-16:00 PM )",
+      "group": "MC248S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-16:00 PM )",
+      "group": "MC248S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP603": [
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "MC248S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "MC248S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP604": [
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "MC248S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "MC248S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".CMP651": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC248S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC248S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".COM410": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC248S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC241S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC244S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC245S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC246S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC247S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC242S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".COM411": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC242S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "MC244S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC241S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC248S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC247S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".COM413": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCP1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM413A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC242,MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM413B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC242, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM413C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC242, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "REPEATER-413A",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "REPEATER-413B",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "COM413D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC246, MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".COM420": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCN3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "COM420C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC247, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "COM420A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC244, MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "COM420B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC244, MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".COM422": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "COM422A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC241,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "COM422E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "COM422J",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC248, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "COM422G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC245,MC246,MC242,MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-14:00 PM )",
+      "group": "COM422H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".COM430": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM431": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "COM431C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC242, MC249, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "COM431D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC242, MC249, MC248, MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "COM431H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC244, MC245,MC241,MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN,MC"
+    }
+  ],
+  ".COM510": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM510A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 13:00 PM-16:00 PM )",
+      "group": "COM510B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC241, MC245, MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM510B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC241, MC245, MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM510E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM510F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM510G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC246, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM510C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "COM510D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".COM530": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "COM530H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC244, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM530A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC241,MC246,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM530F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC242,MC247,MC248,",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM530C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC242, MC247, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 13:00 PM-16:00 PM )",
+      "group": "COM530J",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM540": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-20:00 PM )",
+      "group": "COM540C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "COM540D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM540E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC244, MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-20:00 PM )",
+      "group": "COM540F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "COM540H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC248,MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM540A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC242,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "COM540B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC242,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM540G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC246, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 17:00 PM-20:00 PM )",
+      "group": "COM540I",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "BK20 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".COM569": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-15:00 PM )",
+      "group": "COM569D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC242, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-19:00 PM )",
+      "group": "COM569F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC243, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-19:00 PM )",
+      "group": "COM569G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC243, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-15:00 PM )",
+      "group": "REPEATER-569D",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "BK8 (FKPM)",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-15:00 PM )",
+      "group": "COM569A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-15:00 PM )",
+      "group": "COM569B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-19:00 PM )",
+      "group": "COM569H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-19:00 PM )",
+      "group": "COM569I",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-19:00 PM )",
+      "group": "COM569L",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-16:00 PM )",
+      "group": "COM569E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-15:00 PM )",
+      "group": "COM569J",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC245, MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-20:00 PM )",
+      "group": "COM569K",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC247, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-15:00 PM )",
+      "group": "COM569C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".COM570": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "COM570C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC242, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "REPEATER-570C",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "BK18 (FKPM)",
+      "program": "MC247    ,MC241    ,MC242    ,MC243    ,MC244    ,MC245    ,MC246    ,MC247    ,MC248    ,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "COM570D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC242, MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "COM570E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242, MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM570I",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC245, MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "COM570K",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "REPEATER-570E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC241  ,MC242  ,MC243  ,MC244  ,MC245  ,MC246  ,MC247  ,MC248  ,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM570A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM570B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "COM570J",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "REPEATER-570B",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "DK2 (FKPM)",
+      "program": "MC241 ,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-15:00 PM )",
+      "group": "COM570F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "COM570H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "REPEATER-570H",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "DK2 (FKPM)",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM571": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "COM571A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "COM571B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "COM571E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-15:00 PM )",
+      "group": "COM571J",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "COM571C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "COM571D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "COM571F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "COM571G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "COM571H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC244, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "COM571I",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC244, MC248",
+      "faculty": "MC"
+    }
+  ],
+  ".COM651": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC243S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".COM653": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM654": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK10",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "COM654A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "COM654D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "COM654B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC241, MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "COM654C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".COM655": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-AMIRUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-AZLINA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-DR IMA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-FADZILLAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-FAISAL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-NIRWANDY",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "241-NIZAM",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-ABUZAR",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-BABY",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-DEWI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-DR MANI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-DR WAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-HAMID",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-MELINA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-NAJMI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-SHIRA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "242-WARDATUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-DR KHAI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-DRSUFFIAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-HAMIMDA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-HAMZANI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-HANANI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-RAJAPUTRI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-ROZLAILI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-SHIFA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "244-SUHAIMEE",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-ARZMI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-DR ZUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-NORA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-ROSLAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-SHAHNIL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-SHAMIL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-SYUHADA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC245,MC241,MC242,MC243,MC244,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-ZAIHA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "245-ZALIFFAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "246-ANTASHAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241, MC242, MC243, MC244, MC245, MC246, MC247, MC248, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "246-ANUAR",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "246-AZIEMAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "246-DRMAYUDIA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "246-FADHLI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "247-DR AMALIN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "247-DR SHAWN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "247-DZUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "247-HASLINA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "247-SHAYU",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "247-YATI BABA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "248-ATIQAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "248-DR  AHLAM",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "248-DR ELENA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "248-DR YUS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "248-NAZRI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-ABDUL AZIZ",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-AHMAD",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-AZIM",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-DR HAMIZAH",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-DR IREENA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-DR SARAS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-DR YUSOF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241, MC242, MC243, MC244, MC245, MC246, MC247, MC248, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-ELIZA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC244,MC245,MC246,MC247,MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-LIYANA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-MAHATHIR",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-NURULAISHAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-22:30 PM )",
+      "group": "L-WAN HARTINI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN10B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN10C",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN10D",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-20:30 PM )",
+      "group": "NMCP10A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP10B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP10C",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP10D",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP10E",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".COM656": [
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN9B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN9C",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCN9D",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP9B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP9C",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP9D",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
+      "group": "NMCP9E",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-AMIRUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-AZLINA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-DR IMA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-FADZILLAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-FAISAL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-NIRWANDY",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "241-NIZAM",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-ABUZAR",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-BABY",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-DEWI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242,MC241,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-DR MANI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-DR WAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-HAMID",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-MELINA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-NAJMI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-SHIRA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "242-WARDATUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-DR KHAI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-DRSUFFIAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-HAMIMDA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "244-HAMZANI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-HANANI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-RAJAPUTRI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-ROZLAILI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-SHIFA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "244-SUHAIMEE",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-ARZMI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-DR ZUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-NORA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-ROSLAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-SHAHNIL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-SHAMIL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-SYUHADA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC245,MC241,MC242,MC243,MC244,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-ZAIHA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "245-ZALIFFAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "246-ANTASHAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241, MC242, MC243, MC244, MC245, MC246, MC247, MC248, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "246-ANUAR",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "246-AZIEMAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "246-DRMAYUDIA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "246-FADHLI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "247-DR AMALIN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "247-DR SHAWN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "247-DZUL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "247-HASLINA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "247-SHAYU",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "247-YATI BABA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "248-ATIQAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "248-DR  AHLAM",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "248-DR ELENA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "248-DR YUS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "248-NAZRI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-ABDUL AZIZ",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-AHMAD",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-AZIM",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-DR HAMIZAH",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-DR IREENA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-DR SARAS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-DR YUSOF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241, MC242, MC243, MC244, MC245, MC246, MC247, MC248, MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "L-ELIZA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-LIYANA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-MAHATHIR",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "L-NURULAISHAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-NURULAISHAH",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-22:00 PM )",
+      "group": "L-WAN HARTINI",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM660": [
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "249-ANIS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249,MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "249-NAQUE",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "249-RAZEEF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "249-ROSEVIA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "249-SAFWAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "L-AHMAD",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "L-DR AZIZ",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC244,MC245,MC246,MC247,MC248,MC249,MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "L-DR HAMIZAH",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "L-DR IREENA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "L-DR SARAS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-22:00 PM )",
+      "group": "L-DR YUSOF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 17:00 PM-21:00 PM )",
+      "group": "L-LIYANA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM661": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "249-ANIS",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "249-NAQUE",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "249-RAZEEF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "249-ROSEVIA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "249-SAFWAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "L-AHMAD",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "L-DR AZIZ",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "L-DR HAMIZAH",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "L-DR IREENA",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-17:00 PM )",
+      "group": "L-DR YUSOF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241,MC242,MC243,MC244,MC245,MC246,MC247,MC248,MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".COM665": [
+    {
+      "day_time": "SATURDAY( 15:00 PM-21:00 PM )",
+      "group": "243-FADLY",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-21:00 PM )",
+      "group": "243-FARAMI",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-21:00 PM )",
+      "group": "243-SHAHNON",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-21:00 PM )",
+      "group": "243-SHAZLEEN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-21:00 PM )",
+      "group": "243-SYAZWAN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SATURDAY( 15:00 PM-21:00 PM )",
+      "group": "243-ZAIRYN",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC243",
+      "faculty": "MC"
+    }
+  ],
+  ".COM716": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM717": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM721": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM722": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM724": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7701B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM725": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM726": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM730": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-22:00 PM )",
+      "group": "MC7702A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-22:00 PM )",
+      "group": "MC7703B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC702,MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM731": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7703A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7704B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM732": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7702A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7703B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM733": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7703A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7704B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM741": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7703A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7703B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".COM743": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-14:00 PM )",
+      "group": "MC7703A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC770",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-14:00 PM )",
+      "group": "MC7704B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC770",
+      "faculty": "MC"
+    }
+  ],
+  ".EAD565": [
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "MC241S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "MC241S2B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "MC241S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "MC245S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "MC245S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".ENT530": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCN8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK12",
+      "program": "MC242, MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK12",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "ENT530A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "ENT530B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC242, MC246,MC245,MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "ENT530C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK21 (FKPM)",
+      "program": "MC244, MC246",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "ENT530E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC247, MC248",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "ENT530F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".ENT540": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "ENT540A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".INC410": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCN1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC247S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC247S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC450": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCN2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC247S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 13:00 PM-16:00 PM )",
+      "group": "MC247S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC451": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCN3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK12",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC247S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC247S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC500": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCN4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-20:00 PM )",
+      "group": "MC247S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-20:00 PM )",
+      "group": "MC247S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC530": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCN5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC531": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCN7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC247S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC532": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCN5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "MC247S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC247S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC541": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCN6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-15:00 PM )",
+      "group": "MC247S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-15:00 PM )",
+      "group": "MC247S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC550": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCN7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC551": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCN9A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "MC247S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "MC247S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC600": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCN6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "MC247S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "MC247S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC601": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCN7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-15:00 PM )",
+      "group": "MC247S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-15:00 PM )",
+      "group": "MC247S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC602": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCN8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK12",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC247S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC247S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC651": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCN8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK12",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC247S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".INC652": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCN8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK12",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "MC247S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-19:00 PM )",
+      "group": "MC247S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN410": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-19:00 PM )",
+      "group": "JRN410A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-20:00 PM )",
+      "group": "JRN410B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN450": [
+    {
+      "day_time": "MONDAY( 12:00 PM-16:00 PM )",
+      "group": "MC241S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "MC241S2B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK1 (FKPM - MENARA SAAS)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC241S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN451": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "MC241S2B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC241S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC241S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN500": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "JRN500A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-19:00 PM )",
+      "group": "JRN500B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN501": [
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "JRN501B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "JRN501A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN549": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-14:00 PM )",
+      "group": "JRN549A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "JRN549B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN550": [
+    {
+      "day_time": "MONDAY( 08:00 AM-13:00 PM )",
+      "group": "MC241S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-21:00 PM )",
+      "group": "MC241S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-13:00 PM )",
+      "group": "MC241S4B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN600": [
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC241S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC241S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN601": [
+    {
+      "day_time": "THURSDAY( 16:00 PM-20:00 PM )",
+      "group": "MC241S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-20:00 PM )",
+      "group": "MC241S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN602": [
+    {
+      "day_time": "MONDAY( 09:00 AM-13:00 PM )",
+      "group": "MC241S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-13:00 PM )",
+      "group": "MC241S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".JRN603": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-15:00 PM )",
+      "group": "MC241S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-15:00 PM )",
+      "group": "MC241S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC241",
+      "faculty": "MC"
+    }
+  ],
+  ".LIB411": [
+    {
+      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC249S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".LIB420": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "LIB420A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC241",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "LIB420C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "LIB420G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "LIB420B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK13 (FKPM)",
+      "program": "MC241, MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "LIB420D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "LIB420C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM),BK16",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "LIB420E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC244, MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".LIB450": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCN1A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "LIB450C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-15:00 PM )",
+      "group": "LIB450D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "LIB450B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC244",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "LIB450A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC244, MC246",
+      "faculty": "MC"
+    }
+  ],
+  ".MCS719": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7713",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK1 (FKPM - MENARA SAAS)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MGT546": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "MGT546A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".MIC701": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-22:00 PM )",
+      "group": "MC7712",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MIC702": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7711",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MIC705": [
+    {
+      "day_time": "MONDAY( 08:00 AM-14:00 PM )",
+      "group": "MC7713",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MIP705": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7711",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC701,CDMC701",
+      "faculty": "MC,CD"
+    }
+  ],
+  ".MIP706": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7712",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MIP707": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7712",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MIP708": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7711",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MIP725": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7713",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MMW709": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7712",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MMW711": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7713",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM - MENARA SAAS)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".MPO713": [
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "MC7711",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK1 (FKPM - MENARA SAAS)",
+      "program": "MC701",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC410": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC411": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S1A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC450": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "MC249S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "MC249S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC451": [
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC249S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "MC249S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC452": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC249S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC249S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC453": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC460": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "MC249S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "MC249S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC510": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "MC249S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "MC249S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC511": [
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC249S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC249S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC512": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC249S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC249S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC550": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "MC249S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "MC249S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC551": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-19:00 PM )",
+      "group": "MC249S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-19:00 PM )",
+      "group": "MC249S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC552": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "MC249S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "MC249S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC553": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC554": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC249S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC611": [
+    {
+      "day_time": "MONDAY( 11:00 AM-15:00 PM )",
+      "group": "MC249S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-15:00 PM )",
+      "group": "MC249S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDIO ANIMASI (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".NMC612": [
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "MC249S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "MC249S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC249",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO410": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP2A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "MC242, MC247, BA232",
+      "faculty": "MC, BA"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "MC242S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK20 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 13:00 PM-16:00 PM )",
+      "group": "MC242S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK18 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-15:00 PM )",
+      "group": "REPEAT-PR410A",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "BK20 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC242S2B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC242S2D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "BK22 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO450": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCP3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "PRO450A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "PRO450B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PRO450D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "PRO450C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO500": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP3A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "INMC210",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "INMC210",
+      "faculty": "IN"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "MC242S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK14 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-15:00 PM )",
+      "group": "MC242S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO532": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCP4A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "DK2 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC242S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "MC242S4B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK15 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC242S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DK1 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO541": [
+    {
+      "day_time": "SUNDAY( 16:30 PM-18:30 PM )",
+      "group": "NMCP6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-14:00 PM )",
+      "group": "MC242S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-15:00 PM )",
+      "group": "MC242S3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK6 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO549": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP5A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC242S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-19:00 PM )",
+      "group": "MC242S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK19 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "MC242S4B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK16",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO550": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC242S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "MC242S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "MC242S4B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK17 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO600": [
+    {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NMCP7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-15:00 PM )",
+      "group": "MC242S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-15:00 PM )",
+      "group": "MC242S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK4 (FKPM - MENARA SAAS)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO601": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK11 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-19:00 PM )",
+      "group": "MC242S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-19:00 PM )",
+      "group": "MC242S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 4 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO602": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-18:00 PM )",
+      "group": "MC242S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 13:00 PM-18:00 PM )",
+      "group": "MC242S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK8 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO652": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NMCP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PRO653": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "NMCP8A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK10 (FKPM)",
+      "program": "MC242,MC247",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-20:00 PM )",
+      "group": "MC242S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-20:00 PM )",
+      "group": "MC242S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC242",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB410": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC245S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "MC245S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK9 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB456": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC245S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "MC245S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "PUB456A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "PUB456B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "BK13 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB542": [
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S2A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-15:00 PM )",
+      "group": "PUB542A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-19:00 PM )",
+      "group": "PUB542B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB549": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "MC245S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK22 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB560": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "MC245S3A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 2 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB562": [
+    {
+      "day_time": "THURSDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK7 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB600": [
+    {
+      "day_time": "MONDAY( 10:00 AM-14:00 PM )",
+      "group": "MC245S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-14:00 PM )",
+      "group": "MC245S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB601": [
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-14:00 PM )",
+      "group": "MC245S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-14:00 PM )",
+      "group": "MC245S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 1 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB602": [
+    {
+      "day_time": "THURSDAY( 15:00 PM-19:00 PM )",
+      "group": "MC245S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-19:00 PM )",
+      "group": "MC245S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 5 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB603": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC245S5A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "MC245S5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "LAB 3 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB653": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-19:00 PM )",
+      "group": "MC245S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-19:00 PM )",
+      "group": "MC245S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TAYANGAN (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ],
+  ".PUB657": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S4A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-15:00 PM )",
+      "group": "MC245S4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK23 (FKPM)",
+      "program": "MC245",
+      "faculty": "MC"
+    }
+  ]
+}

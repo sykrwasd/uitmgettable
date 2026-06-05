@@ -1,0 +1,4795 @@
+{
+  ".EET699": [
+    {
+      "day_time": "FRIDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC411": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC460": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2402R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC461": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2402R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC462": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 6,MPG 5,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 6,MPG 5,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 6,MPG 5,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 6,MPG 5,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2402R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 1,MPG 2,MPG 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC463": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402G",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402H",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402G",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402G",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402H",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402H",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2402R",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC464": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,MK 3,PCL 2,MK 2,MK 4,PAC,PCL 3,MK 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,MK 3,PCL 2,MK 2,MK 4,PAC,PCL 3,MK 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,MK 3,PCL 2,MK 2,MK 4,PAC,PCL 3,MK 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,MK 3,PCL 2,MK 2,MK 4,PAC,PCL 3,MK 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2402D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC465": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 17,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 17,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 17,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 17,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dispensing Lab 3,Dispensing Lab 2,Dispensing Lab 1,Dispensing Lab 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2402R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2402H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC560": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404G",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404H",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,DKF 7,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH560R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404G",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404G",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404H",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "TEC 10,DKF 8,DKF 11,TEC 12,DKF 6,TEC 11,TEC 18,TEC 17",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404H",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC561": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2404R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC562": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 10,PBL 4,PBL 6,TEC 12,PBL 5,TEC 11,TEC 18,TEC 17",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 10,PBL 4,PBL 6,TEC 12,PBL 5,TEC 11,TEC 18,TEC 17",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 10,PBL 4,PBL 6,TEC 12,PBL 5,TEC 11,TEC 18,TEC 17",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 10,PBL 4,PBL 6,TEC 12,PBL 5,TEC 11,TEC 18,TEC 17",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2404R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 6,PBL 7,PBL 10,PBL 9,PBL 11,PBL 5,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 6,PBL 7,PBL 10,PBL 9,PBL 11,PBL 5,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 6,PBL 7,PBL 10,PBL 9,PBL 11,PBL 5,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 6,PBL 7,PBL 10,PBL 9,PBL 11,PBL 5,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2404D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MPG 3,MPG 6,MPG 5,MPG 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC563": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2404D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "PCL 1,PCL 2,PCL 3,PAC",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2404R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7,ONLINE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404H",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2404D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC564": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2404D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2404H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,DKF 7,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC630": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PHC2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PHC2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PHC2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
+      "group": "PHC2406R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PHC2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PHC2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PHC2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PHC2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PHC2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC631": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406F",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 8,TEC 6,TEC 2,TEC 4,TEC 7,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406G",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 6,TEC 2,TEC 4,TEC 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 6,TEC 2,TEC 4,TEC 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 6,TEC 2,TEC 4,TEC 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 21:00 PM-22:00 PM )",
+      "group": "PH2406R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC632": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "2405C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2405A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2405B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2405D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2405E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2405F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2405G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC633": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bioequivalent 1",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC634": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 7,PBL 12,PBL 10,PBL 9,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 7,PBL 12,PBL 10,PBL 9,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 7,PBL 12,PBL 10,PBL 9,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 20:00 PM-21:00 PM )",
+      "group": "PH2406R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC635": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Sterile Lab 3,CDPHER,Social Pharmacy Lab,Sterile Lab 1,DIS,Sterile Lab 2",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC636": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 14,PBL 12,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 14,PBL 12,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 14,PBL 12,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2406G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 14,PBL 12,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 8",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 12,TEC 14,TEC 11,TEC 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2406C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC660": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "PHC660EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,TEC 8,TEC 12,TEC 11,TEC 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-19:00 PM )",
+      "group": "PHC660EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC661": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "PHC661EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,DKF 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:30 PM )",
+      "group": "PHC661EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHC663": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "PHC663EL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "TEC 10,TEC 8,TEC 12,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 14:30 PM-17:30 PM )",
+      "group": "PHC663EL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Pharmaceutic 2,Pharmaceutic 3,Pharmaceutic 1,Pharmaceutic 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "PHC663EL",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "DKF 7",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC664": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "PHC664EL1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 17",
+      "program": "PH",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-19:00 PM )",
+      "group": "PHC664EL1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER",
+      "program": "PH",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "PHC664EL2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 17",
+      "program": "PH",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "PHC664EL2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL KOMPUTER",
+      "program": "PH",
+      "faculty": ""
+    }
+  ],
+  ".PHC665": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
+      "group": "PHC665EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,DKF 10,TEC 8,TEC 6,TEC 4,TEC 7,TEC 9",
+      "program": "PH",
+      "faculty": ""
+    }
+  ],
+  ".PHC666": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
+      "group": "PHC666EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 2,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "PHC666EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,SCR,TEC 6,TEC 2,TEC 4,DKF 9",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC667": [
+    {
+      "day_time": "FRIDAY( 17:00 PM-19:00 PM )",
+      "group": "PHC667EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,TEC 8,TEC 12,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-14:00 PM )",
+      "group": "PHC667EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC671": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2407A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2407B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2407C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2407D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2407E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2407F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2407R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2407A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2407A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2407B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2407B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2407C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2407C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2407D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2407D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2407E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2407E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2407F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2407F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 5,TEC 4",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC672": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "PHC672R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC690": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,SCR,TEC 10,TEC 19,TEC 12,TEC 14,TEC 20,TEC 18,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,SCR,TEC 10,TEC 19,TEC 12,TEC 14,TEC 20,TEC 18,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,SCR,TEC 10,TEC 19,TEC 12,TEC 14,TEC 20,TEC 18,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,SCR,TEC 10,TEC 19,TEC 12,TEC 14,TEC 20,TEC 18,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,SCR,TEC 10,TEC 19,TEC 12,TEC 14,TEC 20,TEC 18,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,SCR,TEC 10,TEC 19,TEC 12,TEC 14,TEC 20,TEC 18,TEC 11,TEC 15,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 18,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 8,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 18,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 8,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 18,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 8,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 18,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 8,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 18,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 8,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 5,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 18,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,TEC 8,TEC 12,TEC 14,TEC 11,TEC 15,TEC 17,TEC 16,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC691": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:30 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:30 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:30 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:30 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:30 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:30 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 7,PBL 12,PBL 6,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 7,PBL 12,PBL 6,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 7,PBL 12,PBL 6,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 7,PBL 12,PBL 6,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 7,PBL 12,PBL 6,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PBL 4,PBL 7,PBL 12,PBL 6,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC692": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 14,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 14,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 14,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 14,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 14,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 13,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 14,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 1,TEC 10,TEC 8,TEC 12,TEC 6,TEC 2,TEC 4,TEC 7,TEC 11,TEC 9",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10,PBL 4,PBL 12,PBL 6,PBL 7,PBL 10,PBL 9,PBL 13,PBL 11,PBL 5,PBL 8",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 19:00 PM-20:00 PM )",
+      "group": "PH2408R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHC693": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 10",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,DKF 8,TEC 12,DKF 6,TEC 14,TEC 18,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,DKF 8,TEC 12,DKF 6,TEC 14,TEC 18,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,DKF 8,TEC 12,DKF 6,TEC 14,TEC 18,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,DKF 8,TEC 12,DKF 6,TEC 14,TEC 18,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,DKF 8,TEC 12,DKF 6,TEC 14,TEC 18,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "PH2408F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 13,TEC 10,DKF 10,DKF 8,TEC 12,DKF 6,TEC 14,TEC 18,TEC 11,TEC 15,TEC 17,TEC 16",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ],
+  ".PHM730": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-16:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-16:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM731": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-11:00 AM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 17:30 PM-20:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 20:00 PM-22:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-18:00 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM732": [
+    {
+      "day_time": "TUESDAY( 23:00 PM-23:30 PM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 23:00 PM-23:30 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM733": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-08:30 AM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM734": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-09:30 AM )",
+      "group": "PH777A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM735": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-18:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM736": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-22:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-22:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM737": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-18:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-18:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHM738": [
+    {
+      "day_time": "MONDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "PH",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "PH",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:00 PM-20:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "PH",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-18:00 PM )",
+      "group": "PH778A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TEC 20",
+      "program": "PH",
+      "faculty": ""
+    }
+  ],
+  ".UPH654": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
+      "group": "UPH654EL",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DKF 4",
+      "program": "PH240",
+      "faculty": "PH"
+    }
+  ]
+}

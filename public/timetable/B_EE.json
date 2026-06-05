@@ -1,0 +1,4631 @@
+{
+  ".ECE421": [
+    {
+      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
+      "group": "EE2231R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2231R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
+      "group": "EE2231R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE431": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "EE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "EE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Digital",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE521": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kawalan Mikro",
+      "program": "EE223,CEEE223,CEEE222",
+      "faculty": "CE, EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kawalan Mikro",
+      "program": "EE223,CEEE223,CEEE222",
+      "faculty": "CE, EE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE522": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222C5A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222C5A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-1_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECE523": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Algebra",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Algebra",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Macintosh",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Macintosh",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECE541": [
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2B",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECE610": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1B",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECE629": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECE633": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222C7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEE222,EE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "CEEE222C7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "CEEE222,EE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 13:00 PM-14:00 PM )",
+      "group": "CEEE222C7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "CEEE222,EE222",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECE648": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222C8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2B",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222C8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1B",
+      "program": "EE,CE",
+      "faculty": ""
+    }
+  ],
+  ".ECE730": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE7001A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE700P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECM412": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A8-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECM420": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2234R1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2234R1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
+      "group": "EE2234R1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ECM512": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECM613": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECM617": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE222S7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Gelombang Mikro",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE222S7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Gelombang Mikro",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECM620": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ECM701": [
+    {
+      "day_time": "SATURDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE7002A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "SATURDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE700P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECM702": [
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE7003A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEE700",
+      "faculty": "CE,EE,CE,EE"
+    },
+    {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE700P5",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEE700",
+      "faculty": "CE,EE,CE,EE"
+    }
+  ],
+  ".ECM709": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE7002A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE700P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECM715": [
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE7001A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "SUNDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE700P2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECM716": [
+    {
+      "day_time": "SUNDAY( 15:00 PM-18:00 PM )",
+      "group": "CEEE7002A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "SUNDAY( 15:00 PM-18:00 PM )",
+      "group": "CEEE700P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECM717": [
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "CEEE7002A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "SUNDAY( 08:00 AM-11:00 AM )",
+      "group": "CEEE700P3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE700",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ECM741": [
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "CEEE7002A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
+      "group": "CEEE700P4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EEE403": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "EE260, CEEE260",
+      "faculty": "EE, CE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "EE260, CEEE260",
+      "faculty": "EE, CE"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "EE260, CEEE260",
+      "faculty": "EE, CE"
+    }
+  ],
+  ".EEE404": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 3",
+      "program": "EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "EE2602B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "Makmal Elektronik 3",
+      "program": "EE26,EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A13-4_PKE",
+      "program": "EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2601B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-3_PKE",
+      "program": "EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2602B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "B4-A13-4_PKE",
+      "program": "EE26,EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2601B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 2",
+      "program": "EE260",
+      "faculty": "EE"
+    }
+  ],
+  ".EEE405": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2601A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1",
+      "program": "EE260, CEEE260",
+      "faculty": "EE, CE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2601A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 1",
+      "program": "EE260, CEEE260",
+      "faculty": "EE, CE"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2601A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 1",
+      "program": "EE260, CEEE260",
+      "faculty": "EE, CE"
+    }
+  ],
+  ".EEE406": [
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "EE2601B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A11-2_PKE",
+      "program": "EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Komunikasi 1,Makmal Komunikasi 2",
+      "program": "EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "EE2601B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Komunikasi 1,Makmal Komunikasi 2",
+      "program": "EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2601A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A14-2_PKE",
+      "program": "EE260",
+      "faculty": "EE"
+    }
+  ],
+  ".EEE420": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "EE2222A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 2,Makmal Komunikasi 1,Makmal Komunikasi 2,Makmal Elektronik 1",
+      "program": "CEEE222",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "EE2222B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 2,Makmal Komunikasi 1,Makmal Komunikasi 2,Makmal Elektronik 1",
+      "program": "CEEE222",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "EE2222C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 2,Makmal Komunikasi 1,Makmal Komunikasi 2,Makmal Elektronik 1",
+      "program": "CEEE222",
+      "faculty": "EE"
+    }
+  ],
+  ".EEE450": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A9-1_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2602C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A9-1_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A11-3_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A8-1_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A8-1_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2602C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A8-1_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-1_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EEE451": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-17:00 PM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-17:00 PM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EEE452": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE2606A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Elektronik 1",
+      "program": "CEEE260,EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2602A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 1",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE2606B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Elektronik 2",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2602B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 2",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "CEEE2606A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Elektronik 1",
+      "program": "CEEE260,EE260",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2602A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 1",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "CEEE2606B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Elektronik 2",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2602B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First TimerOnly",
+      "room": "Makmal Elektronik 2",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EEE453": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal SUN 1",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2602B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Komunikasi Cad 1",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "EE2602A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Komputer Macintosh",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2602C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Macintosh",
+      "program": "CEEE260,EE260",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2602D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "RepeatersOnly",
+      "room": "Makmal Komputer Macintosh",
+      "program": "EE260",
+      "faculty": "EE"
+    }
+  ],
+  ".EEE510": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE2603A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal SUN 2",
+      "program": "EE260,CEEE260",
+      "faculty": "EE,CE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE2603B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal SUN 1",
+      "program": "EE260,CEEE260",
+      "faculty": "EE,CE"
+    }
+  ],
+  ".EEE620": [
+    {
+      "day_time": "FRIDAY( 13:00 PM-14:00 PM )",
+      "group": "CEEE2228A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 13:00 PM-14:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 13:00 PM-14:00 PM )",
+      "group": "CEEE2237A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 13:00 PM-14:00 PM )",
+      "group": "CEEE2238A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EEE621": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "CEEE222,CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223E7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223E7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-2_PKE",
+      "program": "CEEE222,CEEE223",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EEE630": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2B",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2B",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 2",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA B",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 3",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 2",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Sistem Kuasa 2",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EEE640": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222C8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222C8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "EE,CE",
+      "faculty": ""
+    }
+  ],
+  ".ELE411": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "EE222, CEEE222",
+      "faculty": "EE, CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "EE222, CEEE222",
+      "faculty": "EE, CE"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "EE222, CEEE222",
+      "faculty": "EE, CE"
+    }
+  ],
+  ".ELE412": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE",
+      "program": "EE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE",
+      "program": "EE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE",
+      "program": "EE223",
+      "faculty": "EE"
+    }
+  ],
+  ".ELE413": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A8-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A8-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ELE422": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2231R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "EE222,EE223",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2231R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "EE222,EE223",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "EE2231R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "EE222,EE223",
+      "faculty": ""
+    }
+  ],
+  ".ELE424": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "EE222, CEEE222,AS251",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2221R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-1_PKE",
+      "program": "EE222, CEEE222,AS251",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-1_PKE",
+      "program": "EE222, CEEE222,AS251",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2221R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "EE2221R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ELE426": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1B",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ELE526": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A9-1_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "EE,CE",
+      "faculty": ""
+    }
+  ],
+  ".ELE541": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ELE551": [
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 3",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Macintosh",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222S6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222C6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Embedded System & Process Automation",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ELE606": [
+    {
+      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ELE607": [
+    {
+      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
+      "group": "CEEE2228A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEE222,CEEE241",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ELE629": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 3",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222M6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 3",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ELE645": [
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengujian dan Pengukuran Peranti Semikonduk",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pengujian dan Pengukuran Peranti Semikonduk",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ELE647": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ELE653": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "EE,CE",
+      "faculty": ""
+    }
+  ],
+  ".ELE654": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ENT600": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CEEE223, EE242, CEEE242,CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CEEE223,CEEE222",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO423": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "EE2232A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Digital,Makmal Komunikasi 1,Makmal Instrumentasi,Makmal Kuasa Elektronik,Makmal Komunikasi 2",
+      "program": "EE223,CEEE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "EE2232C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Digital,Makmal Komunikasi 1,Makmal Instrumentasi,Makmal Kuasa Elektronik,Makmal Komunikasi 2",
+      "program": "EE223,CEEE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "EE2232D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Digital,Makmal Komunikasi 1,Makmal Instrumentasi,Makmal Kuasa Elektronik,Makmal Komunikasi 2",
+      "program": "EE223,CEEE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "EE2232B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Digital,Makmal Komunikasi 1,Makmal Instrumentasi,Makmal Kuasa Elektronik,Makmal Komunikasi 2",
+      "program": "EE223,CEEE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "EE2232E",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Digital,Makmal Komunikasi 1,Makmal Instrumentasi,Makmal Kuasa Elektronik,Makmal Komunikasi 2",
+      "program": "EE223,CEEE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "EE2232F",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Digital,Makmal Komunikasi 1,Makmal Instrumentasi,Makmal Kuasa Elektronik,Makmal Komunikasi 2",
+      "program": "EE223,CEEE223",
+      "faculty": "EE"
+    }
+  ],
+  ".EPO460": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Digital,B4-A11-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EPO510": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EPO520": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EPO522": [
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EPO525": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE2424A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "CEEE2424A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kawalan Mikro",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "CEEE2424A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kawalan Mikro",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EPO540": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Algebra",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Algebra",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Algebra",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".EPO562": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2234A",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Bioperubatan & Instrumentasi Maya,Makmal Sistem Kuasa 1,Makmal Sistem Kuasa 2,Makmal Aplikasi Elektrik",
+      "program": "EE223",
+      "faculty": "EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "EE2234B",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "Makmal Mesin Elektrikal,Makmal Bioperubatan & Instrumentasi Maya,Makmal Sistem Kuasa 1,Makmal Sistem Kuasa 2,Makmal Aplikasi Elektrik",
+      "program": "EE223",
+      "faculty": "EE"
+    }
+  ],
+  ".EPO620": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1B",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Macintosh",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EPO621": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223E7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223E7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO622": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223R8E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "CEEE223, CEEE242, EE242",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komunikasi Cad 2",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1B",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "CEEE223, CEEE242, EE242",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223R8G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 1B",
+      "program": "",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO625": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EPO626": [
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "CEEE223, CEEE242",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223M7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "CEEE223, CEEE242",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO630": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223E7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE223E7B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "CEEE223,EE242",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223E7A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "CEEE223E7B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "CEEE223,EE242",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO640": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-5_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".EPO652": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 3",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer Macintosh",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223A6B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Rangkaian Nirwayar & Sekuriti",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223A6F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MicroE ICD 1",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223N6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223A6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223A6D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223A6E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-4_PKE",
+      "program": "",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO661": [
+    {
+      "day_time": "FRIDAY( 14:00 PM-15:00 PM )",
+      "group": "CEEE2237A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEE223, CEEE242",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO663": [
+    {
+      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
+      "group": "CEEE2238A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEE223, CEEE242",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".EPO664": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223R8E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE223R8F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-6/7 (Mini Theatre)_PKE,Makmal Cisco CCNA A",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ESE461": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A8-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal SUN 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2232R1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2222C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-4_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2232D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2232E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A9-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2232F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A9-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "EE2232R1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
+      "group": "EE2232R1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2222A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EE2222B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2232A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-3_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EE2232C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-1_PKE",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ESE559": [
+    {
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE2235A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-4_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE2235B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ESE562": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE222S5A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "CEEE222,EE241,CEEE242",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "CEEE222S5A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "CEEE222,EE241,CEEE242",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 13:00 PM-14:00 PM )",
+      "group": "CEEE222S5A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-2_PKE",
+      "program": "CEEE222,EE241,CEEE242",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".ESE563": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE222T6A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ESE683": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Robotik & Automasi",
+      "program": "CE,EE",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Robotik & Automasi",
+      "program": "CE,EE",
+      "faculty": ""
+    }
+  ],
+  ".ESE691": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kawalan",
+      "program": "EE,CE",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kawalan",
+      "program": "EE,CE",
+      "faculty": ""
+    }
+  ],
+  ".KJM442": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".LCC400": [],
+  ".LCC402": [],
+  ".MAT435": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED,B4-A11-2_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-3_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2221A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-3_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2231A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED,B4-A12-3_PKE",
+      "program": "CEEE223 ,CEEE222 ,EE222 ,EE223",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".MAT455": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "CEEE223,EE223,CEEE222,EE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2233A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "CEEE223,EE223,CEEE222,EE222",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".MAT575": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "EE222,CEEE222,EE223,CEEE223",
+      "faculty": "EE,CE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-2_PKE",
+      "program": "EE222,CEEE222,EE223,CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A9-1_PKE",
+      "program": "EE222,CEEE222,EE223,CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-1_PKE",
+      "program": "CEEE222,CEEE223,EE222,EE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "EE2234A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-3_PKE",
+      "program": "EE222,CEEE222,EE223,CEEE223",
+      "faculty": "EE,CE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "EE2234B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-3_PKE",
+      "program": "EE222,CEEE222,EE223,CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2224A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-1_PKE",
+      "program": "EE222,CEEE222,EE223,CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "EE2224B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A10-1_PKE",
+      "program": "CEEE222,CEEE223,EE222,EE223",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".MEK604": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-6_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-6/7 (Mini Theatre)_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-7_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-2_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-4_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "CEEE223R8E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A12-3_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-2_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
+      "group": "CEEE223R8H",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A11-5_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A5-4_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE223R8B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah H _PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CEEE223R8C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A14-3_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE223R8G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "B4-A13-5_PKE",
+      "program": "CEEE223",
+      "faculty": "CE,EE"
+    }
+  ],
+  ".MEK629": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222C8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Robotik & Automasi",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SISTEM PNEUMATIK_PKE",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SISTEM PNEUMATIK_PKE",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Robotik & Automasi",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222C8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Robotik & Automasi",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE222M8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SISTEM PNEUMATIK_PKE",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "CEEE222S8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SISTEM PNEUMATIK_PKE",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-17:00 PM )",
+      "group": "CEEE222T8A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Robotik & Automasi",
+      "program": "CEEE222",
+      "faculty": "CE,EE"
+    }
+  ]
+}
