@@ -30,45 +30,33 @@ export default function Footer() {
           </button>
         </div>
 
-        {/* Center - GitHub */}
+        {/* Center - KrackedDevs */}
         <a
-          href="https://github.com/sykrwasd/uitmgettable"
+          href="https://krackeddevs.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:underline flex items-center gap-1"
+          className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity"
         >
-          <FaGithub className="w-5 h-5" />
-          Fork us on GitHub
+          <span className="text-xs text-gray-500 dark:text-gray-400">Backed by</span>
+          <Image
+            src="/kdlogodev-light.svg"
+            alt="KrackedDevs"
+            width={90}
+            height={22}
+            className="h-5 w-auto invert dark:invert-0"
+          />
         </a>
 
-        {/* Right - Backed by KrackedDevs + Ko-fi */}
-        <div className="flex items-center gap-4">
-          <a
-            href="https://ko-fi.com/sykrwasd"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-pink-500 hover:text-pink-600 hover:underline flex items-center gap-1 text-sm"
-          >
-            <FaHeart className="w-4 h-4" />
-            Support on Ko-fi
-          </a>
-
-          <a
-            href="https://krackeddevs.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 opacity-60 hover:opacity-100 transition-opacity"
-          >
-            <span className="text-xs text-gray-500 dark:text-gray-400">Backed by</span>
-            <Image
-              src="/kdlogodev-light.svg"
-              alt="KrackedDevs"
-              width={80}
-              height={20}
-              className="h-5 w-auto dark:invert-0 invert"
-            />
-          </a>
-        </div>
+        {/* Right - Ko-fi */}
+        <a
+          href="https://ko-fi.com/sykrwasd"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-pink-500 hover:text-pink-600 hover:underline flex items-center gap-1 text-sm"
+        >
+          <FaHeart className="w-4 h-4" />
+          Support on Ko-fi
+        </a>
       </footer>
 
       {/* Changelog Modal */}

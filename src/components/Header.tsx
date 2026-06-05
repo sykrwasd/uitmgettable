@@ -1,4 +1,5 @@
 "use client";
+import { FaGithub } from "react-icons/fa";
 
 interface Props {
   mode: string;
@@ -12,7 +13,16 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
     <div className="mb-10">
 
       {/* Top bar */}
-      <div className="flex justify-end mb-6">
+      <div className="flex justify-end items-center gap-2 mb-6">
+        <a
+          href="https://github.com/sykrwasd/uitmgettable"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/60 dark:bg-white/10 border border-black/10 dark:border-white/10 shadow-sm text-xs font-medium text-gray-600 dark:text-gray-300 hover:scale-105 transition-transform"
+        >
+          <FaGithub className="w-3.5 h-3.5" />
+          GitHub
+        </a>
         <button
           onClick={toggleDark}
           className="w-9 h-9 flex items-center justify-center rounded-full bg-white/60 dark:bg-white/10 border border-black/10 dark:border-white/10 shadow-sm hover:scale-105 transition-transform text-base"
