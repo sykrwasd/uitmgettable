@@ -356,6 +356,12 @@ const FetchTimetable: React.FC<TimetableProps> = ({
           >
             Settings
           </button>
+
+          {editable && (
+            <span className="text-xs text-gray-400 dark:text-gray-500 self-center">
+              Click a class to edit
+            </span>
+          )}
         </div>
       </div>
 
@@ -584,11 +590,6 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                             {showVenue && cls.venue && durationMin >= 60 && (
                               <div className="text-white/75 leading-none overflow-hidden text-ellipsis whitespace-nowrap" style={{ fontSize: fs.venue }}>
                                 {cls.venue}
-                              </div>
-                            )}
-                            {editable && (
-                              <div className="text-white/50 leading-none" style={{ fontSize: "9px" }}>
-                                click to edit
                               </div>
                             )}
                           </div>
