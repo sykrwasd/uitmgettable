@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       {/* Backed by KrackedDevs banner */}
-      <div className="w-full flex justify-center items-center py-3 bg-gray-900 border-t border-gray-700">
+      <div className="w-full flex justify-center items-center py-3 bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-white/10">
         <a
           href="https://krackeddevs.com/"
           target="_blank"
@@ -23,7 +23,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-between items-center gap-2 px-6">
+      <footer className="w-full bg-white/60 dark:bg-white/5 backdrop-blur-sm border-t border-black/10 dark:border-white/10 text-gray-800 dark:text-gray-300 text-center py-4 flex flex-col sm:flex-row justify-between items-center gap-2 px-6">
         <div className="flex items-center gap-4">
           {/* Report button */}
           <a
@@ -42,7 +42,7 @@ export default function Footer() {
                 document.getElementById("changelog_modal") as HTMLDialogElement
               )?.showModal()
             }
-            className="text-gray-600 hover:text-gray-900 text-sm flex items-center gap-1 hover:underline"
+            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 text-sm flex items-center gap-1 hover:underline"
           >
             <FaHistory className="w-3 h-3" />
             Logs
@@ -74,8 +74,8 @@ export default function Footer() {
 
       {/* Changelog Modal */}
       <dialog id="changelog_modal" className="modal">
-        <div className="modal-box bg-white text-left max-w-lg">
-          <h3 className="font-bold text-2xl mb-4 text-gray-800 flex items-center gap-2">
+        <div className="modal-box bg-white dark:bg-gray-900 text-left max-w-lg">
+          <h3 className="font-bold text-2xl mb-4 text-gray-800 dark:text-gray-100 flex items-center gap-2">
             <FaHistory /> Changelog
           </h3>
 
@@ -83,9 +83,9 @@ export default function Footer() {
             {/* Version 1.1 */}
             <div className="relative border-l-2 border-blue-500 pl-4 ml-2">
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500"></div>
-              <h4 className="font-bold text-lg text-gray-800">Ver 1.2</h4>
-              <p className="text-sm text-gray-500 mb-2">Dec 3, 2025</p>
-              <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+              <h4 className="font-bold text-lg text-gray-800 dark:text-gray-100">Ver 1.2</h4>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Dec 3, 2025</p>
+              <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 space-y-1">
                 <li>
                   <span className="font-semibold text-blue-600">New:</span>{" "}
                   <span className="animate-gradient bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
@@ -111,9 +111,9 @@ export default function Footer() {
             {/* Version 1.0.5 */}
             <div className="relative border-l-2 border-gray-300 pl-4 ml-2">
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300 "></div>
-              <h4 className="font-bold text-lg text-gray-800">Ver 1.1</h4>
-              <p className="text-sm text-gray-500 mb-2">Oct 8, 2025</p>
-              <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+              <h4 className="font-bold text-lg text-gray-800 dark:text-gray-100">Ver 1.1</h4>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Oct 8, 2025</p>
+              <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 space-y-1">
                 <li>Auto-fetch from iStudent Portal</li>
                 <li>Added &quot;Smart Fetch&quot;  mode</li>
               </ul>
@@ -122,9 +122,9 @@ export default function Footer() {
             {/* Version 1.0 */}
             <div className="relative border-l-2 border-gray-300 pl-4 ml-2">
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-gray-300"></div>
-              <h4 className="font-bold text-lg text-gray-800">Ver 1.0</h4>
-              <p className="text-sm text-gray-500 mb-2">Sep 29, 2025</p>
-              <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+              <h4 className="font-bold text-lg text-gray-800 dark:text-gray-100">Ver 1.0</h4>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Sep 29, 2025</p>
+              <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 space-y-1">
                 <li>Initial Release</li>
                 <li>Manual Timetable Creation</li>
                 <li>Export as Image (PNG)</li>
