@@ -55,7 +55,7 @@ export default function TimetableSwitcher() {
   return (
     <div className="min-h-screen relative overflow-hidden transition-colors duration-500
       bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300
-      dark:from-[#020c1b] dark:via-[#0a1628] dark:to-[#0d1f3c]">
+      dark:from-[#0c1e3d] dark:via-[#112952] dark:to-[#0d3b7a]">
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
