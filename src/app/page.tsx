@@ -67,18 +67,18 @@ export default function TimetableSwitcher() {
 
       {/* Background blobs — light mode */}
       <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 dark:hidden">
-        <div className="absolute -top-60 -left-60 w-[600px] h-[600px] bg-blue-300/40 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/3 -right-60 w-[500px] h-[500px] bg-violet-300/30 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-60 left-1/4 w-[500px] h-[500px] bg-indigo-300/40 rounded-full blur-3xl"></div>
-        <div className="absolute top-2/3 left-1/2 w-[300px] h-[300px] bg-sky-300/30 rounded-full blur-2xl"></div>
+        <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-blue-400/50 rounded-full blur-2xl"></div>
+        <div className="absolute top-1/4 -right-32 w-[450px] h-[450px] bg-violet-400/40 rounded-full blur-2xl"></div>
+        <div className="absolute bottom-0 left-1/3 w-[450px] h-[450px] bg-indigo-400/40 rounded-full blur-2xl"></div>
+        <div className="absolute top-1/2 left-1/4 w-[350px] h-[350px] bg-sky-400/30 rounded-full blur-2xl"></div>
       </div>
 
       {/* Background blobs — dark mode */}
       <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 hidden dark:block">
-        <div className="absolute -top-60 -left-60 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/3 -right-60 w-[500px] h-[500px] bg-violet-700/20 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-60 left-1/4 w-[500px] h-[500px] bg-indigo-700/20 rounded-full blur-3xl"></div>
-        <div className="absolute top-2/3 left-1/2 w-[300px] h-[300px] bg-cyan-700/15 rounded-full blur-2xl"></div>
+        <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-blue-600/30 rounded-full blur-2xl"></div>
+        <div className="absolute top-1/4 -right-32 w-[450px] h-[450px] bg-violet-600/25 rounded-full blur-2xl"></div>
+        <div className="absolute bottom-0 left-1/3 w-[450px] h-[450px] bg-indigo-600/25 rounded-full blur-2xl"></div>
+        <div className="absolute top-1/2 left-1/4 w-[350px] h-[350px] bg-cyan-600/20 rounded-full blur-2xl"></div>
       </div>
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
