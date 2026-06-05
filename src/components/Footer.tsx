@@ -1,8 +1,28 @@
 import { FaGithub, FaHistory, FaHeart } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <>
+      {/* Backed by KrackedDevs banner */}
+      <div className="w-full flex justify-center items-center py-3 bg-black/5 border-t border-black/10">
+        <a
+          href="https://krackeddevs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity"
+        >
+          <span className="text-xs text-gray-500 font-medium tracking-wide uppercase">Backed by</span>
+          <Image
+            src="/kdlogodev-light.svg"
+            alt="KrackedDevs"
+            width={120}
+            height={30}
+            className="h-7 w-auto"
+          />
+        </a>
+      </div>
+
       <footer className="w-full bg-gray-200/50 text-gray-800 text-center py-4 flex flex-col sm:flex-row justify-between items-center gap-2 px-6">
         <div className="flex items-center gap-4">
           {/* Report button */}
