@@ -313,7 +313,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               onChange={(e) => setHideWeekend(e.target.checked)}
               className="w-4 h-4 text-blue-500 border-gray-300 focus:ring-blue-500"
             />
-            <span className="text-white font-medium">Hide weekend</span>
+            <span className="text-gray-700 dark:text-white font-medium">Hide weekend</span>
           </label>
         </div>
       </div>
