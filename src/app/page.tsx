@@ -54,32 +54,8 @@ export default function TimetableSwitcher() {
 
   return (
     <div className="min-h-screen relative overflow-hidden transition-colors duration-500
-      bg-[#eef2ff] dark:bg-[#060b18]">
-
-      {/* Grid pattern overlay */}
-      <div className="pointer-events-none fixed inset-0 -z-10"
-        style={{
-          backgroundImage: `linear-gradient(rgba(99,102,241,0.07) 1px, transparent 1px),
-                            linear-gradient(90deg, rgba(99,102,241,0.07) 1px, transparent 1px)`,
-          backgroundSize: '40px 40px'
-        }}
-      />
-
-      {/* Background blobs — light mode */}
-      <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 dark:hidden">
-        <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-blue-400/50 rounded-full blur-2xl"></div>
-        <div className="absolute top-1/4 -right-32 w-[450px] h-[450px] bg-violet-400/40 rounded-full blur-2xl"></div>
-        <div className="absolute bottom-0 left-1/3 w-[450px] h-[450px] bg-indigo-400/40 rounded-full blur-2xl"></div>
-        <div className="absolute top-1/2 left-1/4 w-[350px] h-[350px] bg-sky-400/30 rounded-full blur-2xl"></div>
-      </div>
-
-      {/* Background blobs — dark mode */}
-      <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 hidden dark:block">
-        <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-blue-600/30 rounded-full blur-2xl"></div>
-        <div className="absolute top-1/4 -right-32 w-[450px] h-[450px] bg-violet-600/25 rounded-full blur-2xl"></div>
-        <div className="absolute bottom-0 left-1/3 w-[450px] h-[450px] bg-indigo-600/25 rounded-full blur-2xl"></div>
-        <div className="absolute top-1/2 left-1/4 w-[350px] h-[350px] bg-cyan-600/20 rounded-full blur-2xl"></div>
-      </div>
+      bg-gradient-to-br from-blue-200 via-violet-100 to-indigo-200
+      dark:from-[#0a0f1e] dark:via-[#0d1432] dark:to-[#0a0f1e]">
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
