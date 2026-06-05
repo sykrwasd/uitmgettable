@@ -211,7 +211,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   );
 
   return (
-    <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+    <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
       {/* Import Modal */}
       {isImportOpen && (
         <div
@@ -266,7 +266,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       )}
       {/* Header */}
       <div className="flex flex-col items-center gap-4 mb-6">
-        <h2 className="text-3xl font-extrabold text-gray-800 text-center">
+        <h2 className="text-3xl font-extrabold text-gray-800 dark:text-gray-100 text-center">
           Your Timetable
         </h2>
 
