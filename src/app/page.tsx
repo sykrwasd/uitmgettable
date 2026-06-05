@@ -137,6 +137,7 @@ export default function TimetableSwitcher() {
               <FetchTimetable
                 selectedClasses={fetchTimetable}
                 onRemoveClass={() => {}}
+                editable={true}
                 matricNumber={matricNumber}
                 onMatricChange={setMatricNumber}
                 onImport={handleFetch}

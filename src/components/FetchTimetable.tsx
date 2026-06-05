@@ -32,7 +32,10 @@ interface TimetableProps {
   onMatricChange?: (v: string) => void;
   onImport?: () => void;
   loadingImport?: boolean;
+  editable?: boolean; // enables edit mode on click (auto-fetch mode)
 }
+
+const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 function timeToMinutes(time: string, startHour: number): number {
   const [h, m] = time.split(":").map(Number);
@@ -68,6 +71,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   onMatricChange,
   onImport,
   loadingImport,
+  editable = false,
 }) => {
   const timetableRef = useRef<HTMLDivElement>(null);
 
@@ -78,6 +82,38 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   const [selectedClassForColor, setSelectedClassForColor] = useState<string | null>(null);
   const [isImportOpen, setIsImportOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+
+  // --- Edit mode (auto-fetch) ---
+  const [editingClass, setEditingClass] = useState<SelectedClass | null>(null);
+  const [classOverrides, setClassOverrides] = useState<Record<string, Partial<SelectedClass>>>({});
+  const [editForm, setEditForm] = useState({ day: "", startTime: "", endTime: "", venue: "" });
+
+  const openEdit = (cls: SelectedClass) => {
+    const overridden = { ...cls, ...classOverrides[cls.class_code + cls.day_time] };
+    const [start, end] = overridden.timeSlot.split("-");
+    setEditForm({ day: overridden.day, startTime: start, endTime: end, venue: overridden.venue });
+    setEditingClass(cls);
+  };
+
+  const saveEdit = () => {
+    if (!editingClass) return;
+    const key = editingClass.class_code + editingClass.day_time;
+    setClassOverrides((prev) => ({
+      ...prev,
+      [key]: {
+        day: editForm.day,
+        timeSlot: `${editForm.startTime}-${editForm.endTime}`,
+        venue: editForm.venue,
+      },
+    }));
+    setEditingClass(null);
+    toast.success("Class updated!");
+  };
+
+  const getEffectiveClass = (cls: SelectedClass): SelectedClass => {
+    const key = cls.class_code + cls.day_time;
+    return { ...cls, ...classOverrides[key] };
+  };
 
   // --- High value customizations ---
   const [startHour, setStartHour] = useState(8);
@@ -176,7 +212,8 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   const classesByDay: Record<string, SelectedClass[]> = {};
   for (const d of days) classesByDay[d] = [];
   for (const cls of selectedClasses) {
-    if (classesByDay[cls.day]) classesByDay[cls.day].push(cls);
+    const effective = getEffectiveClass(cls);
+    if (classesByDay[effective.day]) classesByDay[effective.day].push(effective);
   }
 
   const uniqueSubjects = Array.from(
@@ -211,6 +248,76 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             >
               {loadingImport ? "Loading…" : "Import Timetable"}
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* Edit Class Modal */}
+      {editingClass && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={() => setEditingClass(null)}>
+          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 w-full max-w-sm mx-4 flex flex-col gap-4" onClick={(e) => e.stopPropagation()}>
+            <div className="flex items-center justify-between">
+              <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">✏️ Edit Class</h3>
+              <button onClick={() => setEditingClass(null)} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
+            </div>
+
+            <p className="text-sm font-semibold text-blue-500">{editingClass.subject_name || editingClass.subject_code}</p>
+            <p className="text-xs text-gray-400 -mt-2">Changes are saved locally only.</p>
+
+            {/* Day */}
+            <div className="flex flex-col gap-1">
+              <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Day</label>
+              <select
+                value={editForm.day}
+                onChange={(e) => setEditForm((f) => ({ ...f, day: e.target.value }))}
+                className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              >
+                {DAYS.map((d) => <option key={d} value={d}>{d}</option>)}
+              </select>
+            </div>
+
+            {/* Time */}
+            <div className="flex gap-3">
+              <div className="flex flex-col gap-1 flex-1">
+                <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Start Time</label>
+                <input
+                  type="time"
+                  value={editForm.startTime}
+                  onChange={(e) => setEditForm((f) => ({ ...f, startTime: e.target.value }))}
+                  className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                />
+              </div>
+              <div className="flex flex-col gap-1 flex-1">
+                <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">End Time</label>
+                <input
+                  type="time"
+                  value={editForm.endTime}
+                  onChange={(e) => setEditForm((f) => ({ ...f, endTime: e.target.value }))}
+                  className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                />
+              </div>
+            </div>
+
+            {/* Venue */}
+            <div className="flex flex-col gap-1">
+              <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Venue</label>
+              <input
+                type="text"
+                value={editForm.venue}
+                onChange={(e) => setEditForm((f) => ({ ...f, venue: e.target.value }))}
+                placeholder="e.g. FSG BK 12A"
+                className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+            </div>
+
+            <div className="flex gap-2 pt-1">
+              <button onClick={() => setEditingClass(null)} className="flex-1 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/10 transition">
+                Cancel
+              </button>
+              <button onClick={saveEdit} className="flex-1 py-2 text-sm rounded-xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition">
+                Save Changes
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -457,8 +564,8 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                           }}
                           onMouseEnter={(e) => (e.currentTarget.style.filter = "brightness(0.88)")}
                           onMouseLeave={(e) => (e.currentTarget.style.filter = "brightness(1)")}
-                          onClick={() => onRemoveClass(cls.class_code, cls.day_time)}
-                          title={`${cls.subject_name}\n${cls.timeSlot}\n${cls.venue}\nClick to remove`}
+                          onClick={() => editable ? openEdit(cls) : onRemoveClass(cls.class_code, cls.day_time)}
+                          title={editable ? `${cls.subject_name}\nClick to edit` : `${cls.subject_name}\n${cls.timeSlot}\n${cls.venue}\nClick to remove`}
                         >
                           <div className="flex flex-col justify-between h-full p-2">
                             {showTime && (
