@@ -66,7 +66,7 @@ export default function CampusSelect({
       ) : (
         <>
           <select
-            className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+            className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-600 dark:text-gray-300 border border-black/20 dark:border-white/20"
             onChange={(e) => handleCampusChange(e.target.value)}
           >
             <option value="">Select Campus</option>
@@ -89,7 +89,7 @@ export default function CampusSelect({
           {/* Faculty dropdown — only for Selangor */}
           {selangor && (
             <select
-              className="w-full p-3 rounded-lg bg-white/40 text-gray-500 border border-black/20"
+              className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-600 dark:text-gray-300 border border-black/20 dark:border-white/20"
               onChange={(e) => setFaculty(e.target.value)}
               defaultValue=""
             >

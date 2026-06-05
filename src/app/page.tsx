@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { trackEvent } from "@/utils/umami";
+import { useTheme } from "./hooks/useTheme";
 import { useCampus } from "./hooks/useCampus";
 import { useFaculty } from "./hooks/useFaculty";
 import { useSubjects } from "./hooks/useSubjects";
@@ -28,6 +29,7 @@ export default function TimetableSwitcher() {
   const [searchGroup, setSearchGroup] = useState("");
   const [selangor, setSelangor] = useState(false);
 
+  const { dark, toggle: toggleDark } = useTheme();
   const { fetchCampus, loadingCampus } = useCampus();
   const { fetchFaculty } = useFaculty();
   const { fetchSubjects, loadingSubjects } = useSubjects(campus, faculty);
@@ -51,7 +53,16 @@ export default function TimetableSwitcher() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-blue-600/60 relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden transition-colors duration-300
+      bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100
+      dark:bg-gradient-to-br dark:from-gray-950 dark:via-slate-900 dark:to-blue-950">
+
+      {/* Background blobs */}
+      <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10">
+        <div className="absolute -top-40 -left-40 w-96 h-96 bg-blue-400/20 dark:bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 -right-40 w-96 h-96 bg-indigo-400/20 dark:bg-indigo-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 left-1/3 w-96 h-96 bg-sky-400/20 dark:bg-sky-500/10 rounded-full blur-3xl"></div>
+      </div>
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
@@ -63,6 +74,8 @@ export default function TimetableSwitcher() {
             trackEvent("change_mode", { mode: m });
             setMode(m);
           }}
+          dark={dark}
+          toggleDark={toggleDark}
         />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {/* Left Column — switches based on mode */}
@@ -70,7 +83,7 @@ export default function TimetableSwitcher() {
             {mode === "manual" ? (
               <div className="relative">
                 {/* Manual: campus + subject selectors */}
-                <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
+                <div className="relative bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 space-y-4 border border-white/40 dark:border-white/10">
                   <div className="flex flex-col gap-5">
                     <CampusSelect
                       loadingCampus={loadingCampus}
@@ -89,8 +102,8 @@ export default function TimetableSwitcher() {
                 </div>
 
                 {/* Available Classes */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
+                  <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
                     Available Classes
                   </h3>
                   <GroupList
@@ -106,8 +119,8 @@ export default function TimetableSwitcher() {
             ) : (
               <>
                 {/* Smart Fetch: registered classes list */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
+                  <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
                     Registered Classes
                   </h3>
                   <RegisteredList

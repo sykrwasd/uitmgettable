@@ -5,14 +5,14 @@ export default function Footer() {
   return (
     <>
       {/* Backed by KrackedDevs banner */}
-      <div className="w-full flex justify-center items-center py-3 bg-black/5 border-t border-black/10">
+      <div className="w-full flex justify-center items-center py-3 bg-gray-900 border-t border-gray-700">
         <a
           href="https://krackeddevs.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity"
         >
-          <span className="text-xs text-gray-500 font-medium tracking-wide uppercase">Backed by</span>
+          <span className="text-xs text-gray-400 font-medium tracking-wide uppercase">Backed by</span>
           <Image
             src="/kdlogodev-light.svg"
             alt="KrackedDevs"
