@@ -4,25 +4,6 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      {/* Backed by KrackedDevs banner */}
-      <div className="w-full flex justify-center items-center py-3 bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-white/10">
-        <a
-          href="https://krackeddevs.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity"
-        >
-          <span className="text-xs text-gray-400 font-medium tracking-wide uppercase">Backed by</span>
-          <Image
-            src="/kdlogodev-light.svg"
-            alt="KrackedDevs"
-            width={120}
-            height={30}
-            className="h-7 w-auto"
-          />
-        </a>
-      </div>
-
       <footer className="w-full bg-white/60 dark:bg-white/5 backdrop-blur-sm border-t border-black/10 dark:border-white/10 text-gray-800 dark:text-gray-300 text-center py-4 flex flex-col sm:flex-row justify-between items-center gap-2 px-6">
         <div className="flex items-center gap-4">
           {/* Report button */}
@@ -60,16 +41,34 @@ export default function Footer() {
           Fork us on GitHub
         </a>
 
-        {/* Right - Ko-fi */}
-        <a
-          href="https://ko-fi.com/sykrwasd"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-pink-500 hover:text-pink-600 hover:underline flex items-center gap-1 text-sm"
-        >
-          <FaHeart className="w-4 h-4" />
-          Support on Ko-fi
-        </a>
+        {/* Right - Backed by KrackedDevs + Ko-fi */}
+        <div className="flex items-center gap-4">
+          <a
+            href="https://ko-fi.com/sykrwasd"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-pink-500 hover:text-pink-600 hover:underline flex items-center gap-1 text-sm"
+          >
+            <FaHeart className="w-4 h-4" />
+            Support on Ko-fi
+          </a>
+
+          <a
+            href="https://krackeddevs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <span className="text-xs text-gray-500 dark:text-gray-400">Backed by</span>
+            <Image
+              src="/kdlogodev-light.svg"
+              alt="KrackedDevs"
+              width={80}
+              height={20}
+              className="h-5 w-auto dark:invert-0 invert"
+            />
+          </a>
+        </div>
       </footer>
 
       {/* Changelog Modal */}
