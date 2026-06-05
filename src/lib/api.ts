@@ -18,10 +18,18 @@ export async function getFaculty() {
   return [];
 }
 
-export async function getSubject(campus: string, _faculty: string) {
+function getFileName(campus: string, faculty: string) {
+  // Selangor campus uses per-faculty files: B_AC.json, B_CS.json etc.
+  if (campus === "B") return faculty ? `B_${faculty}` : null;
+  return campus;
+}
+
+export async function getSubject(campus: string, faculty: string) {
   if (!campus) return [];
-  const res = await fetch(`/timetable/${campus}.json`);
-  if (!res.ok) throw new Error(`Failed to fetch timetable for campus ${campus}`);
+  const file = getFileName(campus, faculty);
+  if (!file) return []; // Selangor but no faculty selected yet
+  const res = await fetch(`/timetable/${file}.json`);
+  if (!res.ok) throw new Error(`Failed to fetch timetable for ${file}`);
   const data = await res.json();
   // return course codes as { course, href } — href unused but kept for compatibility
   return Object.keys(data).map((code) => ({
@@ -30,10 +38,12 @@ export async function getSubject(campus: string, _faculty: string) {
   }));
 }
 
-export async function getGroup(campus: string, _faculty: string, subject: string) {
+export async function getGroup(campus: string, faculty: string, subject: string) {
   if (!campus || !subject) return [];
-  const res = await fetch(`/timetable/${campus}.json`);
-  if (!res.ok) throw new Error(`Failed to fetch timetable for campus ${campus}`);
+  const file = getFileName(campus, faculty);
+  if (!file) return [];
+  const res = await fetch(`/timetable/${file}.json`);
+  if (!res.ok) throw new Error(`Failed to fetch timetable for ${file}`);
   const data = await res.json();
 
   // normalize subject key (add leading dot if missing)

@@ -40,6 +40,8 @@ export default function TimetableSwitcher() {
     const { campus, selangor } = parseCampus(selected);
     setCampus(campus);
     setSelangor(selangor);
+    setFaculty(""); // reset faculty on campus change
+    setSubjectName(""); // reset subject too
   };
 
   const handleFetch = () => {
