@@ -67,22 +67,6 @@ export default function TimetableSwitcher() {
           <div className="lg:col-span-1 space-y-6">
             {mode === "manual" ? (
               <div className="relative">
-                <div className="absolute inset-0 z-[9999] flex items-center justify-center bg-black/70 backdrop-blur-sm rounded-xl">
-                  <div className="bg-white rounded-2xl shadow-2xl p-8 flex flex-col items-center gap-4 max-w-sm w-full mx-4 text-center">
-                    <img
-                      src="https://media.tenor.com/GOj9ZF_-ZOcAAAAM/cat.gif"
-                      alt="Cat maintenance"
-                      className="w-40 h-40 object-cover rounded-xl"
-                    />
-                    <h2 className="text-2xl font-bold text-gray-800">
-                      Under Maintenance 🚧
-                    </h2>
-                    <p className="text-gray-500 text-sm">
-                      We&apos;re updating things! Please check back soon.
-                    </p>
-                  </div>
-                </div>
-
                 {/* Manual: campus + subject selectors */}
                 <div className="relative bg-white/50 backdrop-blur-sm rounded-lg p-6 space-y-4">
                   <div className="flex flex-col gap-5">

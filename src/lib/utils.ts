@@ -7,12 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 // lib/utils.ts
 export function parseCampus(input: string) {
   if (!input) return { campus: "", selangor: false };
-
-  if (input.includes("( Please Select a Faculty )") || input.includes("selangor")) {
-    return { campus: "selangor", selangor: true };
-  } else if (input.startsWith("SELANGOR")) {
-    return { campus: input.split("-")[1]?.trim() ?? "", selangor: false };
-  } else {
-    return { campus: input.split("-")[0]?.trim() ?? "", selangor: false };
-  }
+  // format is now "A4 - TAPAH" — just grab the ID before the dash
+  const campus = input.split("-")[0]?.trim() ?? "";
+  return { campus, selangor: false };
 }
