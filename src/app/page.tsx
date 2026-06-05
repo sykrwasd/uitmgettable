@@ -53,15 +53,32 @@ export default function TimetableSwitcher() {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden transition-colors duration-300
-      bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100
-      dark:bg-gradient-to-br dark:from-gray-950 dark:via-slate-900 dark:to-blue-950">
+    <div className="min-h-screen relative overflow-hidden transition-colors duration-500
+      bg-[#eef2ff] dark:bg-[#060b18]">
 
-      {/* Background blobs */}
-      <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10">
-        <div className="absolute -top-40 -left-40 w-96 h-96 bg-blue-400/20 dark:bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 -right-40 w-96 h-96 bg-indigo-400/20 dark:bg-indigo-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 left-1/3 w-96 h-96 bg-sky-400/20 dark:bg-sky-500/10 rounded-full blur-3xl"></div>
+      {/* Grid pattern overlay */}
+      <div className="pointer-events-none fixed inset-0 -z-10"
+        style={{
+          backgroundImage: `linear-gradient(rgba(99,102,241,0.07) 1px, transparent 1px),
+                            linear-gradient(90deg, rgba(99,102,241,0.07) 1px, transparent 1px)`,
+          backgroundSize: '40px 40px'
+        }}
+      />
+
+      {/* Background blobs — light mode */}
+      <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 dark:hidden">
+        <div className="absolute -top-60 -left-60 w-[600px] h-[600px] bg-blue-300/40 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 -right-60 w-[500px] h-[500px] bg-violet-300/30 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-60 left-1/4 w-[500px] h-[500px] bg-indigo-300/40 rounded-full blur-3xl"></div>
+        <div className="absolute top-2/3 left-1/2 w-[300px] h-[300px] bg-sky-300/30 rounded-full blur-2xl"></div>
+      </div>
+
+      {/* Background blobs — dark mode */}
+      <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 hidden dark:block">
+        <div className="absolute -top-60 -left-60 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 -right-60 w-[500px] h-[500px] bg-violet-700/20 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-60 left-1/4 w-[500px] h-[500px] bg-indigo-700/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-2/3 left-1/2 w-[300px] h-[300px] bg-cyan-700/15 rounded-full blur-2xl"></div>
       </div>
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
