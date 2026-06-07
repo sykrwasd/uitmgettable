@@ -28,7 +28,7 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
           className="w-9 h-9 flex items-center justify-center rounded-full bg-white/60 dark:bg-white/10 border border-black/10 dark:border-white/10 shadow-sm hover:scale-105 transition-transform text-base"
           title="Toggle theme"
         >
-          {dark ? "Light" : "Dark"}
+          {dark ? "☀️" : "🌙"}
         </button>
       </div>
 
