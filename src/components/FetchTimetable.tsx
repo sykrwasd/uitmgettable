@@ -363,6 +363,10 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             </span>
           )}
         </div>
+
+        <p className="text-center text-xs text-yellow-700 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700/40 rounded-lg px-4 py-2 mt-1">
+          For best results, save the image on mobile. Desktop export may not render styles correctly.
+        </p>
       </div>
 
       {/* Settings Panel */}
