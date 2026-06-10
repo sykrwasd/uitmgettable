@@ -454,13 +454,6 @@ const FetchTimetable: React.FC<TimetableProps> = ({
         </h2>
 
         <div className="flex flex-wrap justify-center gap-2">
-          <button
-            onClick={saveAsImage}
-            className="px-4 py-2 bg-blue-600/80 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition"
-          >
-            Save as Image
-          </button>
-
           {onImport && (
             <button
               onClick={() => setIsImportOpen(true)}
@@ -469,6 +462,13 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               Import
             </button>
           )}
+
+          <button
+            onClick={saveAsImage}
+            className="px-4 py-2 bg-blue-600/80 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition"
+          >
+            Save as Image
+          </button>
 
           {onClearAll && selectedClasses.length > 0 && (
             <button
