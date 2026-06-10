@@ -6,6 +6,7 @@ import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
 import toast from "react-hot-toast";
 import { trackEvent } from "@/utils/umami";
+import { CgSpinner } from "react-icons/cg";
 
 type Group = {
   no: string;
@@ -35,7 +36,15 @@ interface TimetableProps {
   editable?: boolean; // enables edit mode on click (auto-fetch mode)
 }
 
-const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const DAYS = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
 
 function timeToMinutes(time: string, startHour: number): number {
   const [h, m] = time.split(":").map(Number);
@@ -56,9 +65,18 @@ function getSlotGeometry(timeSlot: string, startHour: number, endHour: number) {
 }
 
 const COLOR_PALETTE = [
-  "#7c3aed", "#0f766e", "#1d4ed8", "#15803d",
-  "#b91c1c", "#7e22ce", "#0369a1", "#c2410c",
-  "#065f46", "#9d174d", "#1e40af", "#92400e",
+  "#7c3aed",
+  "#0f766e",
+  "#1d4ed8",
+  "#15803d",
+  "#b91c1c",
+  "#7e22ce",
+  "#0369a1",
+  "#c2410c",
+  "#065f46",
+  "#9d174d",
+  "#1e40af",
+  "#92400e",
 ];
 
 const COLORS_STORAGE_KEY = "uitm-timetable-fetch-colors";
@@ -79,19 +97,36 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   const [pickerWidth, setPickerWidth] = useState(400);
   const [hideWeekend, setHideWeekend] = useState(false);
   const [isCustomizing, setIsCustomizing] = useState(false);
-  const [selectedClassForColor, setSelectedClassForColor] = useState<string | null>(null);
+  const [selectedClassForColor, setSelectedClassForColor] = useState<
+    string | null
+  >(null);
   const [isImportOpen, setIsImportOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
   // --- Edit mode (auto-fetch) ---
   const [editingClass, setEditingClass] = useState<SelectedClass | null>(null);
-  const [classOverrides, setClassOverrides] = useState<Record<string, Partial<SelectedClass>>>({});
-  const [editForm, setEditForm] = useState({ day: "", startTime: "", endTime: "", venue: "" });
+  const [classOverrides, setClassOverrides] = useState<
+    Record<string, Partial<SelectedClass>>
+  >({});
+  const [editForm, setEditForm] = useState({
+    day: "",
+    startTime: "",
+    endTime: "",
+    venue: "",
+  });
 
   const openEdit = (cls: SelectedClass) => {
-    const overridden = { ...cls, ...classOverrides[cls.class_code + cls.day_time] };
+    const overridden = {
+      ...cls,
+      ...classOverrides[cls.class_code + cls.day_time],
+    };
     const [start, end] = overridden.timeSlot.split("-");
-    setEditForm({ day: overridden.day, startTime: start, endTime: end, venue: overridden.venue });
+    setEditForm({
+      day: overridden.day,
+      startTime: start,
+      endTime: end,
+      venue: overridden.venue,
+    });
     setEditingClass(cls);
   };
 
@@ -118,7 +153,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   // --- High value customizations ---
   const [startHour, setStartHour] = useState(8);
   const [endHour, setEndHour] = useState(18);
-  const [viewMode, setViewMode] = useState<"compact" | "comfortable">("comfortable");
+  const [viewMode, setViewMode] = useState<"compact" | "comfortable">(
+    "comfortable",
+  );
   const [showVenue, setShowVenue] = useState(true);
   const [showClassCode, setShowClassCode] = useState(true);
   const [showTime, setShowTime] = useState(true);
@@ -143,7 +180,8 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   let paletteIdx = 0;
   const getAutoColor = (subjectCode: string) => {
     if (!autoColors.current[subjectCode]) {
-      autoColors.current[subjectCode] = COLOR_PALETTE[paletteIdx % COLOR_PALETTE.length];
+      autoColors.current[subjectCode] =
+        COLOR_PALETTE[paletteIdx % COLOR_PALETTE.length];
       paletteIdx++;
     }
     return autoColors.current[subjectCode];
@@ -151,8 +189,12 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
   const seenSubjects = new Set<string>();
   for (const cls of selectedClasses) {
-    const key = cls.subject_code.length > 15 ? cls.class_code : cls.subject_code;
-    if (!seenSubjects.has(key)) { getAutoColor(key); seenSubjects.add(key); }
+    const key =
+      cls.subject_code.length > 15 ? cls.class_code : cls.subject_code;
+    if (!seenSubjects.has(key)) {
+      getAutoColor(key);
+      seenSubjects.add(key);
+    }
   }
 
   useEffect(() => {
@@ -167,7 +209,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      try { localStorage.setItem(COLORS_STORAGE_KEY, JSON.stringify(classColors)); } catch {}
+      try {
+        localStorage.setItem(COLORS_STORAGE_KEY, JSON.stringify(classColors));
+      } catch {}
     }
   }, [classColors]);
 
@@ -199,50 +243,88 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       link.click();
       document.body.removeChild(clone);
       toast.success("Timetable saved!", { id: "export", duration: 2000 });
-      event({ action: "save_timetable", params: { classes_count: selectedClasses.length, method: "image" } });
-      trackEvent("save_timetable", { classes_count: selectedClasses.length, method: "image" });
+      event({
+        action: "save_timetable",
+        params: { classes_count: selectedClasses.length, method: "image" },
+      });
+      trackEvent("save_timetable", {
+        classes_count: selectedClasses.length,
+        method: "image",
+      });
     } catch {
       toast.error("Failed to export timetable", { id: "export" });
     }
   };
 
-  const allDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  const allDays = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
   const days = hideWeekend ? allDays.slice(0, 5) : allDays;
 
   const classesByDay: Record<string, SelectedClass[]> = {};
   for (const d of days) classesByDay[d] = [];
   for (const cls of selectedClasses) {
     const effective = getEffectiveClass(cls);
-    if (classesByDay[effective.day]) classesByDay[effective.day].push(effective);
+    if (classesByDay[effective.day])
+      classesByDay[effective.day].push(effective);
   }
 
   const uniqueSubjects = Array.from(
-    new Map(selectedClasses.map((c) => [getSubjectKey(c), c])).values()
+    new Map(selectedClasses.map((c) => [getSubjectKey(c), c])).values(),
   );
 
   return (
     <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
-
       {/* Import Modal */}
       {isImportOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={() => setIsImportOpen(false)}>
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-8 w-full max-w-sm mx-4 flex flex-col gap-4" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+          onClick={() => setIsImportOpen(false)}
+        >
+          <div
+            className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-8 w-full max-w-sm mx-4 flex flex-col gap-4"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-center justify-between">
-              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">Import from MyStudent</h3>
-              <button onClick={() => setIsImportOpen(false)} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
+              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
+                Import from MyStudent
+              </h3>
+              <button
+                onClick={() => setIsImportOpen(false)}
+                className="text-gray-400 hover:text-gray-600 text-2xl leading-none"
+              >
+                &times;
+              </button>
             </div>
-            <p className="text-sm text-gray-500 dark:text-gray-400">Enter your UiTM matric number to auto-load your registered timetable.</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              Enter your UiTM matric number to auto-load your registered
+              timetable.
+            </p>
             <input
               type="text"
               value={matricNumber || ""}
               onChange={(e) => onMatricChange?.(e.target.value)}
-              onKeyDown={(e) => { if (e.key === "Enter" && matricNumber?.trim()) { onImport?.(); setIsImportOpen(false); } }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && matricNumber?.trim()) {
+                  onImport?.();
+                  setIsImportOpen(false);
+                }
+              }}
               placeholder="e.g. 2023123456"
               autoFocus
               className="px-4 py-3 text-sm rounded-xl border border-gray-200 bg-gray-50 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 w-full"
             />
             <button
-              onClick={() => { onImport?.(); setIsImportOpen(false); }}
+              onClick={() => {
+                onImport?.();
+                setIsImportOpen(false);
+              }}
               disabled={loadingImport || !matricNumber?.trim()}
               className="w-full py-3 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
             >
@@ -254,45 +336,78 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
       {/* Edit Class Modal */}
       {editingClass && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={() => setEditingClass(null)}>
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 w-full max-w-sm mx-4 flex flex-col gap-4" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+          onClick={() => setEditingClass(null)}
+        >
+          <div
+            className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 w-full max-w-sm mx-4 flex flex-col gap-4"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">Edit Class</h3>
-              <button onClick={() => setEditingClass(null)} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
+              <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">
+                Edit Class
+              </h3>
+              <button
+                onClick={() => setEditingClass(null)}
+                className="text-gray-400 hover:text-gray-600 text-2xl leading-none"
+              >
+                &times;
+              </button>
             </div>
 
-            <p className="text-sm font-semibold text-blue-500">{editingClass.subject_name || editingClass.subject_code}</p>
-            <p className="text-xs text-gray-400 -mt-2">Changes are saved locally only.</p>
+            <p className="text-sm font-semibold text-blue-500">
+              {editingClass.subject_name || editingClass.subject_code}
+            </p>
+            <p className="text-xs text-gray-400 -mt-2">
+              Changes are saved locally only.
+            </p>
 
             {/* Day */}
             <div className="flex flex-col gap-1">
-              <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Day</label>
+              <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+                Day
+              </label>
               <select
                 value={editForm.day}
-                onChange={(e) => setEditForm((f) => ({ ...f, day: e.target.value }))}
+                onChange={(e) =>
+                  setEditForm((f) => ({ ...f, day: e.target.value }))
+                }
                 className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
               >
-                {DAYS.map((d) => <option key={d} value={d}>{d}</option>)}
+                {DAYS.map((d) => (
+                  <option key={d} value={d}>
+                    {d}
+                  </option>
+                ))}
               </select>
             </div>
 
             {/* Time */}
             <div className="flex gap-3">
               <div className="flex flex-col gap-1 flex-1">
-                <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Start Time</label>
+                <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+                  Start Time
+                </label>
                 <input
                   type="time"
                   value={editForm.startTime}
-                  onChange={(e) => setEditForm((f) => ({ ...f, startTime: e.target.value }))}
+                  onChange={(e) =>
+                    setEditForm((f) => ({ ...f, startTime: e.target.value }))
+                  }
                   className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>
               <div className="flex flex-col gap-1 flex-1">
-                <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">End Time</label>
+                <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+                  End Time
+                </label>
                 <input
                   type="time"
                   value={editForm.endTime}
-                  onChange={(e) => setEditForm((f) => ({ ...f, endTime: e.target.value }))}
+                  onChange={(e) =>
+                    setEditForm((f) => ({ ...f, endTime: e.target.value }))
+                  }
                   className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>
@@ -300,21 +415,31 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
             {/* Venue */}
             <div className="flex flex-col gap-1">
-              <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">Venue</label>
+              <label className="text-xs font-semibold text-gray-500 dark:text-gray-400">
+                Venue
+              </label>
               <input
                 type="text"
                 value={editForm.venue}
-                onChange={(e) => setEditForm((f) => ({ ...f, venue: e.target.value }))}
+                onChange={(e) =>
+                  setEditForm((f) => ({ ...f, venue: e.target.value }))
+                }
                 placeholder="e.g. FSG BK 12A"
                 className="px-3 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 bg-gray-50 dark:bg-white/10 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
             </div>
 
             <div className="flex gap-2 pt-1">
-              <button onClick={() => setEditingClass(null)} className="flex-1 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/10 transition">
+              <button
+                onClick={() => setEditingClass(null)}
+                className="flex-1 py-2 text-sm rounded-xl border border-gray-200 dark:border-white/20 text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/10 transition"
+              >
                 Cancel
               </button>
-              <button onClick={saveEdit} className="flex-1 py-2 text-sm rounded-xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition">
+              <button
+                onClick={saveEdit}
+                className="flex-1 py-2 text-sm rounded-xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition"
+              >
                 Save Changes
               </button>
             </div>
@@ -324,27 +449,41 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
       {/* Header */}
       <div className="flex flex-col items-center gap-4 mb-6">
-        <h2 className="text-3xl font-extrabold text-gray-800 dark:text-gray-100 text-center">Your Timetable</h2>
+        <h2 className="text-3xl font-extrabold text-gray-800 dark:text-gray-100 text-center">
+          Your Timetable
+        </h2>
 
         <div className="flex flex-wrap justify-center gap-2">
-          <button onClick={saveAsImage} className="px-4 py-2 bg-blue-600/80 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-500 transition">
+          <button
+            onClick={saveAsImage}
+            className="px-4 py-2 bg-blue-600/80 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition"
+          >
             Save as Image
           </button>
 
           {onImport && (
-            <button onClick={() => setIsImportOpen(true)} className="px-4 py-2 bg-blue-600/60 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition">
+            <button
+              onClick={() => setIsImportOpen(true)}
+              className="px-4 py-2 bg-blue-600/80 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition"
+            >
               Import
             </button>
           )}
 
           {onClearAll && selectedClasses.length > 0 && (
-            <button onClick={onClearAll} className="px-4 py-2 bg-red-500/70 text-white text-sm font-semibold rounded-lg shadow hover:bg-red-600 transition">
+            <button
+              onClick={onClearAll}
+              className="px-4 py-2 bg-red-500/70 text-white text-sm font-semibold rounded-lg shadow hover:bg-red-600 transition"
+            >
               Clear All
             </button>
           )}
 
           <button
-            onClick={() => { setIsCustomizing((p) => !p); setSelectedClassForColor(null); }}
+            onClick={() => {
+              setIsCustomizing((p) => !p);
+              setSelectedClassForColor(null);
+            }}
             className="px-4 py-2 bg-white/60 dark:bg-white/10 text-gray-800 dark:text-gray-200 text-sm font-semibold rounded-lg shadow hover:bg-white/80 transition"
           >
             Colors
@@ -365,43 +504,55 @@ const FetchTimetable: React.FC<TimetableProps> = ({
         </div>
 
         <p className="text-center text-xs text-yellow-700 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700/40 rounded-lg px-4 py-2 mt-1">
-          For best results, save the image on mobile. Desktop export may not render styles correctly.
+          For best results, save the image on mobile. Desktop export may not
+          render styles correctly.
         </p>
       </div>
 
       {/* Settings Panel */}
       {isSettingsOpen && (
         <div className="bg-white/80 dark:bg-white/10 backdrop-blur-sm rounded-xl p-5 mb-6 border border-black/10 dark:border-white/10">
-          <h3 className="text-sm font-bold text-gray-700 dark:text-gray-200 mb-4">Timetable Settings</h3>
+          <h3 className="text-sm font-bold text-gray-700 dark:text-gray-200 mb-4">
+            Timetable Settings
+          </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-
             {/* Time Range */}
             <div className="space-y-2">
-              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Time Range</p>
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                Time Range
+              </p>
               <div className="flex items-center gap-2">
                 <div className="flex flex-col gap-1 flex-1">
-                  <label className="text-xs text-gray-500 dark:text-gray-400">Start</label>
+                  <label className="text-xs text-gray-500 dark:text-gray-400">
+                    Start
+                  </label>
                   <select
                     value={startHour}
                     onChange={(e) => setStartHour(Number(e.target.value))}
                     className="text-sm px-2 py-1.5 rounded-lg bg-white dark:bg-white/10 border border-gray-200 dark:border-white/20 text-gray-700 dark:text-gray-200"
                   >
                     {Array.from({ length: 14 }, (_, i) => i + 6).map((h) => (
-                      <option key={h} value={h}>{String(h).padStart(2, "0")}:00</option>
+                      <option key={h} value={h}>
+                        {String(h).padStart(2, "0")}:00
+                      </option>
                     ))}
                   </select>
                 </div>
                 <span className="text-gray-400 mt-5">→</span>
                 <div className="flex flex-col gap-1 flex-1">
-                  <label className="text-xs text-gray-500 dark:text-gray-400">End</label>
+                  <label className="text-xs text-gray-500 dark:text-gray-400">
+                    End
+                  </label>
                   <select
                     value={endHour}
                     onChange={(e) => setEndHour(Number(e.target.value))}
                     className="text-sm px-2 py-1.5 rounded-lg bg-white dark:bg-white/10 border border-gray-200 dark:border-white/20 text-gray-700 dark:text-gray-200"
                   >
                     {Array.from({ length: 14 }, (_, i) => i + 10).map((h) => (
-                      <option key={h} value={h}>{String(h).padStart(2, "0")}:00</option>
+                      <option key={h} value={h}>
+                        {String(h).padStart(2, "0")}:00
+                      </option>
                     ))}
                   </select>
                 </div>
@@ -410,7 +561,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
             {/* View Mode */}
             <div className="space-y-2">
-              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">View Mode</p>
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                View Mode
+              </p>
               <div className="flex gap-2">
                 {(["compact", "comfortable"] as const).map((m) => (
                   <button
@@ -426,7 +579,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
             {/* Font Size */}
             <div className="space-y-2">
-              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Font Size</p>
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                Font Size
+              </p>
               <div className="flex gap-2">
                 {(["sm", "md", "lg"] as const).map((s) => (
                   <button
@@ -442,27 +597,41 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
             {/* Show/Hide Info */}
             <div className="space-y-2">
-              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Show on Card</p>
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                Show on Card
+              </p>
               <div className="flex flex-col gap-1.5">
                 {[
                   { label: "Time", value: showTime, set: setShowTime },
-                  { label: "Class Code", value: showClassCode, set: setShowClassCode },
+                  {
+                    label: "Class Code",
+                    value: showClassCode,
+                    set: setShowClassCode,
+                  },
                   { label: "Venue", value: showVenue, set: setShowVenue },
-                  { label: "Hide Weekend", value: hideWeekend, set: setHideWeekend },
+                  {
+                    label: "Hide Weekend",
+                    value: hideWeekend,
+                    set: setHideWeekend,
+                  },
                 ].map(({ label, value, set }) => (
-                  <label key={label} className="flex items-center gap-2 cursor-pointer">
+                  <label
+                    key={label}
+                    className="flex items-center gap-2 cursor-pointer"
+                  >
                     <input
                       type="checkbox"
                       checked={value}
                       onChange={(e) => set(e.target.checked)}
                       className="w-4 h-4 accent-blue-500"
                     />
-                    <span className="text-sm text-gray-600 dark:text-gray-300">{label}</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">
+                      {label}
+                    </span>
                   </label>
                 ))}
               </div>
             </div>
-
           </div>
         </div>
       )}
@@ -470,7 +639,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       {/* Color customizer */}
       {isCustomizing && (
         <div className="bg-white/90 dark:bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-6 shadow-lg">
-          <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 mb-4 text-center">Customize Colors</h3>
+          <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100 mb-4 text-center">
+            Customize Colors
+          </h3>
           <div className="flex flex-wrap gap-2 justify-center">
             {uniqueSubjects.map((cls) => {
               const key = getSubjectKey(cls);
@@ -478,11 +649,16 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               return (
                 <button
                   key={key}
-                  onClick={() => setSelectedClassForColor(selectedClassForColor === key ? null : key)}
+                  onClick={() =>
+                    setSelectedClassForColor(
+                      selectedClassForColor === key ? null : key,
+                    )
+                  }
                   className="px-4 py-2 rounded-full border-2 text-sm font-semibold transition-all hover:scale-105"
                   style={{
                     borderColor: color,
-                    backgroundColor: selectedClassForColor === key ? color : `${color}22`,
+                    backgroundColor:
+                      selectedClassForColor === key ? color : `${color}22`,
                     color: selectedClassForColor === key ? "#fff" : "#1f2937",
                   }}
                 >
@@ -494,12 +670,19 @@ const FetchTimetable: React.FC<TimetableProps> = ({
           {selectedClassForColor && (
             <div className="mt-8 flex flex-col items-center bg-gray-50/50 dark:bg-white/5 p-4 rounded-xl border border-gray-100 dark:border-white/10">
               <p className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-4 text-center">
-                Pick a color for <span className="font-bold">{selectedClassForColor}</span>
+                Pick a color for{" "}
+                <span className="font-bold">{selectedClassForColor}</span>
               </p>
               <SwatchesPicker
                 width={pickerWidth}
-                color={classColors[selectedClassForColor] || autoColors.current[selectedClassForColor] || COLOR_PALETTE[0]}
-                onChange={(colorResult: any) => updateClassColor(selectedClassForColor, colorResult.hex)}
+                color={
+                  classColors[selectedClassForColor] ||
+                  autoColors.current[selectedClassForColor] ||
+                  COLOR_PALETTE[0]
+                }
+                onChange={(colorResult: any) =>
+                  updateClassColor(selectedClassForColor, colorResult.hex)
+                }
               />
             </div>
           )}
@@ -507,7 +690,15 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       )}
 
       {/* Timetable */}
-      <div className="bg-white rounded-2xl shadow-md overflow-hidden">
+      <div className="relative bg-white rounded-2xl shadow-md overflow-hidden">
+        {loadingImport && (
+          <div className="absolute inset-0 z-20 flex flex-col items-center justify-center gap-3 bg-white/70 dark:bg-white/70 backdrop-blur-sm">
+            <CgSpinner className="animate-spin text-blue-600" size={48} />
+            <p className="text-sm font-semibold text-gray-700">
+              Fetching your timetable…
+            </p>
+          </div>
+        )}
         <div ref={timetableRef} className="overflow-x-auto">
           <div style={{ minWidth: "640px" }}>
             {/* Hour ruler */}
@@ -517,7 +708,10 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                   key={label}
                   className="text-xs text-gray-400 font-medium select-none"
                   style={{
-                    width: i === HOUR_LABELS.length - 1 ? "0px" : `${100 / (HOUR_LABELS.length - 1)}%`,
+                    width:
+                      i === HOUR_LABELS.length - 1
+                        ? "0px"
+                        : `${100 / (HOUR_LABELS.length - 1)}%`,
                     flexShrink: 0,
                     paddingTop: "12px",
                     paddingBottom: "6px",
@@ -529,36 +723,65 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               ))}
             </div>
 
-            <div className="border-t border-gray-100" style={{ marginLeft: "60px" }} />
+            <div
+              className="border-t border-gray-100"
+              style={{ marginLeft: "60px" }}
+            />
 
             {/* Day rows */}
             {days.map((day) => {
               const dayClasses = classesByDay[day] || [];
               return (
-                <div key={day} className="flex items-stretch" style={{ minHeight: `${rowHeight}px` }}>
+                <div
+                  key={day}
+                  className="flex items-stretch"
+                  style={{ minHeight: `${rowHeight}px` }}
+                >
                   <div
                     className="flex items-center text-sm font-medium text-gray-500 select-none shrink-0"
-                    style={{ width: "60px", paddingRight: "12px", justifyContent: "flex-end" }}
+                    style={{
+                      width: "60px",
+                      paddingRight: "12px",
+                      justifyContent: "flex-end",
+                    }}
                   >
                     {day.slice(0, 3)}
                   </div>
 
-                  <div className="relative flex-1 border-t border-gray-100" style={{ minHeight: `${rowHeight}px` }}>
+                  <div
+                    className="relative flex-1 border-t border-gray-100"
+                    style={{ minHeight: `${rowHeight}px` }}
+                  >
                     {HOUR_LABELS.map((_, i) => (
                       <div
                         key={i}
                         className="absolute top-0 bottom-0 border-l border-gray-100"
-                        style={{ left: `${(i / (HOUR_LABELS.length - 1)) * 100}%` }}
+                        style={{
+                          left: `${(i / (HOUR_LABELS.length - 1)) * 100}%`,
+                        }}
                       />
                     ))}
 
                     {dayClasses.map((cls) => {
-                      const geo = getSlotGeometry(cls.timeSlot, startHour, endHour);
+                      const geo = getSlotGeometry(
+                        cls.timeSlot,
+                        startHour,
+                        endHour,
+                      );
                       if (!geo) return null;
                       const color = getClassColor(cls);
-                      const displayCode = cls.subject_code.length > 15 ? "KOKO" : cls.subject_code;
-                      const [sh, sm] = cls.timeSlot.split("-")[0].split(":").map(Number);
-                      const [eh, em] = cls.timeSlot.split("-")[1].split(":").map(Number);
+                      const displayCode =
+                        cls.subject_code.length > 15
+                          ? "KOKO"
+                          : cls.subject_code;
+                      const [sh, sm] = cls.timeSlot
+                        .split("-")[0]
+                        .split(":")
+                        .map(Number);
+                      const [eh, em] = cls.timeSlot
+                        .split("-")[1]
+                        .split(":")
+                        .map(Number);
                       const durationMin = eh * 60 + em - (sh * 60 + sm);
                       const fs = fontSizeMap[fontSize];
 
@@ -572,27 +795,50 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                             backgroundColor: color,
                             transition: "filter 0.15s",
                           }}
-                          onMouseEnter={(e) => (e.currentTarget.style.filter = "brightness(0.88)")}
-                          onMouseLeave={(e) => (e.currentTarget.style.filter = "brightness(1)")}
-                          onClick={() => editable ? openEdit(cls) : onRemoveClass(cls.class_code, cls.day_time)}
-                          title={editable ? `${cls.subject_name}\nClick to edit` : `${cls.subject_name}\n${cls.timeSlot}\n${cls.venue}\nClick to remove`}
+                          onMouseEnter={(e) =>
+                            (e.currentTarget.style.filter = "brightness(0.88)")
+                          }
+                          onMouseLeave={(e) =>
+                            (e.currentTarget.style.filter = "brightness(1)")
+                          }
+                          onClick={() =>
+                            editable
+                              ? openEdit(cls)
+                              : onRemoveClass(cls.class_code, cls.day_time)
+                          }
+                          title={
+                            editable
+                              ? `${cls.subject_name}\nClick to edit`
+                              : `${cls.subject_name}\n${cls.timeSlot}\n${cls.venue}\nClick to remove`
+                          }
                         >
                           <div className="flex flex-col justify-between h-full p-2">
                             {showTime && (
-                              <div className="text-white/80 font-medium leading-none" style={{ fontSize: fs.time }}>
+                              <div
+                                className="text-white/80 font-medium leading-none"
+                                style={{ fontSize: fs.time }}
+                              >
                                 {cls.timeSlot}
                               </div>
                             )}
                             {showClassCode && (
                               <div
                                 className="font-extrabold leading-tight overflow-hidden text-ellipsis whitespace-nowrap"
-                                style={{ fontSize: durationMin >= 90 ? `calc(${fs.code} * 1.4)` : fs.code }}
+                                style={{
+                                  fontSize:
+                                    durationMin >= 90
+                                      ? `calc(${fs.code} * 1.4)`
+                                      : fs.code,
+                                }}
                               >
                                 {displayCode}
                               </div>
                             )}
                             {showVenue && cls.venue && durationMin >= 60 && (
-                              <div className="text-white/75 leading-none overflow-hidden text-ellipsis whitespace-nowrap" style={{ fontSize: fs.venue }}>
+                              <div
+                                className="text-white/75 leading-none overflow-hidden text-ellipsis whitespace-nowrap"
+                                style={{ fontSize: fs.venue }}
+                              >
                                 {cls.venue}
                               </div>
                             )}
