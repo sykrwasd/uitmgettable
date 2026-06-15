@@ -115,5 +115,17 @@ export function useSelectedClass(fetchGroup: any[]) {
 
    //console.log(selectedClasses)
 
-  return { selectedClasses, addClass, removeClass, clearAll, result, setResult };
+  const addClassesBulk = (classes: SelectedClass[]) => {
+    // Compute outside setSelectedClasses so we never call toast inside an updater
+    const existing = new Set(selectedClasses.map((c) => c.class_code + c.day_time));
+    const toAdd = classes.filter((c) => !existing.has(c.class_code + c.day_time));
+    if (toAdd.length === 0) {
+      toast.error("All classes already added.");
+      return;
+    }
+    setSelectedClasses((prev) => [...prev, ...toAdd]);
+    toast.success(`Added ${toAdd.length} class${toAdd.length > 1 ? "es" : ""} from ${classes[0]?.class_code}`);
+  };
+
+  return { selectedClasses, addClass, addClassesBulk, removeClass, clearAll, result, setResult };
 }

@@ -24,6 +24,9 @@ jobs:
       - name: Run scraper for all campuses
         run: node scripts/scraperAll.js
 
+      - name: Build class code index
+        run: node scripts/buildClassIndex.cjs
+
       - name: Commit and push JSON files
         run: |
           git config user.name "github-actions[bot]"

@@ -66,7 +66,7 @@ export async function getGroup(campus: string, faculty: string, subject: string)
     mode: cls.mode,
     attempt: cls.status,
     venue: cls.room,
-    subject_code: cls.program,
+    subject_code: subject,
     faculty: cls.faculty,
     subject_name: subject,
   }));

@@ -34,8 +34,19 @@ export default function SubjectSelect({
         placeholder={loadingSubjects ? "Loading subjects…" : "Select Subject"}
         className="w-full"
         menuPortalTarget={isClient ? document.body : undefined} 
-        styles={{ 
-          menuPortal: (base) => ({ ...base, zIndex: 9999 }) }}
+        styles={{
+          menuPortal: (base) => ({ ...base, zIndex: 9999 }),
+          control: (base) => ({ ...base, backgroundColor: "white", borderColor: "#d1d5db" }),
+          menu: (base) => ({ ...base, backgroundColor: "white" }),
+          option: (base, state) => ({
+            ...base,
+            backgroundColor: state.isSelected ? "#3b82f6" : state.isFocused ? "#eff6ff" : "white",
+            color: state.isSelected ? "white" : "#111827",
+          }),
+          singleValue: (base) => ({ ...base, color: "#111827" }),
+          placeholder: (base) => ({ ...base, color: "#6b7280" }),
+          input: (base) => ({ ...base, color: "#111827" }),
+        }}
         isLoading={loadingSubjects} 
         instanceId="subject-select" // fix SSR id mismatch
       />

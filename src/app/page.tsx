@@ -13,6 +13,7 @@ import Footer from "@/components/Footer";
 import CampusSelect from "@/components/CampusSelect";
 import SubjectSelect from "@/components/SubjectSelect";
 import GroupList from "@/components/GroupList";
+import ClassCodeSearch from "@/components/ClassCodeSearch";
 import OrderErrorPopup from "@/components/orderError";
 import Header from "@/components/Header";
 import { useTimetable } from "./hooks/useTimetable";
@@ -28,13 +29,14 @@ export default function TimetableSwitcher() {
   const [faculty, setFaculty] = useState("");
   const [searchGroup, setSearchGroup] = useState("");
   const [selangor, setSelangor] = useState(false);
+  const [searchMode, setSearchMode] = useState<"campus" | "classcode">("campus");
 
   const { dark, toggle: toggleDark } = useTheme();
   const { fetchCampus, loadingCampus } = useCampus();
   const { fetchFaculty } = useFaculty();
   const { fetchSubjects, loadingSubjects } = useSubjects(campus, faculty);
   const { fetchGroup, loadingGroup } = useGroups(campus, faculty, subjectName);
-  const { selectedClasses, addClass, removeClass, clearAll, result } =
+  const { selectedClasses, addClass, addClassesBulk, removeClass, clearAll, result } =
     useSelectedClass(fetchGroup);
   const { fetchTimetable, loadingTimetable, fetchData } = useTimetable();
 
@@ -74,40 +76,73 @@ export default function TimetableSwitcher() {
           {/* Left Column — switches based on mode */}
           <div className="lg:col-span-1 space-y-6">
             {mode === "manual" ? (
-              <div className="relative">
-                {/* Manual: campus + subject selectors */}
-                <div className="relative bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 space-y-4 border border-white/40 dark:border-white/10">
-                  <div className="flex flex-col gap-5">
-                    <CampusSelect
-                      loadingCampus={loadingCampus}
-                      fetchCampus={fetchCampus}
-                      handleCampusChange={handleCampusChange}
-                      selangor={selangor}
-                      setFaculty={setFaculty}
-                      fetchFaculty={fetchFaculty}
-                    />
-                    <SubjectSelect
-                      loadingSubjects={loadingSubjects}
-                      fetchSubjects={fetchSubjects}
-                      setSubjectName={setSubjectName}
-                    />
+              <div className="relative space-y-4">
+                {/* Search mode toggle */}
+                <div className="bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/40 dark:border-white/10">
+                  <div className="flex gap-2 mb-4">
+                    <button
+                      onClick={() => setSearchMode("campus")}
+                      className={`flex-1 py-1.5 text-sm font-semibold rounded-lg transition ${
+                        searchMode === "campus"
+                          ? "bg-blue-600 text-white"
+                          : "bg-white/60 dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:bg-white/80"
+                      }`}
+                    >
+                      By Campus
+                    </button>
+                    <button
+                      onClick={() => setSearchMode("classcode")}
+                      className={`flex-1 py-1.5 text-sm font-semibold rounded-lg transition ${
+                        searchMode === "classcode"
+                          ? "bg-blue-600 text-white"
+                          : "bg-white/60 dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:bg-white/80"
+                      }`}
+                    >
+                      By Class Code
+                    </button>
                   </div>
+
+                  {searchMode === "campus" ? (
+                    <div className="flex flex-col gap-4">
+                      <CampusSelect
+                        loadingCampus={loadingCampus}
+                        fetchCampus={fetchCampus}
+                        handleCampusChange={handleCampusChange}
+                        selangor={selangor}
+                        setFaculty={setFaculty}
+                        fetchFaculty={fetchFaculty}
+                      />
+                      <SubjectSelect
+                        loadingSubjects={loadingSubjects}
+                        fetchSubjects={fetchSubjects}
+                        setSubjectName={setSubjectName}
+                      />
+                    </div>
+                  ) : (
+                    <ClassCodeSearch
+                      fetchCampus={fetchCampus}
+                      loadingCampus={loadingCampus}
+                      onAddClasses={addClassesBulk}
+                    />
+                  )}
                 </div>
 
-                {/* Available Classes */}
-                <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
-                  <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
-                    Available Classes
-                  </h3>
-                  <GroupList
-                    loadingGroup={loadingGroup}
-                    fetchGroup={fetchGroup}
-                    searchGroup={searchGroup}
-                    setSearchGroup={setSearchGroup}
-                    selectedClasses={selectedClasses}
-                    addClass={addClass}
-                  />
-                </div>
+                {/* Available Classes — only shown in campus mode */}
+                {searchMode === "campus" && (
+                  <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
+                    <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
+                      Available Classes
+                    </h3>
+                    <GroupList
+                      loadingGroup={loadingGroup}
+                      fetchGroup={fetchGroup}
+                      searchGroup={searchGroup}
+                      setSearchGroup={setSearchGroup}
+                      selectedClasses={selectedClasses}
+                      addClass={addClass}
+                    />
+                  </div>
+                )}
               </div>
             ) : (
               <>
@@ -132,6 +167,7 @@ export default function TimetableSwitcher() {
                 selectedClasses={selectedClasses}
                 onRemoveClass={removeClass}
                 onClearAll={clearAll}
+                editable={true}
               />
             ) : (
               <FetchTimetable
