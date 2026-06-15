@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import html2canvas from "html2canvas-pro";
+import { toPng } from "html-to-image";
 import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
 import toast from "react-hot-toast";
@@ -187,18 +187,16 @@ const FetchTimetable: React.FC<TimetableProps> = ({
     if (!timetableRef.current) return;
     try {
       toast.loading("Generating timetable image...", { id: "export" });
-      const clone = timetableRef.current.cloneNode(true) as HTMLElement;
-      clone.style.position = "absolute";
-      clone.style.left = "-9999px";
-      clone.style.width = "max-content";
-      document.body.appendChild(clone);
-      const canvas = await html2canvas(clone, { scale: 3 });
-      const imgData = canvas.toDataURL("image/png");
+      const dataUrl = await toPng(timetableRef.current, {
+        pixelRatio: 3,
+        backgroundColor: "#ffffff",
+        // Run twice so fonts and styles fully resolve
+        cacheBust: true,
+      });
       const link = document.createElement("a");
-      link.href = imgData;
+      link.href = dataUrl;
       link.download = "timetable.png";
       link.click();
-      document.body.removeChild(clone);
       toast.success("Timetable saved!", { id: "export", duration: 2000 });
       event({ action: "save_timetable", params: { classes_count: selectedClasses.length, method: "image" } });
       trackEvent("save_timetable", { classes_count: selectedClasses.length, method: "image" });
@@ -374,9 +372,6 @@ const FetchTimetable: React.FC<TimetableProps> = ({
           )}
         </div>
 
-        <p className="text-center text-xs text-yellow-700 dark:text-yellow-400 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700/40 rounded-lg px-4 py-2 mt-1">
-          For best results, save the image on mobile. Desktop export may not render styles correctly.
-        </p>
       </div>
 
       {/* Settings Panel */}
