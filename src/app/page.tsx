@@ -14,6 +14,7 @@ import CampusSelect from "@/components/CampusSelect";
 import SubjectSelect from "@/components/SubjectSelect";
 import GroupList from "@/components/GroupList";
 import ClassCodeSearch from "@/components/ClassCodeSearch";
+import { CompareSelector, CompareTimetable, type CompareState } from "@/components/CompareClasses";
 import OrderErrorPopup from "@/components/orderError";
 import Header from "@/components/Header";
 import { useTimetable } from "./hooks/useTimetable";
@@ -29,7 +30,8 @@ export default function TimetableSwitcher() {
   const [faculty, setFaculty] = useState("");
   const [searchGroup, setSearchGroup] = useState("");
   const [selangor, setSelangor] = useState(false);
-  const [searchMode, setSearchMode] = useState<"campus" | "classcode">("campus");
+  const [searchMode, setSearchMode] = useState<"campus" | "classcode" | "compare">("campus");
+  const [compareState, setCompareState] = useState<CompareState>({ campus: "", faculty: "", codes: [] });
 
   const { dark, toggle: toggleDark } = useTheme();
   const { fetchCampus, loadingCampus } = useCampus();
@@ -80,26 +82,19 @@ export default function TimetableSwitcher() {
                 {/* Search mode toggle */}
                 <div className="bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/40 dark:border-white/10">
                   <div className="flex gap-2 mb-4">
-                    <button
-                      onClick={() => setSearchMode("campus")}
-                      className={`flex-1 py-1.5 text-sm font-semibold rounded-lg transition ${
-                        searchMode === "campus"
-                          ? "bg-blue-600 text-white"
-                          : "bg-white/60 dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:bg-white/80"
-                      }`}
-                    >
-                      By Campus
-                    </button>
-                    <button
-                      onClick={() => setSearchMode("classcode")}
-                      className={`flex-1 py-1.5 text-sm font-semibold rounded-lg transition ${
-                        searchMode === "classcode"
-                          ? "bg-blue-600 text-white"
-                          : "bg-white/60 dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:bg-white/80"
-                      }`}
-                    >
-                      By Class Code
-                    </button>
+                    {(["campus", "classcode", "compare"] as const).map((m) => (
+                      <button
+                        key={m}
+                        onClick={() => setSearchMode(m)}
+                        className={`flex-1 py-1.5 text-xs font-semibold rounded-lg transition ${
+                          searchMode === m
+                            ? "bg-blue-600 text-white"
+                            : "bg-white/60 dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:bg-white/80"
+                        }`}
+                      >
+                        {m === "campus" ? "By Campus" : m === "classcode" ? "By Class Code" : "Compare"}
+                      </button>
+                    ))}
                   </div>
 
                   {searchMode === "campus" ? (
@@ -118,17 +113,24 @@ export default function TimetableSwitcher() {
                         setSubjectName={setSubjectName}
                       />
                     </div>
-                  ) : (
+                  ) : searchMode === "classcode" ? (
                     <ClassCodeSearch
                       fetchCampus={fetchCampus}
                       loadingCampus={loadingCampus}
                       onAddClasses={addClassesBulk}
                     />
+                  ) : (
+                    <CompareSelector
+                      fetchCampus={fetchCampus}
+                      loadingCampus={loadingCampus}
+                      state={compareState}
+                      onChange={setCompareState}
+                    />
                   )}
                 </div>
 
                 {/* Available Classes — only shown in campus mode */}
-                {searchMode === "campus" && (
+                {searchMode === "campus" && campus && (
                   <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
                     <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
                       Available Classes
@@ -160,9 +162,11 @@ export default function TimetableSwitcher() {
             )}
           </div>
 
-          {/* Right Column — FetchTimetable for both modes */}
+          {/* Right Column */}
           <div className="lg:col-span-2">
-            {mode === "manual" ? (
+            {mode === "manual" && searchMode === "compare" ? (
+              <CompareTimetable state={compareState} />
+            ) : mode === "manual" ? (
               <FetchTimetable
                 selectedClasses={selectedClasses}
                 onRemoveClass={removeClass}
