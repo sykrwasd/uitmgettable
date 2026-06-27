@@ -42,6 +42,7 @@ export default function TimetableSwitcher() {
     useSelectedClass(fetchGroup);
   const { fetchTimetable, loadingTimetable, fetchData } = useTimetable();
 
+
   const handleCampusChange = (selected: string) => {
     const { campus, selangor } = parseCampus(selected);
     setCampus(campus);

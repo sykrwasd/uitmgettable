@@ -37,11 +37,10 @@ export function useSelectedClass(fetchGroup: any[]) {
         const saved = localStorage.getItem(STORAGE_KEY);
         if (saved) {
           const parsed = JSON.parse(saved);
-          console.log("saved2",parsed)
           if (parsed.length > 0) {
             setSelectedClasses(parsed);
             toast.success(
-              `📚 Restored ${parsed.length} class${parsed.length > 1 ? 'es' : ''} from previous session`,
+              `Restored ${parsed.length} class${parsed.length > 1 ? 'es' : ''} from previous session`,
               { duration: 3000 }
             );
           }

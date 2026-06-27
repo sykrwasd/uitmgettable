@@ -2,7 +2,11 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import { wrapper } from "axios-cookiejar-support";
 import { CookieJar } from "tough-cookie";
-import { writeFileSync, mkdirSync } from "fs";
+import { writeFileSync, mkdirSync, readdirSync, readFileSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const BASE = "https://simsweb4.uitm.edu.my/estudent/class_timetable/";
 const OUTPUT_DIR = "./public/timetable";
@@ -150,6 +154,44 @@ async function scrapeCampus(campus) {
   return { courses: courses.length, result };
 }
 
+function buildClassIndex() {
+  const timetableDir = join(__dirname, "../public/timetable");
+  const indexData = JSON.parse(readFileSync(join(timetableDir, "index.json"), "utf-8"));
+  const campusNames = {};
+  for (const c of indexData.campuses) campusNames[c.campus] = c.name;
+
+  const files = readdirSync(timetableDir).filter(
+    (f) => f.endsWith(".json") && f !== "index.json" && f !== "class_index.json"
+  );
+
+  const index = {};
+  for (const file of files) {
+    const fileBase = file.replace(".json", "");
+    const campus = fileBase.startsWith("B_") ? "B" : fileBase;
+    const faculty = fileBase.startsWith("B_") ? fileBase.slice(2) : "";
+    const campusName = campusNames[campus] || campus;
+    const data = JSON.parse(readFileSync(join(timetableDir, file), "utf-8"));
+
+    for (const [subjectKey, classes] of Object.entries(data)) {
+      const subject = subjectKey.startsWith(".") ? subjectKey.slice(1) : subjectKey;
+      for (const cls of classes) {
+        const code = cls.group?.trim();
+        if (!code) continue;
+        if (!index[code]) index[code] = [];
+        const exists = index[code].some(
+          (e) => e.campus === campus && e.faculty === faculty && e.subject === subject && e.day_time === cls.day_time
+        );
+        if (!exists) {
+          index[code].push({ campus, faculty, campusName, campusFile: fileBase, subject, day_time: cls.day_time, room: cls.room, mode: cls.mode, status: cls.status, program: cls.program });
+        }
+      }
+    }
+  }
+
+  writeFileSync(join(timetableDir, "class_index.json"), JSON.stringify(index, null, 2));
+  console.log(`\n📇 class_index.json built — ${Object.keys(index).length} unique class codes`);
+}
+
 async function main() {
   mkdirSync(OUTPUT_DIR, { recursive: true });
 
@@ -182,6 +224,9 @@ async function main() {
   console.log("\n\n=== SUMMARY ===");
   console.table(summary.map(r => ({ campus: r.campus, name: r.name, courses: r.courses, status: r.status })));
   console.log(`\n✅ All done! Files saved to ${OUTPUT_DIR}/`);
+
+  // Build class index from all scraped files
+  buildClassIndex();
 }
 
 main().catch(console.error);

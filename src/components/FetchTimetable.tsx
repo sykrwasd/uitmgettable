@@ -117,6 +117,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
   };
 
   // --- High value customizations ---
+  const [timetableBg, setTimetableBg] = useState("#ffffff");
+  const [blockTextColor, setBlockTextColor] = useState("#ffffff");
+  const [labelColor, setLabelColor] = useState("");
   const [startHour, setStartHour] = useState(8);
   const [endHour, setEndHour] = useState(18);
   const [viewMode, setViewMode] = useState<"compact" | "comfortable">("comfortable");
@@ -187,11 +190,15 @@ const FetchTimetable: React.FC<TimetableProps> = ({
     if (!timetableRef.current) return;
     try {
       toast.loading("Generating timetable image...", { id: "export" });
-      const dataUrl = await toPng(timetableRef.current, {
+      // Target the inner full-width div, not the overflow-x-auto wrapper
+      const inner = timetableRef.current.firstElementChild as HTMLElement | null;
+      const target = inner ?? timetableRef.current;
+      const dataUrl = await toPng(target, {
         pixelRatio: 3,
-        backgroundColor: "#ffffff",
-        // Run twice so fonts and styles fully resolve
+        backgroundColor: timetableBg,
         cacheBust: true,
+        width: target.scrollWidth,
+        height: target.scrollHeight,
       });
       const link = document.createElement("a");
       link.href = dataUrl;
@@ -204,6 +211,17 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       toast.error("Failed to export timetable", { id: "export" });
     }
   };
+
+  // Detect dark background to auto-flip label/grid colors
+  const isDarkBg = (() => {
+    const hex = timetableBg.replace("#", "");
+    const r = parseInt(hex.slice(0, 2), 16);
+    const g = parseInt(hex.slice(2, 4), 16);
+    const b = parseInt(hex.slice(4, 6), 16);
+    return (r * 0.299 + g * 0.587 + b * 0.114) < 128;
+  })();
+  const resolvedLabelColor = labelColor || (isDarkBg ? "#94a3b8" : "#9ca3af");
+  const resolvedGridColor = isDarkBg ? "#334155" : "#f3f4f6";
 
   const allDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
   const days = hideWeekend ? allDays.slice(0, 5) : allDays;
@@ -468,6 +486,66 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               </div>
             </div>
 
+            {/* Text Colors */}
+            <div className="space-y-2 sm:col-span-2">
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Text Colors</p>
+              <div className="flex flex-wrap gap-4">
+                <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                  <span>Class text</span>
+                  <input type="color" value={blockTextColor} onChange={(e) => setBlockTextColor(e.target.value)}
+                    className="w-8 h-8 rounded cursor-pointer border border-gray-200 dark:border-white/20" />
+                </label>
+                <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                  <span>Labels</span>
+                  <input type="color" value={labelColor || (isDarkBg ? "#94a3b8" : "#9ca3af")}
+                    onChange={(e) => setLabelColor(e.target.value)}
+                    className="w-8 h-8 rounded cursor-pointer border border-gray-200 dark:border-white/20" />
+                  {labelColor && (
+                    <button onClick={() => setLabelColor("")} className="text-xs text-gray-400 hover:text-gray-600">reset</button>
+                  )}
+                </label>
+              </div>
+            </div>
+
+            {/* Timetable Background */}
+            <div className="space-y-2 sm:col-span-2">
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Timetable Background</p>
+              <div className="flex flex-wrap gap-2 items-center">
+                {[
+                  { label: "White",       value: "#ffffff" },
+                  { label: "Soft Blue",   value: "#eff6ff" },
+                  { label: "Soft Green",  value: "#f0fdf4" },
+                  { label: "Soft Purple", value: "#faf5ff" },
+                  { label: "Soft Pink",   value: "#fdf2f8" },
+                  { label: "Soft Yellow", value: "#fefce8" },
+                  { label: "Dark",        value: "#1e293b" },
+                  { label: "Midnight",    value: "#0f172a" },
+                ].map(({ label, value }) => (
+                  <button
+                    key={value}
+                    onClick={() => setTimetableBg(value)}
+                    title={label}
+                    className="w-7 h-7 rounded-full border-2 transition-transform hover:scale-110"
+                    style={{
+                      backgroundColor: value,
+                      borderColor: timetableBg === value ? "#3b82f6" : "#d1d5db",
+                      transform: timetableBg === value ? "scale(1.2)" : undefined,
+                    }}
+                  />
+                ))}
+                {/* Custom colour picker */}
+                <label className="w-7 h-7 rounded-full border-2 border-dashed border-gray-300 flex items-center justify-center cursor-pointer hover:border-blue-400 transition overflow-hidden" title="Custom colour">
+                  <input
+                    type="color"
+                    value={timetableBg}
+                    onChange={(e) => setTimetableBg(e.target.value)}
+                    className="opacity-0 absolute w-7 h-7 cursor-pointer"
+                  />
+                  <span className="text-gray-400 text-xs pointer-events-none">+</span>
+                </label>
+              </div>
+            </div>
+
           </div>
         </div>
       )}
@@ -549,7 +627,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       )}
 
       {/* Timetable */}
-      <div className="bg-white rounded-2xl shadow-md overflow-hidden">
+      <div className="rounded-2xl shadow-md overflow-hidden" style={{ backgroundColor: timetableBg }}>
         <div ref={timetableRef} className="overflow-x-auto">
           <div style={{ minWidth: "640px" }}>
             {/* Hour ruler */}
@@ -557,8 +635,9 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               {HOUR_LABELS.map((label, i) => (
                 <div
                   key={label}
-                  className="text-xs text-gray-400 font-medium select-none"
+                  className="text-xs font-medium select-none"
                   style={{
+                    color: resolvedLabelColor,
                     width: i === HOUR_LABELS.length - 1 ? "0px" : `${100 / (HOUR_LABELS.length - 1)}%`,
                     flexShrink: 0,
                     paddingTop: "12px",
@@ -571,7 +650,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               ))}
             </div>
 
-            <div className="border-t border-gray-100" style={{ marginLeft: "60px" }} />
+            <div style={{ marginLeft: "60px", borderTop: `1px solid ${resolvedGridColor}` }} />
 
             {/* Day rows */}
             {days.map((day) => {
@@ -579,22 +658,22 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               return (
                 <div key={day} className="flex items-stretch" style={{ minHeight: `${rowHeight}px` }}>
                   <div
-                    className="flex items-center text-sm font-medium text-gray-500 select-none shrink-0"
-                    style={{ width: "60px", paddingRight: "12px", justifyContent: "flex-end" }}
+                    className="flex items-center text-sm font-medium select-none shrink-0"
+                    style={{ color: resolvedLabelColor, width: "60px", paddingRight: "12px", justifyContent: "flex-end" }}
                   >
                     {day.slice(0, 3)}
                   </div>
 
-                  <div className="relative flex-1 border-t border-gray-100" style={{ minHeight: `${rowHeight}px` }}>
+                  <div className="relative flex-1" style={{ minHeight: `${rowHeight}px`, borderTop: `1px solid ${resolvedGridColor}` }}>
                     {HOUR_LABELS.map((_, i) => (
                       <div
                         key={i}
-                        className="absolute top-0 bottom-0 border-l border-gray-100"
-                        style={{ left: `${(i / (HOUR_LABELS.length - 1)) * 100}%` }}
+                        className="absolute top-0 bottom-0"
+                        style={{ borderLeft: `1px solid ${resolvedGridColor}`, left: `${(i / (HOUR_LABELS.length - 1)) * 100}%` }}
                       />
                     ))}
 
-                    {dayClasses.map((cls) => {
+                    {dayClasses.map((cls, cIdx) => {
                       const geo = getSlotGeometry(cls.timeSlot, startHour, endHour);
                       if (!geo) return null;
                       const color = getClassColor(cls);
@@ -606,7 +685,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
                       return (
                         <div
-                          key={`${cls.class_code}-${cls.day_time}`}
+                          key={`${cls.class_code}-${cls.day_time}-${cIdx}`}
                           className="absolute top-2 bottom-2 rounded-xl text-white cursor-pointer overflow-hidden select-none"
                           style={{
                             left: `calc(${geo.left}% + 2px)`,
@@ -621,20 +700,20 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                         >
                           <div className="flex flex-col justify-between h-full p-2">
                             {showTime && (
-                              <div className="text-white/80 font-medium leading-none" style={{ fontSize: fs.time }}>
+                              <div className="font-medium leading-none" style={{ fontSize: fs.time, color: blockTextColor, opacity: 0.8 }}>
                                 {cls.timeSlot}
                               </div>
                             )}
                             {showClassCode && (
                               <div
                                 className="font-extrabold leading-tight overflow-hidden text-ellipsis whitespace-nowrap"
-                                style={{ fontSize: durationMin >= 90 ? `calc(${fs.code} * 1.4)` : fs.code }}
+                                style={{ fontSize: durationMin >= 90 ? `calc(${fs.code} * 1.4)` : fs.code, color: blockTextColor }}
                               >
                                 {displayCode}
                               </div>
                             )}
                             {showVenue && cls.venue && durationMin >= 60 && (
-                              <div className="text-white/75 leading-none overflow-hidden text-ellipsis whitespace-nowrap" style={{ fontSize: fs.venue }}>
+                              <div className="leading-none overflow-hidden text-ellipsis whitespace-nowrap" style={{ fontSize: fs.venue, color: blockTextColor, opacity: 0.75 }}>
                                 {cls.venue}
                               </div>
                             )}

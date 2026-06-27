@@ -21,11 +21,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run scraper for all campuses
+      - name: Run scraper and build class index
         run: node scripts/scraperAll.js
-
-      - name: Build class code index
-        run: node scripts/buildClassIndex.cjs
 
       - name: Commit and push JSON files
         run: |
