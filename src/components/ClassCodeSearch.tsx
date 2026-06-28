@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Select from "react-select";
 import { parseDayTime } from "@/lib/parseTime";
+import { rsStyles } from "@/components/CampusSelect";
 
 const SELANGOR_FACULTIES = [
   { id: "AA", text: "AA - ARSHAD AYUB GRADUATE BUSINESS SCHOOL" },
@@ -77,23 +78,12 @@ interface Props {
   onAddClasses: (classes: SelectedClass[]) => void;
 }
 
-const selectStyles = {
-  control: (base: object) => ({ ...base, backgroundColor: "white", borderColor: "#d1d5db" }),
-  menu: (base: object) => ({ ...base, backgroundColor: "white", zIndex: 9999 }),
-  option: (base: object, state: { isSelected: boolean; isFocused: boolean }) => ({
-    ...base,
-    backgroundColor: state.isSelected ? "#3b82f6" : state.isFocused ? "#eff6ff" : "white",
-    color: state.isSelected ? "white" : "#111827",
-  }),
-  singleValue: (base: object) => ({ ...base, color: "#111827" }),
-  placeholder: (base: object) => ({ ...base, color: "#6b7280" }),
-  input: (base: object) => ({ ...base, color: "#111827" }),
-};
 
 export default function ClassCodeSearch({ fetchCampus, loadingCampus, onAddClasses }: Props) {
   const [campus, setCampus] = useState("");
   const [faculty, setFaculty] = useState("");
   const [isSelangor, setIsSelangor] = useState(false);
+  const dark = typeof document !== "undefined" && document.documentElement.classList.contains("dark");
 
   const [campusData, setCampusData] = useState<CampusData | null>(null);
   const [loadingData, setLoadingData] = useState(false);
@@ -188,41 +178,37 @@ export default function ClassCodeSearch({ fetchCampus, loadingCampus, onAddClass
       {loadingCampus ? (
         <p className="text-sm text-gray-500">Loading campuses...</p>
       ) : (
-        <select
-          className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-700 dark:text-gray-300 border border-black/20 dark:border-white/20 text-sm"
-          value={campus === "B" ? "B - SELANGOR CAMPUS" : campus ? `${campus} - ...` : ""}
-          onChange={(e) => {
-            const val = e.target.value;
+        <Select
+          options={[
+            { value: "B - SELANGOR CAMPUS", label: "B - SELANGOR CAMPUS (Shah Alam)" },
+            ...fetchCampus.map((c) => ({ value: c.text, label: c.text })),
+          ]}
+          onChange={(opt) => {
+            const val = opt?.value ?? "";
             if (!val) { setCampus(""); setIsSelangor(false); setFaculty(""); return; }
-            if (val === "B - SELANGOR CAMPUS") {
-              setCampus("B"); setIsSelangor(true); setFaculty("");
-            } else {
-              const id = val.split(" - ")[0]?.trim() ?? val;
-              setCampus(id); setIsSelangor(false); setFaculty("");
-            }
+            if (val === "B - SELANGOR CAMPUS") { setCampus("B"); setIsSelangor(true); setFaculty(""); }
+            else { setCampus(val.split(" - ")[0]?.trim() ?? val); setIsSelangor(false); setFaculty(""); }
           }}
-        >
-          <option value="">Select Campus</option>
-          <option value="B - SELANGOR CAMPUS">B - SELANGOR CAMPUS (Shah Alam)</option>
-          <option disabled>──────────────────</option>
-          {fetchCampus.map((c, i) => (
-            <option key={i} value={c.text} className="text-black">{c.text}</option>
-          ))}
-        </select>
+          placeholder="Select Campus"
+          isClearable
+          instanceId="ccs-campus"
+          menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+          styles={rsStyles(dark)}
+        />
       )}
 
       {/* Faculty select for Selangor */}
       {isSelangor && (
-        <select
-          className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-700 dark:text-gray-300 border border-black/20 dark:border-white/20 text-sm"
-          value={faculty}
-          onChange={(e) => setFaculty(e.target.value)}
-        >
-          <option value="">Select Faculty</option>
-          {SELANGOR_FACULTIES.map((f) => (
-            <option key={f.id} value={f.id} className="text-black">{f.text}</option>
-          ))}
-        </select>
+        <Select
+          options={SELANGOR_FACULTIES.map((f) => ({ value: f.id, label: f.text }))}
+          onChange={(opt) => setFaculty(opt?.value ?? "")}
+          value={faculty ? { value: faculty, label: SELANGOR_FACULTIES.find(f => f.id === faculty)?.text ?? faculty } : null}
+          placeholder="Select Faculty"
+          isClearable
+          instanceId="ccs-faculty"
+          menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+          styles={rsStyles(dark)}
+        />
       )}
 
       {/* Class code search — only once campus (and faculty if Selangor) is chosen */}
@@ -237,7 +223,7 @@ export default function ClassCodeSearch({ fetchCampus, loadingCampus, onAddClass
           isClearable
           instanceId="class-code-search"
           menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
-          styles={selectStyles}
+          styles={rsStyles(dark)}
         />
       )}
 

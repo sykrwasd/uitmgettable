@@ -1,3 +1,6 @@
+"use client";
+import Select from "react-select";
+
 const SELANGOR_FACULTIES = [
   { id: "AA", text: "AA - ARSHAD AYUB GRADUATE BUSINESS SCHOOL" },
   { id: "AC", text: "AC - FACULTY OF ACCOUNTANCY" },
@@ -37,10 +40,7 @@ const SELANGOR_FACULTIES = [
   { id: "SR", text: "SR - FACULTY OF SPORTS SCIENCE AND RECREATION" },
 ];
 
-type Campus = {
-  id: string;
-  text: string;
-};
+type Campus = { id: string; text: string };
 
 interface CampusProps {
   loadingCampus: boolean;
@@ -49,7 +49,25 @@ interface CampusProps {
   handleCampusChange: (value: string) => void;
   setFaculty: (value: string) => void;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  fetchFaculty: any[]; // kept for compatibility, unused
+  fetchFaculty: any[];
+}
+
+export const rsStyles = (dark: boolean) => ({
+  control: (b: object) => ({ ...b, backgroundColor: dark ? "#1f2937" : "white", borderColor: dark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)", boxShadow: "none" }),
+  menu: (b: object) => ({ ...b, backgroundColor: dark ? "#1f2937" : "white", zIndex: 9999 }),
+  option: (b: object, s: { isSelected: boolean; isFocused: boolean }) => ({
+    ...b,
+    backgroundColor: s.isSelected ? "#3b82f6" : s.isFocused ? (dark ? "#374151" : "#eff6ff") : (dark ? "#1f2937" : "white"),
+    color: s.isSelected ? "white" : (dark ? "#f3f4f6" : "#111827"),
+  }),
+  singleValue: (b: object) => ({ ...b, color: dark ? "#f3f4f6" : "#111827" }),
+  placeholder: (b: object) => ({ ...b, color: dark ? "#9ca3af" : "#6b7280" }),
+  input: (b: object) => ({ ...b, color: dark ? "#f3f4f6" : "#111827" }),
+});
+
+function useDark() {
+  if (typeof document === "undefined") return false;
+  return document.documentElement.classList.contains("dark");
 }
 
 export default function CampusSelect({
@@ -59,50 +77,39 @@ export default function CampusSelect({
   selangor,
   setFaculty,
 }: CampusProps) {
+  const dark = useDark();
+
+  const campusOptions = [
+    { value: "B - SELANGOR CAMPUS", label: "B - SELANGOR CAMPUS (Shah Alam)" },
+    ...fetchCampus.map((c) => ({ value: c.text, label: c.text })),
+  ];
+
+  const facultyOptions = SELANGOR_FACULTIES.map((f) => ({ value: f.id, label: f.text }));
+
+  if (loadingCampus) return <p className="text-gray-500 text-sm">Loading campuses...</p>;
+
   return (
-    <>
-      {loadingCampus ? (
-        <p className="text-gray-700 mb-4">Loading campuses...</p>
-      ) : (
-        <>
-          <select
-            className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-600 dark:text-gray-300 border border-black/20 dark:border-white/20"
-            onChange={(e) => handleCampusChange(e.target.value)}
-          >
-            <option value="">Select Campus</option>
-
-            {/* Selangor as a special top option */}
-            <option value="B - SELANGOR CAMPUS" className="text-black font-semibold">
-              B - SELANGOR CAMPUS (Shah Alam)
-            </option>
-
-            <option disabled className="text-gray-400">──────────────────</option>
-
-            {/* All other campuses */}
-            {fetchCampus.map((row, idx) => (
-              <option key={idx} value={row.text} className="text-black">
-                {row.text}
-              </option>
-            ))}
-          </select>
-
-          {/* Faculty dropdown — only for Selangor */}
-          {selangor && (
-            <select
-              className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-600 dark:text-gray-300 border border-black/20 dark:border-white/20"
-              onChange={(e) => setFaculty(e.target.value)}
-              defaultValue=""
-            >
-              <option value="" disabled>Select Faculty</option>
-              {SELANGOR_FACULTIES.map((fac) => (
-                <option key={fac.id} value={fac.id} className="text-black">
-                  {fac.text}
-                </option>
-              ))}
-            </select>
-          )}
-        </>
+    <div className="space-y-3">
+      <Select
+        options={campusOptions}
+        onChange={(opt) => handleCampusChange(opt?.value ?? "")}
+        placeholder="Select Campus"
+        isClearable
+        instanceId="campus-select"
+        menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+        styles={rsStyles(dark)}
+      />
+      {selangor && (
+        <Select
+          options={facultyOptions}
+          onChange={(opt) => setFaculty(opt?.value ?? "")}
+          placeholder="Select Faculty"
+          isClearable
+          instanceId="faculty-select"
+          menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+          styles={rsStyles(dark)}
+        />
       )}
-    </>
+    </div>
   );
 }

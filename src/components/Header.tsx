@@ -8,7 +8,9 @@ interface Props {
   toggleDark: () => void;
 }
 
+
 export default function Header({ mode, setMode, dark, toggleDark }: Props) {
+
   return (
     <div className="mb-10">
 

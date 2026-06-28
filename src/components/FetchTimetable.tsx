@@ -77,11 +77,12 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
   const [classColors, setClassColors] = useState<Record<string, string>>({});
   const [pickerWidth, setPickerWidth] = useState(400);
-  const [hideWeekend, setHideWeekend] = useState(false);
+  const [hideWeekend, setHideWeekend] = useState(true);
   const [isCustomizing, setIsCustomizing] = useState(false);
   const [selectedClassForColor, setSelectedClassForColor] = useState<string | null>(null);
   const [isImportOpen, setIsImportOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [isThemesOpen, setIsThemesOpen] = useState(false);
   const [isManageOpen, setIsManageOpen] = useState(false);
 
   // --- Edit mode (auto-fetch) ---
@@ -374,6 +375,13 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             Settings
           </button>
 
+          <button
+            onClick={() => setIsThemesOpen((p) => !p)}
+            className={`px-4 py-2 text-sm font-semibold rounded-lg shadow transition ${isThemesOpen ? "bg-blue-500 text-white" : "bg-white/60 dark:bg-white/10 text-gray-800 dark:text-gray-200 hover:bg-white/80"}`}
+          >
+            Themes
+          </button>
+
           {selectedClasses.length > 0 && (
             <button
               onClick={() => setIsManageOpen((p) => !p)}
@@ -549,6 +557,57 @@ const FetchTimetable: React.FC<TimetableProps> = ({
           </div>
         </div>
       )}
+
+      {/* Themes Panel */}
+      {isThemesOpen && (() => {
+        const ALL_TEMPLATES = [
+          { name: "Matcha Strawberry", bg: "#dcfce7", text: "#ffffff", label: "#166534", palette: ["#f472b6", "#ec4899", "#db2777", "#be185d", "#f9a8d4", "#fbcfe8", "#e879f9", "#c026d3"], preview: ["#f472b6", "#ec4899", "#86efac"] },
+          { name: "Creator's Favourite", bg: "#ffffff", text: "#ffffff", label: "#000000", palette: ["#38bdf8", "#7dd3fc", "#bae6fd", "#2563eb", "#60a5fa", "#93c5fd", "#0ea5e9", "#38bdf8"], preview: ["#0ea5e9", "#38bdf8", "#7dd3fc"] },
+          { name: "Midnight Ocean", bg: "#0c1a2e", text: "#e2e8f0", label: "#38bdf8", palette: ["#0ea5e9", "#06b6d4", "#0284c7", "#38bdf8", "#67e8f9", "#22d3ee", "#0369a1", "#0891b2"], preview: ["#0ea5e9", "#06b6d4", "#38bdf8"] },
+          { name: "Sunset Peach", bg: "#fff7ed", text: "#ffffff", label: "#c2410c", palette: ["#f97316", "#fb923c", "#f59e0b", "#fbbf24", "#ea580c", "#d97706", "#ef4444", "#dc2626"], preview: ["#f97316", "#fb923c", "#fbbf24"] },
+          { name: "Cherry Blossom", bg: "#fff1f2", text: "#ffffff", label: "#be123c", palette: ["#fb7185", "#f43f5e", "#e11d48", "#be123c", "#fda4af", "#fecdd3", "#fb7185", "#f43f5e"], preview: ["#fb7185", "#f43f5e", "#fda4af"] },
+          { name: "Forest Night", bg: "#052e16", text: "#ffffff", label: "#4ade80", palette: ["#16a34a", "#15803d", "#4ade80", "#22c55e", "#166534", "#86efac", "#14532d", "#bbf7d0"], preview: ["#4ade80", "#22c55e", "#86efac"] },
+          { name: "Cotton Candy", bg: "#fdf4ff", text: "#ffffff", label: "#a21caf", palette: ["#e879f9", "#d946ef", "#c026d3", "#a855f7", "#f0abfc", "#e9d5ff", "#d8b4fe", "#c084fc"], preview: ["#e879f9", "#a855f7", "#f0abfc"] },
+          { name: "Monochrome", bg: "#f8fafc", text: "#ffffff", label: "#64748b", palette: ["#334155", "#475569", "#64748b", "#94a3b8", "#1e293b", "#475569", "#64748b", "#0f172a"], preview: ["#334155", "#64748b", "#94a3b8"] },
+        ];
+        const DARK_BGS = ["#0c1a2e", "#0f172a", "#052e16"];
+        return (
+          <div className="bg-white/80 dark:bg-white/10 backdrop-blur-sm rounded-xl p-5 mb-6 border border-black/10 dark:border-white/10">
+            <h3 className="text-sm font-bold text-gray-700 dark:text-gray-200 mb-3">Themes</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              {ALL_TEMPLATES.map((t) => {
+                const isDark = DARK_BGS.includes(t.bg);
+                return (
+                  <button
+                    key={t.name}
+                    onClick={() => {
+                      setTimetableBg(t.bg);
+                      setBlockTextColor(t.text);
+                      setLabelColor(t.label);
+                      const newColors: Record<string, string> = {};
+                      uniqueSubjects.forEach((cls, i) => {
+                        newColors[getSubjectKey(cls)] = t.palette[i % t.palette.length];
+                      });
+                      setClassColors(newColors);
+                    }}
+                    className="flex flex-col gap-2 p-3 rounded-xl border-2 border-transparent hover:border-blue-400 transition text-left"
+                    style={{ backgroundColor: t.bg }}
+                  >
+                    <div className="flex gap-1.5">
+                      {t.preview.map((c, i) => (
+                        <span key={i} className="w-5 h-5 rounded-full border border-black/10" style={{ backgroundColor: c }} />
+                      ))}
+                    </div>
+                    <span className="text-xs font-bold leading-tight" style={{ color: isDark ? "#e2e8f0" : "#374151" }}>
+                      {t.name}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* Manage Classes Panel */}
       {isManageOpen && (

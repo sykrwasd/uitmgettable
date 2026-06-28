@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Select from "react-select";
 import { parseDayTime } from "@/lib/parseTime";
+import { rsStyles } from "@/components/CampusSelect";
 
 const SELANGOR_FACULTIES = [
   { id: "AA", text: "AA - ARSHAD AYUB GRADUATE BUSINESS SCHOOL" },
@@ -61,19 +62,6 @@ const COLORS = [
   "#ef4444", "#f59e0b", "#06b6d4", "#ec4899",
 ];
 
-const selectStyles = {
-  control: (b: object) => ({ ...b, backgroundColor: "white", borderColor: "#d1d5db", fontSize: "0.875rem" }),
-  menu: (b: object) => ({ ...b, backgroundColor: "white", zIndex: 9999 }),
-  option: (b: object, s: { isSelected: boolean; isFocused: boolean }) => ({
-    ...b,
-    backgroundColor: s.isSelected ? "#3b82f6" : s.isFocused ? "#eff6ff" : "white",
-    color: s.isSelected ? "white" : "#111827",
-    fontSize: "0.875rem",
-  }),
-  singleValue: (b: object) => ({ ...b, color: "#111827" }),
-  placeholder: (b: object) => ({ ...b, color: "#6b7280" }),
-  input: (b: object) => ({ ...b, color: "#111827" }),
-};
 
 function getEntries(data: CampusData, code: string) {
   return Object.entries(data).flatMap(([subjectKey, classes]) => {
@@ -142,35 +130,42 @@ export function CompareSelector({ fetchCampus, loadingCampus, state, onChange }:
 
   const removeCode = (code: string) => onChange({ ...state, codes: state.codes.filter((c) => c !== code) });
 
+  const dark = typeof document !== "undefined" && document.documentElement.classList.contains("dark");
+
   return (
     <div className="space-y-3">
       {/* Campus */}
       {loadingCampus ? <p className="text-sm text-gray-500">Loading campuses...</p> : (
-        <select
-          className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-700 dark:text-gray-300 border border-black/20 dark:border-white/20 text-sm"
-          onChange={(e) => {
-            const val = e.target.value;
+        <Select
+          options={[
+            { value: "B - SELANGOR CAMPUS", label: "B - SELANGOR CAMPUS (Shah Alam)" },
+            ...fetchCampus.map((c) => ({ value: c.text, label: c.text })),
+          ]}
+          onChange={(opt) => {
+            const val = opt?.value ?? "";
             if (!val) { onChange({ campus: "", faculty: "", codes: [] }); return; }
             if (val === "B - SELANGOR CAMPUS") onChange({ campus: "B", faculty: "", codes: [] });
             else onChange({ campus: val.split(" - ")[0]?.trim() ?? val, faculty: "", codes: [] });
           }}
-        >
-          <option value="">Select Campus</option>
-          <option value="B - SELANGOR CAMPUS">B - SELANGOR CAMPUS (Shah Alam)</option>
-          <option disabled>──────────────────</option>
-          {fetchCampus.map((c, i) => <option key={i} value={c.text} className="text-black">{c.text}</option>)}
-        </select>
+          placeholder="Select Campus"
+          isClearable
+          instanceId="compare-campus"
+          menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+          styles={rsStyles(dark)}
+        />
       )}
 
       {state.campus === "B" && (
-        <select
-          className="w-full p-3 rounded-lg bg-white/40 dark:bg-white/10 text-gray-700 dark:text-gray-300 border border-black/20 dark:border-white/20 text-sm"
-          value={state.faculty}
-          onChange={(e) => onChange({ ...state, faculty: e.target.value, codes: [] })}
-        >
-          <option value="">Select Faculty</option>
-          {SELANGOR_FACULTIES.map((f) => <option key={f.id} value={f.id} className="text-black">{f.text}</option>)}
-        </select>
+        <Select
+          options={SELANGOR_FACULTIES.map((f) => ({ value: f.id, label: f.text }))}
+          onChange={(opt) => onChange({ ...state, faculty: opt?.value ?? "", codes: [] })}
+          value={state.faculty ? { value: state.faculty, label: SELANGOR_FACULTIES.find(f => f.id === state.faculty)?.text ?? state.faculty } : null}
+          placeholder="Select Faculty"
+          isClearable
+          instanceId="compare-faculty"
+          menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+          styles={rsStyles(dark)}
+        />
       )}
 
       {file && (
@@ -186,7 +181,7 @@ export function CompareSelector({ fetchCampus, loadingCampus, state, onChange }:
                 isLoading={loading} isSearchable isClearable
                 instanceId="compare-add"
                 menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
-                styles={selectStyles}
+                styles={rsStyles(dark)}
               />
             </div>
             <button
