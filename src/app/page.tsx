@@ -31,6 +31,7 @@ export default function TimetableSwitcher() {
   const [searchGroup, setSearchGroup] = useState("");
   const [selangor, setSelangor] = useState(false);
   const [searchMode, setSearchMode] = useState<"campus" | "classcode" | "compare">("campus");
+  const [leftPanelOpen, setLeftPanelOpen] = useState(false);
   const [compareState, setCompareState] = useState<CompareState>({ campus: "", faculty: "", codes: [] });
 
   const { dark, toggle: toggleDark } = useTheme();
@@ -77,7 +78,18 @@ export default function TimetableSwitcher() {
         />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {/* Left Column — switches based on mode */}
-          <div className="lg:col-span-1 space-y-6">
+          <div className="lg:col-span-1 space-y-4">
+            {/* Mobile collapse toggle — hidden on desktop */}
+            <button
+              onClick={() => setLeftPanelOpen((p) => !p)}
+              className="lg:hidden w-full flex items-center justify-between px-4 py-2.5 bg-white/60 dark:bg-white/10 backdrop-blur-sm rounded-lg border border-white/40 dark:border-white/10 text-sm font-semibold text-gray-700 dark:text-gray-200"
+            >
+              <span>{mode === "manual" ? "Add Classes" : "Registered Classes"}</span>
+              <span className="text-gray-400">{leftPanelOpen ? "▲" : "▼"}</span>
+            </button>
+
+            {/* Content — always visible on desktop, toggle on mobile */}
+            <div className={`space-y-4 lg:block ${leftPanelOpen ? "block" : "hidden"}`}>
             {mode === "manual" ? (
               <div className="relative space-y-4">
                 {/* Search mode toggle */}
@@ -161,6 +173,7 @@ export default function TimetableSwitcher() {
                 </div>
               </>
             )}
+            </div>{/* end collapsible content */}
           </div>
 
           {/* Right Column */}
