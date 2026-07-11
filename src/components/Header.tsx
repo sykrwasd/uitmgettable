@@ -40,9 +40,20 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
           Open Source UiTM Tool
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-gray-900 dark:text-white leading-tight">
-          UiTM Get<span className="text-blue-500">Timetable</span>
-        </h1>
+        <div className="flex items-center justify-center gap-4">
+          <svg width="56" height="56" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0 drop-shadow-md">
+            <rect width="52" height="52" rx="12" fill="#1D4ED8" fillOpacity="0.12"/>
+            <rect x="8" y="10" width="9" height="14" rx="2.5" fill="#93C5FD"/>
+            <rect x="8" y="27" width="9" height="15" rx="2.5" fill="#BFDBFE"/>
+            <rect x="21.5" y="10" width="9" height="8" rx="2.5" fill="#1D4ED8"/>
+            <rect x="21.5" y="21.5" width="9" height="20.5" rx="2.5" fill="#3B82F6"/>
+            <rect x="35" y="10" width="9" height="20" rx="2.5" fill="#60A5FA"/>
+            <rect x="35" y="33" width="9" height="9" rx="2.5" fill="#93C5FD"/>
+          </svg>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-gray-900 dark:text-white leading-tight">
+            UiTM<span className="text-blue-500">GetTable</span>
+          </h1>
+        </div>
 
         <p className="text-gray-500 dark:text-gray-400 text-base sm:text-lg max-w-xl mx-auto">
           Build, view and export your UiTM class timetable — fast and free.

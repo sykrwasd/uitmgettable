@@ -1,7 +1,8 @@
-"use client"; // make sure this component only runs on the client
+"use client";
 
 import Select from "react-select";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import { rsStyles } from "@/components/CampusSelect";
 
 type Subject = {
   course: string;
@@ -19,9 +20,14 @@ export default function SubjectSelect({
   fetchSubjects,
   setSubjectName,
 }: SubjectProps) {
-  // fix hydration: only render portalTarget on client
-  const [isClient, setIsClient] = useState(false);
-  useEffect(() => setIsClient(true), []);
+  const [dark, setDark] = useState(false);
+  useEffect(() => {
+    const check = () => setDark(document.documentElement.classList.contains("dark"));
+    check();
+    const obs = new MutationObserver(check);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => obs.disconnect();
+  }, []);
 
   return (
     <div className="flex flex-col sm:flex-row gap-2 w-full">
@@ -33,22 +39,10 @@ export default function SubjectSelect({
         onChange={(selected) => setSubjectName(selected?.value ?? "")}
         placeholder={loadingSubjects ? "Loading subjects…" : "Select Subject"}
         className="w-full"
-        menuPortalTarget={isClient ? document.body : undefined} 
-        styles={{
-          menuPortal: (base) => ({ ...base, zIndex: 9999 }),
-          control: (base) => ({ ...base, backgroundColor: "white", borderColor: "#d1d5db" }),
-          menu: (base) => ({ ...base, backgroundColor: "white" }),
-          option: (base, state) => ({
-            ...base,
-            backgroundColor: state.isSelected ? "#3b82f6" : state.isFocused ? "#eff6ff" : "white",
-            color: state.isSelected ? "white" : "#111827",
-          }),
-          singleValue: (base) => ({ ...base, color: "#111827" }),
-          placeholder: (base) => ({ ...base, color: "#6b7280" }),
-          input: (base) => ({ ...base, color: "#111827" }),
-        }}
-        isLoading={loadingSubjects} 
-        instanceId="subject-select" // fix SSR id mismatch
+        menuPortalTarget={typeof document !== "undefined" ? document.body : undefined}
+        styles={{ menuPortal: (base: object) => ({ ...base, zIndex: 9999 }), ...rsStyles(dark) }}
+        isLoading={loadingSubjects}
+        instanceId="subject-select"
       />
     </div>
   );

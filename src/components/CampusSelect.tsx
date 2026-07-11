@@ -1,5 +1,6 @@
 "use client";
 import Select from "react-select";
+import { useState, useEffect } from "react";
 
 const SELANGOR_FACULTIES = [
   { id: "AA", text: "AA - ARSHAD AYUB GRADUATE BUSINESS SCHOOL" },
@@ -65,9 +66,17 @@ export const rsStyles = (dark: boolean) => ({
   input: (b: object) => ({ ...b, color: dark ? "#f3f4f6" : "#111827" }),
 });
 
-function useDark() {
-  if (typeof document === "undefined") return false;
-  return document.documentElement.classList.contains("dark");
+export function useDark() {
+  const [dark, setDark] = useState(false);
+  useEffect(() => {
+    setDark(document.documentElement.classList.contains("dark"));
+    const obs = new MutationObserver(() =>
+      setDark(document.documentElement.classList.contains("dark"))
+    );
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => obs.disconnect();
+  }, []);
+  return dark;
 }
 
 export default function CampusSelect({

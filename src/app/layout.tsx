@@ -13,9 +13,25 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "UitmGetTable",
-  description: "UiTM Timetable Generator",
-  icons: "/logo-v3.ico  ", // sets favicon
-
+  description: "Build, view and export your UiTM class timetable — fast and free.",
+  icons: [
+    { rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },
+    { rel: "icon", type: "image/x-icon", url: "/logo-v3.ico" },
+  ],
+  openGraph: {
+    title: "UitmGetTable — UiTM Timetable Generator",
+    description: "Build, view and export your UiTM class timetable — fast and free.",
+    url: "https://uitmgettable.my",
+    siteName: "UitmGetTable",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UitmGetTable — UiTM Timetable Generator",
+    description: "Build, view and export your UiTM class timetable — fast and free.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

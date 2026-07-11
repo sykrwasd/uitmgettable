@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Select from "react-select";
 import { parseDayTime } from "@/lib/parseTime";
-import { rsStyles } from "@/components/CampusSelect";
+import { rsStyles, useDark } from "@/components/CampusSelect";
 
 const SELANGOR_FACULTIES = [
   { id: "AA", text: "AA - ARSHAD AYUB GRADUATE BUSINESS SCHOOL" },
@@ -130,7 +130,7 @@ export function CompareSelector({ fetchCampus, loadingCampus, state, onChange }:
 
   const removeCode = (code: string) => onChange({ ...state, codes: state.codes.filter((c) => c !== code) });
 
-  const dark = typeof document !== "undefined" && document.documentElement.classList.contains("dark");
+  const dark = useDark();
 
   return (
     <div className="space-y-3">

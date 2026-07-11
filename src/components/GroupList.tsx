@@ -56,7 +56,7 @@ export default function GroupList({
             placeholder="Search class code..."
             value={searchGroup}
             onChange={(e) => setSearchGroup(e.target.value)}
-            className="w-full mb-4 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 bg-white text-black"
+            className="w-full mb-4 p-2 rounded-md border border-gray-300 dark:border-white/20 focus:outline-none focus:ring-2 bg-white dark:bg-white/10 text-black dark:text-white placeholder:text-gray-400 dark:placeholder:text-gray-500"
           />
           <div className="space-y-2 max-h-96 overflow-y-auto">
             {fetchGroup.length > 0 &&
@@ -80,16 +80,16 @@ export default function GroupList({
                       className={`p-3 rounded-lg cursor-pointer transition-all ${
                         isSelected
                           ? "bg-green-500/20 border border-green-300/50"
-                          : "bg-white/50 hover:bg-green-300/30 border border-black/20"
+                          : "bg-white/50 dark:bg-white/10 hover:bg-green-300/30 dark:hover:bg-green-400/20 border border-black/20 dark:border-white/10"
                       }`}
                     >
-                      <div className="text-black font-medium">
+                      <div className="text-black dark:text-white font-medium">
                         {row.class_code.replace(/\*/g, "").trim()}
                       </div>
-                      <div className="text-gray-600 text-sm">
+                      <div className="text-gray-600 dark:text-gray-300 text-sm">
                         {row.day_time} • {row.venue}
                       </div>
-                      <div className="text-gray-600 text-xs">
+                      <div className="text-gray-500 dark:text-gray-400 text-xs">
                         {row.subject_code.length > 15
                           ? "KOKO"
                           : row.subject_code}

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Select from "react-select";
 import { parseDayTime } from "@/lib/parseTime";
-import { rsStyles } from "@/components/CampusSelect";
+import { rsStyles, useDark } from "@/components/CampusSelect";
 
 const SELANGOR_FACULTIES = [
   { id: "AA", text: "AA - ARSHAD AYUB GRADUATE BUSINESS SCHOOL" },
@@ -83,7 +83,7 @@ export default function ClassCodeSearch({ fetchCampus, loadingCampus, onAddClass
   const [campus, setCampus] = useState("");
   const [faculty, setFaculty] = useState("");
   const [isSelangor, setIsSelangor] = useState(false);
-  const dark = typeof document !== "undefined" && document.documentElement.classList.contains("dark");
+  const dark = useDark();
 
   const [campusData, setCampusData] = useState<CampusData | null>(null);
   const [loadingData, setLoadingData] = useState(false);
