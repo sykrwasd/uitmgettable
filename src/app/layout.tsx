@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "Build, view and export your UiTM class timetable — fast and free.",
     url: "https://uitmgettable.my",
     siteName: "UitmGetTable",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://uitmgettable.my/og-image.png", width: 1200, height: 630, alt: "UitmGetTable — UiTM Timetable Generator" }],
     type: "website",
   },
   twitter: {
