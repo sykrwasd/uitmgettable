@@ -1,1 +1,6278 @@
-{}
+{
+  ".BHS140": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    }
+  ],
+  ".BHS160": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152RP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HSRP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL ANATOMI",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HSRP",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS114,HS115",
+      "faculty": "HS"
+    }
+  ],
+  ".BHS170": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "HS114, HS115",
+      "faculty": "HS"
+    }
+  ],
+  ".CSI103": [
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI153": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PARASITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PARASITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PARASITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PARASITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PARASITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PARASITOLOGI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI154": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HISTOLOGI 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI161": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI162": [
+    {
+      "day_time": "MONDAY( 09:00 AM-12:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI253": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HEMATOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HEMATOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HEMATOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HEMATOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HEMATOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "HEMATOLOGI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI254": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TRANSFUSI PERUBATAN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TRANSFUSI PERUBATAN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TRANSFUSI PERUBATAN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TRANSFUSI PERUBATAN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TRANSFUSI PERUBATAN 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "TRANSFUSI PERUBATAN 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI255": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-13:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SITOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SITOLOGI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI261": [
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGI 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI262": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1114C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1114A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KLINIKAL KIMIA 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI310": [
+    {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "P2HS1115A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI311": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1115A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI312": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1115A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI353": [
+    {
+      "day_time": "MONDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1116A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSI354": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
+      "group": "P2HS1116A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CTU152": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HS1112C3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "BILIK KULIAH 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 16",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 7",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENT300": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1144A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-12:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2PH1104A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS111",
+      "faculty": "HS"
+    }
+  ],
+  ".ENV124": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KIMIA",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KIMIA",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV150": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV188": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV213": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1133B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV255": [
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV260": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV267": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 21",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV268": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 22",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV270": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV275": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV280": [
+    {
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV285": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 23",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1134A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1134A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1134B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL PELBAGAI GUNA 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV365": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-17:00 PM )",
+      "group": "P2HS1136A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV375": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-17:00 PM )",
+      "group": "P2HS1136A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".ENV385": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-17:00 PM )",
+      "group": "P2HS1136A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".HBU122": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HBU122A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8,BILIK KULIAH 7,BILIK KULIAH 5",
+      "program": "HS111,HS113,HS114,HS115,PH110",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HBU122B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8,BILIK KULIAH 7,BILIK KULIAH 5",
+      "program": "HS111,HS113,HS114,HS115,PH110",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HBU122C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8,BILIK KULIAH 7,BILIK KULIAH 5",
+      "program": "HS111,HS113,HS114,HS115,PH110",
+      "faculty": ""
+    }
+  ],
+  ".HBU127": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HBU127A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3,BILIK KULIAH 2,BILIK KULIAH 4",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HBU127B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3,BILIK KULIAH 2,BILIK KULIAH 4",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HBU127C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 3,BILIK KULIAH 2,BILIK KULIAH 4",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    }
+  ],
+  ".HGD112": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HGD112A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "HS110,HS111,HS112,HS113,HS114,HS115,PH110",
+      "faculty": ""
+    }
+  ],
+  ".HGD133": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HGD133A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    }
+  ],
+  ".HGD134": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HGD134A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    }
+  ],
+  ".HGD137": [],
+  ".HGD344": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HGD344A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 16",
+      "program": "HS110,HS111,HS113,HS114,HS115,PH110",
+      "faculty": ""
+    }
+  ],
+  ".HGK112": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HGK112A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PADANG KAWAT,BILIK KULIAH 10",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    }
+  ],
+  ".HGK115": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HGK115A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PADANG KAWAT",
+      "program": "HS111,HS113,HS114,HS115,PH110,HS110",
+      "faculty": ""
+    }
+  ],
+  ".HKR119": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HKR119A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".HKR129": [
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HKR129A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".HKR149": [
+    {
+      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
+      "group": "P2HKR149A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".IDA153": [
+    {
+      "day_time": "FRIDAY( 12:00 PM-14:00 PM )",
+      "group": "P2IDA153DA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".LCC112": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS110",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 15",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 26",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK  KULIAH 25",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 20",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "PH110",
+      "faculty": "PH"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 24",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1112C2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 8",
+      "program": "HS111",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 11",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK  KULIAH 25",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK  KULIAH 25",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS113",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1132B2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS113",
+      "faculty": "HS"
+    }
+  ],
+  ".LCC122": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 16",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 17",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "HS114",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "HS114",
+      "faculty": "HS"
+    }
+  ],
+  ".NUR157": [
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1102R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1102R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1102R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR161": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR162": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR163": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1102A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1102B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1102C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR224": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR251": [
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR256": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104R",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR263": [
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR264": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR265": [
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR266": [
+    {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "P2HS1104A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-12:00 PM )",
+      "group": "P2HS1104B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1104C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 19,MAKMAL NURSING 2",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR320": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "P2HS1106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 20",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR321": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1106A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 20",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1106B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 20",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".NUR322": [
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
+      "group": "P2HS1106A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1106B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 18",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP102": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "THERAPEUTIC LAB",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "THERAPEUTIC LAB",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "THERAPEUTIC LAB",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "THERAPEUTIC LAB",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP104": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    }
+  ],
+  ".OCP111": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 26",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 26",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP152": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PEDIATRIC SKILLS",
+      "program": "HS115",
+      "faculty": "HS"
+    }
+  ],
+  ".OCP212": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORTHOTIC AND PRESSURE GARMENT",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORTHOTIC AND PRESSURE GARMENT",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORTHOTIC AND PRESSURE GARMENT",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ORTHOTIC AND PRESSURE GARMENT",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP221": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DAILY LIVING SIMULATION,BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DAILY LIVING SIMULATION,BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP222": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DAILY LIVING SIMULATION",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DAILY LIVING SIMULATION",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DAILY LIVING SIMULATION",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-08:30 AM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DAILY LIVING SIMULATION",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP252": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP258": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 10",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 5",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP302": [
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1154A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "P2HS1154A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "P2HS1154A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "P2HS1154A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PERFORMANCE SKILLS",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP304": [
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "P2HS1156A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP305": [
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "P2HS1156A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP320": [
+    {
+      "day_time": "MONDAY( 18:30 PM-19:30 PM )",
+      "group": "P2HS1156A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP330": [
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "P2HS1156A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP355": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 28",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1152A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 27",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1152A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 27",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 27",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1152A4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 27",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP380": [
+    {
+      "day_time": "MONDAY( 18:30 PM-19:30 PM )",
+      "group": "P2HS1156A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".OCP390": [
+    {
+      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
+      "group": "P2HS1156A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD112": [
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1101A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD122": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD123": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SEMI SOLID DOSAGE FORM,LIQUID DOSAGE FORM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SEMI SOLID DOSAGE FORM,LIQUID DOSAGE FORM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SEMI SOLID DOSAGE FORM,LIQUID DOSAGE FORM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SEMI SOLID DOSAGE FORM,LIQUID DOSAGE FORM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "SEMI SOLID DOSAGE FORM,LIQUID DOSAGE FORM",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD125": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACEUTICAL CHEMISTRY 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACEUTICAL CHEMISTRY 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACEUTICAL CHEMISTRY 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACEUTICAL CHEMISTRY 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACEUTICAL CHEMISTRY 2",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD212": [
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "P2PH1103A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD215": [
+    {
+      "day_time": "FRIDAY( 10:00 AM-13:00 PM )",
+      "group": "P2PH1103A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD216": [
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGY 1 (PH),MICROBIOLOGY 2 (PH)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGY 1 (PH),MICROBIOLOGY 2 (PH)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGY 1 (PH),MICROBIOLOGY 2 (PH)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGY 1 (PH),MICROBIOLOGY 2 (PH)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MICROBIOLOGY 1 (PH),MICROBIOLOGY 2 (PH)",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD221": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STERILE-ASEPTIC PHARMACY",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STERILE-ASEPTIC PHARMACY",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STERILE-ASEPTIC PHARMACY",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "STERILE-ASEPTIC PHARMACY",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD222": [
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACY SKILLS 2 (COMMUNITY),PHARMACY SKILLS 1 (HOSPITAL)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACY SKILLS 2 (COMMUNITY),PHARMACY SKILLS 1 (HOSPITAL)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACY SKILLS 2 (COMMUNITY),PHARMACY SKILLS 1 (HOSPITAL)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PHARMACY SKILLS 2 (COMMUNITY),PHARMACY SKILLS 1 (HOSPITAL)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD223": [
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1103A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD224": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD225": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2PH1102E1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD226": [
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "P2PH1103A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2PH1103A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 9",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD227": [
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 1",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD311": [
+    {
+      "day_time": "MONDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1105A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD321": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHD322": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2PH1104D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106B1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106C1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 18:00 PM-20:00 PM )",
+      "group": "P2PH1106D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY175": [
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY188": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "NEURO/PEADS",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY202": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY231": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRO KERING,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRO KERING,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRO KERING,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1142A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "DEWAN KULIAH 3",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY261": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRO KERING",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRO KERING",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ELECTRO KERING",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "NEURO/PEADS",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY262": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY266": [
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "NEURO/PEADS,BILIK KULIAH 14",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "NEURO/PEADS,BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "NEURO/PEADS,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "NEURO/PEADS,BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY303": [
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "CR/GERIATRIK,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY311": [
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "MS/KINESIOLOGI,BILIK KULIAH 13",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY317": [
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1144A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1144A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
+      "group": "P2HS1144A3",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 4",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY379": [
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1146A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "P2HS1146A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PTY389": [
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1146A1",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "P2HS1146A2",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    }
+  ]
+}
