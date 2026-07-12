@@ -23,18 +23,17 @@ export default function NotFound() {
       </div>
 
       <div className="max-w-md w-full space-y-6">
-        {/* 404 */}
-        <div className="relative">
-          <div className="text-[9rem] font-black leading-none text-blue-500/20 dark:text-blue-400/10 select-none absolute inset-0 flex items-center justify-center">
-            404
-          </div>
-          {/* Gif */}
-          <img
-            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2l6dWpxcTcydTdrMHZ2ZnJlN3ZycGMyZXBsdmVmNzkxcjFwd3VxaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f99OlzSrutL3qCi5je/giphy.gif"
-            alt="lost"
-            className="w-56 h-56 object-cover rounded-2xl mx-auto relative shadow-xl"
-          />
+        {/* 404 number */}
+        <div className="text-8xl font-black leading-none text-blue-500 dark:text-blue-400 select-none">
+          404
         </div>
+
+        {/* Gif */}
+        <img
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2l6dWpxcTcydTdrMHZ2ZnJlN3ZycGMyZXBsdmVmNzkxcjFwd3VxaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f99OlzSrutL3qCi5je/giphy.gif"
+          alt="lost"
+          className="w-56 h-56 object-cover rounded-2xl mx-auto shadow-xl"
+        />
 
         {/* Text */}
         <div className="space-y-2">
