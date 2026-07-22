@@ -107,7 +107,7 @@ export default function ClassCodeSearch({ fetchCampus, loadingCampus, onAddClass
     setCampusData(null);
     fetch(`/timetable/${file}.json`)
       .then((r) => r.json())
-      .then((data) => { setCampusData(data); setLoadingData(false); })
+      .then((data) => { setCampusData(data); setLoadingData(false);})
       .catch(() => setLoadingData(false));
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [campus, faculty]);
@@ -136,6 +136,7 @@ export default function ClassCodeSearch({ fetchCampus, loadingCampus, onAddClass
       })
     : [];
 
+    console.log("campusdata", campusData)
   // Unique subjects in preview
   const uniquePreviewSubjects = Array.from(new Set(preview.map((e) => e.subject)));
 

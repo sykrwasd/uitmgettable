@@ -146,7 +146,7 @@ export default function ApiDocs() {
           </Section>
 
           <Section id="base-url" title="Base URL">
-            <Code>https://uitmgettable.my/timetable/{"{file}"}.json</Code>
+            <Code>{'https://uitmgettable.my/timetable/{"{file}"}.json'}</Code>
             <p className="text-sm text-gray-400">Replace <code className="text-blue-300">{"{file}"}</code> with the campus code. See the full list below.</p>
           </Section>
 

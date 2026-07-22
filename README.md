@@ -1,141 +1,128 @@
-# uitmgettable
+# UiTMGetTable
 
-🕒 **An open-source UiTM Timetable Generator — built for students, by students 🎓**
+**Free, open-source UiTM timetable generator — built for students, by students.**
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 📖 About
+🌐 **Live:** [uitmgettable.my](https://uitmgettable.my)
 
-**uitmgettable** is a modern, fast, and open-source tool designed to help UiTM students generate their class timetables effortlessly. It scrapes data directly from UiTM's official sources to ensure accuracy and provides a user-friendly interface to organize your semester.
+---
 
-## ✨ Features
+## Features
 
-*   **🔍 Smart Search**: Easily find your campus and subjects.
-*   **📅 Timetable Generation**: Automatically generate a visual timetable based on your selected courses.
-*   **💾 Export Options**: Download your timetable as an Image or PDF.
-*   **🎨 Modern UI**: Built with **DaisyUI** and **TailwindCSS** for a clean, responsive experience.
-*   **⚡ Fast & Reliable**: Powered by **Next.js** and **Cheerio** for efficient data fetching.
-*   **📱 Responsive**: Works great on desktop and mobile devices.
+- **By Campus** — select campus → faculty → subject → add class groups to your timetable
+- **By Class Code** — type a class code (e.g. `CS2593B`), preview all subjects, add at once
+- **Compare Mode** — compare multiple class sections side-by-side as separate timetables
+- **Smart Fetch** — enter your matric number to auto-load your registered timetable
+- **Customizable** — change background color, block text color, label color, or pick a one-click theme
+- **Themes** — 8 built-in themes (Matcha Strawberry, Creator's Favourite, Midnight Ocean, and more)
+- **Manage Classes** — remove individual subjects from your timetable
+- **Edit Mode** — click any class block to edit day, time, or venue
+- **Image Export** — save your timetable as a full-resolution PNG (respects custom colors)
+- **Dark Mode** — full dark mode support throughout
+- **Mobile friendly** — collapsible left panel on small screens
 
-## 🔄 Project Flow
+---
 
-The application operates in two distinct modes: **Manual** and **Auto-Fetch**.
+## How it works
 
-### 1. Manual Mode
-*Used when the user wants to manually build their timetable.*
-*   **Selection:** Users select **Campus**, **Faculty**, and **Subject** via dropdowns.
-*   **Data Fetching:** Hooks (`useCampus`, `useFaculty`, `useSubjects`) fetch options dynamically.
-*   **Class Selection:** `useGroups` fetches available classes. Users click to add them to their `selectedClasses` state.
-*   **Display:** The `Timetable` component renders the grid and handles image export.
+Timetable data is scraped from iCress and stored as **static JSON files** in `public/timetable/`. No live scraping happens at runtime — the app just fetches JSON.
 
-### 2. Auto-Fetch Mode
-*Used when the user enters their Matric Number to get registered courses automatically.*
-*   **Input:** User enters Matric Number.
-*   **Fetching:** `useTimetable` calls the API (`getTimetable`) and uses `parseTime.ts` to normalize the data.
-*   **Display:** `FetchTimetable` renders the read-only grid.
+```
+GET https://uitmgettable.my/timetable/{campus}.json
+GET https://uitmgettable.my/timetable/class_index.json
+```
 
-## 🛠️ Tech Stack
+See [API Docs](https://uitmgettable.my/api-docs) for the full reference.
 
-*   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
-*   **Language**: [TypeScript](https://www.typescriptlang.org/)
-*   **Styling**: [TailwindCSS](https://tailwindcss.com/) & [DaisyUI](https://daisyui.com/)
-*   **Scraping**: [Cheerio](https://cheerio.js.org/) & [Axios](https://axios-http.com/)
-*   **Utilities**:
-    *   `html2canvas` & `jspdf` for exporting timetables.
-    *   `tough-cookie` for session management.
-    *   `react-select` for dropdowns.
-    *   `lucide-react` & `react-icons` for iconography.
+### Data update schedule
 
-## 🚀 Getting Started
+A GitHub Actions workflow runs on a schedule, scrapes iCress, and commits updated JSON files to the repo. Vercel redeploys automatically on push.
 
-Follow these steps to run the project locally.
+> ⚠️ iCress sometimes clears all timetable data between semesters. If data looks empty, the last known good snapshot is kept in the repo.
 
-### Prerequisites
+---
 
-*   **Node.js** >= 18
-*   **npm** or **yarn**
+## Tech Stack
 
-### Installation
+| Layer | Tech |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Dropdowns | react-select |
+| Image export | html-to-image |
+| Scraper | Cheerio + Axios (Node.js script) |
+| Hosting | Vercel |
+| Analytics | Umami + Google Analytics |
 
-1.  **Clone the repository:**
+---
 
-    ```bash
-    git clone https://github.com/sykrwasd/uitmgettable.git
-    cd uitmgettable
-    ```
-
-2.  **Install dependencies:**
-
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-3.  **Run the development server:**
-
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-
-4.  **Open your browser:**
-    Navigate to [http://localhost:3000](http://localhost:3000) to see the app in action.
-
-## 📂 Project Structure
+## Project Structure
 
 ```
 uitmgettable/
 ├── src/
-│   ├── app/             # Next.js App Router pages and API routes
-│   ├── components/      # Reusable UI components (Timetable, Selectors, etc.)
-│   ├── lib/             # Utility functions and shared logic
-│   └── utils/           # Helper scripts
-├── testScripts/         # Standalone scripts for testing scraping logic
-├── public/              # Static assets
-└── ...config files
+│   ├── app/                    # Next.js pages (/, /api-docs, /api/*)
+│   │   └── hooks/              # useCampus, useFaculty, useSubjects, useSelectedClass…
+│   ├── components/             # UI components
+│   │   ├── FetchTimetable.tsx  # Main timetable grid + customization
+│   │   ├── ClassCodeSearch.tsx # By Class Code search
+│   │   ├── CompareClasses.tsx  # Compare mode
+│   │   ├── CampusSelect.tsx    # Campus/faculty dropdowns + rsStyles helper
+│   │   └── …
+│   └── lib/                    # parseTime, utils, api helpers
+├── scripts/
+│   └── scraperAll.js           # Scrapes iCress + builds class_index.json
+├── public/
+│   └── timetable/              # 70 campus JSON files + class_index.json
+└── .github/workflows/
+    └── scrape.yml              # Scheduled scrape action
 ```
 
-## 🤝 Contributing
+---
 
-We ❤️ contributions!
-Fork the repository, improve the code, and submit a pull request 🙌
-Let’s make UiTM life easier together 🧠
+## Getting Started
 
-### Commit Message Guidelines
+```bash
+git clone https://github.com/sykrwasd/uitmgettable.git
+cd uitmgettable
+npm install
+npm run dev
+```
 
-We use an emoji-based commit convention to keep things fun and clear 🧩
+Open [http://localhost:3000](http://localhost:3000).
 
-**Format:** `<emoji> <short description>`
+### Regenerate OG image (after design changes)
 
-**Examples:**
-*   ✨ Add timetable scraping feature
-*   🐛 Fix campus code extraction bug
-*   🎨 Improve UI layout for timetable
-*   📝 Update README with contributors
+```bash
+node scripts/generate-og.mjs
+```
 
-**Common Emojis:**
-*   ✨ New feature
-*   🐛 Bug fix
-*   🎨 UI / style changes
-*   📝 Docs / README updates
-*   🔧 Config changes
-*   ♻️ Refactor code
-*   🚑 Hotfix
-*   ✅ Tests
-*   🔥 Remove code
-*   📦 Dependencies
+### Run scraper manually
 
-## 📄 License
+```bash
+node scripts/scraperAll.js
+```
 
-🪪 Licensed under the **MIT License** — free to use, modify, and share.
+This scrapes all campuses from iCress and rebuilds `public/timetable/` and `class_index.json`.
 
-## 🙏 Acknowledgements
+---
 
-*   **UiTM Official Timetable** & **UiTM Timetable Mirror** for the data sources.
-*   Made with ❤️ by **@sykrwasd**
-*   ⭐ If you find this project useful, don’t forget to give it a star! ⭐
+## Contributing
+
+PRs welcome. Fork, improve, submit.
+
+---
+
+## License
+
+MIT — free to use, modify, and share.
+
+---
+
+Made with ❤️ by [@sykrwasd](https://github.com/sykrwasd)  
+⭐ Star the repo if it helped you!
