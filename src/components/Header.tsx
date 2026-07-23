@@ -1,5 +1,7 @@
 "use client";
-import { FaGithub } from "react-icons/fa";
+import { useState } from "react";
+import { FaGithub, FaHeart, FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 interface Props {
   mode: string;
@@ -10,12 +12,20 @@ interface Props {
 
 
 export default function Header({ mode, setMode, dark, toggleDark }: Props) {
+  const [showDonate, setShowDonate] = useState(false);
 
   return (
     <div className="mb-10">
 
       {/* Top bar */}
       <div className="flex justify-end items-center gap-2 mb-6">
+        <button
+          onClick={() => setShowDonate(true)}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-700/40 shadow-sm text-xs font-medium text-pink-500 dark:text-pink-400 hover:scale-105 transition-transform"
+        >
+          <FaHeart className="w-3 h-3" />
+          Support
+        </button>
         <a
           href="https://github.com/sykrwasd/uitmgettable"
           target="_blank"
@@ -33,6 +43,45 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
           {dark ? "☀️" : "🌙"}
         </button>
       </div>
+
+      {/* Donate modal */}
+      {showDonate && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+          onClick={() => setShowDonate(false)}
+        >
+          <div
+            className="relative bg-white dark:bg-[#112952] rounded-2xl shadow-2xl p-6 max-w-xs w-full flex flex-col items-center gap-4"
+            onClick={e => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowDonate(false)}
+              className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
+            >
+              <FaTimes className="w-4 h-4" />
+            </button>
+
+            <div className="text-center">
+              <p className="text-xs text-gray-400 dark:text-gray-500 uppercase tracking-widest font-semibold mb-0.5">Support the dev</p>
+              <h2 className="text-lg font-black text-gray-800 dark:text-white">Scan to donate</h2>
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">DuitNow QR · Any amount helps</p>
+            </div>
+
+            <Image
+              src="/donate-qr.jpg"
+              alt="Maybank DuitNow QR — Umar Syakir"
+              width={220}
+              height={220}
+              className="rounded-xl"
+            />
+
+            <p className="text-xs text-gray-400 dark:text-gray-500 text-center">
+              Open your banking app and scan the QR above
+            </p>
+          </div>
+        </div>
+      )}
+
 
       {/* Hero */}
       <div className="text-center space-y-4">
