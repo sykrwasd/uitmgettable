@@ -1,0 +1,73 @@
+name: Check Timetable Data
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # daily at 10am MYT (UTC+8 = 02:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Notify start
+        run: |
+          curl -s \
+            -H "Title: Checking iCress..." \
+            -H "Priority: low" \
+            -H "Tags: hourglass_flowing_sand" \
+            -d "Daily timetable check is running." \
+            https://ntfy.sh/${{ secrets.NTFY_TOPIC }}
+
+      - name: Check iCress for timetable data
+        id: check
+        run: |
+          node - <<'EOF'
+          const https = require("https");
+
+          // Spot-check one campus (Shah Alam) — if iCress has data, this will be non-empty
+          const url = "https://icress.uitm.edu.my/jadual/jadual/jadual_pelajar.php?sesi=2026/2027&sem=1&kampus=SA&kod_kursus=CS&peringkat=D&kodkursus=CS100";
+
+          function fetch(url) {
+            return new Promise((res, rej) => {
+              https.get(url, { headers: { "User-Agent": "Mozilla/5.0" } }, r => {
+                let d = "";
+                r.on("data", c => d += c);
+                r.on("end", () => res(d));
+              }).on("error", rej);
+            });
+          }
+
+          (async () => {
+            try {
+              const html = await fetch(url);
+              // iCress shows a table with class rows when data exists
+              const hasData = html.includes("<td") && html.length > 3000;
+              console.log("has_data=" + hasData);
+              console.log("html_length=" + html.length);
+              if (hasData) {
+                process.env.GITHUB_OUTPUT && require("fs").appendFileSync(process.env.GITHUB_OUTPUT, "has_data=true\n");
+              } else {
+                process.env.GITHUB_OUTPUT && require("fs").appendFileSync(process.env.GITHUB_OUTPUT, "has_data=false\n");
+              }
+            } catch (e) {
+              console.error(e);
+              require("fs").appendFileSync(process.env.GITHUB_OUTPUT, "has_data=false\n");
+            }
+          })();
+          EOF
+
+      - name: Notify via ntfy
+        if: steps.check.outputs.has_data == 'true'
+        run: |
+          curl -s \
+            -H "Title: UiTM Timetable is LIVE" \
+            -H "Priority: high" \
+            -H "Tags: calendar,uitm" \
+            -d "iCress timetable data detected! Go update the scraper now before it disappears again." \
+            https://ntfy.sh/${{ secrets.NTFY_TOPIC }}
