@@ -3190,6 +3190,15 @@
       "faculty": "ED"
     },
     {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED248,ED249",
+      "faculty": "ED"
+    },
+    {
       "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
       "group": "ED2492A",
       "mode": "Fulltime",
@@ -3205,6 +3214,15 @@
       "status": "First Timerand Repeater",
       "room": "Dewan Kuliah K6 (ED)",
       "program": "ED249,ED248",
+      "faculty": "ED"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "ED2482A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "BK05 (ED)",
+      "program": "ED248,ED249",
       "faculty": "ED"
     }
   ],

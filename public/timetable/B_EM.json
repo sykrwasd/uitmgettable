@@ -1594,7 +1594,7 @@
       "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
       "group": "EMD2M1C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-1/2_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1603,7 +1603,7 @@
       "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
       "group": "EMD2M1R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B2-A10-5/6_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1612,7 +1612,7 @@
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
       "group": "EMD2M2C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-1/2_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1621,7 +1621,7 @@
       "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
       "group": "EMD2M1C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-12/13_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1630,7 +1630,7 @@
       "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
       "group": "EMD2M1C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-12/13_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1639,7 +1639,7 @@
       "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
       "group": "EMD2M1R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B2-A10-5/6_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1648,7 +1648,7 @@
       "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
       "group": "EMD2M1R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B2-A10-5/6_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1657,7 +1657,7 @@
       "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
       "group": "EMD2M2C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-12/13_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1666,7 +1666,7 @@
       "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
       "group": "EMD2M2C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-12/13_PKM",
       "program": "EM220,CEEM220,CEEM222,EM222",
       "faculty": "CE,EM"
@@ -1733,7 +1733,7 @@
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
       "group": "EMD2M1C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-12/13_PKM",
       "program": "",
       "faculty": ""
@@ -1751,7 +1751,7 @@
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
       "group": "EMD2M2C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-12/13_PKM",
       "program": "",
       "faculty": ""
@@ -1760,7 +1760,7 @@
       "day_time": "MONDAY( 16:00 PM-18:00 PM )",
       "group": "EMD2M3R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A11-5/6_PKM",
       "program": "",
       "faculty": ""
@@ -1769,7 +1769,7 @@
       "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
       "group": "EMD2M2R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A10-1/2_PKM",
       "program": "",
       "faculty": ""
@@ -1778,7 +1778,7 @@
       "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
       "group": "EMD2M4R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A10-12/13_PKM",
       "program": "",
       "faculty": ""
@@ -1787,7 +1787,7 @@
       "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
       "group": "EMD2M1C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-7/8_PKM",
       "program": "",
       "faculty": ""
@@ -1796,7 +1796,7 @@
       "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
       "group": "EMD2M1C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-7/8_PKM",
       "program": "",
       "faculty": ""
@@ -1805,7 +1805,7 @@
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "EMD2M2C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-7/8_PKM",
       "program": "",
       "faculty": ""
@@ -1814,7 +1814,7 @@
       "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "EMD2M2C",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-7/8_PKM",
       "program": "",
       "faculty": ""
@@ -1823,7 +1823,7 @@
       "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
       "group": "EMD2M2R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A11-3/4_PKM",
       "program": "",
       "faculty": ""
@@ -1832,7 +1832,7 @@
       "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
       "group": "EMD2M2R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A11-3/4_PKM",
       "program": "",
       "faculty": ""
@@ -1841,7 +1841,7 @@
       "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
       "group": "EMD2M4R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A10-5/6_PKM",
       "program": "",
       "faculty": ""
@@ -1850,7 +1850,7 @@
       "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
       "group": "EMD2M4R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A10-5/6_PKM",
       "program": "",
       "faculty": ""
@@ -1859,7 +1859,7 @@
       "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
       "group": "EMD2M3R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A11-5/6_PKM",
       "program": "",
       "faculty": ""
@@ -1868,7 +1868,7 @@
       "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
       "group": "EMD2M3R",
       "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
+      "status": "RepeatersOnly",
       "room": "B3-A11-5/6_PKM",
       "program": "",
       "faculty": ""
@@ -1913,6 +1913,350 @@
     }
   ],
   ".MEC481": [],
+  ".MEC521": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M1D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A9-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M2D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M3D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M5C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M5D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A11-7/8_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M6C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-9/10_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M7C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M1C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A9-1/2_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "EMD5M1R",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "B3-A7-10/11_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M2C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A6-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "EMD5M2D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A7-10/11_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "EMD5M2D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A7-10/11_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M3C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-9/10_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
+      "group": "EMD5M3D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 15:00 PM-16:00 PM )",
+      "group": "EMD5M3D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M4C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M4D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A6-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
+      "group": "EMD5M6C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-9/10_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
+      "group": "EMD5M6C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-9/10_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "EMD5M1D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A9-3/4_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
+      "group": "EMD5M1D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A9-3/4_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "EMD5M5C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "group": "EMD5M5C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
+      "group": "EMD5M5D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-9/10_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "EMD5M5D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-9/10_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M7C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B2-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EMD5M1C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EMD5M1C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "EMD5M1R",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "B3-A7-10/11_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 17:00 PM-18:00 PM )",
+      "group": "EMD5M1R",
+      "mode": "Fulltime",
+      "status": "RepeatersOnly",
+      "room": "B3-A7-10/11_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EMD5M2C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A6-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EMD5M2C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A6-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
+      "group": "EMD5M3C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A9-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 15:00 PM-16:00 PM )",
+      "group": "EMD5M3C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A9-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
+      "group": "EMD5M4C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
+      "group": "EMD5M4C",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A10-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
+      "group": "EMD5M4D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A6-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
+      "group": "EMD5M4D",
+      "mode": "Fulltime",
+      "status": "First TimerOnly",
+      "room": "B3-A6-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    }
+  ],
   ".MEC523": [
     {
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
@@ -2235,7 +2579,7 @@
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
       "group": "EMD5M1C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-5/6_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2253,7 +2597,7 @@
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
       "group": "EMD5M2D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-7/8_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2262,7 +2606,7 @@
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
       "group": "EMD5M3C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-7/8_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2271,7 +2615,7 @@
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
       "group": "EMD5M4C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-12/13_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2280,7 +2624,7 @@
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
       "group": "EMD5M4D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A7-10/11_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2289,7 +2633,7 @@
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
       "group": "EMD5M5C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-1/2_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2298,7 +2642,7 @@
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
       "group": "EMD5M5D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-1/2_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2307,7 +2651,7 @@
       "day_time": "MONDAY( 14:00 PM-16:00 PM )",
       "group": "EMD5M6C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A6-8/9_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2316,7 +2660,7 @@
       "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
       "group": "EMD5M1D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B2-A10-5/6_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2325,7 +2669,7 @@
       "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
       "group": "EMD5M2C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2343,7 +2687,7 @@
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
       "group": "EMD5M3D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-12/13_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2352,7 +2696,7 @@
       "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
       "group": "EMD5M7C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2361,7 +2705,7 @@
       "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
       "group": "EMD5M1C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-5/6_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2370,7 +2714,7 @@
       "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
       "group": "EMD5M1C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-5/6_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2388,7 +2732,7 @@
       "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
       "group": "EMD5M2D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-7/8_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2397,7 +2741,7 @@
       "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
       "group": "EMD5M2D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-7/8_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2406,7 +2750,7 @@
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M3C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B2-A10-7/8_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2415,7 +2759,7 @@
       "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M3C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B2-A10-7/8_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2424,7 +2768,7 @@
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M4C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-12/13_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2433,7 +2777,7 @@
       "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M4C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-12/13_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2442,7 +2786,7 @@
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M4D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B2-A10-18/19_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2451,7 +2795,7 @@
       "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M4D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B2-A10-18/19_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2460,7 +2804,7 @@
       "day_time": "WEDNESDAY( 08:00 AM-09:00 AM )",
       "group": "EMD5M5C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2469,7 +2813,7 @@
       "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
       "group": "EMD5M5C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2478,7 +2822,7 @@
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M5D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-1/2_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2487,7 +2831,7 @@
       "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M5D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A11-1/2_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2496,7 +2840,7 @@
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M6C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-1/2_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2505,7 +2849,7 @@
       "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M6C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A10-1/2_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2514,7 +2858,7 @@
       "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M1D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-14/15_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2523,7 +2867,7 @@
       "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M1D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-14/15_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2532,7 +2876,7 @@
       "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
       "group": "EMD5M2C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2541,7 +2885,7 @@
       "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
       "group": "EMD5M2C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2559,7 +2903,7 @@
       "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
       "group": "EMD5M3D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2568,7 +2912,7 @@
       "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
       "group": "EMD5M3D",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A9-3/4_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2577,7 +2921,7 @@
       "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
       "group": "EMD5M7C",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
+      "status": "First TimerOnly",
       "room": "B3-A8-8/9_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
@@ -2740,11 +3084,173 @@
       "faculty": "CEEM,EM"
     },
     {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M1D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A8-1/2 Exam Hall_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M2D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B2-A10-20/21_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "EMD5M3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A9-7/8_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A11-3/4_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B2-A10-7/8_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
       "group": "EMD5M5C",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "B3-A7-10/11_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M5D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A11-7/8_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M6C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A10-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M7C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A11-7/8_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M2C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A8-8/9_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M3D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A11-3/4_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "EMD5M1C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A8-6/7_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M2D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A9-5/6_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "EMD5M3C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B2-A10-20/21_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M4C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A10-3/4_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "EMD5M4D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A11-3/4_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M5C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A10-7/8_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "EMD5M5D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A11-12/13_PKM",
+      "program": "CEEM222,EM222",
+      "faculty": "CEEM,EM"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "EMD5M1D",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "B3-A6-8/9_PKM",
       "program": "CEEM222,EM222",
       "faculty": "CEEM,EM"
     }
@@ -2757,6 +3263,72 @@
       "status": "First Timerand Repeater",
       "room": "",
       "program": "CEEM703,CEEM705,EM703,EM705",
+      "faculty": ""
+    }
+  ],
+  ".MEC702": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "CEEM703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEM703,EM703",
+      "faculty": ""
+    }
+  ],
+  ".MEC703": [
+    {
+      "day_time": "FRIDAY( 18:30 PM-21:30 PM )",
+      "group": "CEEM703A3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEM703,EM703",
+      "faculty": ""
+    }
+  ],
+  ".MEC705": [
+    {
+      "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
+      "group": "EM703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "EM703,CEEM703",
+      "faculty": ""
+    }
+  ],
+  ".MEC706": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-21:30 PM )",
+      "group": "EM703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "EM703",
+      "faculty": ""
+    }
+  ],
+  ".MEC707": [
+    {
+      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
+      "group": "EM703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "EM703",
+      "faculty": "EM"
+    }
+  ],
+  ".MEC777": [
+    {
+      "day_time": "MONDAY( 18:00 PM-21:00 PM )",
+      "group": "EM703A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "EM703,CEEM703,EM704,CEEM704,CEEM705,EM705",
       "faculty": ""
     }
   ],
@@ -3279,6 +3851,28 @@
       "room": "Makmal Metrologi_PKM,Makmal Kimpalan_PKM,Bengkel Pemesinan Am (Milling)_PKM,Makmal Tuangan Logam_PKM,Bengkel Pemesinan Am (Latthe)_PKM,Bengkel Pemesinan Am (Bending & Fitting)_PKM",
       "program": "CE,EM",
       "faculty": ""
+    }
+  ],
+  ".MEM772": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "EM704A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "CEEM703,EM703,CEEM704,EM704",
+      "faculty": ""
+    }
+  ],
+  ".MEM791": [
+    {
+      "day_time": "SATURDAY( 14:00 PM-17:00 PM )",
+      "group": "EM704A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "EM704",
+      "faculty": "EM"
     }
   ]
 }

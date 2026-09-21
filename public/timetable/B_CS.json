@@ -167,6 +167,62 @@
       "faculty": ""
     }
   ],
+  ".AIC462": [
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah DK03",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah DK03",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah DK03",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH05",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik TH05",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik BK29",
+      "program": "",
+      "faculty": ""
+    }
+  ],
   ".AIS615": [
     {
       "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
@@ -1898,6 +1954,33 @@
   ".CSC508": [
     {
       "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
       "group": "CS2304A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1947,6 +2030,33 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Makmal MK20 (Virtual Lab)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK14 (Programmer 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK15 (Programmer 2)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK15 (Programmer 2)",
       "program": "",
       "faculty": ""
     },
@@ -2329,6 +2439,62 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Bilik BK22",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".CSC531": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK19 (Multimedia Lab)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK19 (Multimedia Lab)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK19 (Multimedia Lab)",
       "program": "",
       "faculty": ""
     }
@@ -2844,6 +3010,62 @@
       "room": "Makmal MK19 (Multimedia Lab)",
       "program": "",
       "faculty": "CD,CS"
+    }
+  ],
+  ".CSC587": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "CS2303D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK14 (Programmer 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "CS2303E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK14 (Programmer 1)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "CS2303F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal MK15 (Programmer 2)",
+      "program": "",
+      "faculty": ""
     }
   ],
   ".CSC645": [

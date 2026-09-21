@@ -19,6 +19,8 @@
       "faculty": ""
     }
   ],
+  ".BIO083": [],
+  ".CHM083": [],
   ".CTU001": [
     {
       "day_time": "MONDAY( 10:00 AM-13:00 PM )",
@@ -41,6 +43,7 @@
       "faculty": ""
     }
   ],
+  ".LCC001": [],
   ".LCC004": [
     {
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
@@ -135,6 +138,8 @@
       "faculty": ""
     }
   ],
+  ".MAT083": [],
+  ".MAT086": [],
   ".MGT028": [
     {
       "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
@@ -145,5 +150,6 @@
       "program": "",
       "faculty": ""
     }
-  ]
+  ],
+  ".PHY083": []
 }

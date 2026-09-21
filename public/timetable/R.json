@@ -1,4 +1,5 @@
 {
+  ".ACC036": [],
   ".ACC117": [
     {
       "day_time": "MONDAY( 14:30 PM-15:30 PM )",
@@ -320,26 +321,7 @@
       "faculty": "AT"
     }
   ],
-  ".AGA402": [
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RAT2342A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Nurseri Tanaman Hiasan Ladang",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAT2342A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK01 (70)",
-      "program": "AT234",
-      "faculty": "AT"
-    }
-  ],
+  ".AGA142": [],
   ".AGA420": [],
   ".AGA502": [],
   ".AGA512": [
@@ -362,6 +344,7 @@
       "faculty": "AT"
     }
   ],
+  ".AGA542": [],
   ".AGA552": [
     {
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
@@ -496,35 +479,6 @@
       "faculty": "AT"
     }
   ],
-  ".AGA596": [
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK01 (70)",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Agroteknologi 2 (F164)",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT234",
-      "faculty": "AT"
-    }
-  ],
   ".AGA611": [
     {
       "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
@@ -561,35 +515,6 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "F021 (STAR)(50)",
-      "program": "AT234",
-      "faculty": "AT"
-    }
-  ],
-  ".AGA617": [
-    {
-      "day_time": "TUESDAY( 16:30 PM-17:30 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "THURSDAY( 16:30 PM-17:30 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom BKP",
       "program": "AT234",
       "faculty": "AT"
     }
@@ -759,6 +684,9 @@
       "faculty": "AT"
     }
   ],
+  ".AGA682": [],
+  ".AGR022": [],
+  ".AGR042": [],
   ".AGR113": [
     {
       "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
@@ -804,44 +732,6 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Makmal Agroteknologi 2 (F164)",
-      "program": "AT120",
-      "faculty": "AT"
-    }
-  ],
-  ".AGR182": [
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RAT1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A106 & A107  (AL FB3)",
-      "program": "AT120",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAT1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Bilik Penyelenggaraan Umum Ladang",
-      "program": "AT120",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
-      "group": "RAT1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A106 & A107  (AL FB3)",
-      "program": "AT120",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "THURSDAY( 15:30 PM-16:30 PM )",
-      "group": "RAT1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A209  (AL FB3)",
       "program": "AT120",
       "faculty": "AT"
     }
@@ -933,7 +823,8 @@
       "faculty": "AT"
     }
   ],
-  ".AGR255": [],
+  ".AGR242": [],
+  ".AGR244": [],
   ".AGR272": [
     {
       "day_time": "MONDAY( 08:00 AM-09:00 AM )",
@@ -1149,26 +1040,6 @@
       "faculty": "AT"
     }
   ],
-  ".AGR323": [
-    {
-      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
-      "group": "RAT1106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK01 (70)",
-      "program": "AT110",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAT1106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK01 (70)",
-      "program": "AT110",
-      "faculty": "AT"
-    }
-  ],
   ".AGR403": [
     {
       "day_time": "MONDAY( 16:30 PM-18:30 PM )",
@@ -1287,437 +1158,12 @@
       "faculty": "AT"
     }
   ],
-  ".AGR645": [
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT234",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "THURSDAY( 15:30 PM-16:30 PM )",
-      "group": "RAT2344A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT234",
-      "faculty": "AT"
-    }
-  ],
-  ".AIS160": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
-      "group": "RAC1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1202D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1202D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
-      "group": "RAC1202F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-15:30 PM )",
-      "group": "RAC1202E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 15:30 PM-17:30 PM )",
-      "group": "RAC1202F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
-      "group": "RAC1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 09:00 AM-10:00 AM )",
-      "group": "RAC1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1202E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".AIS255": [
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1204D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
-      "group": "RAC1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "RAC1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "RAC1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
-      "group": "RAC1204D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
-      "group": "RAC1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAC1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".AIS275": [
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
-      "group": "RAC1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "RAC1204D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "RAC1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 15:30 PM-16:30 PM )",
-      "group": "RAC1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
-      "group": "RAC1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1204D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 15:30 PM-17:30 PM )",
-      "group": "RAC1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RAC1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
-      "group": "RAC1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom 1 (HEP)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".AIS155": [],
+  ".AIS205": [],
+  ".AQU007": [],
+  ".AUD349": [],
+  ".BIO083": [],
+  ".BIO122": [],
   ".BIO150": [
     {
       "day_time": "MONDAY( 14:30 PM-15:30 PM )",
@@ -2567,6 +2013,7 @@
       "faculty": "AS"
     }
   ],
+  ".BIO400": [],
   ".BIO411": [],
   ".BIO412": [],
   ".BIO461": [
@@ -2754,6 +2201,7 @@
     }
   ],
   ".BIO464": [],
+  ".BIO511": [],
   ".BIO552": [
     {
       "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
@@ -2866,44 +2314,6 @@
       "faculty": "AS"
     }
   ],
-  ".BIO564": [
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS211",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2114A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS211",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2114A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "",
-      "faculty": "AS"
-    }
-  ],
   ".BIO565": [
     {
       "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
@@ -2924,6 +2334,9 @@
       "faculty": ""
     }
   ],
+  ".BIO610": [],
+  ".BIO615": [],
+  ".BIO621": [],
   ".BIO631": [
     {
       "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
@@ -3094,6 +2507,8 @@
       "faculty": "AS"
     }
   ],
+  ".BMS545": [],
+  ".BMS551": [],
   ".BTM452": [
     {
       "day_time": "MONDAY( 14:30 PM-17:30 PM )",
@@ -3231,6 +2646,10 @@
       "faculty": ""
     }
   ],
+  ".CHM083": [],
+  ".CHM125": [],
+  ".CHM127": [],
+  ".CHM131": [],
   ".CHM132": [
     {
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
@@ -3696,6 +3115,8 @@
       "faculty": "AS"
     }
   ],
+  ".CHM213": [],
+  ".CHM231": [],
   ".CHM256": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
@@ -4859,6 +4280,7 @@
       "faculty": ""
     }
   ],
+  ".CHM424": [],
   ".CHM457": [
     {
       "day_time": "MONDAY( 11:00 AM-14:00 PM )",
@@ -4985,89 +4407,6 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Makmal Kimia Analisis (F035)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".CHM478": [
-    {
-      "day_time": "MONDAY( 11:00 AM-14:00 PM )",
-      "group": "RAS2422A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kimia 4",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-17:30 PM )",
-      "group": "RAS2422A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C304 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS2422B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kimia 4",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-17:30 PM )",
-      "group": "RAS2422B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C304 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS2424A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kimia 4",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-17:30 PM )",
-      "group": "RAS2424A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C304 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2422A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2422B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2424A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
       "program": "",
       "faculty": ""
     }
@@ -5267,62 +4606,7 @@
       "faculty": ""
     }
   ],
-  ".CHM577": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2422A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F229 (STAR)(70)",
-      "program": "AS242",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2422B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F229 (STAR)(70)",
-      "program": "AS242",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2422B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kimia Analisis (F035)",
-      "program": "AS242",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2422A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kimia Analisis (F035)",
-      "program": "AS242",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2422A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C105  (AL FB2)",
-      "program": "AS242",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2422B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C105  (AL FB2)",
-      "program": "AS242",
-      "faculty": "AS"
-    }
-  ],
+  ".CHM572": [],
   ".CHM579": [
     {
       "day_time": "THURSDAY( 16:30 PM-17:30 PM )",
@@ -5426,64 +4710,9 @@
       "faculty": "AS"
     }
   ],
-  ".CHM624": [
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS2424A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kimia Organik (F246)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS2424A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK12 (70)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".CMT136": [
-    {
-      "day_time": "TUESDAY( 15:30 PM-17:30 PM )",
-      "group": "RAS1252A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F233 (STAR)(80)",
-      "program": "AS125",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 15:30 PM-17:30 PM )",
-      "group": "RAS1252B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F233 (STAR)(80)",
-      "program": "AS125",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS1252C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK03 (70)",
-      "program": "AS125",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS1252D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK03 (70)",
-      "program": "AS125",
-      "faculty": "AS"
-    }
-  ],
+  ".CHM626": [],
+  ".CMT115": [],
+  ".CMT246": [],
   ".CMT252": [
     {
       "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
@@ -5614,6 +4843,8 @@
       "faculty": "AS"
     }
   ],
+  ".CMT267": [],
+  ".CMT277": [],
   ".CMT287": [
     {
       "day_time": "THURSDAY( 14:30 PM-16:30 PM )",
@@ -5708,7 +4939,7 @@
       "faculty": "AS"
     }
   ],
-  ".CMT411": [],
+  ".CMT413": [],
   ".CMT458": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
@@ -5803,100 +5034,7 @@
       "faculty": "AS"
     }
   ],
-  ".CMT560": [
-    {
-      "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2456A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".CMT562": [
-    {
-      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2652C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2653C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS265",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2654A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS265",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2652C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Marin 2,Makmal  Lateks (H001),Makmal Pencirian Polimer (H005)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2653C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Marin 2,Makmal  Lateks (H001),Makmal Pencirian Polimer (H005)",
-      "program": "AS265",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2654A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Marin 2,Makmal  Lateks (H001),Makmal Pencirian Polimer (H005)",
-      "program": "AS265",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
-      "group": "RAS2652C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E106 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
-      "group": "RAS2653C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E106 (AL FB2)",
-      "program": "AS265",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
-      "group": "RAS2654A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E106 (AL FB2)",
-      "program": "AS265",
-      "faculty": "AS"
-    }
-  ],
+  ".CMT511": [],
   ".CMT568": [
     {
       "day_time": "MONDAY( 17:30 PM-19:30 PM )",
@@ -6056,26 +5194,6 @@
       "faculty": ""
     }
   ],
-  ".CMT585": [
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2456A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F230 (STAR)(70)",
-      "program": "AS245",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2456A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A212 (AL FB3)",
-      "program": "AS245",
-      "faculty": "AS"
-    }
-  ],
   ".CMT590": [
     {
       "day_time": "MONDAY( 14:30 PM-15:30 PM )",
@@ -6116,6 +5234,7 @@
       "faculty": "AS"
     }
   ],
+  ".CMT598": [],
   ".CMT615": [
     {
       "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
@@ -6190,26 +5309,6 @@
       "faculty": ""
     }
   ],
-  ".CMT620": [
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2456A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F141 (STAR)(70)",
-      "program": "AS245",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2458C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F141 (STAR)(70)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".CMT630": [
     {
       "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
@@ -6232,44 +5331,6 @@
     {
       "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
       "group": "RAS2456A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A113 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".CMT635": [
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2455C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F020 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2455D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F020 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2455C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A113 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2455D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "A113 (AL FB3)",
@@ -8745,6 +7806,7 @@
       "faculty": ""
     }
   ],
+  ".CTU001": [],
   ".CTU101": [
     {
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
@@ -9246,6 +8308,8 @@
       "faculty": ""
     }
   ],
+  ".CTU231": [],
+  ".CTU262": [],
   ".CTU266": [
     {
       "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
@@ -9936,6 +9000,7 @@
       "faculty": ""
     }
   ],
+  ".CTU556": [],
   ".DSC650": [
     {
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
@@ -10012,98 +9077,7 @@
       "faculty": ""
     }
   ],
-  ".ECO120": [
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS1432B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 1 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS1432C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 1 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS1432E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 1 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "RCS1432A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E001 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCS1432B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 3 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCS1432C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 3 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "RCS1432D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E001 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCS1432E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 3 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS1432A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C204  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS1432D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C204  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".ECO162": [],
   ".ECO211": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
@@ -10944,17 +9918,6 @@
       "faculty": "SR"
     }
   ],
-  ".ELC501": [
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RCDCS2515B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BU 8A",
-      "program": "CDCS251",
-      "faculty": "CD,CS"
-    }
-  ],
   ".ELC550": [
     {
       "day_time": "SATURDAY( 16:00 PM-18:00 PM )",
@@ -10966,17 +9929,8 @@
       "faculty": ""
     }
   ],
-  ".ELC590": [
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RSR2434A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A303  (AL FB3)",
-      "program": "SR243",
-      "faculty": "SR"
-    }
-  ],
+  ".ELC640": [],
+  ".ELC650": [],
   ".ENT300": [
     {
       "day_time": "MONDAY( 12:00 PM-13:00 PM )",
@@ -11595,6 +10549,8 @@
       "faculty": ""
     }
   ],
+  ".ENT611": [],
+  ".EST531": [],
   ".EVM490": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -14026,77 +12982,9 @@
       "faculty": "BA"
     }
   ],
-  ".FPA150": [
-    {
-      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
-      "group": "RAT1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Nurseri Tanaman Hiasan Ladang",
-      "program": "AT120",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-12:00 PM )",
-      "group": "RAT1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Nurseri Tanaman Hiasan Ladang",
-      "program": "AT120",
-      "faculty": "AT"
-    }
-  ],
-  ".FPA260": [
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAT1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Agroteknologi 1 (F160),Makmal Agroteknologi 2 (F164),Makmal Sains Tanah,Makmal Pengairan Teknologi Hortikultur,Ruang Mekanisasi Ladang,Makmal Tisu Kultur",
-      "program": "AT120",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAT1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Agroteknologi 1 (F160),Makmal Agroteknologi 2 (F164),Makmal Sains Tanah,Makmal Pengairan Teknologi Hortikultur,Ruang Mekanisasi Ladang,Makmal Tisu Kultur",
-      "program": "AT120",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAT1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Agroteknologi 1 (F160),Makmal Agroteknologi 2 (F164),Makmal Sains Tanah,Makmal Pengairan Teknologi Hortikultur,Ruang Mekanisasi Ladang,Makmal Tisu Kultur",
-      "program": "AT120",
-      "faculty": "AT"
-    }
-  ],
-  ".FPA310": [
-    {
-      "day_time": "MONDAY( 18:30 PM-19:30 PM )",
-      "group": "RAT1106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AT110",
-      "faculty": "AT"
-    }
-  ],
-  ".FPA600": [
-    {
-      "day_time": "MONDAY( 18:30 PM-19:30 PM )",
-      "group": "RAT2347A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AT234",
-      "faculty": "AT"
-    }
-  ],
+  ".FPA100": [],
+  ".FPA200": [],
+  ".FPA350": [],
   ".FSG301": [
     {
       "day_time": "TUESDAY( 11:00 AM-12:00 PM )",
@@ -14117,6 +13005,7 @@
       "faculty": "AS"
     }
   ],
+  ".FSG311": [],
   ".FSG333": [
     {
       "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
@@ -14211,64 +13100,6 @@
       "room": "F139 (STAR)(70)",
       "program": "",
       "faculty": ""
-    }
-  ],
-  ".FSG571": [
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS2455C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS245",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS2455D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS245",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS2456A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F232 (STAR)(80)",
-      "program": "AS245",
-      "faculty": "AS"
-    }
-  ],
-  ".FSG608": [
-    {
-      "day_time": "SATURDAY( 08:00 AM-17:00 PM )",
-      "group": "RAS2565A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AS256",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "SATURDAY( 08:00 AM-17:00 PM )",
-      "group": "RAS2566A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "SATURDAY( 08:00 AM-17:00 PM )",
-      "group": "RAS2566B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": "AS"
     }
   ],
   ".FSG631": [
@@ -14457,26 +13288,10 @@
       "faculty": ""
     }
   ],
-  ".GLS456": [
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "RBE2202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
-      "group": "RBE2202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".GLS396": [],
+  ".GLS419": [],
+  ".GLS518": [],
+  ".GLS519": [],
   ".GLS554": [
     {
       "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
@@ -14591,6 +13406,7 @@
       "faculty": ""
     }
   ],
+  ".GLS619": [],
   ".GLS652": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
@@ -14705,18 +13521,6 @@
       "faculty": ""
     }
   ],
-  ".GLS655": [
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "RCFAP2208A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First TimerOnly",
-      "room": "",
-      "program": "CFAP220",
-      "faculty": ""
-    }
-  ],
-  ".GLS682": [],
   ".GLS685": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -14748,26 +13552,6 @@
     {
       "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
       "group": "RCFAP2206B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GLS688": [
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP2207A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP2207B",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "Makmal Kartografi",
@@ -14813,46 +13597,6 @@
       "faculty": ""
     }
   ],
-  ".GLS694": [
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP2207A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP2207B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GLS695": [
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP2207A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Remote Sensing",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP2207B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Remote Sensing",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".GLS697": [
     {
       "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
@@ -14873,523 +13617,13 @@
       "faculty": ""
     }
   ],
-  ".GSS150": [
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "RBE1202A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "RBE1202B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "RBE1202A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "RBE1202C",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RBE1202B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE1202C",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Remote Sensing",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS160": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RBE1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RBE1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-15:30 PM )",
-      "group": "RBE1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "RBE1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RBE1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-15:30 PM )",
-      "group": "RBE1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS184": [
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "RBE1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "RBE1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK06 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-16:30 PM )",
-      "group": "RBE1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A304 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS250": [
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A304 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS264": [
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-17:30 PM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS275": [
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fotogrametri",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fotogrametri",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204C",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fotogrametri",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204C",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS280": [
-    {
-      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
-      "group": "RCFAP1204C",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204C",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCFAP1204B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS284": [
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A304 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A118 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS292": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fotogrametri",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan GPS",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Kartografi,Lapangan GPS",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS293": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Komputer GIS",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS294": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RCFAP1204D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Remote Sensing",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP1204D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Remote Sensing",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".GSC100": [],
+  ".GSC110": [],
+  ".GSC120": [],
+  ".GSS200": [],
+  ".GSS210": [],
+  ".GSS230": [],
+  ".GSS310": [],
   ".GSS320": [
     {
       "day_time": "FRIDAY( 14:30 PM-15:30 PM )",
@@ -15401,35 +13635,14 @@
       "faculty": ""
     }
   ],
-  ".GSS396": [
-    {
-      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
-      "group": "RCFAP1206A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-17:30 PM )",
-      "group": "RCFAP1206C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-15:30 PM )",
-      "group": "RCFAP1206B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".GSS325": [],
+  ".GSS330": [],
+  ".GSS342": [],
+  ".GSS343": [],
+  ".GSS345": [],
+  ".GSS410": [],
+  ".GSS411": [],
+  ".GSS412": [],
   ".GSS457": [
     {
       "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
@@ -15437,46 +13650,6 @@
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS458": [
-    {
-      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
-      "group": "RBE2202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBE2202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".GSS459": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RBE2202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A112 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RBE2202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Lapangan Ukur",
       "program": "",
       "faculty": ""
     }
@@ -15803,26 +13976,7 @@
       "faculty": ""
     }
   ],
-  ".GSS659": [
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP2206A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RCFAP2206B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".GSS657": [],
   ".GSS681": [
     {
       "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
@@ -15882,40 +14036,14 @@
     }
   ],
   ".HBU111": [],
-  ".HBU121": [],
-  ".HBU126": [],
-  ".HBU141": [
-    {
-      "day_time": "FRIDAY( 17:30 PM-19:30 PM )",
-      "group": "DHBU141D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Dewan Kuliah 4 (HEP)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".HBU146": [
-    {
-      "day_time": "FRIDAY( 20:00 PM-22:00 PM )",
-      "group": "DHBU146D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".HGB112": [],
+  ".HBU116": [],
+  ".HBU131": [],
+  ".HBU136": [],
+  ".HBU151": [],
+  ".HBU156": [],
   ".HGB113": [],
-  ".HGD112": [],
-  ".HGD118": [],
-  ".HGD119": [],
   ".HGD133": [],
-  ".HGD134": [],
   ".HGD135": [],
-  ".HGD136": [],
-  ".HGD138": [],
   ".HGD139": [],
   ".HGD344": [
     {
@@ -15928,27 +14056,8 @@
       "faculty": ""
     }
   ],
-  ".HGK111": [],
-  ".HGK112": [],
-  ".HGK113": [],
-  ".HGK116": [],
-  ".HGK117": [],
-  ".HGL115": [],
-  ".HGL118": [],
-  ".HGM111": [
-    {
-      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
-      "group": "DHGM111B1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AC120    ,AS113    ,AS120    ,AS125    ,AT120  , BE120    ,CS110    ,CS143    ,SR111    ,SR113",
-      "faculty": ""
-    }
-  ],
-  ".HGN114": [],
   ".HGR111": [],
-  ".HGR113": [],
+  ".HGR115": [],
   ".HKR118": [
     {
       "day_time": "THURSDAY( 20:00 PM-22:00 PM )",
@@ -15960,28 +14069,8 @@
       "faculty": ""
     }
   ],
-  ".HKR129": [
-    {
-      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
-      "group": "DHKR129B1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".HKR149": [
-    {
-      "day_time": "THURSDAY( 20:00 PM-22:00 PM )",
-      "group": "DHKR149D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".HKR119": [],
+  ".HKR139": [],
   ".HKR159": [
     {
       "day_time": "FRIDAY( 20:00 PM-22:00 PM )",
@@ -16112,17 +14201,7 @@
       "faculty": ""
     }
   ],
-  ".HRM533": [
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS2228A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".HRM544": [],
   ".HRM549": [
     {
       "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
@@ -16749,7 +14828,6 @@
       "faculty": ""
     }
   ],
-  ".HRM651": [],
   ".HRM656": [],
   ".HRM659": [
     {
@@ -17152,17 +15230,6 @@
     {
       "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
       "group": "DHSN112A1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".HSN122": [
-    {
-      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
-      "group": "DHSN122B1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -18156,46 +16223,9 @@
       "faculty": ""
     }
   ],
-  ".IDA153": [
-    {
-      "day_time": "TUESDAY( 16:30 PM-18:30 PM )",
-      "group": "RAS1202D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Seminar 3 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".INC271": [
-    {
-      "day_time": "MONDAY( 14:30 PM-15:30 PM )",
-      "group": "RAT1106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT110",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
-      "group": "RAT1106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT110",
-      "faculty": "AT"
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAT1106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "AT110",
-      "faculty": "AT"
-    }
-  ],
+  ".IDA102": [],
+  ".IDA202": [],
+  ".IHS412": [],
   ".INS456": [
     {
       "day_time": "MONDAY( 16:30 PM-18:30 PM )",
@@ -18324,44 +16354,6 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "E001 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".ISP451": [
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCS2552B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom SC SYS 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS2552A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom SC SYS 2 (HEP)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCS2552A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A001  (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCS2552B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A001  (AL FB3)",
       "program": "",
       "faculty": ""
     }
@@ -20023,6 +18015,7 @@
       "faculty": ""
     }
   ],
+  ".LAW346": [],
   ".LAW416": [
     {
       "day_time": "MONDAY( 12:00 PM-13:00 PM )",
@@ -20142,6 +18135,8 @@
       "faculty": ""
     }
   ],
+  ".LCC001": [],
+  ".LCC004": [],
   ".LCC111": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -21102,6 +19097,7 @@
       "faculty": "SR"
     }
   ],
+  ".LCC121": [],
   ".LCC401": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -21807,116 +19803,6 @@
       "faculty": ""
     }
   ],
-  ".MAF151": [
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E103 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
-      "group": "RAC1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E103 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 15:30 PM-16:30 PM )",
-      "group": "RAC1202D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C102  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E105 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 15:30 PM-17:30 PM )",
-      "group": "RAC1202C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C101  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1202F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E105 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAC1202A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C102  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "RAC1202B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C105  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 15:30 PM-16:30 PM )",
-      "group": "RAC1202E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E105 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
-      "group": "RAC1202F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C202 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RAC1202D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C102  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAC1202E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E103 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".MAF201": [
     {
       "day_time": "MONDAY( 10:00 AM-11:00 AM )",
@@ -21957,7 +19843,11 @@
       "faculty": ""
     }
   ],
+  ".MAT037": [],
+  ".MAT083": [],
+  ".MAT086": [],
   ".MAT112": [],
+  ".MAT123": [],
   ".MAT133": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -23206,6 +21096,7 @@
       "faculty": ""
     }
   ],
+  ".MAT222": [],
   ".MAT233": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -23395,143 +21286,6 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "C106  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MAT272": [
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "RCDCS1434D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B212 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
-      "group": "RCDCS1434D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B212 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
-      "group": "RCDCS1434A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK02 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
-      "group": "RCDCS1434B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C208 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
-      "group": "RCDCS1434B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C208 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCDCS1434C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C106  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCDCS1434E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C105  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-11:00 AM )",
-      "group": "RCDCS1434E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C105  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "RCDCS1434A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B201 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCDCS1434C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C106  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
-      "group": "RCDCS1434E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C208 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RCDCS1434A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B214 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RCDCS1434B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C105  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
-      "group": "RCDCS1434C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A106 & A107  (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RCDCS1434D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E206 (AL FB2)",
       "program": "",
       "faculty": ""
     }
@@ -24201,6 +21955,7 @@
       "faculty": ""
     }
   ],
+  ".MAT495": [],
   ".MAT522": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -24257,93 +22012,8 @@
       "faculty": ""
     }
   ],
-  ".MAT523": [
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RCS2482A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B213 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-15:30 PM )",
-      "group": "RCS2482A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C208 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 15:30 PM-16:30 PM )",
-      "group": "RCS2482A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C208 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MAT530": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
-      "group": "RCDCS2488A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E206 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-15:30 PM )",
-      "group": "RCDCS2488A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B201 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 15:30 PM-16:30 PM )",
-      "group": "RCDCS2488A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B201 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MAT560": [
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RCDCS2487A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E206 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
-      "group": "RCDCS2487A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E206 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
-      "group": "RCDCS2487A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "E206 (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".MAT668": [],
+  ".MGT028": [],
   ".MGT126": [
     {
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
@@ -24618,7 +22288,6 @@
       "faculty": ""
     }
   ],
-  ".MGT345": [],
   ".MGT400": [
     {
       "day_time": "TUESDAY( 12:00 PM-13:00 PM )",
@@ -24835,44 +22504,6 @@
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
       "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MGT538": [
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2016A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "RAS2016B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2016A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "RAS2016B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
       "program": "",
       "faculty": ""
     }
@@ -25167,17 +22798,6 @@
       "day_time": "FRIDAY( 09:00 AM-10:00 AM )",
       "group": "RBA2735B",
       "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MGT657": [
-    {
-      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
-      "group": "RBMHA",
-      "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
       "room": "",
       "program": "",
@@ -25518,6 +23138,10 @@
       "faculty": ""
     }
   ],
+  ".MKT521": [],
+  ".MKT522": [],
+  ".MKT523": [],
+  ".MKT525": [],
   ".MKT558": [
     {
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
@@ -25639,158 +23263,10 @@
       "faculty": ""
     }
   ],
-  ".MKT572": [
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "RBA2704A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C108  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "RBA2704B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C108  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RBA2704A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C108  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RBA2704B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C108  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MKT573": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RBA2704A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RBA2704B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RBA2704A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RBA2704B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MKT574": [
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RBA2704A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "B202 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RBA2704B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "B202 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBA2704A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "B202 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBA2704B",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "B202 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MKT575": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
-      "group": "RBA2704A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C108  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RBA2704B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RBA2704A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C205  (AL FB2)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RBA2704B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A106 & A107  (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".MKT605": [],
+  ".MKT635": [],
+  ".MKT667": [],
+  ".MKT668": [],
   ".MRS400": [
     {
       "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
@@ -25851,26 +23327,8 @@
       "faculty": ""
     }
   ],
-  ".MRS430": [
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS2562A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "C203  (AL FB2)",
-      "program": "AS",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS2562A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Marin (F052)",
-      "program": "AS",
-      "faculty": ""
-    }
-  ],
+  ".MRS440": [],
+  ".MRS450": [],
   ".MRS510": [
     {
       "day_time": "MONDAY( 14:30 PM-17:30 PM )",
@@ -26466,17 +23924,8 @@
       "faculty": ""
     }
   ],
-  ".PDM121": [
-    {
-      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
-      "group": "DPDM121B1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".PDM111": [],
+  ".PDM131": [],
   ".PHI428": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
@@ -26515,6 +23964,7 @@
       "faculty": ""
     }
   ],
+  ".PHY083": [],
   ".PHY110": [
     {
       "day_time": "WEDNESDAY( 14:30 PM-16:30 PM )",
@@ -26535,6 +23985,7 @@
       "faculty": ""
     }
   ],
+  ".PHY122": [],
   ".PHY130": [
     {
       "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
@@ -26838,143 +24289,6 @@
       "faculty": ""
     }
   ],
-  ".PHY260": [
-    {
-      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
-      "group": "RAS1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F020 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 09:00 AM-10:00 AM )",
-      "group": "RAS1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F020 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
-      "group": "RAS1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 1",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
-      "group": "RAS1206A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F020 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 6 (F240)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1206A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 6 (F240)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 6 (F240)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
-      "group": "RAS1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1206A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 6 (F240)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".PHY310": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
@@ -27269,98 +24583,6 @@
       "faculty": "AS"
     }
   ],
-  ".PHY380": [
-    {
-      "day_time": "MONDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 5 (F244)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 5 (F244)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1206A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 5 (F244)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 5 (F244)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1204E",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1206A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
-      "group": "RAS1204F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 5 (F244)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1204G",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1204H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".PHY400": [],
   ".PHY433": [
     {
@@ -27634,6 +24856,7 @@
       "faculty": ""
     }
   ],
+  ".PHY534": [],
   ".PHY535": [
     {
       "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
@@ -27672,89 +24895,6 @@
       "faculty": ""
     }
   ],
-  ".PHY547": [
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 1",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 1",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS2132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Fizik 1",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".PHY548": [],
   ".PHY549": [
     {
@@ -27776,6 +24916,8 @@
       "faculty": ""
     }
   ],
+  ".PHY550": [],
+  ".PHY568": [],
   ".PHY569": [
     {
       "day_time": "TUESDAY( 15:30 PM-16:30 PM )",
@@ -27814,6 +24956,7 @@
       "faculty": ""
     }
   ],
+  ".PHY575": [],
   ".PHY586": [
     {
       "day_time": "MONDAY( 12:00 PM-13:00 PM )",
@@ -27908,80 +25051,6 @@
       "faculty": ""
     }
   ],
-  ".PHY589": [
-    {
-      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A218 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A218 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A218 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
-      "group": "RAS2134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "A218 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F022 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".PHY592": [
     {
       "day_time": "MONDAY( 08:00 AM-09:00 AM )",
@@ -28020,6 +25089,9 @@
       "faculty": ""
     }
   ],
+  ".PHY630": [],
+  ".PHY632": [],
+  ".PHY636": [],
   ".PHY675": [
     {
       "day_time": "MONDAY( 16:30 PM-18:30 PM )",
@@ -28040,385 +25112,9 @@
       "faculty": ""
     }
   ],
-  ".PST162": [
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-17:30 PM )",
-      "group": "RAS1132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS1132D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal  Lateks (H001)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-17:30 PM )",
-      "group": "RAS1132D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS1132A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal  Lateks (H001)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1132B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal  Lateks (H001)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS1132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal  Lateks (H001)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 15:30 PM-16:30 PM )",
-      "group": "RAS1132C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 15:30 PM-16:30 PM )",
-      "group": "RAS1132D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    }
-  ],
-  ".PST253": [
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK12 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK12 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1136C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 17:30 PM-18:30 PM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 17:30 PM-18:30 PM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 17:30 PM-18:30 PM )",
-      "group": "RAS1136C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    }
-  ],
-  ".PST312": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer",
-      "program": "AS113",
-      "faculty": "AS"
-    }
-  ],
-  ".PST323": [
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK10 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK10 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 16:30 PM-18:30 PM )",
-      "group": "RAS1136C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK10 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    }
-  ],
-  ".PST333": [
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer,Bengkel Teknologi Getah",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "MONDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer,Bengkel Teknologi Getah",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "TUESDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer,Bengkel Teknologi Getah",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "AS113",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "THURSDAY( 14:30 PM-17:30 PM )",
-      "group": "RAS1134D",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pengujian Fizikal Polimer,Bengkel Teknologi Getah",
-      "program": "AS113",
-      "faculty": "AS"
-    }
-  ],
+  ".PST104": [],
+  ".PST221": [],
+  ".PST231": [],
   ".PST335": [
     {
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
@@ -28430,6 +25126,8 @@
       "faculty": "AS"
     }
   ],
+  ".PST351": [],
+  ".PST373": [],
   ".PST383": [],
   ".PST384": [
     {
@@ -28534,124 +25232,8 @@
       "faculty": "AS"
     }
   ],
-  ".PST470": [
-    {
-      "day_time": "MONDAY( 14:30 PM-16:30 PM )",
-      "group": "RAS2634C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK15 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "RAS2634C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MKom BKP",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".PST550": [
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Pencirian Polimer (H005)",
-      "program": "AS263",
-      "faculty": "AS"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:30 PM-15:30 PM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "AS263",
-      "faculty": "AS"
-    }
-  ],
-  ".PST551": [
-    {
-      "day_time": "WEDNESDAY( 15:30 PM-16:30 PM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal  Lateks (H001),Bengkel Teknologi Getah,Makmal Pengujian Fizikal Polimer",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".PST552": [
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F229 (STAR)(70)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".PST597": [
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2634C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F021 (STAR)(50)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2632C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-11:00 AM )",
-      "group": "RAS2634C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".PST594": [],
+  ".PST598": [],
   ".PST599": [
     {
       "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
@@ -28663,26 +25245,7 @@
       "faculty": ""
     }
   ],
-  ".PST651": [
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "RAS2634C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-12:00 PM )",
-      "group": "RAS2634C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "F142 (STAR)(80)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".PST650": [],
   ".PST652": [
     {
       "day_time": "WEDNESDAY( 14:30 PM-17:30 PM )",
@@ -28703,6 +25266,9 @@
       "faculty": ""
     }
   ],
+  ".PST681": [],
+  ".PST682": [],
+  ".PST683": [],
   ".QMT342": [
     {
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
@@ -28813,38 +25379,11 @@
       "faculty": ""
     }
   ],
-  ".QMT634": [
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "RCDCS2487A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK02 (70)",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "RCDCS2487A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "B212 (AL FB3)",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".ROT121": [],
-  ".ROT141": [
-    {
-      "day_time": "SATURDAY( 08:00 AM-10:00 AM )",
-      "group": "BROT141D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
+  ".QMT438": [],
+  ".QMT533": [],
+  ".ROT111": [],
+  ".ROT131": [],
+  ".ROT151": [],
   ".SHF411": [
     {
       "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
@@ -33156,6 +29695,7 @@
       "faculty": ""
     }
   ],
+  ".STA111": [],
   ".STA116": [
     {
       "day_time": "MONDAY( 14:30 PM-16:30 PM )",
@@ -33515,6 +30055,7 @@
       "faculty": ""
     }
   ],
+  ".STA400": [],
   ".STA404": [
     {
       "day_time": "TUESDAY( 14:30 PM-16:30 PM )",
@@ -34442,18 +30983,7 @@
       "faculty": ""
     }
   ],
-  ".TJC401": [],
-  ".TJC501": [
-    {
-      "day_time": "WEDNESDAY( 20:30 PM-22:30 PM )",
-      "group": "RAS2564A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BK10 (70)",
-      "program": "AS256",
-      "faculty": ""
-    }
-  ],
+  ".TAX317": [],
   ".TMC401": [
     {
       "day_time": "MONDAY( 20:30 PM-22:30 PM )",
@@ -34945,5 +31475,6 @@
       "program": "",
       "faculty": ""
     }
-  ]
+  ],
+  ".USR401": []
 }

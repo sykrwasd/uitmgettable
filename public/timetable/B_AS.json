@@ -68,6 +68,24 @@
       "faculty": ""
     },
     {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "AS2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah A406",
+      "program": "AS273",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "group": "AS2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah A405",
+      "program": "AS273",
+      "faculty": ""
+    },
+    {
       "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
       "group": "AS2731A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -944,6 +962,33 @@
       "faculty": ""
     },
     {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "AS2111A-3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C347",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "AS2492B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C347",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
+      "group": "AS2493B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C347",
+      "program": "",
+      "faculty": ""
+    },
+    {
       "day_time": "SATURDAY( 08:00 AM-10:00 AM )",
       "group": "NAS249F1A",
       "mode": "Students UnderiCEPS Only",
@@ -1527,6 +1572,15 @@
   ],
   ".BIO611": [
     {
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "AS2017A-2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "",
+      "faculty": ""
+    },
+    {
       "day_time": "SATURDAY( 08:00 AM-11:00 AM )",
       "group": "NAS201F6A",
       "mode": "Students UnderiCEPS Only",
@@ -1739,6 +1793,15 @@
       "faculty": "AS"
     },
     {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2574A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Mikrobiologi/ Bilik Kultur A503/504",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
       "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
       "group": "AS2574A",
       "mode": "Fulltime",
@@ -1748,11 +1811,29 @@
       "faculty": "AS"
     },
     {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "AS2574B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Mikrobiologi/ Bilik Kultur A503/504",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
       "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
       "group": "AS2574C",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "Makmal Mikrobiologi Gunaan A603",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2574C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Mikrobiologi/ Bilik Kultur A503/504",
       "program": "AS257",
       "faculty": "AS"
     },
@@ -1923,11 +2004,29 @@
   ],
   ".BMS481": [
     {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2642A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C343",
+      "program": "",
+      "faculty": ""
+    },
+    {
       "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
       "group": "AS2642A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Makmal Kimia / Biokimia A610",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2642B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C343",
       "program": "",
       "faculty": ""
     },
@@ -1941,11 +2040,29 @@
       "faculty": ""
     },
     {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2642C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C343",
+      "program": "",
+      "faculty": ""
+    },
+    {
       "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
       "group": "AS2642C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Makmal Kimia / Biokimia A610",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2645A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C343",
       "program": "",
       "faculty": ""
     },
@@ -1960,6 +2077,69 @@
     }
   ],
   ".BMS531": [
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2572A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2572B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2572C",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2573A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2573A1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2573B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "AS2577A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah Pintar FSG",
+      "program": "",
+      "faculty": ""
+    },
     {
       "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
       "group": "AS2572A",
@@ -2047,6 +2227,15 @@
   ".BMS533": [
     {
       "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "AS2115A-1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C321",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
       "group": "AS2643A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2105,6 +2294,15 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Dewan Kuliah Gamma FSG (DK)",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2115A-1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Pelbagaiguna Biologi (MPG)_FSG",
       "program": "",
       "faculty": ""
     },
@@ -2461,6 +2659,24 @@
   ],
   ".BMS551": [
     {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2644B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer M506",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2644C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer M506",
+      "program": "",
+      "faculty": ""
+    },
+    {
       "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
       "group": "AS2644A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -2609,11 +2825,29 @@
       "faculty": "AS"
     },
     {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2645B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Mokrobiologi A501/502",
+      "program": "",
+      "faculty": ""
+    },
+    {
       "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
       "group": "AS2645B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Bilik Kuliah C426",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2645C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Mokrobiologi A501/502",
       "program": "",
       "faculty": ""
     },
@@ -2646,6 +2880,15 @@
     }
   ],
   ".BMS651": [
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "AS2575B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer M505",
+      "program": "AS257",
+      "faculty": "AS"
+    },
     {
       "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
       "group": "AS2575A",
@@ -16054,6 +16297,15 @@
       "faculty": "AS"
     },
     {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2573B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Virologi A413",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
       "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
       "group": "AS2573B",
       "mode": "Fulltime",
@@ -16070,6 +16322,15 @@
       "room": "Bilik Kuliah Pintar FSG",
       "program": "AS257",
       "faculty": "AS"
+    },
+    {
+      "day_time": "TUESDAY( 12:00 PM-14:00 PM )",
+      "group": "AS2574B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Virologi A413",
+      "program": "",
+      "faculty": ""
     },
     {
       "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
@@ -16106,6 +16367,15 @@
       "room": "Makmal Virologi A413",
       "program": "",
       "faculty": "AS"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2573A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Dewan Kuliah Gamma FSG (DK)",
+      "program": "",
+      "faculty": "AS"
     }
   ],
   ".MIC481": [
@@ -16115,6 +16385,15 @@
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "Dewan Kuliah Alfa FSG (DK)",
+      "program": "AS257",
+      "faculty": "AS"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "AS2573B",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Kimia / Biokimia A610",
       "program": "AS257",
       "faculty": "AS"
     },
@@ -16171,6 +16450,15 @@
       "room": "Makmal Kimia / Biokimia A610",
       "program": "AS257",
       "faculty": "AS"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2574A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C343",
+      "program": "",
+      "faculty": ""
     },
     {
       "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
@@ -18225,6 +18513,26 @@
       "faculty": ""
     }
   ],
+  ".PHY515": [
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-14:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Fizik Lanjutan /NDT MF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah B301",
+      "program": "",
+      "faculty": ""
+    }
+  ],
   ".PHY520": [
     {
       "day_time": "MONDAY( 10:00 AM-11:00 AM )",
@@ -18392,7 +18700,25 @@
   ".PHY555": [
     {
       "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah B301",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
       "group": "AS2714D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah B301",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2135A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Bilik Kuliah B301",
@@ -18572,6 +18898,26 @@
       "faculty": ""
     }
   ],
+  ".PHY575": [
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah B304",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C506",
+      "program": "",
+      "faculty": ""
+    }
+  ],
   ".PHY585": [
     {
       "day_time": "MONDAY( 14:00 PM-15:00 PM )",
@@ -18717,6 +19063,17 @@
     {
       "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
       "group": "AS2713A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C347",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHY603": [
+    {
+      "day_time": "TUESDAY( 16:00 PM-19:00 PM )",
+      "group": "AS2135A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Bilik Kuliah C347",
@@ -18899,6 +19256,46 @@
       "room": "",
       "program": "AS203",
       "faculty": "AS"
+    }
+  ],
+  ".PHY632": [
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah C409",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 09:00 AM-11:00 AM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Bilik Kuliah A406",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".PHY636": [
+    {
+      "day_time": "THURSDAY( 08:00 AM-14:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Fizik Lanjutan /NDT MF 4",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-14:00 PM )",
+      "group": "AS2135A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Fizik Lanjutan /NDT MF 4",
+      "program": "",
+      "faculty": ""
     }
   ],
   ".PHY644": [

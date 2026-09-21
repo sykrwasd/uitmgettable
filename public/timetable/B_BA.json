@@ -293,6 +293,15 @@
       "faculty": "BA"
     },
     {
+      "day_time": "MONDAY( 10:30 AM-13:30 PM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 11 MK10)",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
       "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
       "group": "BA2632A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -1420,6 +1429,24 @@
   ],
   ".CSM610": [
     {
+      "day_time": "MONDAY( 10:30 AM-13:30 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 07 BS4",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT30",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
       "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
       "group": "BA2645A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -1553,6 +1580,33 @@
     },
     {
       "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK7 01 DK16 (100)",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK7 01 DK16 (100)",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK7 01 DK16 (100)",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
       "group": "BASS-A10",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1649,6 +1703,15 @@
       "room": "BLENDED_20242",
       "program": ",BA270",
       "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
     },
     {
       "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
@@ -1882,6 +1945,24 @@
       "status": "First Timerand Repeater",
       "room": "BLENDED_20242",
       "program": "BA270",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
       "faculty": "BA"
     },
     {
@@ -2684,6 +2765,15 @@
       "faculty": ""
     },
     {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2713E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA271",
+      "faculty": "BA"
+    },
+    {
       "day_time": "MONDAY( 16:00 PM-18:00 PM )",
       "group": "BA2774E",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -2826,6 +2916,15 @@
       "room": "",
       "program": "",
       "faculty": ""
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2713E",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "FSK234 08 TEC 15",
+      "program": "BA271",
+      "faculty": "BA"
     },
     {
       "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
@@ -3149,8 +3248,8 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "ONLINE",
-      "program": "",
-      "faculty": ""
+      "program": "BA273",
+      "faculty": "BA"
     },
     {
       "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
@@ -3194,8 +3293,8 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "BLENDED_20242",
-      "program": "",
-      "faculty": ""
+      "program": "BA273",
+      "faculty": "BA"
     },
     {
       "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
@@ -3276,12 +3375,48 @@
   ],
   ".ENT550": [
     {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
       "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
       "group": "BA2755A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "ODL",
       "program": "BA275",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -3303,9 +3438,103 @@
       "room": "ONLINE",
       "program": "BA263",
       "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2633A",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    }
+  ],
+  ".ENT553": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA263",
+      "faculty": "BA"
+    }
+  ],
+  ".ENT555": [
+    {
+      "day_time": "TUESDAY( 08:30 AM-11:30 AM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
     }
   ],
   ".ENT571": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT30",
+      "program": "BA263",
+      "faculty": "BA"
+    },
     {
       "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
       "group": "BA2633A",
@@ -3323,6 +3552,91 @@
       "room": "",
       "program": "BA263",
       "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    }
+  ],
+  ".ENT621": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 07 BS4",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT30",
+      "program": "BA263",
+      "faculty": "BA"
+    }
+  ],
+  ".ENT622": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT30",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 07 BS4",
+      "program": "BA263",
+      "faculty": "BA"
     }
   ],
   ".EVM490": [
@@ -3332,6 +3646,15 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "ONLINE",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
       "program": "BA263",
       "faculty": "BA"
     },
@@ -3354,6 +3677,15 @@
       "faculty": "BA"
     },
     {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT30",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
       "day_time": "WEDNESDAY( 11:30 AM-13:30 PM )",
       "group": "BA2652A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -3369,6 +3701,15 @@
       "status": "First Timerand Repeater",
       "room": "ODL",
       "program": "BA265",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 07 BS4",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -3548,12 +3889,39 @@
       "faculty": "BA265"
     },
     {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 06 BK44",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
       "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
       "group": "BA2621D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSK6 11 BT16",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 05 BK32",
+      "program": "BA273",
       "faculty": "BA"
     },
     {
@@ -3600,6 +3968,33 @@
       "room": "FSK6 11 BT14",
       "program": "",
       "faculty": "BA265"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA273",
+      "faculty": "BA"
     }
   ],
   ".FIN534": [
@@ -3856,6 +4251,62 @@
       "faculty": "BA"
     }
   ],
+  ".FIN549": [
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 05 BK29",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 05 BK29",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT33",
+      "program": "BA272",
+      "faculty": "BA"
+    }
+  ],
   ".FIN552": [
     {
       "day_time": "MONDAY( 08:30 AM-10:30 AM )",
@@ -3964,6 +4415,118 @@
       "room": "ONLINE",
       "program": "BA280,BA290,BA272",
       "faculty": ""
+    }
+  ],
+  ".FIN562": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2724A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 10 MK8)",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 10 MK8)",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 10 MK8)",
+      "program": "BA272",
+      "faculty": "BA"
+    }
+  ],
+  ".FIN658": [
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PFI 03 TEC1",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA272,BA242",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ONLINE",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK234 08 TEC 16",
+      "program": "BA272",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2724A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PFI 01 BS1 (60)",
+      "program": "BA272,BA242",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2724B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "PFI 01 BS1 (60)",
+      "program": "BA272",
+      "faculty": "BA"
     }
   ],
   ".FIN659": [
@@ -5362,7 +5925,7 @@
       "faculty": "BA"
     },
     {
-      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
       "group": "REPEATERS3E",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -5407,7 +5970,7 @@
       "faculty": "BA"
     },
     {
-      "day_time": "THURSDAY( 16:00 PM-18:00 PM )",
+      "day_time": "THURSDAY( 17:00 PM-19:00 PM )",
       "group": "REPEATERS3E",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -6848,6 +7411,42 @@
       "faculty": "BA"
     },
     {
+      "day_time": "MONDAY( 10:30 AM-11:30 AM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2731D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
       "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
       "group": "BA2751A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -6900,6 +7499,15 @@
       "room": "FSK6 08-028",
       "program": "",
       "faculty": "BA265"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
     },
     {
       "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
@@ -7010,15 +7618,6 @@
       "faculty": "BA"
     },
     {
-      "day_time": "FRIDAY( 09:30 AM-10:30 AM )",
-      "group": "BA2621B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BLENDED_20242",
-      "program": "BA262",
-      "faculty": "BA"
-    },
-    {
       "day_time": "FRIDAY( 16:00 PM-17:00 PM )",
       "group": "BA2621B",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -7053,9 +7652,27 @@
       "room": "BLENDED_20242",
       "program": "BA265",
       "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
     }
   ],
   ".MGT555": [
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA263",
+      "faculty": "BA"
+    },
     {
       "day_time": "MONDAY( 10:30 AM-12:30 PM )",
       "group": "BA2644A",
@@ -7135,6 +7752,15 @@
       "status": "First Timerand Repeater",
       "room": "ODL",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -7225,6 +7851,15 @@
       "status": "First Timerand Repeater",
       "room": "",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -7347,6 +7982,15 @@
       "faculty": "BA"
     },
     {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
       "day_time": "MONDAY( 08:30 AM-10:30 AM )",
       "group": "BA2655D",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -7464,6 +8108,15 @@
       "faculty": "BA"
     },
     {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
       "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
       "group": "BA2655A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -7497,6 +8150,15 @@
       "status": "First Timerand Repeater",
       "room": "ODL",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -7553,6 +8215,15 @@
       "status": "First Timerand Repeater",
       "room": "ODL",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -8003,6 +8674,24 @@
       "status": "First Timerand Repeater",
       "room": "ODL",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -8750,6 +9439,60 @@
       "faculty": "BA"
     },
     {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 12:30 PM-13:30 PM )",
+      "group": "BA2731A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 12:30 PM-13:30 PM )",
+      "group": "BA2731B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 08:30 AM-10:30 AM )",
+      "group": "BA2731D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 04 BK14",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "BA2731D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
       "day_time": "MONDAY( 08:30 AM-10:30 AM )",
       "group": "BA2751A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -8876,6 +9619,15 @@
       "faculty": "BA265"
     },
     {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
       "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
       "group": "BA2801B",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -8904,6 +9656,15 @@
     },
     {
       "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2731C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 06 BK44",
+      "program": "BA273",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "FRIDAY( 10:30 AM-12:30 PM )",
       "group": "BA2801A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -8922,6 +9683,15 @@
     }
   ],
   ".MKT445": [
+    {
+      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA263",
+      "faculty": "BA"
+    },
     {
       "day_time": "MONDAY( 16:00 PM-18:00 PM )",
       "group": "BA2655A",
@@ -8969,6 +9739,15 @@
     },
     {
       "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
+      "group": "BA2633E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSK6 12 BT30",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:30 AM-12:30 PM )",
       "group": "BA2655B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -8983,6 +9762,15 @@
       "status": "First Timerand Repeater",
       "room": "BLENDED_20242",
       "program": "BA265",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "BA2633A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BLENDED_20242",
+      "program": "BA263",
       "faculty": "BA"
     },
     {
@@ -9037,6 +9825,26 @@
       "status": "First Timerand Repeater",
       "room": "FSK6 05 BK28",
       "program": "BA275",
+      "faculty": "BA"
+    }
+  ],
+  ".MKT511": [
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "BA2635A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "BA2635E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA263",
       "faculty": "BA"
     }
   ],
@@ -9483,17 +10291,8 @@
       "faculty": "BA"
     },
     {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 10:30 AM-13:30 PM )",
       "group": "BA2654C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "ODL",
-      "program": "BA265",
-      "faculty": "BA"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "BA2654D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "ODL",
@@ -9503,6 +10302,15 @@
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
       "group": "BA2654B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "ODL",
+      "program": "BA265",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "BA2654D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "ODL",
@@ -9618,6 +10426,55 @@
       "room": "FSK6 12 BT37",
       "program": "BA280, BA290",
       "faculty": ""
+    }
+  ],
+  ".OSM701": [
+    {
+      "day_time": "SUNDAY( 09:00 AM-12:30 PM )",
+      "group": "BA7751B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA775",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "BA7751A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA775",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-18:30 PM )",
+      "group": "BA7751B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA775",
+      "faculty": "BA"
+    }
+  ],
+  ".OSM752": [
+    {
+      "day_time": "SATURDAY( 09:00 AM-18:00 PM )",
+      "group": "BA7751A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA775",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "SATURDAY( 09:00 AM-18:00 PM )",
+      "group": "BA7751B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "BA775",
+      "faculty": "BA"
     }
   ],
   ".PHI428": [
@@ -10315,6 +11172,15 @@
       "faculty": "BA"
     },
     {
+      "day_time": "MONDAY( 10:30 AM-13:30 PM )",
+      "group": "BA2634E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 09 MK5)",
+      "program": "BA263, BA233, BA243",
+      "faculty": "BA"
+    },
+    {
       "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "BA2624B",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -10330,6 +11196,15 @@
       "status": "First Timerand Repeater",
       "room": "Makmal Komputer (FSK6 11 MK9)",
       "program": "BA262",
+      "faculty": "BA"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "BA2634A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Komputer (FSK6 12 MK12)",
+      "program": "BA263, BA233",
       "faculty": "BA"
     },
     {

@@ -1,31 +1,75 @@
 {
-  ".MUB233": [
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "MU1113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "TEC 2 SEK 17",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
+  ".MUB233": [],
   ".MUF110": [
     {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
       "group": "BIGBAND1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
+      "room": "ORCHESTRA HALL SEK 17",
       "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     },
     {
       "day_time": "MONDAY( 17:00 PM-19:00 PM )",
+      "group": "CHOIR1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "CHOIR2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "ORCHTRAD1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TRADISIONAL 3 SEK 17",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
       "group": "BIGBAND2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
+      "room": "ORCHESTRA HALL SEK 17",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "CHOIR3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "CHOIR4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "GUITAR1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TEC 7 SAAS",
       "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     },
@@ -35,250 +79,90 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "DEWAN KONSERT, DSB",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "ORCHTRAD2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TRADISIONAL 3 SEK 17",
       "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     }
   ],
   ".MUF160": [
     {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
       "group": "BIGBAND1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
+      "room": "ORCHESTRA HALL SEK 17",
       "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     },
     {
       "day_time": "MONDAY( 17:00 PM-19:00 PM )",
-      "group": "BIGBAND2",
+      "group": "CHOIR1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
+      "room": "BILIK TEC 5 SAAS",
       "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     },
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "CAMU110,MU110",
-      "faculty": "CA,MU"
-    }
-  ],
-  ".MUF210": [
     {
       "day_time": "MONDAY( 20:00 PM-22:00 PM )",
-      "group": "BIGBAND1",
+      "group": "CHOIR2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU110",
-      "faculty": "MU"
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
     },
     {
-      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
+      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
+      "group": "ORCHTRAD1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TRADISIONAL 3 SEK 17",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
       "group": "BIGBAND2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU110",
-      "faculty": "MU"
+      "room": "ORCHESTRA HALL SEK 17",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
+    },
+    {
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "CHOIR3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
     },
     {
       "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
+      "group": "CHOIR4",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "MU110",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF254": [
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "MU110",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF304": [
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "MU110",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF402": [
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "MU221SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 4 SAAS",
-      "program": "MU221,MU222,MU223",
-      "faculty": "MU"
+      "room": "BILIK TEC 5 SAAS",
+      "program": "CAMU110,MU110",
+      "faculty": "CA,MU"
     },
     {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "MU222SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 4 SAAS",
-      "program": "MU221,MU222,MU223",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "MU223SEM1",
+      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
+      "group": "GUITAR1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "BILIK TEC 7 SAAS",
-      "program": "MU221,MU222,MU223",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "MU230SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 7 SAAS,BILIK TEC 6 SAAS,BILIK TEC 4 SAAS",
-      "program": "CAMU221,CAMU222,CAMU223,CAMU230,MU221,MU222,MU223,MU230",
-      "faculty": "CA,MU"
-    }
-  ],
-  ".MUF404": [
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "MU221SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 9 SAAS",
-      "program": "MU221,MU222,MU223",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "MU222SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 9 SAAS",
-      "program": "MU221,MU222,MU223",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "MU223SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 9 SAAS",
-      "program": "MU221,MU222,MU223",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "MU230SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 4 SAAS",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF405": [
-    {
-      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
-      "group": "MU221SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 1 SAAS",
-      "program": "MU221,MU222",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
-      "group": "MU222SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 1 SAAS",
-      "program": "MU221,MU222",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
-      "group": "MU230SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 1 SAAS",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
-      "group": "MU230SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Smart Class Room ARIF@B.4",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF409": [
-    {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
-      "group": "BIGBAND1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
-      "group": "BIGBAND2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF459": [
-    {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
-      "group": "BIGBAND1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "CAMU220,CAMU221,CAMU222,CAMU230,MU221,MU222,MU230",
-      "faculty": "CA,MU"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
-      "group": "BIGBAND2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "CAMU220,CAMU221,CAMU222,CAMU230,MU221,MU222,MU230",
+      "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     },
     {
@@ -287,470 +171,49 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "DEWAN KONSERT, DSB",
-      "program": "CAMU220,CAMU221,CAMU222,CAMU230,MU221,MU222,MU230",
-      "faculty": "CA,MU"
-    }
-  ],
-  ".MUF509": [
-    {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
-      "group": "BIGBAND1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU220,MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
-      "group": "BIGBAND2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU220,MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "MU220,MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    }
-  ],
-  ".MUF559": [
-    {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
-      "group": "BIGBAND1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "CAMU220,CAMU221,CAMU222,CAMU230,MU221,MU222,MU230",
+      "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     },
     {
-      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
-      "group": "BIGBAND2",
+      "day_time": "TUESDAY( 20:00 PM-22:00 PM )",
+      "group": "ORCHTRAD2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "CAMU220,CAMU221,CAMU222,CAMU230,MU221,MU222,MU230",
-      "faculty": "CA,MU"
-    },
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "CAMU220,CAMU221,CAMU222,CAMU230,MU221,MU222,MU230",
+      "room": "BILIK TRADISIONAL 3 SEK 17",
+      "program": "CAMU110,MU110",
       "faculty": "CA,MU"
     }
   ],
-  ".MUF609": [
-    {
-      "day_time": "MONDAY( 20:00 PM-22:00 PM )",
-      "group": "BIGBAND1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-19:00 PM )",
-      "group": "BIGBAND2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 17:00 PM-19:00 PM )",
-      "group": "ORCHESTRA1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "DEWAN KONSERT, DSB",
-      "program": "MU221,MU222,MU223,MU230",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP404": [
-    {
-      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
-      "group": "MU222SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "CAMU222,MU222",
-      "faculty": "CA,MU"
-    }
-  ],
-  ".MUP425": [
-    {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
-      "group": "MU222SEM5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 6 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
-      "group": "MU222SF",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 6 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP437": [
-    {
-      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
-      "group": "MU222SEM1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP505": [
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "MU222SEM3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 3 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "MU222SEM3N",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 3 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP508": [
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "MU222SEM3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 5 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "MU222SEM3N",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 5 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "MU222SF",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 5 SAAS",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP512": [
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "MU222SEM5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP563": [
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "MU222SEM5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP604": [
-    {
-      "day_time": "FRIDAY( 12:00 PM-13:00 PM )",
-      "group": "MU222SEM5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP614": [
-    {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "MU222SEM5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "MU222",
-      "faculty": "MU"
-    }
-  ],
-  ".MUP710": [
-    {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "MU790SEM2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "CAMU790",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT101": [
-    {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "MU1111A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "MU1111B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "MU1111C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT102": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
-      "group": "MU1111C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "STUDIO BROADCAST DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "MU1111B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "STUDIO BROADCAST DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
-      "group": "MU1111A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "STUDIO BROADCAST DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT110": [
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "MU1111A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 1 SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "MU1111B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 2 SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT115": [
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
-      "group": "MU1111A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "MU1111B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
-      "group": "MU1111C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT120": [
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "MU1111C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COMPUTER LAB SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 11:00 AM-14:00 PM )",
-      "group": "MU1111A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "PYE Lab SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "MU1111B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COMPUTER LAB SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT125": [
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "MU1111B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "MU1111A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "MU111",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
-      "group": "MU1111C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT201": [
-    {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "MU1113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "RECITAL HALL DSB",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT210": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "MU1113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT215": [
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "MU1113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COMPUTER LAB SAAS",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".MUT220": [
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "MU1113A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Recording Studio",
-      "program": "MU111",
-      "faculty": "MU"
-    }
-  ],
-  ".UMU102": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "MU1101A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 3 SAAS",
-      "program": "MU110",
-      "faculty": "MU"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "MU1101A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TEC 3 SAAS",
-      "program": "MU110",
-      "faculty": "MU"
-    }
-  ]
+  ".MUF210": [],
+  ".MUF254": [],
+  ".MUF304": [],
+  ".MUF402": [],
+  ".MUF404": [],
+  ".MUF405": [],
+  ".MUF409": [],
+  ".MUF459": [],
+  ".MUF509": [],
+  ".MUF559": [],
+  ".MUF609": [],
+  ".MUP404": [],
+  ".MUP425": [],
+  ".MUP437": [],
+  ".MUP505": [],
+  ".MUP508": [],
+  ".MUP512": [],
+  ".MUP563": [],
+  ".MUP604": [],
+  ".MUP614": [],
+  ".MUP710": [],
+  ".MUT101": [],
+  ".MUT102": [],
+  ".MUT110": [],
+  ".MUT115": [],
+  ".MUT120": [],
+  ".MUT125": [],
+  ".MUT201": [],
+  ".MUT210": [],
+  ".MUT215": [],
+  ".MUT220": [],
+  ".UMU102": []
 }

@@ -2175,15 +2175,6 @@
     },
     {
       "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
-      "group": "CAAD2615B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "PFI 02 DK2",
-      "program": "AD261,CAAD261",
-      "faculty": "AD,CA"
-    },
-    {
-      "day_time": "WEDNESDAY( 09:00 AM-13:00 PM )",
       "group": "CAAD2615C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2233,6 +2224,15 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "PFI 02 DK2",
+      "program": "AD261,CAAD261",
+      "faculty": "AD,CA"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-13:00 PM )",
+      "group": "CAAD2615B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0510",
       "program": "AD261,CAAD261",
       "faculty": "AD,CA"
     },

@@ -430,7 +430,7 @@
       "group": "HM2524A1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSK6 12 BT31",
       "program": "HM252",
       "faculty": "HM"
     },
@@ -439,7 +439,7 @@
       "group": "HM2524A2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSK6 12 BT31",
       "program": "HM252",
       "faculty": "HM"
     },
@@ -542,7 +542,7 @@
       "group": "HM2525A1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSK6 12 BT31",
       "program": "",
       "faculty": "HM"
     },

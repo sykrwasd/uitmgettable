@@ -1055,7 +1055,7 @@
       "group": "AD2613A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "TEC 16 PFI",
       "program": "AD261",
       "faculty": "AD"
     },
@@ -1103,6 +1103,24 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "TEC 14 PFI",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2613G",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0513",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "AD2613F",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0510",
       "program": "AD261",
       "faculty": "AD"
     },
@@ -2670,6 +2688,24 @@
       "room": "",
       "program": "AD261",
       "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0407",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0301",
+      "program": "AD261",
+      "faculty": "AD"
     }
   ],
   ".GDC403": [
@@ -2777,6 +2813,15 @@
       "faculty": "AD"
     },
     {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "AD2611D",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "GRAPHIC DESIGN STUDIO 0303",
+      "program": "AD261",
+      "faculty": "AD"
+    },
+    {
       "day_time": "MONDAY( 09:00 AM-12:00 PM )",
       "group": "AD2611E",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -2796,8 +2841,8 @@
     },
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "AD2611D",
-      "mode": "BOTH - Fulltimeand Part-time",
+      "group": "AD2611C",
+      "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "GRAPHIC DESIGN STUDIO 0303",
       "program": "AD261",

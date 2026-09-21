@@ -1,34 +1,250 @@
 {
-  "scraped_at": "2026-09-21T02:55:17.523Z",
+  "scraped_at": "2026-09-21T17:11:51.824Z",
   "campuses": [
+    {
+      "campus": "B_AA",
+      "name": "SHAH ALAM - ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+      "courses": 37,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AC",
+      "name": "SHAH ALAM - FACULTY OF ACCOUNTANCY",
+      "courses": 125,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AD",
+      "name": "SHAH ALAM - FACULTY OF ART AND DESIGN",
+      "courses": 220,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AM",
+      "name": "SHAH ALAM - FACULTY OF ADMINISTRATIVE SCIENCE AND POLICY STUDIES",
+      "courses": 32,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AP",
+      "name": "SHAH ALAM - FACULTY OF ARCHITECTURE, PLANNING AND SURVEYING",
+      "courses": 5,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AS",
+      "name": "SHAH ALAM - FACULTY OF APPLIED SCIENCES",
+      "courses": 308,
+      "status": "ok"
+    },
+    {
+      "campus": "B_BA",
+      "name": "SHAH ALAM - FACULTY OF BUSINESS AND MANAGEMENT",
+      "courses": 165,
+      "status": "ok"
+    },
+    {
+      "campus": "B_BE",
+      "name": "SHAH ALAM - FACULTY OF BUILT ENVIRONMENT",
+      "courses": 290,
+      "status": "ok"
+    },
+    {
+      "campus": "B_BM",
+      "name": "SHAH ALAM - FACULTY OF BUSINESS MANAGEMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CA",
+      "name": "SHAH ALAM - COLLEGE OF CREATIVE ARTS",
+      "courses": 148,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CD",
+      "name": "SHAH ALAM - COLLEGE OF COMPUTING, INFORMATICS AND MATHEMATICS",
+      "courses": 168,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CE",
+      "name": "SHAH ALAM - COLLEGE OF ENGINEERING",
+      "courses": 145,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CF",
+      "name": "SHAH ALAM - COLLEGE OF BUILT ENVIRONMENT",
+      "courses": 157,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CP",
+      "name": "SHAH ALAM - INSTI OF CONTINUING EDUCATION & PROFESSIONAL STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CS",
+      "name": "SHAH ALAM - FACULTY OF COMPUTER AND MATHEMATICAL SCIENCES",
+      "courses": 206,
+      "status": "ok"
+    },
+    {
+      "campus": "B_DS",
+      "name": "SHAH ALAM - FACULTY OF DENTISTRY",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EC",
+      "name": "SHAH ALAM - FACULTY OF CIVIL ENGINEERING",
+      "courses": 103,
+      "status": "ok"
+    },
+    {
+      "campus": "B_ED",
+      "name": "SHAH ALAM - FACULTY OF EDUCATION",
+      "courses": 164,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EE",
+      "name": "SHAH ALAM - FACULTY OF ELECTRICAL ENGINEERING",
+      "courses": 86,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EH",
+      "name": "SHAH ALAM - FACULTY OF CHEMICAL ENGINEERING",
+      "courses": 39,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EM",
+      "name": "SHAH ALAM - FACULTY OF MECHANICAL ENGINEERING",
+      "courses": 46,
+      "status": "ok"
+    },
+    {
+      "campus": "B_FF",
+      "name": "SHAH ALAM - FACULTY OF FILM, THEATRE AND ANIMATION",
+      "courses": 152,
+      "status": "ok"
+    },
+    {
+      "campus": "B_HM",
+      "name": "SHAH ALAM - FACULTY OF HOTEL AND TOURISM MANAGEMENT",
+      "courses": 158,
+      "status": "ok"
+    },
+    {
+      "campus": "B_HS",
+      "name": "SHAH ALAM - FACULTY OF HEALTH SCIENCES",
+      "courses": 195,
+      "status": "ok"
+    },
+    {
+      "campus": "B_IC",
+      "name": "SHAH ALAM - ACADEMY OF CONTEMPORARY ISLAMIC STUDIES",
+      "courses": 84,
+      "status": "ok"
+    },
+    {
+      "campus": "B_IM",
+      "name": "SHAH ALAM - FACULTY OF INFORMATION MANAGEMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_IN",
+      "name": "SHAH ALAM - INTERNATIONAL",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_LG",
+      "name": "SHAH ALAM - ACADEMY OF LANGUAGE STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_LT",
+      "name": "SHAH ALAM - MALAYSIA INSTITUTE OF TRANSPORT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_LW",
+      "name": "SHAH ALAM - FACULTY OF LAW",
+      "courses": 110,
+      "status": "ok"
+    },
+    {
+      "campus": "B_MC",
+      "name": "SHAH ALAM - FACULTY OF COMMUNICATION AND MEDIA STUDIES",
+      "courses": 160,
+      "status": "ok"
+    },
+    {
+      "campus": "B_MD",
+      "name": "SHAH ALAM - FACULTY OF MEDICINE",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_MU",
+      "name": "SHAH ALAM - FACULTY OF MUSIC",
+      "courses": 35,
+      "status": "ok"
+    },
+    {
+      "campus": "B_PH",
+      "name": "SHAH ALAM - FACULTY OF PHARMACY",
+      "courses": 44,
+      "status": "ok"
+    },
+    {
+      "campus": "B_SI",
+      "name": "SHAH ALAM - FACULTY OF INFORMATION SCIENCE",
+      "courses": 67,
+      "status": "ok"
+    },
+    {
+      "campus": "B_SR",
+      "name": "SHAH ALAM - FACULTY OF SPORTS SCIENCE AND RECREATION",
+      "courses": 90,
+      "status": "ok"
+    },
     {
       "campus": "APB",
       "name": "SELANGOR - LANGUAGE",
-      "courses": 87,
+      "courses": 103,
       "status": "ok"
     },
     {
       "campus": "CITU",
       "name": "SELANGOR - CITU",
-      "courses": 20,
+      "courses": 23,
       "status": "ok"
     },
     {
       "campus": "HEP",
       "name": "SELANGOR - CO-CURRICULUM",
-      "courses": 62,
+      "courses": 67,
       "status": "ok"
     },
     {
       "campus": "A",
       "name": "SERI ISKANDAR",
-      "courses": 561,
+      "courses": 578,
       "status": "ok"
     },
     {
       "campus": "A4",
       "name": "TAPAH",
-      "courses": 148,
+      "courses": 149,
       "status": "ok"
     },
     {
@@ -40,7 +256,7 @@
     {
       "campus": "C",
       "name": "JENGKA",
-      "courses": 368,
+      "courses": 392,
       "status": "ok"
     },
     {
@@ -52,49 +268,49 @@
     {
       "campus": "D",
       "name": "MACHANG",
-      "courses": 384,
+      "courses": 426,
       "status": "ok"
     },
     {
       "campus": "D2",
       "name": "KOTA BHARU",
-      "courses": 99,
+      "courses": 122,
       "status": "ok"
     },
     {
       "campus": "J",
       "name": "SEGAMAT",
-      "courses": 396,
+      "courses": 397,
       "status": "ok"
     },
     {
       "campus": "J4",
       "name": "PASIR GUDANG",
-      "courses": 179,
+      "courses": 180,
       "status": "ok"
     },
     {
       "campus": "K",
       "name": "SUNGAI PETANI",
-      "courses": 376,
+      "courses": 406,
       "status": "ok"
     },
     {
       "campus": "M",
       "name": "ALOR GAJAH",
-      "courses": 352,
+      "courses": 389,
       "status": "ok"
     },
     {
       "campus": "M1",
       "name": "BANDARAYA MELAKA",
-      "courses": 193,
+      "courses": 231,
       "status": "ok"
     },
     {
       "campus": "M3",
       "name": "JASIN",
-      "courses": 243,
+      "courses": 269,
       "status": "ok"
     },
     {
@@ -112,98 +328,86 @@
     {
       "campus": "N4",
       "name": "SEREMBAN 3",
-      "courses": 316,
+      "courses": 348,
       "status": "ok"
     },
     {
       "campus": "N5",
       "name": "REMBAU",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 173,
+      "status": "ok"
     },
     {
       "campus": "P",
       "name": "BUKIT MERTAJAM",
       "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "status": "ok"
     },
     {
       "campus": "P2",
       "name": "BERTAM",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 94,
+      "status": "ok"
     },
     {
       "campus": "P4",
       "name": "PERMATANG PAUH",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 486,
+      "status": "ok"
     },
     {
       "campus": "Q",
       "name": "SAMARAHAN",
-      "courses": 412,
+      "courses": 428,
       "status": "ok"
     },
     {
       "campus": "Q5",
       "name": "SAMARAHAN 2",
-      "courses": 0,
-      "status": "error",
-      "error": "socket hang up"
+      "courses": 298,
+      "status": "ok"
     },
     {
       "campus": "Q6",
       "name": "MUKAH",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 108,
+      "status": "ok"
     },
     {
       "campus": "R",
       "name": "ARAU",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 612,
+      "status": "ok"
     },
     {
       "campus": "S",
       "name": "KOTA KINABALU",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 413,
+      "status": "ok"
     },
     {
       "campus": "S2",
       "name": "TAWAU",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 12,
+      "status": "ok"
     },
     {
       "campus": "T",
       "name": "DUNGUN",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 429,
+      "status": "ok"
     },
     {
       "campus": "T4",
       "name": "BUKIT BESI",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 109,
+      "status": "ok"
     },
     {
       "campus": "T5",
       "name": "KUALA TERENGGANU",
-      "courses": 0,
-      "status": "error",
-      "error": "connect ECONNREFUSED 202.58.83.45:443"
+      "courses": 135,
+      "status": "ok"
     }
   ]
 }
