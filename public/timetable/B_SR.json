@@ -1,67 +1,40 @@
 {
   ".ACC117": [
     {
-      "day_time": "SUNDAY( 10:00 AM-12:00 PM )",
-      "group": "NSRDJ9",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11104C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
       "group": "SR11104A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR111",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
       "group": "SR11104B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11104SA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 10:00 AM-12:00 PM )",
-      "group": "NSRDJ9",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".ENT300": [
     {
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
+      "group": "NSRD7A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR1135D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "FSR BILIK KULIAH 7",
       "program": "SR113",
       "faculty": "SR"
     },
@@ -70,34 +43,52 @@
       "group": "SR1135D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11508",
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1135D3",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR115",
+      "room": "FSR BILIK KULIAH 11",
+      "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11708",
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1135D4",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR117",
+      "room": "FSR BILIK KULIAH 14",
+      "program": "SR113",
       "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11105",
+      "group": "SR11105A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "C2052 - FSPPP",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "SR11105B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2048 - FSPPP",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "SR11105C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
       "program": "SR111",
       "faculty": "SR"
     }
@@ -108,7 +99,7 @@
       "group": "SR2415NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 12",
+      "room": "FSR BILIK KULIAH 9",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -117,7 +108,7 @@
       "group": "SR2415NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 13",
+      "room": "FSR BILIK KULIAH 10",
       "program": "SR241 SR243",
       "faculty": "SR"
     },
@@ -126,7 +117,7 @@
       "group": "SR2415NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
+      "room": "FSR BILIK KULIAH 11",
       "program": "SR241 SR243",
       "faculty": "SR"
     },
@@ -153,7 +144,7 @@
       "group": "SR2435S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "FSR BILIK KULIAH 16",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -162,7 +153,7 @@
       "group": "NSRB7A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK10",
       "program": "SR241,CFAP246",
       "faculty": "SR,CF"
     },
@@ -182,7 +173,7 @@
       "group": "NSRB7A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK10",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
@@ -199,10 +190,46 @@
   ".PMG614": [
     {
       "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2414NA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSPU B308",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SR2414NA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSPU B308",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2414NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSPU B308",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SR2414NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSPU B308",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
       "group": "SR2414NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSPU B306",
+      "room": "B323",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -211,91 +238,37 @@
       "group": "SR2414NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSPU B306",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR2414NA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
       "room": "B323",
       "program": "SR241",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
-      "group": "SR2414NA",
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2414ND",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "B323",
+      "room": "FSPU B302",
       "program": "SR241",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR2434S1",
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
+      "group": "SR2414ND",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSPU B301",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
-      "group": "SR2434S1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSPU B301",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "SR2414NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSPU B301",
+      "room": "FSPU B302",
       "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 16:00 PM-17:00 PM )",
-      "group": "SR2414NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSPU B301",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 09:00 AM-11:00 AM )",
-      "group": "SR2434S2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSPU B306",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 11:00 AM-12:00 PM )",
-      "group": "SR2434S2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSPU B306",
-      "program": "SR243",
       "faculty": "SR"
     }
   ],
   ".SMG103": [
     {
-      "day_time": "SUNDAY( 14:30 PM-16:30 PM )",
-      "group": "NSRDJ9",
-      "mode": "Students UnderiCEPS Only",
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "SR1131D2",
+      "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR111",
+      "room": "C1048 - FSPPP",
+      "program": "SR113",
       "faculty": "SR"
     },
     {
@@ -303,22 +276,31 @@
       "group": "SR1131D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "FSR BILIK KULIAH 13",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11101",
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11101A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 12",
+      "room": "FSR MAKMAL KOMPUTER 2",
       "program": "SR111",
       "faculty": "SR"
     },
     {
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1131D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 16",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11101(SA)",
+      "group": "SR11101SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR DEWAN KULIAH 1",
@@ -327,11 +309,20 @@
     },
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11301(SA)",
+      "group": "SR11301SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR DEWAN KULIAH 1",
-      "program": "SR113,SR115",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-18:00 PM )",
+      "group": "SR11101B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
@@ -339,57 +330,12 @@
       "group": "NSRD1A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK11",
       "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 14:30 PM-16:30 PM )",
-      "group": "NSRDJ9",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SMG161": [
-    {
-      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
-      "group": "SR1132D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL REKREASI  (TEC)",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 15:00 PM-18:00 PM )",
-      "group": "SR1132D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL REKREASI  (TEC)",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
-      "group": "SR11102B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL REKREASI  (TEC)",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11102B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL REKREASI  (TEC)",
-      "program": "SR111",
-      "faculty": "SR"
-    },
     {
       "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
       "group": "SR1132D1",
@@ -409,42 +355,6 @@
       "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
-      "group": "SR11102(SA)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL REKREASI  (TEC)",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 15:00 PM-18:00 PM )",
-      "group": "SR11102(SA)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL REKREASI  (TEC)",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-09:00 AM )",
-      "group": "SR1132D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 09:00 AM-12:00 PM )",
-      "group": "SR1132D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
       "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
       "group": "SR11102A",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -464,65 +374,65 @@
     },
     {
       "day_time": "FRIDAY( 08:00 AM-09:00 AM )",
-      "group": "SR11302(SA)",
+      "group": "SR11102SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR STADIUM HOKI",
-      "program": "SR113,SR115",
+      "room": "MAKMAL REKREASI  (TEC)",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "FRIDAY( 09:00 AM-12:00 PM )",
-      "group": "SR11302(SA)",
+      "group": "SR11102SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR STADIUM HOKI",
-      "program": "SR113,SR115",
+      "room": "MAKMAL REKREASI  (TEC)",
+      "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SMG231": [
     {
       "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
-      "group": "SR11103",
+      "group": "SR11103A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
+      "room": "FSR DEWAN KULIAH 1",
       "program": "SR111,SR117",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "SR11103B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "SR11105SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SMG253": [
     {
       "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11106SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR STADIUM HOKI",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "SR11104A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11104B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2048 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11706",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH 2",
-      "program": "SR117",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11104C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "C2052 - FSPPP",
@@ -532,44 +442,26 @@
   ],
   ".SMG259": [
     {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11104C",
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "SR11104",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
+      "room": "FSR BILIK KULIAH 6",
       "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11707",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR117",
       "faculty": "SR"
     },
     {
       "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11104A",
+      "group": "SR11707",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
-      "program": "SR111",
+      "room": "C2051 - FSPPP",
+      "program": "SR117",
       "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11104B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH 2",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 11:00 AM-17:30 PM )",
-      "group": "NSRDJ6",
+      "day_time": "SATURDAY( 14:30 PM-16:30 PM )",
+      "group": "NSRDJ7",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
       "room": "",
@@ -579,11 +471,29 @@
   ],
   ".SMG301": [
     {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11105",
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11105A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "C2051 - FSPPP",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11105B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2049 - FSPPP",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11105C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2052 - FSPPP",
       "program": "SR111",
       "faculty": "SR"
     },
@@ -592,55 +502,62 @@
       "group": "SR11707",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
+      "room": "FSR BILIK KULIAH 12",
       "program": "SR117",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-17:30 PM )",
+      "group": "NSRDJ7",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SMG311": [
     {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11708",
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11105B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR STADIUM HOKI",
-      "program": "SR117",
+      "room": "D4109 - DK FSPPP",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11105C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D4109 - DK FSPPP",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11105",
+      "group": "SR11105A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
+      "room": "FSR MAKMAL KOMPUTER 1",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-17:30 PM )",
+      "group": "NSRDJ7",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
       "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SMG313": [
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11105",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11708",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
-      "program": "SR117",
-      "faculty": "SR"
-    }
-  ],
-  ".SMG321": [
-    {
       "day_time": "SUNDAY( 11:00 AM-17:30 PM )",
-      "group": "NSRDJ6",
+      "group": "NSRDJ7",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
       "room": "",
@@ -648,21 +565,86 @@
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11105A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11105B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11105C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "SATURDAY( 11:00 AM-17:30 PM )",
+      "group": "NSRDJ7",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
+      "faculty": "SR"
+    }
+  ],
+  ".SMG321": [
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11105C",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR11707",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 13",
+      "room": "C1051 - FSPPP",
       "program": "SR117",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11105",
+      "group": "SR11105A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
-      "program": "SR111,SR117",
+      "room": "BILIK KULIAH 2",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "SR11105B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 11",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "SATURDAY( 10:00 AM-12:00 PM )",
+      "group": "NSRDJ7",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
       "faculty": "SR"
     }
   ],
@@ -672,13 +654,13 @@
       "group": "NSRB1A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK1",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2411N",
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SR2411M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR DEWAN KULIAH 1",
@@ -686,7 +668,25 @@
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
+      "group": "SR2411M",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SR2431S1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR243",
+      "faculty": "SR243"
+    },
+    {
+      "day_time": "MONDAY( 11:00 AM-12:00 PM )",
       "group": "SR2431S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -697,11 +697,11 @@
   ],
   ".SMG502": [
     {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR2413NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -710,16 +710,16 @@
       "group": "SR2413NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "C1051 - FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
     {
-      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
+      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
       "group": "NSRB1A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK1",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -730,16 +730,16 @@
       "group": "SR2413NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 20",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR241",
       "faculty": "SR241"
     },
     {
-      "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
       "group": "SR2413NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
+      "room": "FSR DEWAN KULIAH 2",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -748,16 +748,16 @@
       "group": "SR2413NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 19",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR241",
       "faculty": "SR"
     },
     {
-      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
       "group": "NSRB1A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK1",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -768,25 +768,16 @@
       "group": "NSRB3A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK3",
       "program": "SR241,SR243",
       "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2414NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH 2",
-      "program": "",
-      "faculty": "SR241"
     },
     {
       "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "SR2414NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 19",
+      "room": "C1048 - FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -795,7 +786,16 @@
       "group": "SR2414NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2049 - FSPPP",
+      "room": "D4109 - DK FSPPP",
+      "program": "",
+      "faculty": "SR241"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2414NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "D4109 - DK FSPPP",
       "program": "",
       "faculty": "SR241"
     }
@@ -806,7 +806,7 @@
       "group": "SR2415NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
+      "room": "C2052 - FSPPP",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -815,7 +815,7 @@
       "group": "SR2415NC",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
+      "room": "FSR BILIK KULIAH 11",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -824,7 +824,7 @@
       "group": "SR2415NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
+      "room": "FSR BILIK KULIAH 12",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -833,7 +833,7 @@
       "group": "NSRB4A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK7",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -858,11 +858,11 @@
       "faculty": "SR241"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
       "group": "SR2415NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 8",
+      "room": "C2051 - FSPPP",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -871,7 +871,7 @@
       "group": "SR2415NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 13",
+      "room": "FSR BILIK KULIAH 10",
       "program": "SR241",
       "faculty": "SR241"
     }
@@ -915,21 +915,12 @@
     },
     {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2436S2A",
+      "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
+      "room": "FSR BILIK KULIAH 5",
       "program": "SR243",
       "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2436S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
-      "program": "",
-      "faculty": "SR243"
     },
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
@@ -956,7 +947,7 @@
       "group": "SR2415NC",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "FSR BILIK KULIAH 6",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -965,7 +956,7 @@
       "group": "SR2415NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 8",
+      "room": "C2048 - FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -974,7 +965,7 @@
       "group": "SR2415NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 8",
+      "room": "C2052 - FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -983,7 +974,7 @@
       "group": "NSRB5A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK8",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -991,54 +982,72 @@
   ".SPE252": [
     {
       "day_time": "MONDAY( 14:00 PM-18:00 PM )",
-      "group": "SR11103",
+      "group": "SR1133D3",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 20",
-      "program": "SR111",
+      "room": "FSR BILIK KULIAH 16",
+      "program": "SR113",
       "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
-      "group": "SR1133D1",
+      "group": "SR1133D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "BILIK KULIAH 2",
       "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "SR11105SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 1",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "WEDNESDAY( 08:00 AM-12:00 PM )",
-      "group": "SR11505",
+      "group": "SR11305SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
-      "program": "SR115,SR117,SR113,SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
-      "group": "NSRD4A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BILIK SEMINAR STADIUM HOKI",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "SATURDAY( 11:00 AM-17:30 PM )",
-      "group": "NSRDJ6",
-      "mode": "Students UnderiCEPS Only",
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "SR1133D1",
+      "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSR BILIK KULIAH 7",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "SR11103A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 2",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-12:00 PM )",
+      "group": "SR11103B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 2",
       "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SPS105": [
     {
-      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11101",
+      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
+      "group": "SR11101A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -1046,8 +1055,8 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
-      "group": "SR11101",
+      "day_time": "MONDAY( 15:00 PM-17:00 PM )",
+      "group": "SR11101A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -1055,30 +1064,66 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR11101(SA)",
+      "day_time": "MONDAY( 08:00 AM-09:00 AM )",
+      "group": "SR11101SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
-      "program": "SR111,SR117",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "SR11101(SA)",
+      "day_time": "MONDAY( 09:00 AM-11:00 AM )",
+      "group": "SR11101SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
-      "program": "SR111,SR117",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11301(SA)",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11301SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
       "program": "SR113,SR115",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1131D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1131D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "group": "SR11101B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "SR11101B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
@@ -1095,7 +1140,7 @@
       "group": "NSRD1A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK11",
       "program": "SR113",
       "faculty": "SR"
     }
@@ -1106,31 +1151,13 @@
       "group": "NSRD1A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "KOLAM RENANG UITM",
       "program": "SR113",
       "faculty": "SR"
     },
     {
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "SR11101 (L)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "KOLAM RENANG UITM",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR11101 (P)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "KOLAM RENANG UITM",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR11102(SA-P)",
+      "group": "SR11101LA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
@@ -1139,121 +1166,121 @@
     },
     {
       "day_time": "MONDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11302(SA-L)",
+      "group": "SR11101LB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
-      "program": "SR113,SR117,SR115",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR11302(SA-P)",
+      "group": "SR11101PA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "SR1131D1 (L)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "KOLAM RENANG UITM",
-      "program": "SR113,SR117,SR111",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR1131D1 (P)",
+      "group": "SR11101PB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
-      "program": "SR113",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11102(SA-L)",
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR11102LSA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
       "program": "SR111,SR117",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SR11102PSA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+      "group": "SR1131D1L",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR1131D3L",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
+      "group": "SR1131D2L",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR1131PD1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR1131PD2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
+      "group": "SR1131PD3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "KOLAM RENANG UITM",
+      "program": "SR113",
       "faculty": "SR"
     }
   ],
   ".SPS107": [
     {
-      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
-      "group": "SR11104B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2049 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 15:00 PM-17:00 PM )",
-      "group": "SR11104B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2049 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
-      "group": "SR11104C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2049 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
-      "group": "SR11104C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2049 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
       "day_time": "THURSDAY( 10:00 AM-11:00 AM )",
-      "group": "SR11104A",
+      "group": "SR11104",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
+      "room": "FSR BILIK KULIAH 8",
       "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "SR11104A",
+      "group": "SR11104",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
+      "room": "FSR BILIK KULIAH 8",
       "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-15:00 PM )",
-      "group": "SR11706",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR STADIUM HOKI",
-      "program": "SR111,SR117",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 15:00 PM-17:00 PM )",
-      "group": "SR11706",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR STADIUM HOKI",
-      "program": "SR111,SR117",
       "faculty": "SR"
     }
   ],
@@ -1263,30 +1290,30 @@
       "group": "SR1131D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 12",
+      "room": "FSR BILIK KULIAH 9",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SR1131D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR113",
       "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11303SA",
+      "group": "SR11101A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2049 - FSPPP",
-      "program": "SR113,SR111",
+      "room": "FSR BILIK KULIAH 8",
+      "program": "SR111",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11101",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR111,SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
       "group": "SR11103SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1295,7 +1322,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
       "group": "SR11303SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1304,41 +1331,95 @@
       "faculty": "SR"
     },
     {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "SR1131D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 15",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
       "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR11101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 9",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR11101B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 10",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR11303SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "SR113,SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
       "group": "SR1131D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "FSR BILIK KULIAH 3",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-17:00 PM )",
+      "group": "SR1131D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
       "program": "SR113",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11101",
+      "group": "SR11101B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "FSR BILIK KULIAH 15",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "SR11103SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR STADIUM HOKI",
       "program": "SR111,SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
-      "group": "SR11103SA",
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "SR1131D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
-      "program": "SR111,SR113",
+      "room": "FSR BILIK KULIAH 13",
+      "program": "SR113",
       "faculty": "SR"
     }
   ],
   ".SPS135": [
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1132D2",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11304SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
-      "program": "SR113,SR115",
+      "room": "C2052 - FSPPP",
+      "program": "SR113",
       "faculty": "SR"
     },
     {
@@ -1346,45 +1427,36 @@
       "group": "SR1132D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "FSR BILIK KULIAH 7",
       "program": "SR113,SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11304(SA)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1132D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
-      "program": "SR113",
       "faculty": "SR"
     }
   ],
   ".SPS160": [
     {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11304SA",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1135D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "FSR BILIK KULIAH 9",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1135D1",
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "SR1135D4",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
+      "room": "FSR BILIK KULIAH 7",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11304SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR STADIUM HOKI",
       "program": "SR113",
       "faculty": "SR"
     },
@@ -1393,50 +1465,32 @@
       "group": "SR1135D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
+      "room": "FSR BILIK KULIAH 8",
       "program": "SR113,SR115",
       "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "SR1135D3",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
-      "group": "NSRD7A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSR BILIK KULIAH 11",
       "program": "SR113",
       "faculty": "SR"
     }
   ],
   ".SPS180": [
     {
-      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
-      "group": "NSRD4A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
       "group": "SR11506",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "MAKMAL REKREASI  (TEC)",
       "program": "SR115,SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
       "group": "SR11506",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1445,11 +1499,29 @@
       "faculty": "SR"
     },
     {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR1133D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 15",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-17:00 PM )",
+      "group": "SR1133D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Prestasi Manusia 1",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
       "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
       "group": "SR1133D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "FSR BILIK KULIAH 7",
       "program": "SR113",
       "faculty": "SR"
     },
@@ -1461,54 +1533,90 @@
       "room": "Makmal Prestasi Manusia 1",
       "program": "SR113",
       "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
+      "group": "SR1133D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK KULIAH 2",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 12:00 PM-13:00 PM )",
+      "group": "SR1133D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Makmal Prestasi Manusia 1",
+      "program": "SR113",
+      "faculty": "SR"
     }
   ],
   ".SPS201": [
-    {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11102A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR111",
-      "faculty": "SR"
-    },
     {
       "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "SR11104SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
+      "room": "FSR BILIK KULIAH 13",
       "program": "SR111",
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11102B",
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11102",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
-      "program": "SR111,SR117",
+      "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SPS210": [
     {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11105SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 14",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11305SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 10",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1133D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
       "group": "SR1133D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 19",
+      "room": "FSR BILIK KULIAH 16",
       "program": "SR113,SR117",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11505",
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1133D3",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
-      "program": "SR115,SR113,SR111,SR117",
+      "room": "FSR BILIK KULIAH 13",
+      "program": "SR113",
       "faculty": "SR"
     },
     {
@@ -1516,7 +1624,16 @@
       "group": "SR11103A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
+      "room": "FSR BILIK KULIAH 5",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11103B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 5",
       "program": "SR111",
       "faculty": "SR"
     }
@@ -1533,96 +1650,24 @@
     },
     {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1134D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D4",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 12",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
       "group": "SR11507",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 19",
+      "room": "C2049 - FSPPP",
       "program": "SR115",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1134D2",
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1134D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "SR1134D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 13",
+      "room": "C1048 - FSPPP",
       "program": "SR113",
       "faculty": "SR"
     }
   ],
   ".SPS220": [
-    {
-      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
-      "group": "NSRD4A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11506",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1134D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR1134D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1134D4",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    },
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
       "group": "SR1134D1",
@@ -1631,12 +1676,21 @@
       "room": "",
       "program": "SR113",
       "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR11506",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR115",
+      "faculty": "SR"
     }
   ],
   ".SPS232": [
     {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11103(SA)",
+      "group": "SR11103SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "BILIK SEMINAR STADIUM HOKI",
@@ -1644,117 +1698,45 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11303SA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
-      "program": "SR113,SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11102B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 2",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1132D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
       "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1132D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH 2",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
       "group": "SR11102A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2048 - FSPPP",
+      "room": "C1051 - FSPPP",
       "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11303SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR STADIUM HOKI",
+      "program": "SR113,SR115",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
       "group": "SR1132D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
+      "room": "FSR BILIK KULIAH 3",
       "program": "SR113",
       "faculty": "SR"
     }
   ],
   ".SPS245": [
     {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR1135D2",
+      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
+      "group": "SR11506",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
+      "room": "Studio Aerobik",
+      "program": "SR115",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 16:00 PM-18:00 PM )",
-      "group": "SR1135D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR1135D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
-      "group": "SR1135D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
-      "group": "SR1135D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "SR1135D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-10:00 AM )",
+      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
       "group": "SR11506",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1763,11 +1745,123 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 10:00 AM-12:00 PM )",
-      "group": "SR11506",
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR1135D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 11:00 AM-13:00 PM )",
+      "group": "SR1135D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR1135D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR1135D4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
+      "group": "SR1135D4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "SR1135D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "SR1135D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "FRIDAY( 09:00 AM-11:00 AM )",
+      "group": "SR1135D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR113",
+      "faculty": "SR"
+    }
+  ],
+  ".SPS253": [
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11305SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 14",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1134D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
+      "group": "NSRD6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
+      "program": "SR113",
+      "faculty": "SR"
+    }
+  ],
+  ".SPS260": [
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1134D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
+      "group": "SR11507",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "BILIK SEMINAR STADIUM HOKI",
       "program": "SR115",
       "faculty": "SR"
     },
@@ -1776,121 +1870,7 @@
       "group": "NSRD5A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS250": [
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "SR115",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
-      "program": "SR115",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS253": [
-    {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1134D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
-      "group": "SR1134D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113,SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D4",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11505",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
-      "program": "SR115,SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
-      "group": "NSRD6A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR113",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS260": [
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1134D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D4",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 20",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11507",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
-      "program": "SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "SR1134D2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 12",
+      "room": "BK12",
       "program": "SR113",
       "faculty": "SR"
     }
@@ -1906,84 +1886,39 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11507",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
-      "program": "SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR11104A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
+      "room": "Bilik Kuliah Pembangunan Atlet",
       "program": "SR111,SR115",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11104B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11706",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
-      "program": "SR117,SR115,SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11104C",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
       "group": "SR1134D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
+      "room": "Bilik Kuliah Pembangunan Atlet",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D4",
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11507",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
-      "program": "SR113",
+      "room": "Bilik Kuliah Pembangunan Atlet",
+      "program": "SR115",
       "faculty": "SR"
     },
     {
       "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1134D2",
+      "group": "SR11104B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
-      "program": "SR113",
+      "room": "Bilik Kuliah Pembangunan Atlet",
+      "program": "SR111",
       "faculty": "SR"
     }
   ],
@@ -1993,8 +1928,35 @@
       "group": "SR1135D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
+      "room": "FSR BILIK KULIAH 8",
       "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1135D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 15",
+      "program": "SR113,SR115",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1135D4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 4",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11508",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR MAKMAL KOMPUTER 1",
+      "program": "SR115",
       "faculty": "SR"
     },
     {
@@ -2002,34 +1964,7 @@
       "group": "SR1135D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2048 - FSPPP",
-      "program": "SR113",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11508",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
       "room": "BILIK KULIAH 2",
-      "program": "SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR1135D3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
-      "program": "SR113,SR115",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
-      "group": "NSRD7A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
       "program": "SR113",
       "faculty": "SR"
     }
@@ -2037,11 +1972,11 @@
   ".SPS290": [
     {
       "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR1135D1",
+      "group": "SR11508",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
-      "program": "SR113",
+      "room": "C2051 - FSPPP",
+      "program": "SR115,SR113",
       "faculty": "SR"
     },
     {
@@ -2049,17 +1984,44 @@
       "group": "SR1135D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
+      "room": "FSR BILIK KULIAH 9",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11508",
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1135D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
-      "program": "SR115,SR113",
+      "room": "FSR BILIK KULIAH 5",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1135D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 6",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SR1135D4",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 2",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "group": "NSRD6A",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK13",
+      "program": "SR113",
       "faculty": "SR"
     }
   ],
@@ -2069,55 +2031,42 @@
       "group": "SR1133D1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "FSR BILIK KULIAH 10",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1133D3",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 5",
       "program": "SR113",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11304SA",
+      "group": "SR1133D2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 20",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR113",
       "faculty": "SR"
     },
     {
-      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
-      "group": "NSRD4A",
-      "mode": "Students UnderiCEPS Only",
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SR1133D3",
+      "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSR BILIK KULIAH 13",
       "program": "SR113",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS299": [
-    {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR11510",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
-      "program": "SR115",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS343": [
-    {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
-      "group": "SR11508H",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR115",
       "faculty": "SR"
     }
   ],
   ".SPS399": [
     {
-      "day_time": "SUNDAY( 20:00 PM-22:00 PM )",
-      "group": "NSRD6A",
+      "day_time": "SUNDAY( 14:00 PM-18:30 PM )",
+      "group": "NSRD7A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
       "room": "",
@@ -2125,16 +2074,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
-      "group": "SR11106A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2143,7 +2083,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2152,7 +2092,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2161,7 +2101,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106E",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2170,7 +2110,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106F",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2179,7 +2119,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106G",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2188,7 +2128,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106H",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2197,7 +2137,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106I",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2206,7 +2146,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106J",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2215,7 +2155,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106K",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2224,7 +2164,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106L",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2233,7 +2173,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11106M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2242,7 +2182,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2251,7 +2191,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2260,7 +2200,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2269,7 +2209,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2278,7 +2218,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306E",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2287,7 +2227,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306F",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2296,7 +2236,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306G",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2305,7 +2245,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306H",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2314,7 +2254,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306I",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2323,7 +2263,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306J",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2332,7 +2272,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306K",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2341,7 +2281,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306L",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2350,7 +2290,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2359,7 +2299,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306N",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2368,7 +2308,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306O",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2377,7 +2317,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11306P",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2386,7 +2326,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11508A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2395,7 +2335,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11508B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2404,7 +2344,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11508C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2413,7 +2353,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11508D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2422,7 +2362,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11708A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2431,7 +2371,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11708B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2440,7 +2380,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 17:00 PM-18:00 PM )",
+      "day_time": "FRIDAY( 18:00 PM-19:00 PM )",
       "group": "SR11708C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -2452,46 +2392,64 @@
   ".SPS411": [
     {
       "day_time": "MONDAY( 11:00 AM-13:00 PM )",
-      "group": "SR2411N",
+      "group": "SR2411M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
-      "program": "SR241 , SR243",
-      "faculty": "SR241 , SR243"
+      "room": "FSR BILIK KULIAH 3",
+      "program": "SR241",
+      "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR2431S1",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR243,SR241",
-      "faculty": "SR243,SR241"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "SR2411N",
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR2431S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR DEWAN KULIAH 1",
-      "program": "SR241 , SR243",
-      "faculty": "SR241 , SR243"
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "SR2431S1",
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
+      "group": "SR2431S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR BILIK KULIAH 1",
-      "program": "SR243,SR241",
-      "faculty": "SR243,SR241"
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "group": "SR2411M",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "SR2431S1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 1",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2431S1B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 12",
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
       "group": "NSRB2B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK12",
       "program": "SR241,SR243",
       "faculty": "SR"
     }
@@ -2499,28 +2457,28 @@
   ".SPS432": [
     {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2411N",
+      "group": "SR2411M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "BILIK KULIAH 2",
-      "program": "SR241 SR243 , INSR210",
-      "faculty": "SR241 , IN"
+      "program": "SR241",
+      "faculty": "SR"
     },
     {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "SR2431S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH 2",
-      "program": "SR243 , INSR210",
-      "faculty": "SR243 , IN"
+      "room": "FSR BILIK KULIAH 6",
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
       "group": "NSRB5A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK11",
       "program": "SR241,SR243",
       "faculty": "SR"
     }
@@ -2531,7 +2489,7 @@
       "group": "SR2412NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -2540,7 +2498,7 @@
       "group": "SR2412NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH 2",
+      "room": "FSR BILIK KULIAH 5",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -2549,33 +2507,15 @@
       "group": "NSRB7A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK10",
       "program": "SR241",
       "faculty": "SR"
     }
   ],
   ".SPS457": [
     {
-      "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
-      "group": "SR2432S1A (P)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "KOLAM RENANG UITM",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
       "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR2432S1A(L)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "KOLAM RENANG UITM",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR2432S1B(L)",
+      "group": "SR2432S1L",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
@@ -2584,7 +2524,7 @@
     },
     {
       "day_time": "WEDNESDAY( 12:00 PM-14:00 PM )",
-      "group": "SR2432S1B(P)",
+      "group": "SR2432S1P",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "KOLAM RENANG UITM",
@@ -2596,7 +2536,7 @@
       "group": "NSRB7B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "KOLAM RENANG UITM",
       "program": "SR243",
       "faculty": "SR"
     }
@@ -2607,7 +2547,7 @@
       "group": "NSRB6B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK8",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
@@ -2616,7 +2556,7 @@
       "group": "SR2432S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
+      "room": "FSR BILIK KULIAH 13",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2625,7 +2565,7 @@
       "group": "SR2432S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
+      "room": "FSR BILIK KULIAH 8",
       "program": "SR243",
       "faculty": "SR"
     }
@@ -2641,21 +2581,21 @@
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
       "group": "SR2412NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "Bilik Kuliah Pembangunan Atlet",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2432S1B",
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2412NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
-      "program": "SR243",
+      "room": "Bilik Kuliah Pembangunan Atlet",
+      "program": "SR241",
       "faculty": "SR"
     },
     {
@@ -2663,17 +2603,17 @@
       "group": "SR2432S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
+      "room": "Bilik Kuliah Pembangunan Atlet",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2412NB",
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2432S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 14",
-      "program": "SR241",
+      "room": "Bilik Kuliah Pembangunan Atlet",
+      "program": "SR243",
       "faculty": "SR"
     }
   ],
@@ -2683,7 +2623,7 @@
       "group": "NSRB4B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK7",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
@@ -2692,7 +2632,7 @@
       "group": "SR2432S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
+      "room": "C2048 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2708,20 +2648,20 @@
   ],
   ".SPS477": [
     {
-      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
       "group": "SR2432S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
+      "room": "FSR BILIK KULIAH 1",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
       "group": "SR2432S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
+      "room": "Makmal Prestasi Manusia 1",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2730,7 +2670,7 @@
       "group": "SR2432S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "MAKMAL REKREASI  (TEC)",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2739,7 +2679,7 @@
       "group": "SR2432S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "Makmal Prestasi Manusia 1",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2785,64 +2725,64 @@
   ".SPS500": [
     {
       "day_time": "MONDAY( 12:00 PM-13:00 PM )",
-      "group": "SR2433S1",
+      "group": "SR2433S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "MONDAY( 12:00 PM-13:00 PM )",
-      "group": "SR2433S2A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
-    },
-    {
-      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
-      "group": "SR2433S2B",
+      "group": "SR2433S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2433S1B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 12:00 PM-13:00 PM )",
+      "group": "SR2433S2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR2433S1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "WEDNESDAY( 10:00 AM-12:00 PM )",
-      "group": "SR2433S2A",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "SR2433S1",
+      "group": "SR2433S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
-    },
-    {
-      "day_time": "FRIDAY( 11:00 AM-13:00 PM )",
-      "group": "SR2433S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
       "group": "NSRB3B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
       "program": "SR241,SR243",
       "faculty": "SR"
     }
@@ -2850,19 +2790,28 @@
   ".SPS505": [
     {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2433S1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 8",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR2433S2",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
+      "room": "FSR BILIK KULIAH 10",
       "program": "SR243",
       "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2433S1",
+      "group": "SR2433S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "FSR BILIK KULIAH 6",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2879,7 +2828,16 @@
   ".SPS523": [
     {
       "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
-      "group": "SR2433S1",
+      "group": "SR2433S1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2433S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
@@ -2897,7 +2855,16 @@
     },
     {
       "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
-      "group": "SR2433S1",
+      "group": "SR2433S1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "Studio Aerobik",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "SR2433S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
@@ -2914,7 +2881,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "SATURDAY( 14:00 PM-16:00 PM )",
+      "day_time": "SATURDAY( 11:00 AM-13:00 PM )",
       "group": "NSRB6B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
@@ -2929,7 +2896,16 @@
       "group": "NSRB8B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK10",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2433S1A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2051 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -2938,16 +2914,16 @@
       "group": "SR2433S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 8",
-      "program": "SR243,INSR210",
-      "faculty": "SR,IN"
+      "room": "FSR BILIK KULIAH 5",
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2433S1",
+      "group": "SR2433S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 19",
+      "room": "FSR BILIK KULIAH 14",
       "program": "SR243",
       "faculty": "SR"
     }
@@ -2959,8 +2935,8 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "MONDAY( 10:00 AM-12:00 PM )",
@@ -2972,35 +2948,17 @@
       "faculty": "SR , IN"
     },
     {
-      "day_time": "MONDAY( 16:00 PM-18:00 PM )",
-      "group": "SR2434S2",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-10:00 AM )",
-      "group": "SR2434S3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-12:00 PM )",
-      "group": "SR2434S3",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR243 , INSR210",
-      "faculty": "SR , IN"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
       "group": "SR2434S1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 16:00 PM-18:00 PM )",
+      "group": "SR2434S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
@@ -3012,15 +2970,15 @@
       "group": "NSRB5B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "MAKMAL SUAIAN FIZIKAL @ GYM",
       "program": "SR241,SR243",
       "faculty": "SR"
     }
   ],
   ".SPS574": [
     {
-      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2434S2",
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2434S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -3028,8 +2986,8 @@
       "faculty": "SR , IN"
     },
     {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2434S1",
+      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2434S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -3048,20 +3006,20 @@
   ],
   ".SPS585": [
     {
-      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "day_time": "SUNDAY( 11:00 AM-13:00 PM )",
       "group": "NSRB1B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK11",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
       "group": "SR2434S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 13",
+      "room": "FSR BILIK KULIAH 7",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3070,7 +3028,7 @@
       "group": "SR2434S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "FSR BILIK KULIAH 14",
       "program": "SR243",
       "faculty": "SR"
     }
@@ -3091,8 +3049,8 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR DEWAN KULIAH 2",
-      "program": "",
-      "faculty": "SR243"
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
@@ -3100,15 +3058,15 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "Makmal Prestasi Manusia 1",
-      "program": "",
-      "faculty": "SR243"
+      "program": "SR243",
+      "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
       "group": "SR2435S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Bilik Kualiti, FSR",
+      "room": "FSR DEWAN KULIAH 2",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3160,38 +3118,38 @@
       "faculty": "SR243"
     },
     {
+      "day_time": "MONDAY( 11:00 AM-13:00 PM )",
+      "group": "SR2435S1B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL REKREASI  (TEC)",
+      "program": "",
+      "faculty": "SR243"
+    },
+    {
       "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
       "group": "SR2435S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Makmal Prestasi Manusia 1",
+      "room": "FSR BILIK KULIAH 12",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
       "group": "SR2435S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "C2051 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-10:00 AM )",
-      "group": "SR2435S1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Makmal Prestasi Manusia 1",
-      "program": "",
-      "faculty": "SR243"
     },
     {
       "day_time": "THURSDAY( 10:00 AM-12:00 PM )",
       "group": "SR2435S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Makmal Prestasi Manusia 1",
+      "room": "MAKMAL REKREASI  (TEC)",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3211,7 +3169,7 @@
       "group": "NSRB4B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK7",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
@@ -3220,16 +3178,16 @@
       "group": "SR2435S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 2",
+      "room": "C2048 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
       "group": "SR2435S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL MOTOR LEARNING",
+      "room": "FSR BILIK KULIAH 12",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3238,18 +3196,27 @@
       "group": "SR2435S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
+      "room": "FSR BILIK KULIAH 12",
       "program": "",
       "faculty": "SR243"
     }
   ],
   ".SPS625": [
     {
+      "day_time": "SUNDAY( 08:30 AM-10:30 AM )",
+      "group": "NSRB8B",
+      "mode": "Students UnderiCEPS Only",
+      "status": "First Timerand Repeater",
+      "room": "BK10",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
       "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
       "group": "SR2435S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR243",
       "faculty": "SR243"
     },
@@ -3258,7 +3225,7 @@
       "group": "SR2435S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
+      "room": "C2052 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3267,18 +3234,9 @@
       "group": "SR2435S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2048 - FSPPP",
+      "room": "FSR BILIK KULIAH 8",
       "program": "SR243",
       "faculty": "SR243"
-    },
-    {
-      "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
-      "group": "NSRB8B",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
     }
   ],
   ".SPS652": [
@@ -3287,25 +3245,25 @@
       "group": "NSRB8B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK10",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR2436S2A",
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 20",
+      "room": "FSR BILIK KULIAH 15",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
       "group": "SR2436S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "C2048 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3314,16 +3272,7 @@
       "group": "SR2436S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 1",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2436S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 12",
+      "room": "FSR BILIK KULIAH 14",
       "program": "SR243",
       "faculty": "SR"
     }
@@ -3334,7 +3283,7 @@
       "group": "NSRB2B",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK12",
       "program": "SR243,SR241",
       "faculty": "SR"
     },
@@ -3343,7 +3292,7 @@
       "group": "SR2436S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
+      "room": "FSR BILIK KULIAH 13",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3352,7 +3301,7 @@
       "group": "SR2436S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
+      "room": "C2049 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -3370,51 +3319,55 @@
       "group": "SR2436S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
+      "room": "C2049 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 08:00 AM-09:00 AM )",
-      "group": "SR2436S2A",
+      "day_time": "TUESDAY( 16:00 PM-17:00 PM )",
+      "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 09:00 AM-10:00 AM )",
-      "group": "SR2436S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
+      "room": "C2049 - FSPPP",
       "program": "SR243",
       "faculty": "SR"
     },
     {
       "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2436S2A",
+      "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2436S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "FSR BILIK KULIAH 13",
       "program": "SR243",
       "faculty": "SR"
     }
   ],
-  ".SPS722": [
+  ".SPS700": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "SR7701PG",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 8",
+      "program": "SR770",
+      "faculty": "SR"
+    }
+  ],
+  ".SPS712": [
+    {
+      "day_time": "THURSDAY( 18:00 PM-21:00 PM )",
+      "group": "SR7701PG",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 5",
+      "program": "SR770",
+      "faculty": "SR"
+    }
+  ],
+  ".SPS714": [
     {
       "day_time": "TUESDAY( 18:00 PM-21:00 PM )",
-      "group": "SR7702PG",
+      "group": "SR7701PG",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR BILIK KULIAH 9",
@@ -3422,53 +3375,13 @@
       "faculty": "SR"
     }
   ],
-  ".SPS742": [
+  ".SPS732": [
     {
-      "day_time": "FRIDAY( 18:00 PM-21:00 PM )",
-      "group": "SR7702PG",
+      "day_time": "WEDNESDAY( 18:00 PM-21:00 PM )",
+      "group": "SR7701PG",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
-      "program": "SR770",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS752": [
-    {
-      "day_time": "WEDNESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR7702PG",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
-      "program": "SR770",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 19:00 PM-21:00 PM )",
-      "group": "SR7702PG",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
-      "program": "SR770",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS760": [
-    {
-      "day_time": "MONDAY( 18:00 PM-20:00 PM )",
-      "group": "SR7702PG",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
-      "program": "SR770",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
-      "group": "SR7702PG",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "Studio Aerobik",
+      "room": "FSR MAKMAL KOMPUTER 1",
       "program": "SR770",
       "faculty": "SR"
     }
@@ -3479,38 +3392,27 @@
       "group": "SR7703PG",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR770",
-      "faculty": "SR"
-    }
-  ],
-  ".SPS790": [
-    {
-      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "SR773PG",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
+      "room": "FSR BILIK KULIAH 7",
       "program": "SR770",
       "faculty": "SR"
     }
   ],
   ".SRB450": [
     {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR2412NA",
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2412NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "FSR BILIK KULIAH 16",
       "program": "SR241",
       "faculty": "SR241"
     },
     {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR2412NB",
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2412NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "D4109 - DK FSPPP",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -3519,7 +3421,7 @@
       "group": "NSRB6A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK9",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -3530,25 +3432,25 @@
       "group": "NSRB2A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK2",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
       "group": "SR2413NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "C1051 - FSPPP",
       "program": "SR241",
       "faculty": "SR241"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
       "group": "SR2413NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "D4109 - DK FSPPP",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -3557,36 +3459,36 @@
       "group": "SR2413NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 20",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR241",
       "faculty": "SR241"
     }
   ],
   ".SRB549": [
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2414NA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
-      "program": "",
-      "faculty": "SR241"
-    },
-    {
       "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2414NC",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
-      "program": "",
-      "faculty": "SR241"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
       "group": "SR2414NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
+      "room": "FSR BILIK KULIAH 1",
+      "program": "",
+      "faculty": "SR241"
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2414NA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 3",
+      "program": "",
+      "faculty": "SR241"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2414NC",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C1051 - FSPPP",
       "program": "",
       "faculty": "SR241"
     },
@@ -3595,7 +3497,7 @@
       "group": "NSRB3A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK3",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -3624,7 +3526,7 @@
       "group": "SR2415NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR241",
       "faculty": "SR241"
     },
@@ -3633,7 +3535,7 @@
       "group": "NSRB6A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK9",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -3644,7 +3546,7 @@
       "group": "SR2414NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2048 - FSPPP",
+      "room": "C1051 - FSPPP",
       "program": "",
       "faculty": "SR241"
     },
@@ -3653,7 +3555,7 @@
       "group": "SR2414NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 11",
+      "room": "C1048 - FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -3662,7 +3564,7 @@
       "group": "SR2414NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
+      "room": "C1048 - FSPPP",
       "program": "",
       "faculty": "SR241"
     },
@@ -3671,7 +3573,7 @@
       "group": "NSRB4A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK7",
       "program": "SR241,SR243",
       "faculty": "SR"
     }
@@ -3687,7 +3589,16 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2415NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "C2049 - FSPPP",
+      "program": "SR241",
+      "faculty": "SR241"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
       "group": "SR2415NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -3696,20 +3607,11 @@
       "faculty": "SR241"
     },
     {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR2415NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
-      "program": "SR241",
-      "faculty": "SR241"
-    },
-    {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
       "group": "SR2415NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 7",
+      "room": "FSR BILIK KULIAH 10",
       "program": "SR241",
       "faculty": "SR241"
     }
@@ -3725,87 +3627,69 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
       "group": "SR2416NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
+      "room": "FSR BILIK KULIAH 6",
       "program": "",
       "faculty": "SR241"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2416NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
-      "program": "",
-      "faculty": "SR241"
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
       "group": "SR2416NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 17",
+      "room": "FSR DEWAN KULIAH 1",
+      "program": "",
+      "faculty": "SR241"
+    },
+    {
+      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2416NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR DEWAN KULIAH 1",
       "program": "",
       "faculty": "SR241"
     }
   ],
   ".SRL252": [
     {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11104C",
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
+      "group": "SR11104",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2052 - FSPPP",
+      "room": "FSR DEWAN KULIAH 2",
       "program": "SR111",
       "faculty": "SR"
     },
     {
       "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR11104A",
+      "group": "SR11104SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C2048 - FSPPP",
-      "program": "SR111",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11104(SA)",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR STADIUM HOKI",
+      "room": "FSR DEWAN KULIAH 2",
       "program": "SR111,SR117",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-11:00 AM )",
-      "group": "SR11104B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "C2051 - FSPPP",
-      "program": "SR111",
       "faculty": "SR"
     }
   ],
   ".SRL451": [
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
       "group": "SR2412NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
+      "room": "D4109 - DK FSPPP",
       "program": "SR241",
       "faculty": "SR241"
     },
     {
-      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
       "group": "SR2412NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 10",
+      "room": "D4109 - DK FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -3825,25 +3709,25 @@
       "group": "NSRB3A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK3",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2411N",
+      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
+      "group": "SR2411M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 19",
+      "room": "FSR BILIK KULIAH 9",
       "program": "SR241",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
       "group": "SR2431S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
+      "room": "FSR BILIK KULIAH 15",
       "program": "SR243 SR241",
       "faculty": "SR"
     }
@@ -3854,31 +3738,13 @@
       "group": "NSRB3A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK3",
       "program": "SR241,SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2431S1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243 SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2411NA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241 SR243",
-      "faculty": "SR"
-    },
-    {
       "day_time": "TUESDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2431S1A",
+      "group": "SR2431S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -3886,34 +3752,16 @@
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2411NB",
+      "day_time": "WEDNESDAY( 10:00 AM-13:00 PM )",
+      "group": "SR2411M",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
-      "program": "SR241 SR243",
+      "program": "SR241",
       "faculty": "SR"
     }
   ],
   ".SRT451": [
-    {
-      "day_time": "TUESDAY( 14:00 PM-15:00 PM )",
-      "group": "SR2412NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 15:00 PM-18:00 PM )",
-      "group": "SR2412NB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
-      "program": "SR241",
-      "faculty": "SR"
-    },
     {
       "day_time": "WEDNESDAY( 09:00 AM-10:00 AM )",
       "group": "SR2412NA",
@@ -3933,11 +3781,29 @@
       "faculty": "SR"
     },
     {
+      "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
+      "group": "SR2412NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL REKREASI  (TEC)",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 15:00 PM-18:00 PM )",
+      "group": "SR2412NB",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "MAKMAL REKREASI  (TEC)",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
       "day_time": "SATURDAY( 08:30 AM-10:30 AM )",
       "group": "NSRB4A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK7",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -3948,7 +3814,7 @@
       "group": "SR2413NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 9",
+      "room": "C1048 - FSPPP",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -3957,7 +3823,7 @@
       "group": "SR2413NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
+      "room": "FSR BILIK KULIAH 14",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -3966,7 +3832,7 @@
       "group": "SR2413NC",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1048 - FSPPP",
+      "room": "FSR BILIK KULIAH 3",
       "program": "SR241",
       "faculty": "SR"
     },
@@ -3975,7 +3841,7 @@
       "group": "NSRB5A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK8",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -4040,7 +3906,7 @@
       "group": "NSRB6A",
       "mode": "Students UnderiCEPS Only",
       "status": "First Timerand Repeater",
-      "room": "",
+      "room": "BK9",
       "program": "SR241",
       "faculty": "SR"
     }
@@ -4056,38 +3922,38 @@
       "faculty": "SR"
     },
     {
+      "day_time": "MONDAY( 14:00 PM-18:00 PM )",
+      "group": "SR2416NC",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR BILIK KULIAH 3",
+      "program": "",
+      "faculty": "SR241"
+    },
+    {
       "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR2436S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "FSR MAKMAL KOMPUTER 1",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
       "group": "SR2436S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR DEWAN KULIAH 2",
+      "room": "FSR MAKMAL KOMPUTER 1",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2436S2A",
+      "day_time": "MONDAY( 10:00 AM-13:00 PM )",
+      "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2436S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "D4109 - DK FSPPP",
+      "room": "FSR BILIK KULIAH 4",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -4096,61 +3962,34 @@
       "group": "SR2416NB",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 8",
+      "room": "FSR BILIK KULIAH 12",
       "program": "SR241",
       "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 08:00 AM-12:00 PM )",
-      "group": "SR2416NC",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 18",
-      "program": "",
-      "faculty": "SR241"
     },
     {
       "day_time": "WEDNESDAY( 14:00 PM-15:00 PM )",
       "group": "SR2436S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 21",
+      "room": "FSR BILIK KULIAH 16",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 10:00 AM-11:00 AM )",
+      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
       "group": "SR2436S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "FSR BILIK KULIAH 7",
       "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
+      "day_time": "WEDNESDAY( 15:00 PM-16:00 PM )",
       "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 12:00 PM-13:00 PM )",
-      "group": "SR2436S2A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 11:00 AM-12:00 PM )",
-      "group": "SR2436S2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR BILIK KULIAH 1",
+      "room": "FSR BILIK KULIAH 16",
       "program": "SR243",
       "faculty": "SR"
     },
@@ -4159,7 +3998,7 @@
       "group": "SR2416NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "C1051 - FSPPP",
+      "room": "C2049 - FSPPP",
       "program": "",
       "faculty": "SR241"
     }
@@ -4175,16 +4014,16 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2416NA",
+      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "group": "SR2436S1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 1",
-      "program": "SR241",
+      "room": "FSR MAKMAL KOMPUTER 2",
+      "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
+      "day_time": "MONDAY( 14:00 PM-17:00 PM )",
       "group": "SR2436S1B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4202,15 +4041,6 @@
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 10:00 AM-13:00 PM )",
-      "group": "SR2436S1A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "FSR MAKMAL KOMPUTER 2",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
       "day_time": "WEDNESDAY( 08:00 AM-11:00 AM )",
       "group": "SR2416NC",
       "mode": "BOTH - Fulltimeand Part-time",
@@ -4220,43 +4050,21 @@
       "faculty": "SR"
     },
     {
-      "day_time": "WEDNESDAY( 14:00 PM-17:00 PM )",
-      "group": "SR2436S2B",
+      "day_time": "THURSDAY( 14:00 PM-17:00 PM )",
+      "group": "SR2416NA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR MAKMAL KOMPUTER 2",
-      "program": "SR243",
+      "program": "SR241",
       "faculty": "SR"
     },
     {
       "day_time": "THURSDAY( 08:00 AM-11:00 AM )",
-      "group": "SR2436S2A",
+      "group": "SR2436S2",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "FSR MAKMAL KOMPUTER 2",
       "program": "SR243",
-      "faculty": "SR"
-    }
-  ],
-  ".SRW650": [
-    {
-      "day_time": "SATURDAY( 20:00 PM-22:00 PM )",
-      "group": "NSRB9B",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    }
-  ],
-  ".SRW655": [
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9G",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
       "faculty": "SR"
     }
   ],
@@ -4264,6 +4072,15 @@
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2417A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2417B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -4280,7 +4097,7 @@
       "faculty": "SR"
     },
     {
-      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
       "group": "SR2417D",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4371,6 +4188,15 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2417R",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2417S",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4416,15 +4242,6 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2417X",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2417Y",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4434,6 +4251,15 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2417Z",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR241",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
       "group": "SR2417ZA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4443,25 +4269,16 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2417ZB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243 SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2417ZC",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2437A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2437AA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -4533,6 +4350,24 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2437AI",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2437AJ",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2437B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4561,6 +4396,15 @@
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2437E",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2437F",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -4632,15 +4476,6 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2437N",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2437O",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4677,6 +4512,15 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2437S",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2437T",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4704,6 +4548,15 @@
     },
     {
       "day_time": "MONDAY( 17:00 PM-18:00 PM )",
+      "group": "SR2437X",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
       "group": "SR2437Y",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -4719,213 +4572,6 @@
       "room": "",
       "program": "SR243",
       "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2437AA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2437F",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 17:00 PM-18:00 PM )",
-      "group": "SR2417R",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2437AI",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9B",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9C",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9D",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9E",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9F",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9G",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9H",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9K",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9L",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9M",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9N",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243,SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9P",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9Q",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9R",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9S",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9T",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243,SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9U",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 22:00 PM-23:00 PM )",
-      "group": "NSRB9V",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241,SR243",
-      "faculty": "SR"
     }
   ],
   ".SRW699": [
@@ -4940,7 +4586,7 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417C",
+      "group": "SR2417B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -4949,7 +4595,7 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417D",
+      "group": "SR2417C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -5102,7 +4748,7 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417ZA",
+      "group": "SR2417Z",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -5201,6 +4847,24 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SR2437AJ",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SR2437B",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
       "group": "SR2437C",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -5300,15 +4964,6 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2437N",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
       "group": "SR2437O",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -5345,6 +5000,15 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SR2437S",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
       "group": "SR2437T",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -5372,6 +5036,15 @@
     },
     {
       "day_time": "MONDAY( 18:00 PM-19:00 PM )",
+      "group": "SR2437X",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
       "group": "SR2437Y",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -5390,7 +5063,7 @@
     },
     {
       "day_time": "TUESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417C",
+      "group": "SR2417Y",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -5399,80 +5072,56 @@
     },
     {
       "day_time": "TUESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417X",
+      "group": "SR2417ZA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
       "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417ZB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "TUESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2437B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "WEDNESDAY( 18:00 PM-19:00 PM )",
-      "group": "SR2417ZB",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "FRIDAY( 19:00 PM-20:00 PM )",
-      "group": "SR2437AI",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR243",
-      "faculty": "SR"
-    },
-    {
-      "day_time": "SATURDAY( 20:00 PM-22:00 PM )",
-      "group": "NSRB9A",
-      "mode": "Students UnderiCEPS Only",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR241, SR243",
       "faculty": "SR"
     }
   ],
-  ".TAC401": [],
-  ".TAC451": [],
-  ".TAC501": [],
-  ".TJC401": [],
-  ".TJC501": [],
-  ".TMC401": [],
-  ".TMC451": [],
-  ".TMC501": [],
-  ".UED102": [
+  ".UCS551": [
     {
-      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
-      "group": "SR11101(SA)",
+      "day_time": "TUESDAY( 08:00 AM-10:00 AM )",
+      "group": "SR2434S1",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "",
-      "program": "SR111,SR113",
+      "room": "FSR MAKMAL KOMPUTER 2",
+      "program": "SR243",
       "faculty": "SR"
     },
     {
-      "day_time": "TUESDAY( 10:00 AM-12:00 PM )",
-      "group": "SR11301(SA)",
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR2434S2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "FSR MAKMAL KOMPUTER 2",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "SR2434S1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "group": "SR2434S2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR243",
+      "faculty": "SR"
+    }
+  ],
+  ".UED102": [
+    {
+      "day_time": "MONDAY( 14:00 PM-16:00 PM )",
+      "group": "SR11301SA",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -5480,8 +5129,8 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
-      "group": "SR11101",
+      "day_time": "TUESDAY( 15:00 PM-17:00 PM )",
+      "group": "SR11101B",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",
@@ -5489,8 +5138,44 @@
       "faculty": "SR"
     },
     {
-      "day_time": "FRIDAY( 15:00 PM-17:00 PM )",
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR11101SA",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 11:00 AM-13:00 PM )",
       "group": "SR1131D1",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-16:00 PM )",
+      "group": "SR1131D2",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR113",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 11:00 AM-13:00 PM )",
+      "group": "SR11101A",
+      "mode": "BOTH - Fulltimeand Part-time",
+      "status": "First Timerand Repeater",
+      "room": "",
+      "program": "SR111",
+      "faculty": "SR"
+    },
+    {
+      "day_time": "THURSDAY( 14:00 PM-16:00 PM )",
+      "group": "SR1131D3",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "",

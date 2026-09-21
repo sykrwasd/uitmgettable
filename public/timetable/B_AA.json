@@ -1,190 +1,11 @@
 {
-  ".ABP791": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7003PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA700",
-      "faculty": "AA"
-    }
-  ],
-  ".ABP792": [
-    {
-      "day_time": "FRIDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7004PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA700",
-      "faculty": "AA"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7014A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA701",
-      "faculty": "AA"
-    },
-    {
-      "day_time": "FRIDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7014B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".ABP794": [
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "AA7042AF",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "AA7042BF",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "AA7042PA",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "AA7052A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 10:00 AM-11:00 AM )",
-      "group": "AA7052B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA705",
-      "faculty": ""
-    }
-  ],
-  ".ABP796": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7043AF",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7043BF",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7044PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7054A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7054B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".ACC720": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
       "group": "AA7041AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7041PB",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7041BF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
+      "room": "BILIK SEMINAR 1",
       "program": "",
       "faculty": ""
     },
@@ -193,83 +14,18 @@
       "group": "AA7041PA",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".BRM701": [
-    {
-      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7003PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7002A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA404",
+      "room": "AA405",
       "program": "",
       "faculty": ""
     }
   ],
   ".BRM702": [
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7052A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7052B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
-      "program": "AA705",
-      "faculty": ""
-    },
-    {
       "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7041AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA401",
+      "room": "BILIK SEMINAR 1",
       "program": "",
       "faculty": ""
     },
@@ -278,16 +34,7 @@
       "group": "AA7041BF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 18:30 PM-20:30 PM )",
-      "group": "AA7002PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
+      "room": "BILIK SEMINAR 2",
       "program": "",
       "faculty": ""
     },
@@ -296,48 +43,12 @@
       "group": "AA7042PA",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA403",
+      "room": "AA407",
       "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7052A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7052B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
-      "program": "AA705",
       "faculty": ""
     }
   ],
   ".BRM917": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA1A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COLLABORATIVE - AA302",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK MESYUARAT",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
       "group": "AA902SA2A",
@@ -346,69 +57,15 @@
       "room": "COLLABORATIVE - AA302",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA1A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COLLABORATIVE - AA302",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK MESYUARAT",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".BRM918": [
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA1A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COLLABORATIVE - AA302",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK MESYUARAT",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
       "group": "AA902SA3A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA1A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "COLLABORATIVE - AA302",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK MESYUARAT",
       "program": "",
       "faculty": ""
     }
@@ -424,20 +81,11 @@
       "faculty": ""
     },
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    },
-    {
       "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
       "group": "AA902SA4A",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
+      "room": "BILIK TELESIDANG",
       "program": "",
       "faculty": ""
     },
@@ -447,85 +95,11 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
       "program": "",
       "faculty": ""
     }
   ],
   ".BRM920": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA2A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA902SA3A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA2A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".BRM921": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA2A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
       "group": "AA902SA3A",
@@ -534,68 +108,17 @@
       "room": "BILIK KULIAH - AA304",
       "program": "",
       "faculty": ""
-    },
+    }
+  ],
+  ".BRM921": [
     {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA2A",
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AA902SA3A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK TELESIDANG",
+      "room": "BILIK KULIAH - AA304",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA2B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".DCC902": [
-    {
-      "day_time": "MONDAY( 17:00 PM-18:00 PM )",
-      "group": "AA901SA5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA901",
-      "faculty": "AA"
-    }
-  ],
-  ".DCC903": [
-    {
-      "day_time": "MONDAY( 18:00 PM-19:00 PM )",
-      "group": "AA901SA6",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA901",
-      "faculty": "AA"
-    }
-  ],
-  ".DIS993": [
-    {
-      "day_time": "MONDAY( 19:00 PM-20:00 PM )",
-      "group": "AA901SA5",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA901",
-      "faculty": "AA"
-    }
-  ],
-  ".DIS994": [
-    {
-      "day_time": "MONDAY( 20:00 PM-21:00 PM )",
-      "group": "AA901SA6",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA901",
-      "faculty": "AA"
     }
   ],
   ".ECO745": [
@@ -604,16 +127,7 @@
       "group": "AA7052A",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7052B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
+      "room": "BILIK SEMINAR 2",
       "program": "",
       "faculty": ""
     },
@@ -622,7 +136,7 @@
       "group": "AA7041BF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA402",
+      "room": "BILIK SEMINAR 2",
       "program": "",
       "faculty": ""
     },
@@ -631,7 +145,7 @@
       "group": "AA7042PA",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA403",
+      "room": "AA407",
       "program": "",
       "faculty": ""
     },
@@ -640,7 +154,7 @@
       "group": "AA7041AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA401",
+      "room": "BILIK SEMINAR 1",
       "program": "",
       "faculty": ""
     },
@@ -649,23 +163,14 @@
       "group": "AA7052A",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7052B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
+      "room": "BILIK SEMINAR 2",
       "program": "",
       "faculty": ""
     }
   ],
   ".ECO920": [
     {
-      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
       "group": "AA902SA2A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -674,40 +179,33 @@
       "faculty": ""
     }
   ],
+  ".ENT711": [
+    {
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "group": "AA7042BF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STAFF LOUNGE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AA7043PA",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA408",
+      "program": "",
+      "faculty": ""
+    }
+  ],
   ".FIN745": [
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA406",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA407",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA405",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
       "group": "AA7042AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA403",
+      "room": "STUDENT LOUNGE",
       "program": "",
       "faculty": ""
     },
@@ -716,43 +214,47 @@
       "group": "AA7042BF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA404",
+      "room": "STAFF LOUNGE",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
       "group": "AA7043PA",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA405",
+      "room": "AA408",
+      "program": "",
+      "faculty": ""
+    }
+  ],
+  ".FIN767": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AA7044PA",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA201",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053A",
-      "mode": "Part-time",
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "group": "AA7043BF",
+      "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "AA406",
       "program": "",
       "faculty": ""
-    },
+    }
+  ],
+  ".FIN768": [
     {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053B",
-      "mode": "Part-time",
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "group": "AA7042AF",
+      "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA407",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA405",
+      "room": "STUDENT LOUNGE",
       "program": "",
       "faculty": ""
     }
@@ -768,38 +270,7 @@
       "faculty": ""
     }
   ],
-  ".HRM756": [
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7042BF",
-      "mode": "Fulltime",
-      "status": "First TimerOnly",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".IFE600": [
-    {
-      "day_time": "FRIDAY( 08:30 AM-18:00 PM )",
-      "group": "AA7071A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    }
-  ],
   ".IFE705": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7071A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA201",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7071AF",
@@ -808,42 +279,15 @@
       "room": "AA407",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7071A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA201",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE707": [
     {
-      "day_time": "SUNDAY( 09:00 AM-18:00 PM )",
-      "group": "AA7071A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA201",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
       "group": "AA7071AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "AA407",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7071A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA201",
       "program": "",
       "faculty": ""
     }
@@ -879,15 +323,6 @@
   ],
   ".IFE750": [
     {
-      "day_time": "SUNDAY( 09:00 AM-15:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    },
-    {
       "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
       "group": "AA7071AF",
       "mode": "Fulltime",
@@ -895,27 +330,9 @@
       "room": "AA407",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE763": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7073A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 1",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
       "group": "AA7072AF",
@@ -924,56 +341,20 @@
       "room": "AA408",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7073A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 1",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE766": [
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7073A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 1",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
       "group": "AA7072AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "AA408",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7073A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 1",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE767": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
       "group": "AA7071AF",
@@ -982,27 +363,9 @@
       "room": "AA407",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE769": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-15:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7072AF",
@@ -1011,58 +374,20 @@
       "room": "AA408",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".IFE770": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7073A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 1",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
-      "group": "AA7072AF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "AA408",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7073A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 1",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE777": [
     {
-      "day_time": "SUNDAY( 14:00 PM-18:00 PM )",
+      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
       "group": "AA7074A",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 2",
+      "room": "BILIK MESYUARAT",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7073AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
@@ -1075,70 +400,23 @@
       "group": "AA7074A",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 2",
+      "room": "BILIK MESYUARAT",
       "program": "",
       "faculty": ""
     }
   ],
   ".IFE780": [
     {
-      "day_time": "SUNDAY( 09:00 AM-15:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
       "group": "AA7072AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "AA408",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7072A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK KULIAH - AA304",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".IFE781": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7073AF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA7074A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".IFE783": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7074A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK SEMINAR 2",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
       "group": "AA7073AF",
@@ -1147,10 +425,39 @@
       "room": "SMART CLASSROOM - AA301",
       "program": "",
       "faculty": ""
+    }
+  ],
+  ".MGT782": [
+    {
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
+      "group": "AA7042PA",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA405",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "group": "AA7042AF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "STUDENT LOUNGE",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "group": "AA7042BF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "SMART CLASSROOM - AA301",
+      "program": "",
+      "faculty": ""
     },
     {
       "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7074A",
+      "group": "AA7052A",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
       "room": "BILIK SEMINAR 2",
@@ -1158,114 +465,22 @@
       "faculty": ""
     }
   ],
-  ".MGT782": [
-    {
-      "day_time": "SUNDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7052A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7052B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
-      "program": "AA705",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 08:30 AM-12:30 PM )",
-      "group": "AA7042AF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7042BF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "COLLABORATIVE - AA302",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7042PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7052A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7052B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "SMART CLASSROOM - AA301",
-      "program": "AA705",
-      "faculty": ""
-    }
-  ],
   ".MGT783": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    },
     {
       "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7041AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA401",
+      "room": "BILIK SEMINAR 1",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7041BF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA402",
+      "room": "BILIK SEMINAR 2",
       "program": "",
       "faculty": ""
     },
@@ -1274,69 +489,13 @@
       "group": "AA7041PA",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7041PB",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MGT784": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA406",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7043PA",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
       "room": "AA405",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053A",
+      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
+      "group": "AA7041PB",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
       "room": "AA406",
@@ -1355,24 +514,6 @@
       "faculty": ""
     },
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA405",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 08:30 AM-14:30 PM )",
-      "group": "AA7042AF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "AA403",
-      "program": "",
-      "faculty": ""
-    },
-    {
       "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
       "group": "AA7053B",
       "mode": "Part-time",
@@ -1380,20 +521,20 @@
       "room": "AA407",
       "program": "",
       "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA405",
-      "program": "",
-      "faculty": ""
     }
   ],
   ".MGT787": [
     {
-      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
+      "group": "AA7054B",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA101",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
       "group": "AA7043AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
@@ -1402,11 +543,11 @@
       "faculty": ""
     },
     {
-      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7044PA",
+      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
+      "group": "AA7054B",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA407",
+      "room": "AA101",
       "program": "",
       "faculty": ""
     }
@@ -1422,20 +563,38 @@
       "faculty": ""
     },
     {
-      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7044PA",
+      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
+      "group": "AA7054B",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA407",
+      "room": "AA101",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
+      "group": "AA7043AF",
+      "mode": "Fulltime",
+      "status": "First Timerand Repeater",
+      "room": "AA405",
       "program": "",
       "faculty": ""
     },
     {
       "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7043AF",
+      "group": "AA7043BF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA405",
+      "room": "AA406",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "WEDNESDAY( 18:30 PM-20:30 PM )",
+      "group": "AA7044PA",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA201",
       "program": "",
       "faculty": ""
     },
@@ -1445,6 +604,15 @@
       "mode": "Part-time",
       "status": "First Timerand Repeater",
       "room": "AA408",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
+      "group": "AA7054B",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA101",
       "program": "",
       "faculty": ""
     }
@@ -1460,20 +628,29 @@
       "faculty": ""
     },
     {
-      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7044PA",
-      "mode": "Part-time",
+      "day_time": "TUESDAY( 14:00 PM-16:00 PM )",
+      "group": "AA7043BF",
+      "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA407",
+      "room": "AA406",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "THURSDAY( 08:30 AM-12:30 PM )",
+      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
       "group": "AA7043AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "AA405",
+      "program": "",
+      "faculty": ""
+    },
+    {
+      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "group": "AA7044PA",
+      "mode": "Part-time",
+      "status": "First Timerand Repeater",
+      "room": "AA201",
       "program": "",
       "faculty": ""
     },
@@ -1498,29 +675,11 @@
       "faculty": ""
     },
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA995SA1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK MESYUARAT",
-      "program": "",
-      "faculty": ""
-    },
-    {
       "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
       "group": "AA995SA1A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "COLLABORATIVE - AA302",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA995SA1B",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "BILIK MESYUARAT",
       "program": "",
       "faculty": ""
     }
@@ -1538,56 +697,20 @@
   ],
   ".MKT761": [
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7051C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    },
-    {
       "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7041PA",
+      "group": "AA7041PB",
       "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7041BF",
-      "mode": "Fulltime",
       "status": "First Timerand Repeater",
       "room": "AA406",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
-      "group": "AA7041PB",
-      "mode": "Part-time",
+      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
+      "group": "AA7041BF",
+      "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA402",
+      "room": "",
       "program": "",
       "faculty": ""
     },
@@ -1596,61 +719,14 @@
       "group": "AA7041AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA401",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA402",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7051C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA101",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".MKT762": [
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7054A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA408",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7054A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA408",
+      "room": "BILIK SEMINAR 1",
       "program": "",
       "faculty": ""
     }
   ],
   ".MKT900": [
     {
-      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "day_time": "WEDNESDAY( 18:30 PM-22:30 PM )",
       "group": "AA902SA2A",
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
@@ -1661,83 +737,29 @@
   ],
   ".OPM772": [
     {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053A",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA406",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA407",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SUNDAY( 09:00 AM-13:00 PM )",
-      "group": "AA7053C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA405",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "WEDNESDAY( 14:00 PM-18:00 PM )",
+      "day_time": "TUESDAY( 14:00 PM-18:00 PM )",
       "group": "AA7042AF",
       "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA403",
+      "room": "STUDENT LOUNGE",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "WEDNESDAY( 08:30 AM-12:30 PM )",
-      "group": "AA7042BF",
-      "mode": "Fulltime",
-      "status": "First Timerand Repeater",
-      "room": "AA404",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "THURSDAY( 18:30 PM-22:30 PM )",
+      "day_time": "TUESDAY( 18:30 PM-22:30 PM )",
       "group": "AA7043PA",
       "mode": "Part-time",
       "status": "First Timerand Repeater",
-      "room": "AA405",
+      "room": "AA408",
       "program": "",
       "faculty": ""
     },
     {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053A",
-      "mode": "Part-time",
+      "day_time": "THURSDAY( 14:00 PM-18:00 PM )",
+      "group": "AA7042BF",
+      "mode": "Fulltime",
       "status": "First Timerand Repeater",
-      "room": "AA406",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053B",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA407",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "SATURDAY( 14:00 PM-18:00 PM )",
-      "group": "AA7053C",
-      "mode": "Part-time",
-      "status": "First Timerand Repeater",
-      "room": "AA405",
+      "room": "STAFF LOUNGE",
       "program": "",
       "faculty": ""
     }
@@ -1749,134 +771,6 @@
       "mode": "BOTH - Fulltimeand Part-time",
       "status": "First Timerand Repeater",
       "room": "SMART CLASSROOM - AA301",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE912": [
-    {
-      "day_time": "MONDAY( 22:00 PM-23:00 PM )",
-      "group": "AA995SA3A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE913": [
-    {
-      "day_time": "MONDAY( 21:00 PM-22:00 PM )",
-      "group": "AA995SA4A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE914": [
-    {
-      "day_time": "MONDAY( 21:30 PM-22:30 PM )",
-      "group": "AA995SA5",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA995",
-      "faculty": "AA"
-    }
-  ],
-  ".THE915": [
-    {
-      "day_time": "MONDAY( 22:00 PM-22:30 PM )",
-      "group": "AA995SA6",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "AA995",
-      "faculty": "AA"
-    }
-  ],
-  ".THE979": [
-    {
-      "day_time": "MONDAY( 13:00 PM-14:00 PM )",
-      "group": "AA902SA4A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE980": [
-    {
-      "day_time": "MONDAY( 16:00 PM-17:00 PM )",
-      "group": "AA995SA3A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE981": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA902SA5A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 14:00 PM-15:00 PM )",
-      "group": "AA995SA4A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE982": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA902SA5A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    },
-    {
-      "day_time": "MONDAY( 15:00 PM-16:00 PM )",
-      "group": "AA995SA4A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE983": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA995SA5A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
-      "program": "",
-      "faculty": ""
-    }
-  ],
-  ".THE984": [
-    {
-      "day_time": "MONDAY( 08:00 AM-08:30 AM )",
-      "group": "AA995SA5A",
-      "mode": "BOTH - Fulltimeand Part-time",
-      "status": "First Timerand Repeater",
-      "room": "",
       "program": "",
       "faculty": ""
     }

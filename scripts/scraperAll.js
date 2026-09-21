@@ -120,7 +120,8 @@ async function getCourseList(client, campusId, key1, key2, key3) {
     "lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     "llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
     "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl": "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
-    "search_campus": campusId,
+    "search_campus": campusId.startsWith("B_") ? "B" : campusId,
+    ...(campusId.startsWith("B_") ? { "search_faculty": campusId.slice(2) } : {}),
     "search_course": "",
     "lIIIlllIIllll": "lIIIlllIIllll"
   };
