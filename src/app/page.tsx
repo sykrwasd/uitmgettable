@@ -20,8 +20,10 @@ import Header from "@/components/Header";
 import { useTimetable } from "./hooks/useTimetable";
 import RegisteredList from "@/components/RegisteredList";
 import FetchTimetable from "@/components/FetchTimetable";
+import MaintenanceModal from "@/components/MaintenanceModal";
 
 export default function TimetableSwitcher() {
+  // Remove <MaintenanceModal /> once new semester data is fully scraped
   const [mode, setMode] = useState<string>("manual");
 
   const [subjectName, setSubjectName] = useState("");
@@ -62,6 +64,7 @@ export default function TimetableSwitcher() {
     <div className="min-h-screen relative overflow-hidden transition-colors duration-500
       bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300
       dark:from-[#0c1e3d] dark:via-[#112952] dark:to-[#0d3b7a]">
+      <MaintenanceModal />
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
