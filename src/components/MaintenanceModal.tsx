@@ -19,8 +19,12 @@ export default function MaintenanceModal() {
           </p>
         </div>
 
+        <div className="w-full bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700/40 rounded-xl px-4 py-2.5 text-sm text-green-700 dark:text-green-400 text-left">
+          ✓ <span className="font-semibold">Smart Fetch</span> is working fine — enter your matric number to load your timetable instantly.
+        </div>
+
         <p className="text-xs text-gray-400 dark:text-gray-500">
-          Check back in a few hours — it&apos;ll all be fixed soon.
+          Manual data will be fixed soon.
         </p>
 
         <button
