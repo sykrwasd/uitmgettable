@@ -9,32 +9,23 @@ import { useSubjects } from "./hooks/useSubjects";
 import { parseCampus } from "@/lib/utils";
 import { useGroups } from "./hooks/useGroups";
 import { useSelectedClass } from "./hooks/useSelectedClass";
+import { useTimetable } from "./hooks/useTimetable";
 import Footer from "@/components/Footer";
 import CampusSelect from "@/components/CampusSelect";
 import SubjectSelect from "@/components/SubjectSelect";
 import GroupList from "@/components/GroupList";
-import ClassCodeSearch from "@/components/ClassCodeSearch";
-import { CompareSelector, CompareTimetable, type CompareState } from "@/components/CompareClasses";
 import OrderErrorPopup from "@/components/orderError";
 import Header from "@/components/Header";
-import { useTimetable } from "./hooks/useTimetable";
-import RegisteredList from "@/components/RegisteredList";
 import FetchTimetable from "@/components/FetchTimetable";
-import MaintenanceModal from "@/components/MaintenanceModal";
 
 export default function TimetableSwitcher() {
-  // Remove <MaintenanceModal /> once new semester data is fully scraped
-  const [mode, setMode] = useState<string>("manual");
-
   const [subjectName, setSubjectName] = useState("");
   const [matricNumber, setMatricNumber] = useState("");
   const [campus, setCampus] = useState("");
   const [faculty, setFaculty] = useState("");
   const [searchGroup, setSearchGroup] = useState("");
   const [selangor, setSelangor] = useState(false);
-  const [searchMode, setSearchMode] = useState<"campus" | "classcode" | "compare">("campus");
   const [leftPanelOpen, setLeftPanelOpen] = useState(false);
-  const [compareState, setCompareState] = useState<CompareState>({ campus: "", faculty: "", codes: [] });
 
   const { dark, toggle: toggleDark } = useTheme();
   const { fetchCampus, loadingCampus } = useCampus();
@@ -43,15 +34,16 @@ export default function TimetableSwitcher() {
   const { fetchGroup, loadingGroup } = useGroups(campus, faculty, subjectName);
   const { selectedClasses, addClass, addClassesBulk, removeClass, clearAll, result } =
     useSelectedClass(fetchGroup);
-  const { fetchTimetable, loadingTimetable, fetchData } = useTimetable();
 
+  // Smart fetch imports directly into the shared selectedClasses list
+  const { loadingTimetable, fetchData } = useTimetable(addClassesBulk);
 
   const handleCampusChange = (selected: string) => {
     const { campus, selangor } = parseCampus(selected);
     setCampus(campus);
     setSelangor(selangor);
-    setFaculty(""); // reset faculty on campus change
-    setSubjectName(""); // reset subject too
+    setFaculty("");
+    setSubjectName("");
   };
 
   const handleFetch = () => {
@@ -64,143 +56,101 @@ export default function TimetableSwitcher() {
     <div className="min-h-screen relative overflow-hidden transition-colors duration-500
       bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300
       dark:from-[#0c1e3d] dark:via-[#112952] dark:to-[#0d3b7a]">
-      <MaintenanceModal />
       {result.result === "error" && (
         <OrderErrorPopup message={result.message} />
       )}
 
       <div className="relative min-h-screen p-4">
-        <Header
-          mode={mode}
-          setMode={(m) => {
-            trackEvent("change_mode", { mode: m });
-            setMode(m);
-          }}
-          dark={dark}
-          toggleDark={toggleDark}
-        />
+        <Header dark={dark} toggleDark={toggleDark} />
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {/* Left Column — switches based on mode */}
+          {/* Left Column */}
           <div className="lg:col-span-1 space-y-4">
-            {/* Mobile collapse toggle — hidden on desktop */}
+            {/* Mobile collapse toggle */}
             <button
               onClick={() => setLeftPanelOpen((p) => !p)}
               className="lg:hidden w-full flex items-center justify-between px-4 py-2.5 bg-white/60 dark:bg-white/10 backdrop-blur-sm rounded-lg border border-white/40 dark:border-white/10 text-sm font-semibold text-gray-700 dark:text-gray-200"
             >
-              <span>{mode === "manual" ? "Add Classes" : "Registered Classes"}</span>
+              <span>Add Classes</span>
               <span className="text-gray-400">{leftPanelOpen ? "▲" : "▼"}</span>
             </button>
 
-            {/* Content — always visible on desktop, toggle on mobile */}
             <div className={`space-y-4 lg:block ${leftPanelOpen ? "block" : "hidden"}`}>
-            {mode === "manual" ? (
-              <div className="relative space-y-4">
-                {/* Search mode toggle */}
-                <div className="bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/40 dark:border-white/10">
-                  <div className="flex gap-2 mb-4">
-                    {(["campus", "classcode", "compare"] as const).map((m) => (
-                      <button
-                        key={m}
-                        onClick={() => setSearchMode(m)}
-                        className={`flex-1 py-1.5 text-xs font-semibold rounded-lg transition ${
-                          searchMode === m
-                            ? "bg-blue-600 text-white"
-                            : "bg-white/60 dark:bg-white/10 text-gray-600 dark:text-gray-300 hover:bg-white/80"
-                        }`}
-                      >
-                        {m === "campus" ? "By Campus" : m === "classcode" ? "By Class Code" : "Compare"}
-                      </button>
-                    ))}
-                  </div>
 
-                  {searchMode === "campus" ? (
-                    <div className="flex flex-col gap-4">
-                      <CampusSelect
-                        loadingCampus={loadingCampus}
-                        fetchCampus={fetchCampus}
-                        handleCampusChange={handleCampusChange}
-                        selangor={selangor}
-                        setFaculty={setFaculty}
-                        fetchFaculty={fetchFaculty}
-                      />
-                      <SubjectSelect
-                        loadingSubjects={loadingSubjects}
-                        fetchSubjects={fetchSubjects}
-                        setSubjectName={setSubjectName}
-                      />
-                    </div>
-                  ) : searchMode === "classcode" ? (
-                    <ClassCodeSearch
-                      fetchCampus={fetchCampus}
-                      loadingCampus={loadingCampus}
-                      onAddClasses={addClassesBulk}
-                    />
-                  ) : (
-                    <CompareSelector
-                      fetchCampus={fetchCampus}
-                      loadingCampus={loadingCampus}
-                      state={compareState}
-                      onChange={setCompareState}
-                    />
-                  )}
+              {/* Smart Fetch — matric import */}
+              <div className="bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/40 dark:border-white/10 space-y-2">
+                <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                  Smart Fetch
+                </p>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    value={matricNumber}
+                    onChange={(e) => setMatricNumber(e.target.value)}
+                    onKeyDown={(e) => e.key === "Enter" && handleFetch()}
+                    placeholder="Enter matric number…"
+                    className="flex-1 min-w-0 text-sm px-3 py-2 rounded-lg bg-white/80 dark:bg-white/10 border border-black/10 dark:border-white/10 text-gray-800 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  />
+                  <button
+                    onClick={handleFetch}
+                    disabled={loadingTimetable || !matricNumber.trim()}
+                    className="shrink-0 px-4 py-2 text-sm font-semibold bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white rounded-lg transition-colors"
+                  >
+                    {loadingTimetable ? "…" : "Import"}
+                  </button>
                 </div>
-
-                {/* Available Classes — only shown in campus mode */}
-                {searchMode === "campus" && campus && (
-                  <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
-                    <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
-                      Available Classes
-                    </h3>
-                    <GroupList
-                      loadingGroup={loadingGroup}
-                      fetchGroup={fetchGroup}
-                      searchGroup={searchGroup}
-                      setSearchGroup={setSearchGroup}
-                      selectedClasses={selectedClasses}
-                      addClass={addClass}
-                    />
-                  </div>
-                )}
+                <p className="text-xs text-gray-400 dark:text-gray-500">
+                  Imports your registered classes — then add more below.
+                </p>
               </div>
-            ) : (
-              <>
-                {/* Smart Fetch: registered classes list */}
+
+              {/* Manual add — campus / subject */}
+              <div className="bg-white/60 dark:bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/40 dark:border-white/10 space-y-4">
+                <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                  Add manually
+                </p>
+                <CampusSelect
+                  loadingCampus={loadingCampus}
+                  fetchCampus={fetchCampus}
+                  handleCampusChange={handleCampusChange}
+                  selangor={selangor}
+                  setFaculty={setFaculty}
+                  fetchFaculty={fetchFaculty}
+                />
+                <SubjectSelect
+                  loadingSubjects={loadingSubjects}
+                  fetchSubjects={fetchSubjects}
+                  setSubjectName={setSubjectName}
+                />
+              </div>
+
+              {/* Available Classes */}
+              {campus && (
                 <div className="bg-white/40 dark:bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/30 dark:border-white/10">
                   <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">
-                    Registered Classes
+                    Available Classes
                   </h3>
-                  <RegisteredList
-                    fetchTimetable={fetchTimetable}
-                    loadingTimetable={loadingTimetable}
+                  <GroupList
+                    loadingGroup={loadingGroup}
+                    fetchGroup={fetchGroup}
+                    searchGroup={searchGroup}
+                    setSearchGroup={setSearchGroup}
+                    selectedClasses={selectedClasses}
+                    addClass={addClass}
                   />
                 </div>
-              </>
-            )}
-            </div>{/* end collapsible content */}
+              )}
+            </div>
           </div>
 
-          {/* Right Column */}
+          {/* Right Column — one unified timetable */}
           <div className="lg:col-span-2">
-            {mode === "manual" && searchMode === "compare" ? (
-              <CompareTimetable state={compareState} />
-            ) : mode === "manual" ? (
-              <FetchTimetable
-                selectedClasses={selectedClasses}
-                onRemoveClass={removeClass}
-                onClearAll={clearAll}
-                editable={true}
-              />
-            ) : (
-              <FetchTimetable
-                selectedClasses={fetchTimetable}
-                onRemoveClass={() => {}}
-                editable={true}
-                matricNumber={matricNumber}
-                onMatricChange={setMatricNumber}
-                onImport={handleFetch}
-                loadingImport={loadingTimetable}
-              />
-            )}
+            <FetchTimetable
+              selectedClasses={selectedClasses}
+              onRemoveClass={removeClass}
+              onClearAll={clearAll}
+              editable={true}
+            />
           </div>
         </div>
       </div>

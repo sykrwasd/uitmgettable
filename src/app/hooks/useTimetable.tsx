@@ -23,32 +23,22 @@ type SelectedClass = Group & {
   timeSlot: string;
 };
 
-export function useTimetable() {
-  const [fetchTimetable, setFetchTimetable] = useState<SelectedClass[]>([]);
+export function useTimetable(onImported: (classes: SelectedClass[]) => void) {
   const [loadingTimetable, setLoadingTimetable] = useState(false);
 
   async function fetchData(matricNumber: string) {
     if (!matricNumber) return;
-
     setLoadingTimetable(true);
     try {
       const data: Group[] = await getTimetable(matricNumber);
-
-      
-
       const formatted = data
         .map((item) => {
-          // If the API already gave us day + timeSlot, use them directly.
-          // Otherwise fall back to parsing day_time.
-          if (item.day && item.timeSlot) {
-            return item as unknown as SelectedClass;
-          }
+          if (item.day && item.timeSlot) return item as unknown as SelectedClass;
           const parsed = parseDayTime(item.day_time);
           return parsed ? { ...item, ...parsed } : null;
         })
         .filter(Boolean) as SelectedClass[];
-
-      setFetchTimetable(formatted);
+      onImported(formatted);
     } catch (err) {
       console.error(err);
     } finally {
@@ -56,5 +46,5 @@ export function useTimetable() {
     }
   }
 
-  return { fetchTimetable, loadingTimetable, fetchData };
+  return { loadingTimetable, fetchData };
 }

@@ -1,65 +1,61 @@
-// lib/api.ts — reads from static JSON files in public/timetable/
+// lib/api.ts — live fetch from SIMSweb via API routes
 
 export async function getCampus() {
-  const res = await fetch("/timetable/index.json");
+  const res = await fetch("/api/campuses");
   if (!res.ok) throw new Error("Failed to fetch campus list");
-  const data = await res.json();
-  // map to { id, text } format expected by CampusSelect
-  return data.campuses
-    .filter((c: { status: string; courses: number }) => c.status === "ok" && c.courses > 0)
-    .map((c: { campus: string; name: string }) => ({
-      id: c.campus,
-      text: `${c.campus} - ${c.name}`,
+  const data: { id: string; text: string }[] = await res.json();
+  return data
+    .filter((c) => c.id !== "X")
+    .map((c) => ({
+      id: c.id,
+      // API text already includes the id prefix (e.g. "K - UITM KAMPUS ..."), use as-is
+      text: c.text,
     }));
 }
 
 export async function getFaculty() {
-  // No longer needed — faculties are embedded in campus JSON
   return [];
-}
-
-function getFileName(campus: string, faculty: string) {
-  // Selangor campus uses per-faculty files: B_AC.json, B_CS.json etc.
-  if (campus === "B") return faculty ? `B_${faculty}` : null;
-  return campus;
 }
 
 export async function getSubject(campus: string, faculty: string) {
   if (!campus) return [];
-  const file = getFileName(campus, faculty);
-  if (!file) return []; // Selangor but no faculty selected yet
-  const res = await fetch(`/timetable/${file}.json`);
-  if (!res.ok) throw new Error(`Failed to fetch timetable for ${file}`);
-  const data = await res.json();
-  // return course codes as { course, href } — href unused but kept for compatibility
-  return Object.keys(data).map((code) => ({
-    course: code,
-    href: "",
-  }));
+  const params = new URLSearchParams({ campus });
+  if (faculty) params.set("faculty", faculty);
+  const res = await fetch(`/api/courses?${params}`);
+  if (!res.ok) throw new Error(`Failed to fetch courses for ${campus}`);
+  const data: { code: string; path: string }[] = await res.json();
+  return data.map((c) => ({ course: c.code, href: c.path }));
 }
 
 export async function getGroup(campus: string, faculty: string, subject: string) {
   if (!campus || !subject) return [];
-  const file = getFileName(campus, faculty);
-  if (!file) return [];
-  const res = await fetch(`/timetable/${file}.json`);
-  if (!res.ok) throw new Error(`Failed to fetch timetable for ${file}`);
-  const data = await res.json();
 
-  // normalize subject key (add leading dot if missing)
-  const key = subject.startsWith(".") ? subject : `.${subject}`;
-  const classes = data[key] ?? [];
+  // We need the path — re-fetch courses to find it
+  const params = new URLSearchParams({ campus });
+  if (faculty) params.set("faculty", faculty);
+  const subjectsRes = await fetch(`/api/courses?${params}`);
+  if (!subjectsRes.ok) throw new Error("Failed to fetch courses");
+  const subjects: { code: string; path: string }[] = await subjectsRes.json();
 
-  // map JSON fields to the shape GroupList expects
-  return classes.map((cls: {
-    day_time: string;
+  const normalised = subject.replace(/^\./, "");
+  const found = subjects.find(
+    (s) => s.code.replace(/^\./, "") === normalised
+  );
+  if (!found) return [];
+
+  const groupsRes = await fetch(`/api/groups?path=${encodeURIComponent(found.path)}`);
+  if (!groupsRes.ok) throw new Error("Failed to fetch groups");
+  const groups: {
     group: string;
+    day_time: string;
     mode: string;
     status: string;
     room: string;
     program: string;
     faculty: string;
-  }, idx: number) => ({
+  }[] = await groupsRes.json();
+
+  return groups.map((cls, idx) => ({
     no: `${idx + 1}.`,
     day_time: cls.day_time,
     class_code: cls.group,

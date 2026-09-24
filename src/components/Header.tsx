@@ -4,14 +4,11 @@ import { FaGithub, FaHeart, FaTimes } from "react-icons/fa";
 import Image from "next/image";
 
 interface Props {
-  mode: string;
-  setMode: (value: string) => void;
   dark: boolean;
   toggleDark: () => void;
 }
 
-
-export default function Header({ mode, setMode, dark, toggleDark }: Props) {
+export default function Header({ dark, toggleDark }: Props) {
   const [showDonate, setShowDonate] = useState(false);
 
   return (
@@ -125,31 +122,6 @@ export default function Header({ mode, setMode, dark, toggleDark }: Props) {
           </p>
         </div>
 
-        {/* Mode toggle */}
-        <div className="flex justify-center items-center gap-4 pt-2">
-          <span className={`text-sm font-semibold transition-colors ${
-            mode === "manual" ? "text-blue-500" : "text-gray-400 dark:text-gray-500"
-          }`}>
-            Custom Timetable
-          </span>
-
-          <button
-            onClick={() => setMode(mode === "manual" ? "auto" : "manual")}
-            className={`relative w-14 h-7 rounded-full transition-colors duration-300 focus:outline-none ${
-              mode === "auto" ? "bg-blue-500" : "bg-gray-300 dark:bg-gray-600"
-            }`}
-          >
-            <span className={`absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full shadow transition-transform duration-300 ${
-              mode === "auto" ? "translate-x-7" : "translate-x-0"
-            }`} />
-          </button>
-
-          <span className={`text-sm font-semibold transition-colors ${
-            mode === "auto" ? "text-blue-500" : "text-gray-400 dark:text-gray-500"
-          }`}>
-            Smart Fetch
-          </span>
-        </div>
       </div>
 
     </div>

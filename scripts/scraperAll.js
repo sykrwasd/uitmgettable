@@ -85,8 +85,31 @@ const CAMPUSES = [
   { text: 'KUALA TERENGGANU', id: 'T5' },
 ];
 
-async function getSessionKeys(client, jar) {
-  await client.get(BASE);
+async function getSessionData(client, jar) {
+  const res = await client.get(`${BASE}index.cfm`, {
+    headers: { "User-Agent": "Mozilla/5.0" },
+  });
+  const $ = cheerio.load(res.data);
+
+  // Dynamically extract all hidden input tokens — no hardcoding
+  const hiddenTokens = {};
+  $("input[type=hidden]").each((_, el) => {
+    const name = $(el).attr("name");
+    const value = $(el).attr("value") || "";
+    if (name) hiddenTokens[name] = value;
+  });
+
+  // Dynamically extract submission URL from inline script
+  let submitPath = "";
+  $("script").each((_, el) => {
+    const src = $(el).html() || "";
+    if (src.includes("check_form_before_submit")) {
+      const match = src.match(/url\s*:\s*['"]([^'"]+)['"]/);
+      if (match) submitPath = match[1];
+    }
+  });
+
+  // Cookie-based keys as fallback
   const cookieList = await jar.getCookies(BASE);
   let key1 = "", key2 = "", key3 = "";
   for (const c of cookieList) {
@@ -94,40 +117,27 @@ async function getSessionKeys(client, jar) {
     if (c.key === "KEY2") key2 = c.value;
     if (c.key === "KEY3") key3 = c.value;
   }
-  return { key1, key2, key3 };
+
+  return { hiddenTokens, submitPath, key1, key2, key3 };
 }
 
-async function getCourseList(client, campusId, key1, key2, key3) {
+async function getCourseList(client, campusId, sessionData) {
+  const { hiddenTokens, submitPath, key1, key2, key3 } = sessionData;
+
+  // Merge live hidden tokens with campus/faculty fields
   const payload = {
-    "captcha_no_type": "llIlllIlIIllIlIIIIlllIlIll",
-    "captcha1": "lIIlllIlIllIllIIIIIlIlllllIlIll",
-    "captcha2": "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    "captcha3": "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    "token1": "lIIlllIlIllIllIIIIIlIlllllIlIll",
-    "token2": "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    "token3": "lIIlllIlIllIlIIlIllIIIIlllIllll",
-    "llIlllIlIIllIlIIIIlllIlIll": "lIIlllIlIllIlIIlIllIlIIIlllIlIll",
-    "llIlllIlIIlllllIIIlllIlIll": "lIIllIlIlllIlIIlIllIIIIllllIlIll",
-    "lIIlllIlIIlIllIIIIlllIlIll": "lIIlllIlIIIlllIIIIlIllIlllIlIll",
-    "lIIlIlllIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIIIIlllIlIlllI",
-    "lIIlIlllIlIIllIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIllIlIIIIlllIlIllI",
-    "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI": "lIIlIlllIlIIllIlIIIIlllIlIlllIlIllI",
-    "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI": "lIIlIllIlIllllIlIIllIlIIIIlllIlIllI",
-    "lIIlIlllIlIIllllIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllllIlIIllIllIIIIlllIlIllI",
-    "lIIlIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI": "lIllIlllIlIIIlIlllIlIIllIlIIIIlllIlIllI",
-    "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIlIIlIIllIlIIIIlIlIllllI",
-    "llIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    "lllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    "llllIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI": "lIIlIlllIlIIllIlIIIlIIllIlIIIIlllIlIllI",
-    "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllIl": "llllIIlIlllIlIIlllllIIIlIIllIlIIIIlllIlIllI",
+    ...hiddenTokens,
     "search_campus": campusId.startsWith("B_") ? "B" : campusId,
     ...(campusId.startsWith("B_") ? { "search_faculty": campusId.slice(2) } : {}),
     "search_course": "",
-    "lIIIlllIIllll": "lIIIlllIIllll"
   };
 
-  const url = `${BASE}INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${key1}&id2=${key2}&id3=${key3}`;
-  const res = await client.post(url, new URLSearchParams(payload).toString(), {
+  // Use dynamically extracted submit path if found, else fall back to hardcoded
+  const submitUrl = submitPath
+    ? `${BASE}${submitPath}`
+    : `${BASE}INDEX_RESULT_lII1II11I1lIIII11IIl1I111I.cfm?id1=${key1}&id2=${key2}&id3=${key3}`;
+
+  const res = await client.post(submitUrl, new URLSearchParams(payload).toString(), {
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
       "User-Agent": "Mozilla/5.0",
@@ -174,8 +184,8 @@ async function scrapeCampus(campus) {
   const jar = new CookieJar();
   const client = wrapper(axios.create({ jar, withCredentials: true }));
 
-  const { key1, key2, key3 } = await getSessionKeys(client, jar);
-  const courses = await getCourseList(client, campus.id, key1, key2, key3);
+  const sessionData = await getSessionData(client, jar);
+  const courses = await getCourseList(client, campus.id, sessionData);
 
   const result = {};
   for (let i = 0; i < courses.length; i++) {
