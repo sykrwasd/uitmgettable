@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { toPng } from "html-to-image";
+import { toBlob } from "html-to-image";
 import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
 import toast from "react-hot-toast";
@@ -194,17 +194,42 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       // Target the inner full-width div, not the overflow-x-auto wrapper
       const inner = timetableRef.current.firstElementChild as HTMLElement | null;
       const target = inner ?? timetableRef.current;
-      const dataUrl = await toPng(target, {
-        pixelRatio: 3,
+      const width = target.scrollWidth;
+      const height = target.scrollHeight;
+      // iOS Safari caps canvas area (~16.7M px); exceeding it yields a blank/failed export
+      const pixelRatio = Math.min(3, Math.sqrt(12_000_000 / (width * height)));
+      const blob = await toBlob(target, {
+        pixelRatio,
         backgroundColor: timetableBg,
         cacheBust: true,
-        width: target.scrollWidth,
-        height: target.scrollHeight,
+        width,
+        height,
       });
+      if (!blob) throw new Error("empty image");
+      const file = new File([blob], "timetable.png", { type: "image/png" });
+
+      // Mobile: <a download> is ignored by iOS / in-app browsers, share sheet lets users save to Photos
+      if (navigator.canShare?.({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], title: "My Timetable" });
+          toast.success("Timetable ready!", { id: "export", duration: 2000 });
+          return;
+        } catch (err) {
+          if ((err as Error).name === "AbortError") {
+            toast.dismiss("export");
+            return;
+          }
+        }
+      }
+
+      const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
-      link.href = dataUrl;
+      link.href = url;
       link.download = "timetable.png";
+      document.body.appendChild(link);
       link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 10_000);
       toast.success("Timetable saved!", { id: "export", duration: 2000 });
       event({ action: "save_timetable", params: { classes_count: selectedClasses.length, method: "image" } });
       trackEvent("save_timetable", { classes_count: selectedClasses.length, method: "image" });
