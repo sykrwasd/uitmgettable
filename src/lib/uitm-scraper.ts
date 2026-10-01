@@ -240,8 +240,16 @@ export async function getGroups(path: string): Promise<{
   for (const m of text.matchAll(/<tbody[\s\S]*?<\/tbody>/gi)) {
     for (const row of m[0].matchAll(/<tr[\s\S]*?<\/tr>/gi)) {
       const cells = [...row[0].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)]
-        .map((c) => c[1].replace(/<[^>]+>/g, "").trim());
-      if (cells.length >= 7) {
+        .map((c) =>
+          c[1]
+            .replace(/<br\s*\/?>/gi, " ")
+            .replace(/<[^>]+>/g, "")
+            .replace(/\s+/g, " ")
+            .replace(/\s+\(/, "(")
+            .trim()
+        );
+      // SIMSweb dropped the PROGRAM/FACULTY columns; rows now have 6 cells
+      if (cells.length >= 6) {
         groups.push({
           day_time: cells[1] ?? "",
           group: cells[2] ?? "",
