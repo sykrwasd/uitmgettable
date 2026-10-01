@@ -1,0 +1,413 @@
+{
+  "scraped_at": "2026-10-01T05:27:56.901Z",
+  "campuses": [
+    {
+      "campus": "B_AA",
+      "name": "SHAH ALAM - ARSHAD AYUB GRADUATE BUSINESS SCHOOL",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AC",
+      "name": "SHAH ALAM - FACULTY OF ACCOUNTANCY",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AD",
+      "name": "SHAH ALAM - FACULTY OF ART AND DESIGN",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AM",
+      "name": "SHAH ALAM - FACULTY OF ADMINISTRATIVE SCIENCE AND POLICY STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AP",
+      "name": "SHAH ALAM - FACULTY OF ARCHITECTURE, PLANNING AND SURVEYING",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_AS",
+      "name": "SHAH ALAM - FACULTY OF APPLIED SCIENCES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_BA",
+      "name": "SHAH ALAM - FACULTY OF BUSINESS AND MANAGEMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_BE",
+      "name": "SHAH ALAM - FACULTY OF BUILT ENVIRONMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_BM",
+      "name": "SHAH ALAM - FACULTY OF BUSINESS MANAGEMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CA",
+      "name": "SHAH ALAM - COLLEGE OF CREATIVE ARTS",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CD",
+      "name": "SHAH ALAM - COLLEGE OF COMPUTING, INFORMATICS AND MATHEMATICS",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CE",
+      "name": "SHAH ALAM - COLLEGE OF ENGINEERING",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CF",
+      "name": "SHAH ALAM - COLLEGE OF BUILT ENVIRONMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CP",
+      "name": "SHAH ALAM - INSTI OF CONTINUING EDUCATION & PROFESSIONAL STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_CS",
+      "name": "SHAH ALAM - FACULTY OF COMPUTER AND MATHEMATICAL SCIENCES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_DS",
+      "name": "SHAH ALAM - FACULTY OF DENTISTRY",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EC",
+      "name": "SHAH ALAM - FACULTY OF CIVIL ENGINEERING",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_ED",
+      "name": "SHAH ALAM - FACULTY OF EDUCATION",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EE",
+      "name": "SHAH ALAM - FACULTY OF ELECTRICAL ENGINEERING",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EH",
+      "name": "SHAH ALAM - FACULTY OF CHEMICAL ENGINEERING",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_EM",
+      "name": "SHAH ALAM - FACULTY OF MECHANICAL ENGINEERING",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_FF",
+      "name": "SHAH ALAM - FACULTY OF FILM, THEATRE AND ANIMATION",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_HM",
+      "name": "SHAH ALAM - FACULTY OF HOTEL AND TOURISM MANAGEMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_HS",
+      "name": "SHAH ALAM - FACULTY OF HEALTH SCIENCES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_IC",
+      "name": "SHAH ALAM - ACADEMY OF CONTEMPORARY ISLAMIC STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_IM",
+      "name": "SHAH ALAM - FACULTY OF INFORMATION MANAGEMENT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_IN",
+      "name": "SHAH ALAM - INTERNATIONAL",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_LG",
+      "name": "SHAH ALAM - ACADEMY OF LANGUAGE STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_LT",
+      "name": "SHAH ALAM - MALAYSIA INSTITUTE OF TRANSPORT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_LW",
+      "name": "SHAH ALAM - FACULTY OF LAW",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_MC",
+      "name": "SHAH ALAM - FACULTY OF COMMUNICATION AND MEDIA STUDIES",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_MD",
+      "name": "SHAH ALAM - FACULTY OF MEDICINE",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_MU",
+      "name": "SHAH ALAM - FACULTY OF MUSIC",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_PH",
+      "name": "SHAH ALAM - FACULTY OF PHARMACY",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_SI",
+      "name": "SHAH ALAM - FACULTY OF INFORMATION SCIENCE",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B_SR",
+      "name": "SHAH ALAM - FACULTY OF SPORTS SCIENCE AND RECREATION",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "APB",
+      "name": "SELANGOR - LANGUAGE",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "CITU",
+      "name": "SELANGOR - CITU",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "HEP",
+      "name": "SELANGOR - CO-CURRICULUM",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "A",
+      "name": "SERI ISKANDAR",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "A4",
+      "name": "TAPAH",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "B10",
+      "name": "DENGKIL",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "C",
+      "name": "JENGKA",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "C3",
+      "name": "RAUB",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "D",
+      "name": "MACHANG",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "D2",
+      "name": "KOTA BHARU",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "J",
+      "name": "SEGAMAT",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "J4",
+      "name": "PASIR GUDANG",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "K",
+      "name": "SUNGAI PETANI",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "M",
+      "name": "ALOR GAJAH",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "M1",
+      "name": "BANDARAYA MELAKA",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "M3",
+      "name": "JASIN",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "N",
+      "name": "KUALA PILAH",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "N3",
+      "name": "KUALA PILAH 2",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "N4",
+      "name": "SEREMBAN 3",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "N5",
+      "name": "REMBAU",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "P",
+      "name": "BUKIT MERTAJAM",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "P2",
+      "name": "BERTAM",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "P4",
+      "name": "PERMATANG PAUH",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "Q",
+      "name": "SAMARAHAN",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "Q5",
+      "name": "SAMARAHAN 2",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "Q6",
+      "name": "MUKAH",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "R",
+      "name": "ARAU",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "S",
+      "name": "KOTA KINABALU",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "S2",
+      "name": "TAWAU",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "T",
+      "name": "DUNGUN",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "T4",
+      "name": "BUKIT BESI",
+      "courses": 0,
+      "status": "ok"
+    },
+    {
+      "campus": "T5",
+      "name": "KUALA TERENGGANU",
+      "courses": 0,
+      "status": "ok"
+    }
+  ]
+}
