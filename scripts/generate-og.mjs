@@ -72,7 +72,7 @@ const res = new ImageResponse(
         h("div", { style: { display: "flex", fontSize: "76px", fontWeight: 600, color: "#60A5FA", letterSpacing: "-0.02em", lineHeight: "1.0" } }, "timetable in seconds."),
       ),
       h("div", { style: { display: "flex", fontSize: "25px", color: "rgba(148,163,184,0.85)", fontWeight: 400, lineHeight: "1.4" } },
-        "Search by campus, class code, or matric number. Free, fast, customizable."
+        "Search by campus or import with your matric number. Free, fast, customizable."
       ),
     ),
     // Bottom

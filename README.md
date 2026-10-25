@@ -5,7 +5,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js_16-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 🌐 **Live:** [uitmgetable.my](https://uitmgetable.my)
 
@@ -14,9 +14,7 @@
 ## Features
 
 - **By Campus** — select campus → faculty → subject → add class groups to your timetable
-- **By Class Code** — type a class code (e.g. `CS2593B`), preview all subjects, add at once
-- **Compare Mode** — compare multiple class sections side-by-side as separate timetables
-- **Smart Fetch** — enter your matric number to auto-load your registered timetable
+- **Smart Fetch** — enter your matric number to import your registered timetable, then add more classes on top
 - **Customizable** — change background color, block text color, label color, or pick a one-click theme
 - **Themes** — 8 built-in themes (Matcha Strawberry, Creator's Favourite, Midnight Ocean, and more)
 - **Manage Classes** — remove individual subjects from your timetable
@@ -29,20 +27,16 @@
 
 ## How it works
 
-Timetable data is scraped from iCress and stored as **static JSON files** in `public/timetable/`. No live scraping happens at runtime — the app just fetches JSON.
+Timetable data is fetched **live** from UiTM's timetable system (SIMSweb) on every request, so it always matches the official portal. `src/lib/uitm-scraper.ts` reads the form tokens from the SIMSweb page at runtime (no hardcoded tokens) and caches them for 10 minutes.
 
 ```
-GET https://uitmgetable.my/timetable/{campus}.json
-GET https://uitmgetable.my/timetable/class_index.json
+GET  /api/campuses
+GET  /api/courses?campus={campus}&faculty={faculty}
+GET  /api/groups?path={path}
+POST /api/getTimetable   { "matricNumber": "..." }
 ```
 
 See [API Docs](https://uitmgetable.my/api-docs) for the full reference.
-
-### Data update schedule
-
-A GitHub Actions workflow runs on a schedule, scrapes iCress, and commits updated JSON files to the repo. Vercel redeploys automatically on push.
-
-> ⚠️ iCress sometimes clears all timetable data between semesters. If data looks empty, the last known good snapshot is kept in the repo.
 
 ---
 
@@ -55,8 +49,8 @@ A GitHub Actions workflow runs on a schedule, scrapes iCress, and commits update
 | Styling | Tailwind CSS |
 | Dropdowns | react-select |
 | Image export | html-to-image |
-| Scraper | Cheerio + Axios (Node.js script) |
-| Hosting | Vercel |
+| Data | Live scraping of SIMSweb + MyStudent via Next.js API routes |
+| Hosting | Cloudflare Workers (OpenNext) |
 | Analytics | Umami + Google Analytics |
 
 ---
@@ -70,17 +64,15 @@ uitmgettable/
 │   │   └── hooks/              # useCampus, useFaculty, useSubjects, useSelectedClass…
 │   ├── components/             # UI components
 │   │   ├── FetchTimetable.tsx  # Main timetable grid + customization
-│   │   ├── ClassCodeSearch.tsx # By Class Code search
-│   │   ├── CompareClasses.tsx  # Compare mode
 │   │   ├── CampusSelect.tsx    # Campus/faculty dropdowns + rsStyles helper
 │   │   └── …
-│   └── lib/                    # parseTime, utils, api helpers
+│   └── lib/
+│       ├── uitm-scraper.ts     # Live SIMSweb scraper (tokens, courses, groups)
+│       └── api.ts              # Client helpers for the /api routes
 ├── scripts/
-│   └── scraperAll.js           # Scrapes iCress + builds class_index.json
-├── public/
-│   └── timetable/              # 70 campus JSON files + class_index.json
-└── .github/workflows/
-    └── scrape.yml              # Scheduled scrape action
+│   └── generate-og.mjs         # Regenerates public/og-image.png
+├── wrangler.jsonc              # Cloudflare Workers config
+└── open-next.config.ts         # OpenNext adapter config
 ```
 
 ---
@@ -102,13 +94,12 @@ Open [http://localhost:3000](http://localhost:3000).
 node scripts/generate-og.mjs
 ```
 
-### Run scraper manually
+### Preview / deploy on Cloudflare
 
 ```bash
-node scripts/scraperAll.js
+npm run preview   # build and run locally in the Workers runtime
+npm run deploy    # build and deploy to Cloudflare
 ```
-
-This scrapes all campuses from iCress and rebuilds `public/timetable/` and `class_index.json`.
 
 ---
 

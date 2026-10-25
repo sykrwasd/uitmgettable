@@ -2,19 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const CAMPUS_FILES = [
-  { file: "A", name: "Seri Iskandar" },
-  { file: "A4", name: "Arau" },
-  { file: "APB", name: "Alor Gajah" },
-  { file: "B_CS", name: "Selangor — CS Faculty (example)" },
-  { file: "C", name: "Kota Bharu" },
-  { file: "D", name: "Johor" },
-  { file: "K", name: "Kuching" },
-  { file: "M", name: "Kuala Pilah" },
-  { file: "N", name: "Kuala Terengganu" },
-  { file: "P", name: "Perlis" },
-  { file: "class_index", name: "Class Index (all campuses)" },
-];
+const BASE = "https://uitmgetable.my";
 
 function Code({ children }: { children: string }) {
   const [copied, setCopied] = useState(false);
@@ -54,6 +42,24 @@ function Field({ name, type, desc, example }: { name: string; type: string; desc
   );
 }
 
+function Fields({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="bg-white/5 border border-white/10 rounded-xl overflow-hidden">
+      <div className="px-4 py-3 border-b border-white/10 text-xs font-semibold text-gray-500 uppercase tracking-wider">{title}</div>
+      <div className="px-4 divide-y divide-white/5">{children}</div>
+    </div>
+  );
+}
+
+function Endpoint({ method, path }: { method: "GET" | "POST"; path: string }) {
+  return (
+    <div className="flex items-center gap-3 font-mono text-sm">
+      <span className={`text-xs font-bold px-2 py-0.5 rounded ${method === "GET" ? "bg-green-500/20 text-green-400" : "bg-orange-500/20 text-orange-400"}`}>{method}</span>
+      <span className="text-gray-200 break-all">{path}</span>
+    </div>
+  );
+}
+
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
     <section id={id} className="space-y-4 scroll-mt-24">
@@ -64,8 +70,6 @@ function Section({ id, title, children }: { id: string; title: string; children:
 }
 
 export default function ApiDocs() {
-  const [activeTab, setActiveTab] = useState<"timetable" | "classindex">("timetable");
-
   return (
     <div className="min-h-screen text-gray-100" style={{ background: "linear-gradient(135deg, #0c1e3d 0%, #112952 50%, #0d3b7a 100%)", backgroundAttachment: "fixed" }}>
       {/* Nav */}
@@ -97,11 +101,11 @@ export default function ApiDocs() {
           <div className="sticky top-20 space-y-0.5 text-sm border-r border-white/10 pr-4">
             {[
               { href: "#overview", label: "Overview" },
-              { href: "#base-url", label: "Base URL" },
-              { href: "#timetable", label: "Timetable Files" },
-              { href: "#structure", label: "Data Structure" },
-              { href: "#classindex", label: "Class Index" },
-              { href: "#examples", label: "Examples" },
+              { href: "#campuses", label: "Campuses" },
+              { href: "#courses", label: "Courses" },
+              { href: "#groups", label: "Class Groups" },
+              { href: "#student", label: "Student Timetable" },
+              { href: "#example", label: "Example" },
               { href: "#notes", label: "Notes" },
             ].map(({ href, label }) => (
               <a key={href} href={href}
@@ -117,202 +121,128 @@ export default function ApiDocs() {
 
           {/* Hero */}
           <div className="space-y-3">
-            <div className="flex items-center gap-2">
-              <Badge color="bg-green-500/20 text-green-400 border border-green-500/30">Public</Badge>
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge color="bg-green-500/20 text-green-400 border border-green-500/30">Live data</Badge>
               <Badge color="bg-blue-500/20 text-blue-400 border border-blue-500/30">Read-only</Badge>
-              <Badge color="bg-yellow-500/20 text-yellow-400 border border-yellow-500/30">No auth required</Badge>
+              <Badge color="bg-yellow-500/20 text-yellow-400 border border-yellow-500/30">Server-side only</Badge>
             </div>
             <h1 className="text-4xl font-black tracking-tight text-white">UiTMGetTable <span className="text-blue-400">API</span></h1>
             <p className="text-gray-400 text-lg max-w-xl">
-              Free, public JSON endpoints for UiTM timetable data. No keys, no rate limits. Just fetch.
+              The JSON endpoints that power this app. Data is fetched live from UiTM on every request.
             </p>
           </div>
 
           <Section id="overview" title="Overview">
             <p className="text-gray-400 leading-relaxed">
-              All timetable data is served as static JSON files from the <code className="text-blue-300 bg-blue-400/10 px-1.5 py-0.5 rounded text-sm">/timetable/</code> directory.
-              Files are scraped from iCress and updated automatically via GitHub Actions. There are two types of files:
+              Every request is proxied live to UiTM&apos;s timetable system (SIMSweb) and MyStudent, so results always match
+              the official portal. Browsing timetables is a three-step flow:
             </p>
-            <div className="grid sm:grid-cols-2 gap-4 mt-2">
-              <div className="bg-white/5 border border-white/10 rounded-xl p-4 space-y-1">
-                <div className="text-sm font-semibold text-white">Campus Timetable Files</div>
-                <div className="text-xs text-gray-400">One file per campus/faculty. Contains all subjects and class groups for that campus.</div>
-              </div>
-              <div className="bg-white/5 border border-white/10 rounded-xl p-4 space-y-1">
-                <div className="text-sm font-semibold text-white">Class Index</div>
-                <div className="text-xs text-gray-400">Global index mapping class codes (e.g. <code className="text-blue-300">CS2593B</code>) to their subjects across all campuses.</div>
-              </div>
-            </div>
+            <ol className="space-y-2 text-sm text-gray-300 list-decimal list-inside">
+              <li><code className="text-blue-300">/api/campuses</code> — list campuses</li>
+              <li><code className="text-blue-300">/api/courses</code> — list subjects offered at a campus</li>
+              <li><code className="text-blue-300">/api/groups</code> — get class groups for one subject, using the <code className="text-blue-300">path</code> from step 2</li>
+            </ol>
           </Section>
 
-          <Section id="base-url" title="Base URL">
-            <Code>{'https://uitmgetable.my/timetable/{"{file}"}.json'}</Code>
-            <p className="text-sm text-gray-400">Replace <code className="text-blue-300">{"{file}"}</code> with the campus code. See the full list below.</p>
+          <Section id="campuses" title="Campuses">
+            <Endpoint method="GET" path="/api/campuses" />
+            <p className="text-sm text-gray-400">Returns every campus. Selangor (<code className="text-blue-300">B</code>) also needs a faculty code when listing courses.</p>
+            <Code>{`[
+  { "id": "B",  "text": "SELANGOR CAMPUS - ( Please Select a Faculty )" },
+  { "id": "A4", "text": "A4 - UITM KAMPUS TAPAH" },
+  { "id": "K",  "text": "K - UITM KAMPUS SUNGAI PETANI" },
+  ...
+]`}</Code>
           </Section>
 
-          <Section id="timetable" title="Timetable Files">
-            <p className="text-gray-400 text-sm">
-              Each campus has its own file. Selangor campus (B) is split by faculty — use <code className="text-blue-300 bg-blue-400/10 px-1 rounded">B_XX</code> where XX is the faculty code.
-            </p>
-
-            {/* Tabs */}
-            <div className="flex gap-2 mt-2">
-              {(["timetable", "classindex"] as const).map((t) => (
-                <button key={t} onClick={() => setActiveTab(t)}
-                  className={`px-4 py-1.5 rounded-full text-xs font-semibold transition border ${
-                    activeTab === t
-                      ? "bg-blue-600 border-blue-500 text-white"
-                      : "bg-white/5 border-white/10 text-gray-400 hover:text-white"
-                  }`}>
-                  {t === "timetable" ? "Campus Files" : "Class Index"}
-                </button>
-              ))}
-            </div>
-
-            {activeTab === "timetable" ? (
-              <div className="bg-white/5 border border-white/10 rounded-xl overflow-hidden">
-                <div className="grid grid-cols-[1fr_1fr_2fr] text-xs font-semibold text-gray-500 uppercase tracking-wider px-4 py-2 border-b border-white/10">
-                  <span>File</span><span>URL</span><span>Campus</span>
-                </div>
-                <div className="divide-y divide-white/5 max-h-80 overflow-y-auto">
-                  {CAMPUS_FILES.filter(f => f.file !== "class_index").map(({ file, name }) => (
-                    <div key={file} className="grid grid-cols-[1fr_1fr_2fr] px-4 py-2.5 text-sm items-center hover:bg-white/5 transition">
-                      <code className="text-blue-400 font-mono">{file}.json</code>
-                      <a href={`/timetable/${file}.json`} target="_blank" rel="noopener noreferrer"
-                        className="text-xs text-gray-500 hover:text-blue-400 transition truncate">/timetable/{file}.json</a>
-                      <span className="text-gray-300">{name}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="px-4 py-2 border-t border-white/10 text-xs text-gray-500">
-                  70 files total. Selangor campus (B) has one file per faculty (B_CS, B_CD, B_EE…)
-                </div>
-              </div>
-            ) : (
-              <div className="bg-white/5 border border-white/10 rounded-xl p-4 space-y-3">
-                <div>
-                  <code className="text-blue-400 font-mono text-sm">class_index.json</code>
-                  <span className="ml-3 text-xs text-gray-500">/timetable/class_index.json</span>
-                </div>
-                <p className="text-sm text-gray-400">Maps every class group code to an array of sessions across all campuses. 15,000+ entries.</p>
-                <Code>{`GET https://uitmgetable.my/timetable/class_index.json`}</Code>
-              </div>
-            )}
+          <Section id="courses" title="Courses">
+            <Endpoint method="GET" path="/api/courses?campus={campus}&faculty={faculty}" />
+            <Fields title="Query parameters">
+              <Field name="campus" type="string" desc="Campus id from /api/campuses. Required." example="A4" />
+              <Field name="faculty" type="string" desc="Faculty code. Required when campus is B (Selangor), ignored otherwise." example="CD" />
+            </Fields>
+            <Code>{`[
+  { "code": "MAT133", "path": "index_tt.cfm?id1=...&id3=...&id2=..." },
+  { "code": "CSC404", "path": "index_tt.cfm?id1=...&id3=...&id2=..." },
+  ...
+]`}</Code>
+            <Fields title="Response fields">
+              <Field name="code" type="string" desc="Subject code." example="MAT133" />
+              <Field name="path" type="string" desc="Opaque link to the subject's class page. Pass it to /api/groups as-is. It is generated by UiTM per session, so use it soon after fetching rather than storing it." />
+            </Fields>
           </Section>
 
-          <Section id="structure" title="Data Structure">
-            <p className="text-gray-400 text-sm">Each campus JSON is a flat object where <strong className="text-white">keys are subject codes</strong> (prefixed with a dot) and values are arrays of class groups.</p>
-
-            <Code>{`{
-  ".CSC404": [
-    {
-      "day_time": "MONDAY( 08:00 AM-11:00 AM )",
-      "group":    "CS2593B",
-      "mode":     "BOTH - Fulltime and Part-time",
-      "status":   "First Timer and Repeater",
-      "room":     "Bilik BK22",
-      "program":  "CD,CS",
-      "faculty":  ""
-    },
-    ...
-  ],
-  ".ISP542": [ ... ]
-}`}</Code>
-
-            <div className="bg-white/5 border border-white/10 rounded-xl overflow-hidden mt-2">
-              <div className="px-4 py-3 border-b border-white/10 text-xs font-semibold text-gray-500 uppercase tracking-wider">Fields</div>
-              <div className="px-4 divide-y divide-white/5">
-                <Field name="day_time" type="string" desc="Day and time range of the class session." example="MONDAY( 08:00 AM-11:00 AM )" />
-                <Field name="group" type="string" desc="Class group code — the identifier students use to register." example="CS2593B" />
-                <Field name="mode" type="string" desc="Who the class is open to." example="BOTH - Fulltime and Part-time" />
-                <Field name="status" type="string" desc="Whether first-timers, repeaters, or both can enrol." example="First Timer and Repeater" />
-                <Field name="room" type="string" desc="Venue / room code." example="Bilik BK22" />
-                <Field name="program" type="string" desc="Programme codes eligible for this class (comma-separated)." example="CD,CS" />
-                <Field name="faculty" type="string" desc="Faculty code, if specified." example="CS" />
-              </div>
-            </div>
-
-            <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-xl px-4 py-3 text-sm text-yellow-300">
-              <strong>Subject key prefix:</strong> Subject codes are prefixed with a dot (<code className="font-mono">.CSC404</code>). Strip it with <code className="font-mono text-xs bg-black/30 px-1 rounded">key.startsWith(".") ? key.slice(1) : key</code>
-            </div>
+          <Section id="groups" title="Class Groups">
+            <Endpoint method="GET" path="/api/groups?path={path}" />
+            <Fields title="Query parameters">
+              <Field name="path" type="string" desc="The path from /api/courses, URL-encoded. Required." />
+            </Fields>
+            <Code>{`[
+  {
+    "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+    "group":    "A4AS120110",
+    "mode":     "BOTH - Fulltime and Part-time",
+    "status":   "First Timer and Repeater",
+    "room":     "DK 200B",
+    "program":  "AS120",
+    "faculty":  "AS"
+  },
+  ...
+]`}</Code>
+            <Fields title="Response fields">
+              <Field name="day_time" type="string" desc="Day and time range of the session." example="MONDAY( 10:00 AM-12:00 PM )" />
+              <Field name="group" type="string" desc="Class group code students register with." example="A4AS120110" />
+              <Field name="mode" type="string" desc="Who the class is open to." example="BOTH - Fulltime and Part-time" />
+              <Field name="status" type="string" desc="Whether first-timers, repeaters, or both can enrol." example="First Timer and Repeater" />
+              <Field name="room" type="string" desc="Venue / room code." example="DK 200B" />
+              <Field name="program" type="string" desc="Eligible programme codes. May be empty — UiTM no longer shows this for some subjects." example="AS120" />
+              <Field name="faculty" type="string" desc="Faculty code. May be empty for the same reason." example="AS" />
+            </Fields>
           </Section>
 
-          <Section id="classindex" title="Class Index Structure">
-            <p className="text-gray-400 text-sm">
-              <code className="text-blue-300">class_index.json</code> maps each class group code to an array of sessions. One code can have multiple sessions (lecture + lab).
-            </p>
-            <Code>{`{
-  "CS2593B": [
-    {
-      "campus":     "B",
-      "campusName": "SELANGOR",
-      "campusFile": "B_CS",
-      "faculty":    "CS",
-      "subject":    "CSC404",
-      "day_time":   "MONDAY( 08:00 AM-11:00 AM )",
-      "room":       "Bilik BK22",
-      "mode":       "BOTH - Fulltime and Part-time",
-      "status":     "First Timer and Repeater",
-      "program":    "CD,CS"
-    }
-  ]
-}`}</Code>
-            <div className="bg-white/5 border border-white/10 rounded-xl overflow-hidden">
-              <div className="px-4 py-3 border-b border-white/10 text-xs font-semibold text-gray-500 uppercase tracking-wider">Additional Fields (vs campus file)</div>
-              <div className="px-4 divide-y divide-white/5">
-                <Field name="campus" type="string" desc="Short campus code." example="B" />
-                <Field name="campusName" type="string" desc="Human-readable campus name." example="SELANGOR" />
-                <Field name="campusFile" type="string" desc="File to fetch for full campus data." example="B_CS" />
-                <Field name="subject" type="string" desc="Subject code (no dot prefix)." example="CSC404" />
-              </div>
-            </div>
+          <Section id="student" title="Student Timetable">
+            <Endpoint method="POST" path="/api/getTimetable" />
+            <p className="text-sm text-gray-400">Returns a student&apos;s registered classes from MyStudent. This is what Smart Fetch uses.</p>
+            <Code>{`POST /api/getTimetable
+Content-Type: application/json
+
+{ "matricNumber": "2023123456" }`}</Code>
+            <Code>{`[
+  {
+    "day": "Monday",
+    "day_time": "MONDAY( 10:00 AM-12:00 PM )",
+    "timeSlot": "10:00-12:00",
+    "class_code": "A4AS120110",
+    "subject_code": "MAT133",
+    "venue": "DK 200B",
+    "lecturer": "..."
+  },
+  ...
+]`}</Code>
+            <p className="text-sm text-gray-400">Returns <code className="text-blue-300">500</code> with <code className="text-blue-300">{`{ "error": "Failed to fetch timetable" }`}</code> if the matric number has no published timetable.</p>
           </Section>
 
-          <Section id="examples" title="Examples">
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <p className="text-sm font-semibold text-gray-300">Fetch all timetables for Selangor CS faculty</p>
-                <Code>{`const res = await fetch("https://uitmgetable.my/timetable/B_CS.json");
-const data = await res.json();
+          <Section id="example" title="Example">
+            <p className="text-sm font-semibold text-gray-300">Get all class groups for MAT133 at Tapah (A4)</p>
+            <Code>{`const BASE = "${BASE}";
 
-// data looks like: { ".CSC404": [...], ".ISP542": [...] }
-for (const [key, classes] of Object.entries(data)) {
-  const subject = key.startsWith(".") ? key.slice(1) : key;
-  console.log(subject, classes);
-}`}</Code>
-              </div>
+const courses = await fetch(\`\${BASE}/api/courses?campus=A4\`).then(r => r.json());
+const mat133 = courses.find(c => c.code === "MAT133");
 
-              <div className="space-y-2">
-                <p className="text-sm font-semibold text-gray-300">Look up all subjects for class code CS2593B</p>
-                <Code>{`const res = await fetch("https://uitmgetable.my/timetable/class_index.json");
-const index = await res.json();
+const groups = await fetch(
+  \`\${BASE}/api/groups?path=\${encodeURIComponent(mat133.path)}\`
+).then(r => r.json());
 
-const sessions = index["CS2593B"]; // array of sessions
-console.log(sessions);
-// [{ subject: "CSC404", campus: "B", day_time: "MONDAY...", ... }]`}</Code>
-              </div>
-
-              <div className="space-y-2">
-                <p className="text-sm font-semibold text-gray-300">Find all classes on a specific day</p>
-                <Code>{`const res = await fetch("https://uitmgetable.my/timetable/A.json");
-const data = await res.json();
-
-const monday = Object.entries(data).flatMap(([key, classes]) =>
-  classes
-    .filter(c => c.day_time.startsWith("MONDAY"))
-    .map(c => ({ subject: key.slice(1), ...c }))
-);`}</Code>
-              </div>
-            </div>
+console.log(groups);`}</Code>
           </Section>
 
           <Section id="notes" title="Notes">
             <div className="space-y-3">
               {[
-                { icon: "🔄", title: "Update frequency", desc: "Data is scraped from iCress via GitHub Actions on a schedule. During semester breaks, iCress may clear all data — the last known good snapshot is kept in the repo." },
-                { icon: "⚠️", title: "Always cross-check", desc: "This data is scraped and may be stale or incomplete. Always verify with UiTM's official iCress portal before finalising your registration." },
-                { icon: "🌐", title: "CORS", desc: "Files are served as static assets — no CORS restrictions. You can fetch directly from any browser or server." },
-                { icon: "📦", title: "Open Source", desc: "Scraper, data, and this app are all open source on GitHub. PRs welcome." },
+                { icon: "🖥️", title: "Server-side only", desc: "Responses don't include CORS headers, so browsers on other sites can't call these endpoints directly. Call them from your own server or script." },
+                { icon: "🤝", title: "Fair use", desc: "Every request hits UiTM's servers. Cache what you fetch and avoid bulk scraping. Heavy traffic can get the whole service blocked for everyone." },
+                { icon: "⚠️", title: "Always cross-check", desc: "Data comes straight from UiTM, but their pages change without notice. Verify with the official portal before finalising your registration." },
+                { icon: "📦", title: "Open Source", desc: "The scraper and this app are open source on GitHub. PRs welcome." },
               ].map(({ icon, title, desc }) => (
                 <div key={title} className="flex gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3">
                   <span className="text-xl shrink-0">{icon}</span>

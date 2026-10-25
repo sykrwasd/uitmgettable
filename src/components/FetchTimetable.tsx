@@ -666,7 +666,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             })}
           </div>
           <p className="text-xs text-gray-400 dark:text-gray-500 mt-3">
-            To add a subject, use the panel on the left — search by campus or class code.
+            To add a subject, use the panel on the left — search by campus or import with your matric number.
           </p>
         </div>
       )}
