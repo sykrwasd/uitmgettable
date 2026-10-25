@@ -11,7 +11,8 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+// Publisher ID is public (it appears in ads.txt and page source), so it's safe to hardcode
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-3818885893937939";
 
 export const metadata: Metadata = {
   ...(ADSENSE_CLIENT && { other: { "google-adsense-account": ADSENSE_CLIENT } }),
