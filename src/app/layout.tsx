@@ -11,7 +11,10 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+
 export const metadata: Metadata = {
+  ...(ADSENSE_CLIENT && { other: { "google-adsense-account": ADSENSE_CLIENT } }),
   title: "UitmGetTable",
   description: "Build, view and export your UiTM class timetable — fast and free.",
   icons: [
@@ -59,8 +62,15 @@ export default function RootLayout({
           data-website-id="5dbb2e57-b54c-4134-8675-94b2e5d537c2"
           strategy="afterInteractive"
         />
+        {ADSENSE_CLIENT && (
+          <Script
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        )}
 
-        <Toaster 
+        <Toaster
           position="top-right"
           toastOptions={{
             duration: 3000,

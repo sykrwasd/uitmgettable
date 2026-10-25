@@ -1,5 +1,3 @@
-import axios from "axios";
-
 type JadualClass = {
   masa: string;
   courseid: string;
@@ -36,17 +34,19 @@ export async function POST(req: Request) {
   try {
     const url = `https://cdn.uitm.link/jadual/baru/${matricNumber}.json`;
 
-    let res;
+    let rawData: Record<string, DayData> | undefined;
     let retries = 3;
 
     while (retries > 0) {
       try {
-        res = await axios.get(url, {
+        const res = await fetch(url, {
           headers: {
             "User-Agent": "Mozilla/5.0",
             Referer: "https://mystudent.uitm.edu.my/",
           },
         });
+        if (!res.ok) throw new Error(`MyStudent returned ${res.status}`);
+        rawData = await res.json();
         break;
       } catch (err) {
         retries--;
@@ -55,9 +55,7 @@ export async function POST(req: Request) {
       }
     }
 
-    if (!res) throw new Error("Failed to fetch timetable after retries");
-
-    const rawData: Record<string, DayData> = res.data;
+    if (!rawData) throw new Error("Failed to fetch timetable after retries");
 
     const seen = new Set<string>();
     let counter = 0;

@@ -7,9 +7,13 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.13",
     "@radix-ui/react-slot": "^1.2.3",
     "@upstash/redis": "^1.37.0",
     "@vercel/analytics": "^1.5.0",
@@ -23,7 +27,7 @@
     "html2canvas-pro": "^1.5.11",
     "jspdf": "^3.0.3",
     "lucide-react": "^0.544.0",
-    "next": "^16.0.10",
+    "next": "^16.4.3",
     "react": "19.1.0",
     "react-color": "^2.19.3",
     "react-dom": "19.1.0",
@@ -46,7 +50,7 @@
     "eslint-config-next": "15.5.3",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.8",
-    "typescript": "^5"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+    "typescript": "^5",
+    "wrangler": "^4.152.0"
+  }
 }
