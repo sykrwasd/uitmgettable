@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { toBlob } from "html-to-image";
 import { SwatchesPicker } from "react-color";
 import { event } from "../../utils/gtag";
@@ -119,6 +119,93 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
   // --- High value customizations ---
   const [timetableBg, setTimetableBg] = useState("#ffffff");
+  const [bgImage, setBgImage] = useState<string | null>(null);
+  const [bgDim, setBgDim] = useState(35);
+  const [bgImageSize, setBgImageSize] = useState({ w: 1, h: 1 });
+  const [imgMode, setImgMode] = useState<"background" | "classes">("background");
+  const imageAsBg = !!bgImage;
+  const imageInClasses = !!bgImage && imgMode === "classes";
+  // In class-colour mode the background gets extra dimming so the image-filled blocks pop
+  const gridDim = imageInClasses ? Math.min(85, bgDim + 35) : bgDim;
+  const pickBg = (color: string) => {
+    setTimetableBg(color);
+    setBgImage(null);
+  };
+
+  // "Classes" mode: every block shows its own slice of one image laid over the whole grid,
+  // so we need the grid size and each block's offset inside it (measured after layout).
+  const gridRef = useRef<HTMLDivElement>(null);
+  const [layout, setLayout] = useState<{ w: number; h: number; offsets: Record<string, { x: number; y: number }> }>(
+    { w: 0, h: 0, offsets: {} }
+  );
+  const [resizeTick, setResizeTick] = useState(0);
+
+  useEffect(() => {
+    const el = gridRef.current;
+    if (!el || !imageInClasses) return;
+    const ro = new ResizeObserver(() => setResizeTick((t) => t + 1));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [imageInClasses]);
+
+  // Measure before paint so blocks never flash their plain colour
+  useLayoutEffect(() => {
+    const el = gridRef.current;
+    if (!el || !imageInClasses) return;
+    const base = el.getBoundingClientRect();
+    const offsets: Record<string, { x: number; y: number }> = {};
+    el.querySelectorAll<HTMLElement>("[data-block-key]").forEach((b) => {
+      const r = b.getBoundingClientRect();
+      offsets[b.dataset.blockKey!] = { x: r.left - base.left, y: r.top - base.top };
+    });
+    const next = { w: el.offsetWidth, h: el.offsetHeight, offsets };
+    if (JSON.stringify(next) !== JSON.stringify(layout)) setLayout(next);
+  });
+
+  const gridSize = layout;
+  const classImageStyle = (key: string): React.CSSProperties => {
+    const pos = layout.offsets[key];
+    if (!imageInClasses || !pos || !gridSize.w) return {};
+    // Emulate background-size: cover across the whole grid
+    const s = Math.max(gridSize.w / bgImageSize.w, gridSize.h / bgImageSize.h);
+    const dw = bgImageSize.w * s;
+    const dh = bgImageSize.h * s;
+    const ox = (gridSize.w - dw) / 2 - pos.x;
+    const oy = (gridSize.h - dh) / 2 - pos.y;
+    const dim = bgDim / 100;
+    return {
+      backgroundImage: `linear-gradient(rgba(0,0,0,${dim}), rgba(0,0,0,${dim})), url(${bgImage})`,
+      backgroundSize: `100% 100%, ${dw}px ${dh}px`,
+      backgroundPosition: `0 0, ${ox}px ${oy}px`,
+      backgroundRepeat: "no-repeat",
+      boxShadow:
+        "0 6px 14px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.25)",
+    };
+  };
+
+  const handleBgUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = "";
+    if (!file) return;
+    if (!file.type.startsWith("image/")) {
+      toast.error("Please choose an image file");
+      return;
+    }
+    try {
+      // Downscale so the data URL stays small and the export canvas doesn't blow past iOS limits
+      const bitmap = await createImageBitmap(file);
+      const scale = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+      const canvas = document.createElement("canvas");
+      canvas.width = Math.round(bitmap.width * scale);
+      canvas.height = Math.round(bitmap.height * scale);
+      canvas.getContext("2d")!.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+      bitmap.close();
+      setBgImage(canvas.toDataURL("image/jpeg", 0.85));
+      setBgImageSize({ w: canvas.width, h: canvas.height });
+    } catch {
+      toast.error("Couldn't load that image");
+    }
+  };
   const [blockTextColor, setBlockTextColor] = useState("#ffffff");
   const [labelColor, setLabelColor] = useState("");
   const [startHour, setStartHour] = useState(8);
@@ -240,14 +327,18 @@ const FetchTimetable: React.FC<TimetableProps> = ({
 
   // Detect dark background to auto-flip label/grid colors
   const isDarkBg = (() => {
+    if (imageAsBg) return gridDim >= 25;
     const hex = timetableBg.replace("#", "");
     const r = parseInt(hex.slice(0, 2), 16);
     const g = parseInt(hex.slice(2, 4), 16);
     const b = parseInt(hex.slice(4, 6), 16);
     return (r * 0.299 + g * 0.587 + b * 0.114) < 128;
   })();
-  const resolvedLabelColor = labelColor || (isDarkBg ? "#94a3b8" : "#9ca3af");
-  const resolvedGridColor = isDarkBg ? "#334155" : "#f3f4f6";
+  const resolvedLabelColor =
+    labelColor || (imageAsBg ? (isDarkBg ? "#f8fafc" : "#1f2937") : isDarkBg ? "#94a3b8" : "#9ca3af");
+  const resolvedGridColor = imageAsBg
+    ? isDarkBg ? "rgba(255,255,255,0.18)" : "rgba(0,0,0,0.12)"
+    : isDarkBg ? "#334155" : "#f3f4f6";
 
   const allDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
   const days = hideWeekend ? allDays.slice(0, 5) : allDays;
@@ -520,7 +611,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
             </div>
 
             {/* Text Colors */}
-            <div className="space-y-2 sm:col-span-2">
+            <div className="space-y-2">
               <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Text Colors</p>
               <div className="flex flex-wrap gap-4">
                 <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
@@ -540,6 +631,52 @@ const FetchTimetable: React.FC<TimetableProps> = ({
               </div>
             </div>
 
+            {/* Background Image */}
+            <div className="space-y-2">
+              <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Background Image</p>
+              <div className="flex flex-wrap items-center gap-3">
+                <label className="px-3 py-1.5 text-sm rounded-lg font-medium cursor-pointer bg-white dark:bg-white/10 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-white/20 hover:border-blue-400 transition">
+                  🖼 {bgImage ? "Change image" : "Use your own image"}
+                  <input type="file" accept="image/*" onChange={handleBgUpload} className="hidden" />
+                </label>
+                {bgImage && (
+                  <button onClick={() => setBgImage(null)} className="text-xs text-gray-400 hover:text-red-500 transition">
+                    Remove
+                  </button>
+                )}
+              </div>
+              {bgImage && (
+                <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+                  <span>Dim</span>
+                  <input
+                    type="range"
+                    min={0}
+                    max={80}
+                    value={bgDim}
+                    onChange={(e) => setBgDim(Number(e.target.value))}
+                    className="flex-1 max-w-40 accent-blue-500"
+                  />
+                  <span className="w-9 text-xs text-gray-400">{bgDim}%</span>
+                </label>
+              )}
+              {bgImage && (
+                <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+                  <span>Use as</span>
+                  <div className="flex gap-1">
+                    {(["background", "classes"] as const).map((m) => (
+                      <button
+                        key={m}
+                        onClick={() => setImgMode(m)}
+                        className={`px-3 py-1 text-xs rounded-lg font-medium transition ${imgMode === m ? "bg-blue-500 text-white" : "bg-white dark:bg-white/10 text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-white/20"}`}
+                      >
+                        {m === "background" ? "Background" : "Class colour"}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Timetable Background */}
             <div className="space-y-2 sm:col-span-2">
               <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide">Timetable Background</p>
@@ -556,13 +693,13 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                 ].map(({ label, value }) => (
                   <button
                     key={value}
-                    onClick={() => setTimetableBg(value)}
+                    onClick={() => pickBg(value)}
                     title={label}
                     className="w-7 h-7 rounded-full border-2 transition-transform hover:scale-110"
                     style={{
                       backgroundColor: value,
-                      borderColor: timetableBg === value ? "#3b82f6" : "#d1d5db",
-                      transform: timetableBg === value ? "scale(1.2)" : undefined,
+                      borderColor: !imageAsBg && timetableBg === value ? "#3b82f6" : "#d1d5db",
+                      transform: !imageAsBg && timetableBg === value ? "scale(1.2)" : undefined,
                     }}
                   />
                 ))}
@@ -571,12 +708,13 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                   <input
                     type="color"
                     value={timetableBg}
-                    onChange={(e) => setTimetableBg(e.target.value)}
+                    onChange={(e) => pickBg(e.target.value)}
                     className="opacity-0 absolute w-7 h-7 cursor-pointer"
                   />
                   <span className="text-gray-400 text-xs pointer-events-none">+</span>
                 </label>
               </div>
+
             </div>
 
           </div>
@@ -606,7 +744,7 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                   <button
                     key={t.name}
                     onClick={() => {
-                      setTimetableBg(t.bg);
+                      pickBg(t.bg);
                       setBlockTextColor(t.text);
                       setLabelColor(t.label);
                       const newColors: Record<string, string> = {};
@@ -713,7 +851,18 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       {/* Timetable */}
       <div className="rounded-2xl shadow-md overflow-hidden" style={{ backgroundColor: timetableBg }}>
         <div ref={timetableRef} className="overflow-x-auto">
-          <div style={{ minWidth: "640px" }}>
+          <div
+            ref={gridRef}
+            style={{
+              minWidth: "640px",
+              // Image lives on the export target so Save as Image captures it
+              ...(imageAsBg && {
+                backgroundImage: `linear-gradient(rgba(0,0,0,${gridDim / 100}), rgba(0,0,0,${gridDim / 100})), url(${bgImage})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }),
+            }}
+          >
             {/* Hour ruler */}
             <div className="flex" style={{ paddingLeft: "60px" }}>
               {HOUR_LABELS.map((label, i) => (
@@ -766,15 +915,18 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                       const [eh, em] = cls.timeSlot.split("-")[1].split(":").map(Number);
                       const durationMin = eh * 60 + em - (sh * 60 + sm);
                       const fs = fontSizeMap[fontSize];
+                      const blockKey = `${day}-${cls.class_code}-${cls.day_time}-${cIdx}`;
 
                       return (
                         <div
-                          key={`${cls.class_code}-${cls.day_time}-${cIdx}`}
+                          key={blockKey}
+                          data-block-key={blockKey}
                           className="absolute top-2 bottom-2 rounded-xl text-white cursor-pointer overflow-hidden select-none"
                           style={{
                             left: `calc(${geo.left}% + 2px)`,
                             width: `calc(${geo.width}% - 4px)`,
                             backgroundColor: color,
+                            ...classImageStyle(blockKey),
                             transition: "filter 0.15s",
                           }}
                           onMouseEnter={(e) => (e.currentTarget.style.filter = "brightness(0.88)")}
