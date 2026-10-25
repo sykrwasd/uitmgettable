@@ -285,18 +285,22 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       const height = target.scrollHeight;
       // iOS Safari caps canvas area (~16.7M px); exceeding it yields a blank/failed export
       const pixelRatio = Math.min(3, Math.sqrt(12_000_000 / (width * height)));
-      const blob = await toBlob(target, {
-        pixelRatio,
-        backgroundColor: timetableBg,
-        cacheBust: true,
-        width,
-        height,
-      });
+      const options = { backgroundColor: timetableBg, cacheBust: true, width, height };
+      // Safari draws the SVG snapshot before embedded images decode, so the first renders
+      // come out without the background image. Throwaway low-res passes warm it up.
+      // WebKit = Safari and every iOS browser (CriOS/FxiOS); Chromium doesn't need this
+      const isWebKit = /AppleWebKit/.test(navigator.userAgent) && !/Chrome\/|Chromium|Android/.test(navigator.userAgent);
+      if (bgImage && isWebKit) {
+        for (let i = 0; i < 2; i++) await toBlob(target, { ...options, pixelRatio: 0.25 });
+      }
+      const blob = await toBlob(target, { ...options, pixelRatio });
       if (!blob) throw new Error("empty image");
       const file = new File([blob], "timetable.png", { type: "image/png" });
 
       // Mobile: <a download> is ignored by iOS / in-app browsers, share sheet lets users save to Photos
-      if (navigator.canShare?.({ files: [file] })) {
+      // Desktop Chrome/Edge also support file sharing (Windows share sheet) — only use it on touch devices
+      const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+      if (isTouchDevice && navigator.canShare?.({ files: [file] })) {
         try {
           await navigator.share({ files: [file], title: "My Timetable" });
           toast.success("Timetable ready!", { id: "export", duration: 2000 });
@@ -921,16 +925,13 @@ const FetchTimetable: React.FC<TimetableProps> = ({
                         <div
                           key={blockKey}
                           data-block-key={blockKey}
-                          className="absolute top-2 bottom-2 rounded-xl text-white cursor-pointer overflow-hidden select-none"
+                          className="absolute top-2 bottom-2 rounded-xl text-white cursor-pointer overflow-hidden select-none transition-[filter] duration-150 hover:brightness-[0.88]"
                           style={{
                             left: `calc(${geo.left}% + 2px)`,
                             width: `calc(${geo.width}% - 4px)`,
                             backgroundColor: color,
                             ...classImageStyle(blockKey),
-                            transition: "filter 0.15s",
                           }}
-                          onMouseEnter={(e) => (e.currentTarget.style.filter = "brightness(0.88)")}
-                          onMouseLeave={(e) => (e.currentTarget.style.filter = "brightness(1)")}
                           onClick={() => editable ? openEdit(cls) : onRemoveClass(cls.class_code, cls.day_time)}
                           title={editable ? `${cls.subject_name}\nClick to edit` : `${cls.subject_name}\n${cls.timeSlot}\n${cls.venue}\nClick to remove`}
                         >
