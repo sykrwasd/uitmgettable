@@ -7,7 +7,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-🌐 **Live:** [uitmgettable.my](https://uitmgettable.my)
+🌐 **Live:** [uitmgetable.my](https://uitmgetable.my)
 
 ---
 
@@ -32,11 +32,11 @@
 Timetable data is scraped from iCress and stored as **static JSON files** in `public/timetable/`. No live scraping happens at runtime — the app just fetches JSON.
 
 ```
-GET https://uitmgettable.my/timetable/{campus}.json
-GET https://uitmgettable.my/timetable/class_index.json
+GET https://uitmgetable.my/timetable/{campus}.json
+GET https://uitmgetable.my/timetable/class_index.json
 ```
 
-See [API Docs](https://uitmgettable.my/api-docs) for the full reference.
+See [API Docs](https://uitmgetable.my/api-docs) for the full reference.
 
 ### Data update schedule
 
