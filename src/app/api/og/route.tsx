@@ -58,7 +58,7 @@ export async function GET(_req: NextRequest) {
           h("div", { style: { display: "flex", padding: "8px 20px", borderRadius: "999px", background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "rgba(203,213,225,0.85)", fontSize: "15px", fontWeight: 500 } }, "10k+ timetables"),
           h("div", { style: { display: "flex", padding: "8px 20px", borderRadius: "999px", background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "rgba(203,213,225,0.85)", fontSize: "15px", fontWeight: 500 } }, "Open Source"),
         ),
-        h("div", { style: { display: "flex", fontSize: "18px", color: "rgba(100,116,139,0.8)", fontWeight: 500 } }, "uitmgettable.my"),
+        h("div", { style: { display: "flex", fontSize: "18px", color: "rgba(100,116,139,0.8)", fontWeight: 500 } }, "uitmgetable.my"),
       ),
     ),
     { width: 1200, height: 630 }

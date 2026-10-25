@@ -146,7 +146,7 @@ export default function ApiDocs() {
           </Section>
 
           <Section id="base-url" title="Base URL">
-            <Code>{'https://uitmgettable.my/timetable/{"{file}"}.json'}</Code>
+            <Code>{'https://uitmgetable.my/timetable/{"{file}"}.json'}</Code>
             <p className="text-sm text-gray-400">Replace <code className="text-blue-300">{"{file}"}</code> with the campus code. See the full list below.</p>
           </Section>
 
@@ -195,7 +195,7 @@ export default function ApiDocs() {
                   <span className="ml-3 text-xs text-gray-500">/timetable/class_index.json</span>
                 </div>
                 <p className="text-sm text-gray-400">Maps every class group code to an array of sessions across all campuses. 15,000+ entries.</p>
-                <Code>{`GET https://uitmgettable.my/timetable/class_index.json`}</Code>
+                <Code>{`GET https://uitmgetable.my/timetable/class_index.json`}</Code>
               </div>
             )}
           </Section>
@@ -272,7 +272,7 @@ export default function ApiDocs() {
             <div className="space-y-6">
               <div className="space-y-2">
                 <p className="text-sm font-semibold text-gray-300">Fetch all timetables for Selangor CS faculty</p>
-                <Code>{`const res = await fetch("https://uitmgettable.my/timetable/B_CS.json");
+                <Code>{`const res = await fetch("https://uitmgetable.my/timetable/B_CS.json");
 const data = await res.json();
 
 // data looks like: { ".CSC404": [...], ".ISP542": [...] }
@@ -284,7 +284,7 @@ for (const [key, classes] of Object.entries(data)) {
 
               <div className="space-y-2">
                 <p className="text-sm font-semibold text-gray-300">Look up all subjects for class code CS2593B</p>
-                <Code>{`const res = await fetch("https://uitmgettable.my/timetable/class_index.json");
+                <Code>{`const res = await fetch("https://uitmgetable.my/timetable/class_index.json");
 const index = await res.json();
 
 const sessions = index["CS2593B"]; // array of sessions
@@ -294,7 +294,7 @@ console.log(sessions);
 
               <div className="space-y-2">
                 <p className="text-sm font-semibold text-gray-300">Find all classes on a specific day</p>
-                <Code>{`const res = await fetch("https://uitmgettable.my/timetable/A.json");
+                <Code>{`const res = await fetch("https://uitmgetable.my/timetable/A.json");
 const data = await res.json();
 
 const monday = Object.entries(data).flatMap(([key, classes]) =>

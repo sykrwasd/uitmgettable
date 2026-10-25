@@ -82,7 +82,7 @@ const res = new ImageResponse(
         h("div", { style: { display: "flex", padding: "8px 20px", borderRadius: "999px", background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "rgba(203,213,225,0.85)", fontSize: "15px", fontWeight: 600 } }, "10k+ timetables"),
         h("div", { style: { display: "flex", padding: "8px 20px", borderRadius: "999px", background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)", color: "rgba(203,213,225,0.85)", fontSize: "15px", fontWeight: 600 } }, "Open Source"),
       ),
-      h("div", { style: { display: "flex", fontSize: "18px", color: "rgba(100,116,139,0.8)", fontWeight: 400 } }, "uitmgettable.my"),
+      h("div", { style: { display: "flex", fontSize: "18px", color: "rgba(100,116,139,0.8)", fontWeight: 400 } }, "uitmgetable.my"),
     ),
   ),
   {
