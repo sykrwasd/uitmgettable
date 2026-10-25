@@ -1,4 +1,3 @@
-import { FaHeart } from "react-icons/fa";
 import Image from "next/image";
 
 export default function Footer() {
@@ -32,7 +31,9 @@ export default function Footer() {
         />
       </a>
 
-      <div className="w-24" />
+      <a href="/privacy" className="w-24 text-sm text-gray-500 dark:text-gray-400 hover:underline">
+        Privacy
+      </a>
     </footer>
   );
 }
