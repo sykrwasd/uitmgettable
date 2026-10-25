@@ -173,13 +173,20 @@ const FetchTimetable: React.FC<TimetableProps> = ({
     const ox = (gridSize.w - dw) / 2 - pos.x;
     const oy = (gridSize.h - dh) / 2 - pos.y;
     const dim = bgDim / 100;
+    // Bevel is drawn as thin gradient strips (top highlight, bottom shade) rather than inset
+    // box-shadows, which html2canvas and Safari's exporter both render incorrectly
+    const strip = (c: string) => `linear-gradient(${c}, ${c})`;
     return {
-      backgroundImage: `linear-gradient(rgba(0,0,0,${dim}), rgba(0,0,0,${dim})), url(${bgImage})`,
-      backgroundSize: `100% 100%, ${dw}px ${dh}px`,
-      backgroundPosition: `0 0, ${ox}px ${oy}px`,
+      backgroundImage: [
+        strip("rgba(255,255,255,0.35)"),
+        strip("rgba(0,0,0,0.25)"),
+        strip(`rgba(0,0,0,${dim})`),
+        `url(${bgImage})`,
+      ].join(", "),
+      backgroundSize: `100% 1px, 100% 3px, 100% 100%, ${dw}px ${dh}px`,
+      backgroundPosition: `0 0, 0 100%, 0 0, ${ox}px ${oy}px`,
       backgroundRepeat: "no-repeat",
-      boxShadow:
-        "0 6px 14px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.35), inset 0 -3px 0 rgba(0,0,0,0.25)",
+      boxShadow: "0 6px 14px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.25)",
     };
   };
 
@@ -285,15 +292,18 @@ const FetchTimetable: React.FC<TimetableProps> = ({
       const height = target.scrollHeight;
       // iOS Safari caps canvas area (~16.7M px); exceeding it yields a blank/failed export
       const pixelRatio = Math.min(3, Math.sqrt(12_000_000 / (width * height)));
-      const options = { backgroundColor: timetableBg, cacheBust: true, width, height };
-      // Safari draws the SVG snapshot before embedded images decode, so the first renders
-      // come out without the background image. Throwaway low-res passes warm it up.
-      // WebKit = Safari and every iOS browser (CriOS/FxiOS); Chromium doesn't need this
+      // WebKit = Safari and every iOS browser (CriOS/FxiOS). Its SVG foreignObject snapshot
+      // (used by html-to-image) drops background images and misplaces shadows, so render
+      // there with html2canvas, which paints the DOM onto a canvas itself.
       const isWebKit = /AppleWebKit/.test(navigator.userAgent) && !/Chrome\/|Chromium|Android/.test(navigator.userAgent);
-      if (bgImage && isWebKit) {
-        for (let i = 0; i < 2; i++) await toBlob(target, { ...options, pixelRatio: 0.25 });
+      let blob: Blob | null;
+      if (isWebKit) {
+        const { default: html2canvas } = await import("html2canvas-pro");
+        const canvas = await html2canvas(target, { scale: pixelRatio, backgroundColor: timetableBg, logging: false });
+        blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, "image/png"));
+      } else {
+        blob = await toBlob(target, { backgroundColor: timetableBg, cacheBust: true, width, height, pixelRatio });
       }
-      const blob = await toBlob(target, { ...options, pixelRatio });
       if (!blob) throw new Error("empty image");
       const file = new File([blob], "timetable.png", { type: "image/png" });
 
