@@ -47,7 +47,7 @@ export async function GET(_req: NextRequest) {
           h("div", { style: { display: "flex", fontSize: "76px", fontWeight: 900, color: "#60A5FA", letterSpacing: "-0.03em", lineHeight: "1.0" } }, "timetable in seconds."),
         ),
         h("div", { style: { display: "flex", fontSize: "25px", color: "rgba(148,163,184,0.85)", fontWeight: 400, lineHeight: "1.4" } },
-          "Search by campus, class code, or matric number. Free, fast, and customizable."
+          "Search by campus or import with your matric number. Free, fast, and customizable."
         ),
       ),
 
