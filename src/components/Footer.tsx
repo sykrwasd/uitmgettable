@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -31,9 +32,18 @@ export default function Footer() {
         />
       </a>
 
-      <a href="/privacy" className="w-24 text-sm text-gray-500 dark:text-gray-400 hover:underline">
-        Privacy
-      </a>
+      <nav className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm text-gray-500 dark:text-gray-400">
+        {[
+          ["/guide", "Guide"],
+          ["/campuses", "Campuses"],
+          ["/about", "About"],
+          ["/privacy", "Privacy"],
+        ].map(([href, label]) => (
+          <Link key={href} href={href} className="hover:underline">
+            {label}
+          </Link>
+        ))}
+      </nav>
     </footer>
   );
 }

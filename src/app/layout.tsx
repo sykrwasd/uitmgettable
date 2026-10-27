@@ -15,6 +15,7 @@ const poppins = Poppins({
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-3818885893937939";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://uitmgetable.my"),
   ...(ADSENSE_CLIENT && { other: { "google-adsense-account": ADSENSE_CLIENT } }),
   title: "UitmGetTable",
   description: "Build, view and export your UiTM class timetable — fast and free.",

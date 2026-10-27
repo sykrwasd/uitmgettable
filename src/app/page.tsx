@@ -17,6 +17,7 @@ import GroupList from "@/components/GroupList";
 import OrderErrorPopup from "@/components/orderError";
 import Header from "@/components/Header";
 import FetchTimetable from "@/components/FetchTimetable";
+import HomeGuide from "@/components/HomeGuide";
 
 export default function TimetableSwitcher() {
   const [subjectName, setSubjectName] = useState("");
@@ -155,6 +156,7 @@ export default function TimetableSwitcher() {
         </div>
       </div>
 
+      <HomeGuide />
       <Footer />
     </div>
   );
